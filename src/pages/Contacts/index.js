@@ -208,7 +208,7 @@ const ContactsPage = () => {
                 compRight={0}
                 compType="Dropdown"
                 placeholderClassName="bg-transparent text-bluegray_700"
-                name="Contacts"
+                name="Group93"
                 placeholder="Contacts"
                 isSearchable={false}
                 isMulti={false}
@@ -235,7 +235,7 @@ const ContactsPage = () => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
-                name="Search your CRM"
+                name="Group94"
                 placeholder="Search your CRM..."
               ></Input>
               <Row
@@ -355,7 +355,7 @@ const ContactsPage = () => {
               </Row>
             </Row>
             <Row
-              className="bg-gray_100 border border-gray_201 border-solid items-center justify-end lg:pb-[5px] xl:pb-[6px] pb-[7px] 3xl:pb-[8px] lg:pr-[12px] xl:pr-[14px] pr-[16px] 3xl:pr-[19px] lg:pt-[6px] xl:pt-[7px] pt-[8px] 3xl:pt-[9px] w-[100%]"
+              className="bg-gray_100 border border-gray_201 border-solid items-center justify-start lg:pl-[14px] xl:pl-[16px] pl-[18px] 3xl:pl-[21px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] w-[100%]"
               compId="4793:8604"
               comWidth={1342}
               comHeight={55}
@@ -364,7 +364,7 @@ const ContactsPage = () => {
               compType="Row"
             >
               <Text
-                className="font-normal 3xl:mb-[10px] lg:mb-[7px] xl:mb-[8px] mb-[9px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                className="font-normal lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
                 compId="4793:8517"
                 comWidth={67}
                 comHeight={23}
@@ -376,7 +376,7 @@ const ContactsPage = () => {
               </Text>
               <Image
                 src={"images/img_vector_69.png"}
-                className="lg:h-[11px] xl:h-[12px] h-[13.4px] 2xl:h-[14px] 3xl:h-[17px] lg:ml-[14px] xl:ml-[16px] ml-[18.1px] 2xl:ml-[18px] 3xl:ml-[21px] lg:my-[10px] xl:my-[11px] my-[13.3px] 2xl:my-[13px] 3xl:my-[15px] object-contain w-[1%]"
+                className="lg:h-[11px] xl:h-[12px] h-[13.4px] 2xl:h-[14px] 3xl:h-[17px] xl:mb-[10px] mb-[12.3px] 2xl:mb-[12px] 3xl:mb-[14px] lg:mb-[9px] lg:ml-[14px] xl:ml-[16px] ml-[18.1px] 2xl:ml-[18px] 3xl:ml-[21px] lg:mt-[10px] xl:mt-[11px] mt-[13.3px] 2xl:mt-[13px] 3xl:mt-[15px] object-contain w-[1%]"
                 compId="I4793:8518;120:97"
                 comWidth={7.7}
                 comHeight={13.4}
@@ -386,137 +386,30 @@ const ContactsPage = () => {
                 alt="Vector"
               />
               <Text
-                className="font-normal 3xl:mb-[10px] lg:mb-[7px] xl:mb-[8px] mb-[9px] lg:ml-[18px] xl:ml-[21px] ml-[24.2px] 2xl:ml-[24px] 3xl:ml-[29px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
+                className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24.2px] 2xl:ml-[24px] 3xl:ml-[29px] lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
                 compId="4793:8519"
-                comWidth={124}
+                comWidth={92}
                 comHeight={23}
                 compLeft={24.2}
                 compRight={0}
                 compType="Text"
               >
-                My Contacts (10)
+                My Contacts
               </Text>
-              <Text
-                className="font-normal 3xl:mb-[10px] lg:mb-[7px] xl:mb-[8px] mb-[9px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                compId="4793:8520"
-                comWidth={74}
-                comHeight={23}
-                compLeft={16}
+              <Button
+                className="bg-bluegray_900 border border-gray_201 border-solid font-normal 3xl:ml-[1179px] lg:ml-[763px] xl:ml-[873px] ml-[982px] not-italic lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-center text-white_A700 w-[7%]"
+                compId="4793:8522"
+                comWidth={98}
+                comHeight={39}
+                compLeft={982}
                 compRight={0}
-                compType="Text"
+                compType="Button"
               >
-                Save view as
-              </Text>
-              <Row
-                className="items-center justify-center lg:ml-[413px] xl:ml-[473px] ml-[532px] 3xl:ml-[638px] w-[34%]"
-                compId="97"
-                comWidth={445}
-                comHeight={40}
-                compLeft={532}
-                compRight={0}
-                compType="Row"
-              >
-                <SelectBox
-                  className="bg-bluegray_900 border border-gray_201 border-solid font-normal lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] 3xl:py-[10px] lg:py-[6px] xl:py-[7px] py-[8.5px] 2xl:py-[8px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[33%]"
-                  compId="4793:8522"
-                  comWidth={149}
-                  comHeight={40}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Dropdown"
-                  placeholderClassName="bg-transparent text-white_A700"
-                  name="Import Contatct"
-                  placeholder="Import Contatcts"
-                  isSearchable={false}
-                  isMulti={false}
-                  indicator={
-                    <Image
-                      src={"images/img_vector_70.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
-                      compId="I4793:8524;120:3699"
-                      comWidth={10.4}
-                      comHeight={6.2}
-                      compLeft={0}
-                      compRight={14.8}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                ></SelectBox>
-                <SelectBox
-                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
-                  compId="4793:8525"
-                  comWidth={0}
-                  comHeight={40}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
-                  name="Edit coumns"
-                  placeholder="Edit coumns"
-                  isSearchable={false}
-                  isMulti={false}
-                  indicator={
-                    <Image
-                      src={"images/img_vector_72.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
-                      compId="I4793:8528;120:3699"
-                      comWidth={10.4}
-                      comHeight={6.2}
-                      compLeft={0}
-                      compRight={14.8}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                ></SelectBox>
-                <Row
-                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-evenly ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] 3xl:py-[10px] lg:py-[6px] xl:py-[7px] py-[8.5px] 2xl:py-[8px] rounded-radius4 w-[27%]"
-                  compId="4793:8529"
-                  comWidth={119}
-                  comHeight={40}
-                  compLeft={10}
-                  compRight={0}
-                  compType="Row"
-                >
-                  <Image
-                    src={"images/img_vector_73.png"}
-                    className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
-                    compId="I4793:8530;120:1078"
-                    comWidth={20}
-                    comHeight={20}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="Vector"
-                  />
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4793:8531"
-                    comWidth={37}
-                    comHeight={23}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Filters
-                  </Text>
-                  <Text
-                    className="bg-blue_800 font-bold my-[1px] lg:pl-[3px] pl-[4.5px] 2xl:pl-[4px] 3xl:pl-[5px] lg:pr-[4px] pr-[5.5px] 2xl:pr-[5px] 3xl:pr-[6px] xl:px-[4px] py-[0] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-white_A700 w-[auto]"
-                    compId="4793:8532"
-                    comWidth={22}
-                    comHeight={20}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    01
-                  </Text>
-                </Row>
-              </Row>
+                Add Contatcts
+              </Button>
             </Row>
             <Row
-              className="bg-gray_100 border border-gray_201 border-solid items-center justify-start lg:pl-[17px] xl:pl-[20px] pl-[23px] 3xl:pl-[27px] xl:py-[10px] py-[12px] 3xl:py-[14px] lg:py-[9px] w-[100%]"
+              className="bg-gray_100 border border-gray_201 border-solid items-center justify-start xl:pb-[10px] pb-[12px] 3xl:pb-[14px] lg:pb-[9px] lg:pl-[17px] xl:pl-[20px] pl-[23px] 3xl:pl-[27px] pt-[10px] 3xl:pt-[12px] lg:pt-[7px] xl:pt-[8px] w-[100%]"
               compId="4793:8605"
               comWidth={1342}
               comHeight={46}
@@ -525,7 +418,7 @@ const ContactsPage = () => {
               compType="Row"
             >
               <div
-                className="bg-white_A700 border-bluegray_300 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                className="bg-white_A700 border-bluegray_300 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] mb-[1px] xl:mt-[2px] lg:mt-[2px] mt-[3px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                 compId="4797:9075"
                 comWidth={20}
                 comHeight={20}
@@ -534,19 +427,19 @@ const ContactsPage = () => {
                 compType="View"
               ></div>
               <Text
-                className="font-semibold lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold xl:mb-[1px] lg:mb-[1px] mb-[2px] 3xl:ml-[100px] lg:ml-[65px] xl:ml-[74px] ml-[84px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4793:8343"
                 comWidth={35}
                 comHeight={22}
-                compLeft={35}
+                compLeft={84}
                 compRight={0}
                 compType="Text"
               >
                 Name
               </Text>
               <Image
-                src={"images/img_vector_74.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                src={"images/img_vector_70.png"}
+                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] xl:mb-[4px] lg:mb-[4px] mb-[5.49px] 2xl:mb-[5px] 3xl:mb-[6px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] lg:mt-[2px] mt-[3.5px] 2xl:mt-[3px] xl:mt-[3px] 3xl:mt-[4px] object-contain w-[1%]"
                 compId="I4793:8344;120:2012"
                 comWidth={10.01}
                 comHeight={15.01}
@@ -556,16 +449,16 @@ const ContactsPage = () => {
                 alt="Vector"
               />
               <Row
-                className="items-center justify-center lg:ml-[162px] xl:ml-[185px] ml-[208.66px] 2xl:ml-[208px] 3xl:ml-[250px] w-[6%]"
-                compId="98"
+                className="items-center justify-center lg:ml-[124px] xl:ml-[142px] ml-[159.66px] 2xl:ml-[159px] 3xl:ml-[191px] xl:mt-[1px] lg:mt-[1px] mt-[2px] w-[6%]"
+                compId="97"
                 comWidth={82.34}
                 comHeight={22}
-                compLeft={208.66}
+                compLeft={159.66}
                 compRight={0}
                 compType="Row"
               >
                 <Image
-                  src={"images/img_vector_75.png"}
+                  src={"images/img_vector_71.png"}
                   className="lg:h-[13px] xl:h-[15px] h-[16.67px] 2xl:h-[17px] 3xl:h-[21px] mb-[2.66px] mt-[2.67px] 2xl:my-[2px] xl:my-[2px] lg:my-[2px] 3xl:my-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16.67px] 2xl:w-[16px] 3xl:w-[20px]"
                   compId="I4793:8346;120:1336"
                   comWidth={16.67}
@@ -587,7 +480,7 @@ const ContactsPage = () => {
                   Score
                 </Text>
                 <Image
-                  src={"images/img_vector_76.png"}
+                  src={"images/img_vector_72.png"}
                   className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[12%]"
                   compId="I4793:8348;120:2012"
                   comWidth={10.01}
@@ -599,7 +492,7 @@ const ContactsPage = () => {
                 />
               </Row>
               <Text
-                className="font-semibold lg:ml-[27px] xl:ml-[31px] ml-[34.99px] 2xl:ml-[35px] 3xl:ml-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold lg:ml-[27px] xl:ml-[31px] ml-[34.99px] 2xl:ml-[35px] 3xl:ml-[42px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4793:8350"
                 comWidth={127}
                 comHeight={22}
@@ -610,8 +503,8 @@ const ContactsPage = () => {
                 Open deals amou...
               </Text>
               <Image
-                src={"images/img_vector_77.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                src={"images/img_vector_73.png"}
+                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
                 compId="I4793:8351;120:2012"
                 comWidth={10.01}
                 comHeight={15.01}
@@ -621,7 +514,7 @@ const ContactsPage = () => {
                 alt="Vector"
               />
               <Text
-                className="font-semibold lg:ml-[24px] xl:ml-[27px] ml-[31.24px] 2xl:ml-[31px] 3xl:ml-[37px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold lg:ml-[24px] xl:ml-[27px] ml-[31.24px] 2xl:ml-[31px] 3xl:ml-[37px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4793:8353"
                 comWidth={132}
                 comHeight={22}
@@ -632,8 +525,8 @@ const ContactsPage = () => {
                 last contacted ti...
               </Text>
               <Image
-                src={"images/img_vector_78.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                src={"images/img_vector_74.png"}
+                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
                 compId="I4793:8354;120:2012"
                 comWidth={10.01}
                 comHeight={15.01}
@@ -643,7 +536,7 @@ const ContactsPage = () => {
                 alt="Vector"
               />
               <Text
-                className="font-semibold lg:ml-[20px] xl:ml-[23px] ml-[26.24px] 2xl:ml-[26px] 3xl:ml-[31px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold lg:ml-[20px] xl:ml-[23px] ml-[26.24px] 2xl:ml-[26px] 3xl:ml-[31px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4793:8356"
                 comWidth={87}
                 comHeight={22}
@@ -654,8 +547,8 @@ const ContactsPage = () => {
                 sales owner
               </Text>
               <Image
-                src={"images/img_vector_79.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                src={"images/img_vector_75.png"}
+                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
                 compId="I4793:8357;120:2012"
                 comWidth={10.01}
                 comHeight={15.01}
@@ -665,7 +558,7 @@ const ContactsPage = () => {
                 alt="Vector"
               />
               <Text
-                className="font-semibold lg:ml-[55px] xl:ml-[63px] ml-[71.24px] 2xl:ml-[71px] 3xl:ml-[85px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold lg:ml-[55px] xl:ml-[63px] ml-[71.24px] 2xl:ml-[71px] 3xl:ml-[85px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4793:8359"
                 comWidth={45}
                 comHeight={22}
@@ -676,8 +569,8 @@ const ContactsPage = () => {
                 Emails
               </Text>
               <Image
-                src={"images/img_vector_80.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                src={"images/img_vector_76.png"}
+                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
                 compId="I4793:8360;120:2012"
                 comWidth={10.01}
                 comHeight={15.01}
@@ -687,7 +580,7 @@ const ContactsPage = () => {
                 alt="Vector"
               />
               <Text
-                className="font-semibold xl:ml-[100px] ml-[113.24px] 2xl:ml-[113px] 3xl:ml-[135px] lg:ml-[88px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold xl:ml-[100px] ml-[113.24px] 2xl:ml-[113px] 3xl:ml-[135px] lg:ml-[88px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4793:8362"
                 comWidth={38}
                 comHeight={22}
@@ -698,8 +591,8 @@ const ContactsPage = () => {
                 Work
               </Text>
               <Image
-                src={"images/img_vector_81.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                src={"images/img_vector_77.png"}
+                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
                 compId="I4793:8363;120:2012"
                 comWidth={10.01}
                 comHeight={15.01}
@@ -739,37 +632,36 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="View"
                     ></div>
-                    <Text
-                      className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
-                      compId="4793:8369"
-                      comWidth={46}
-                      comHeight={46}
-                      compLeft={35}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      R
-                    </Text>
                     <Column
-                      className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                      className="items-start 3xl:ml-[106px] lg:ml-[69px] xl:ml-[79px] ml-[89px] w-[4%]"
                       compId="4793:8372"
                       comWidth={49}
                       comHeight={48}
-                      compLeft={8}
+                      compLeft={89}
                       compRight={0}
                       compType="Column"
                     >
-                      <Text
-                        className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                        compId="4793:8373"
+                      <Column
+                        className="items-center w-[100%]"
+                        compId="98"
                         comWidth={49}
                         comHeight={22}
                         compLeft={0}
                         compRight={0}
-                        compType="Text"
+                        compType="Column"
                       >
-                        Riya D
-                      </Text>
+                        <Text
+                          className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                          compId="4793:8373"
+                          comWidth={49}
+                          comHeight={22}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          Riya D
+                        </Text>
+                      </Column>
                       <Text
                         className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                         compId="4793:8374"
@@ -783,7 +675,7 @@ const ContactsPage = () => {
                       </Text>
                     </Column>
                     <Text
-                      className="font-semibold font-sourcesanspro lg:ml-[122px] xl:ml-[140px] ml-[158px] 3xl:ml-[189px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                      className="font-semibold lg:ml-[122px] xl:ml-[140px] ml-[158px] 3xl:ml-[189px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                       compId="4793:8376"
                       comWidth={15}
                       comHeight={22}
@@ -794,7 +686,7 @@ const ContactsPage = () => {
                       18
                     </Text>
                     <Image
-                      src={"images/img_vector_82.png"}
+                      src={"images/img_vector_78.png"}
                       className="lg:h-[10px] xl:h-[11px] h-[12.1px] 2xl:h-[13px] 3xl:h-[15px] lg:mb-[14px] xl:mb-[16px] mb-[18px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:mt-[13px] xl:mt-[15px] mt-[17.9px] 2xl:mt-[17px] 3xl:my-[21px] object-contain w-[1%]"
                       compId="I4793:8377;120:3793"
                       comWidth={12}
@@ -805,7 +697,7 @@ const ContactsPage = () => {
                       alt="Vector"
                     />
                     <Text
-                      className="font-semibold font-sourcesanspro lg:ml-[63px] xl:ml-[72px] ml-[82px] 3xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                      className="font-semibold lg:ml-[63px] xl:ml-[72px] ml-[82px] 3xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                       compId="4793:8378"
                       comWidth={15}
                       comHeight={22}
@@ -816,7 +708,7 @@ const ContactsPage = () => {
                       {apiDataEle?.open_deals_amount}
                     </Text>
                     <Text
-                      className="font-normal font-sourcesanspro lg:ml-[126px] xl:ml-[144px] ml-[162.25px] 2xl:ml-[162px] 3xl:ml-[194px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]"
+                      className="font-normal lg:ml-[126px] xl:ml-[144px] ml-[162.25px] 2xl:ml-[162px] 3xl:ml-[194px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]"
                       compId="4793:8379"
                       comWidth={78}
                       comHeight={22}
@@ -827,7 +719,7 @@ const ContactsPage = () => {
                       {apiDataEle?.last_contacted}
                     </Text>
                     <Text
-                      className="font-normal font-sourcesanspro 3xl:ml-[119px] lg:ml-[77px] xl:ml-[88px] ml-[99.25px] 2xl:ml-[99px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                      className="font-normal 3xl:ml-[119px] lg:ml-[77px] xl:ml-[88px] ml-[99.25px] 2xl:ml-[99px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
                       compId="4793:8380"
                       comWidth={67}
                       comHeight={22}
@@ -838,7 +730,7 @@ const ContactsPage = () => {
                       {apiDataEle?.display_name}
                     </Text>
                     <Text
-                      className="font-normal font-sourcesanspro ml-[110.25px] 2xl:ml-[110px] 3xl:ml-[132px] lg:ml-[85px] xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                      className="font-normal ml-[110.25px] 2xl:ml-[110px] 3xl:ml-[132px] lg:ml-[85px] xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                       compId="4793:8381"
                       comWidth={95}
                       comHeight={22}
@@ -849,7 +741,7 @@ const ContactsPage = () => {
                       {apiDataEle?.email}
                     </Text>
                     <Text
-                      className="font-normal font-sourcesanspro lg:ml-[63px] xl:ml-[73px] ml-[82.25px] 2xl:ml-[82px] 3xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]"
+                      className="font-normal lg:ml-[63px] xl:ml-[73px] ml-[82.25px] 2xl:ml-[82px] 3xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]"
                       compId="4793:8382"
                       comWidth={78}
                       comHeight={22}

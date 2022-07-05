@@ -202,7 +202,7 @@ const DashboardPage = () => {
                   compRight={0}
                   compType="Dropdown"
                   placeholderClassName="bg-transparent text-bluegray_700"
-                  name="All"
+                  name="Group187"
                   placeholder="All"
                   isSearchable={false}
                   isMulti={false}
@@ -229,7 +229,7 @@ const DashboardPage = () => {
                   compLeft={0}
                   compRight={0}
                   compType="EditText"
-                  name="Search your CRM"
+                  name="Group94"
                   placeholder="Search your CRM..."
                 ></Input>
               </Stack>

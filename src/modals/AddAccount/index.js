@@ -21,7 +21,7 @@ const AddAccountModal = (props) => {
             compLeft={0}
             compRight={0}
             compType="EditText"
-            name="Add Account"
+            name="Group398"
             placeholder="Add Account"
             suffix={
               <Image
@@ -64,7 +64,7 @@ const AddAccountModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
-                name="Basic Informati"
+                name="Frame453"
                 placeholder="Basic Information"
               ></Input>
             </Column>
@@ -98,7 +98,7 @@ const AddAccountModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
-                name="Enter name"
+                name="InputField"
                 placeholder="Enter name"
               ></Input>
             </Column>
@@ -131,7 +131,7 @@ const AddAccountModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
-                name="Enter website"
+                name="InputField"
                 placeholder="Enter website"
                 suffix={
                   <Image
@@ -177,7 +177,7 @@ const AddAccountModal = (props) => {
                 compRight={0}
                 compType="Dropdown"
                 placeholderClassName="bg-transparent text-bluegray_300"
-                name="Enter phone num"
+                name="Frame418"
                 placeholder="Enter phone number"
                 isSearchable={false}
                 isMulti={false}
@@ -225,7 +225,7 @@ const AddAccountModal = (props) => {
                 compRight={0}
                 compType="Dropdown"
                 placeholderClassName="bg-transparent text-bluegray_701"
-                name="Jemee Tala"
+                name="Frame418"
                 placeholder="Jemee Tala"
                 isSearchable={false}
                 isMulti={false}

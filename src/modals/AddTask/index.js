@@ -30,11 +30,11 @@ const AddTaskModal = (props) => {
             compLeft={0}
             compRight={0}
             compType="EditText"
-            name="Add task"
+            name="Group368"
             placeholder="Add task"
             suffix={
               <Image
-                src={"images/img_vector_92.png"}
+                src={"images/img_vector_88.png"}
                 className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                 compId="I4712:9389;120:1608"
                 comWidth={16.01}
@@ -57,7 +57,7 @@ const AddTaskModal = (props) => {
           >
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] w-[94%]"
-              compId="112"
+              compId="111"
               comWidth={484}
               comHeight={55}
               compLeft={0}
@@ -101,7 +101,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="113"
+              compId="112"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -117,11 +117,11 @@ const AddTaskModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
-                name="Enter title of "
+                name="Group271"
                 placeholder="Enter title of task"
                 suffix={
                   <Image
-                    src={"images/img_vector_93.png"}
+                    src={"images/img_vector_89.png"}
                     className="w-[13.33px] h-[13.33px] lg:w-[10px] lg:h-[11px] xl:w-[11px] xl:h-[12px] 2xl:w-[13px] 2xl:h-[14px] 3xl:w-[16px] 3xl:h-[17px] my-[auto]"
                     compId="4712:9318"
                     comWidth={13.33}
@@ -147,7 +147,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="114"
+              compId="113"
               comWidth={484}
               comHeight={214}
               compLeft={0}
@@ -206,7 +206,7 @@ const AddTaskModal = (props) => {
                   </Text>
                   <Column
                     className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
-                    compId="116"
+                    compId="115"
                     comWidth={145}
                     comHeight={36}
                     compLeft={0}
@@ -222,13 +222,13 @@ const AddTaskModal = (props) => {
                       compRight={0}
                       compType="Dropdown"
                       placeholderClassName="bg-transparent text-bluegray_300"
-                      name="Select type"
+                      name="Group280"
                       placeholder="Select type"
                       isSearchable={false}
                       isMulti={false}
                       indicator={
                         <Image
-                          src={"images/img_vector_94.png"}
+                          src={"images/img_vector_90.png"}
                           className="w-[8.67px] h-[5.17px] mr-[21.66px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[19px] 2xl:w-[8px] 2xl:h-[6px] 2xl:mr-[21px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[26px]"
                           compId="I4712:9331;120:3699"
                           comWidth={8.67}
@@ -267,7 +267,7 @@ const AddTaskModal = (props) => {
                   </Text>
                   <Column
                     className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
-                    compId="117"
+                    compId="116"
                     comWidth={314}
                     comHeight={36}
                     compLeft={0}
@@ -292,11 +292,11 @@ const AddTaskModal = (props) => {
                         compLeft={0}
                         compRight={0}
                         compType="EditText"
-                        name="06/28/2022"
+                        name="Group283"
                         placeholder="06/28/2022"
                         suffix={
                           <Image
-                            src={"images/img_vector_95.png"}
+                            src={"images/img_vector_91.png"}
                             className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                             compId="I4712:9339;120:380"
                             comWidth={16.67}
@@ -317,11 +317,11 @@ const AddTaskModal = (props) => {
                         compLeft={0}
                         compRight={0}
                         compType="EditText"
-                        name="09:40 "
+                        name="Group285"
                         placeholder="09:40"
                         suffix={
                           <Image
-                            src={"images/img_vector_96.png"}
+                            src={"images/img_vector_92.png"}
                             className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                             compId="I4712:9344;120:470"
                             comWidth={16.67}
@@ -351,7 +351,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="115"
+              compId="114"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -367,13 +367,13 @@ const AddTaskModal = (props) => {
                 compRight={0}
                 compType="Dropdown"
                 placeholderClassName="bg-transparent text-bluegray_300"
-                name="Select an outco"
+                name="Group299"
                 placeholder="Select an outcome"
                 isSearchable={false}
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_97.png"}
+                    src={"images/img_vector_93.png"}
                     className="w-[8.67px] h-[5.17px] mr-[21.66px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[19px] 2xl:w-[8px] 2xl:h-[6px] 2xl:mr-[21px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[26px]"
                     compId="I4712:9351;120:3699"
                     comWidth={8.67}

@@ -191,7 +191,7 @@ const ProductsPage = () => {
                 compRight={0}
                 compType="Dropdown"
                 placeholderClassName="bg-transparent text-bluegray_700"
-                name="Contacts"
+                name="Group93"
                 placeholder="Contacts"
                 isSearchable={false}
                 isMulti={false}
@@ -218,7 +218,7 @@ const ProductsPage = () => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
-                name="Search your CRM"
+                name="Group94"
                 placeholder="Search your CRM..."
               ></Input>
               <Row
@@ -397,7 +397,7 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Dropdown"
                   placeholderClassName="bg-transparent text-white_A700"
-                  name="Add product"
+                  name="Frame419"
                   placeholder="Add product"
                   isSearchable={false}
                   isMulti={false}
@@ -424,7 +424,7 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Dropdown"
                   placeholderClassName="bg-transparent text-bluegray_701"
-                  name="Add categories"
+                  name="Frame418"
                   placeholder="Add categories"
                   isSearchable={false}
                   isMulti={false}
@@ -451,7 +451,7 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Dropdown"
                   placeholderClassName="bg-transparent text-bluegray_701"
-                  name="Edit coumns"
+                  name="Frame422"
                   placeholder="Edit coumns"
                   isSearchable={false}
                   isMulti={false}
@@ -734,17 +734,27 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:10858"
+                  <Column
+                    className="items-center w-[100%]"
+                    compId="51"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Column"
                   >
-                    Riya D
-                  </Text>
+                    <Text
+                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                      compId="4797:10858"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Riya D
+                    </Text>
+                  </Column>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:10859"
@@ -881,17 +891,27 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:10927"
+                  <Column
+                    className="items-center w-[100%]"
+                    compId="52"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Column"
                   >
-                    Riya D
-                  </Text>
+                    <Text
+                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                      compId="4797:10927"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Riya D
+                    </Text>
+                  </Column>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:10928"
@@ -1028,17 +1048,27 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:10945"
+                  <Column
+                    className="items-center w-[100%]"
+                    compId="53"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Column"
                   >
-                    Riya D
-                  </Text>
+                    <Text
+                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                      compId="4797:10945"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Riya D
+                    </Text>
+                  </Column>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:10946"
@@ -1175,17 +1205,27 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:10963"
+                  <Column
+                    className="items-center w-[100%]"
+                    compId="54"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Column"
                   >
-                    Riya D
-                  </Text>
+                    <Text
+                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                      compId="4797:10963"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Riya D
+                    </Text>
+                  </Column>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:10964"
@@ -1322,17 +1362,27 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:10981"
+                  <Column
+                    className="items-center w-[100%]"
+                    compId="55"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Column"
                   >
-                    Riya D
-                  </Text>
+                    <Text
+                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                      compId="4797:10981"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Riya D
+                    </Text>
+                  </Column>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:10982"
@@ -1469,17 +1519,27 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:10999"
+                  <Column
+                    className="items-center w-[100%]"
+                    compId="56"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Column"
                   >
-                    Riya D
-                  </Text>
+                    <Text
+                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                      compId="4797:10999"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Riya D
+                    </Text>
+                  </Column>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:11000"
@@ -1616,17 +1676,27 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:11017"
+                  <Column
+                    className="items-center w-[100%]"
+                    compId="57"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Column"
                   >
-                    Riya D
-                  </Text>
+                    <Text
+                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                      compId="4797:11017"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Riya D
+                    </Text>
+                  </Column>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:11018"
@@ -1763,17 +1833,27 @@ const ProductsPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:11035"
+                  <Column
+                    className="items-center w-[100%]"
+                    compId="58"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Column"
                   >
-                    Riya D
-                  </Text>
+                    <Text
+                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                      compId="4797:11035"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Riya D
+                    </Text>
+                  </Column>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:11036"
@@ -1873,7 +1953,7 @@ const ProductsPage = () => {
               compLeft={0}
               compRight={0}
               compType="EditText"
-              name="Showing 1-3 of "
+              name="Group413"
               placeholder="Showing 1-3 of 3"
             ></Input>
           </Column>

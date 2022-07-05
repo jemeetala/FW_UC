@@ -39,7 +39,7 @@ const AddProductModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
-                name="Add Account"
+                name="Group398"
                 placeholder="Add Account"
                 suffix={
                   <Image
@@ -127,7 +127,7 @@ const AddProductModal = (props) => {
                   compLeft={0}
                   compRight={0}
                   compType="EditText"
-                  name="Enter title of "
+                  name="InputField"
                   placeholder="Enter title of task"
                   suffix={
                     <Image
@@ -173,7 +173,7 @@ const AddProductModal = (props) => {
                   compRight={0}
                   compType="Dropdown"
                   placeholderClassName="bg-transparent text-bluegray_300"
-                  name="Choose value"
+                  name="Frame418"
                   placeholder="Choose value"
                   isSearchable={false}
                   isMulti={false}
@@ -221,7 +221,7 @@ const AddProductModal = (props) => {
                   compRight={0}
                   compType="Dropdown"
                   placeholderClassName="bg-transparent text-bluegray_701"
-                  name="Owner Name"
+                  name="Frame418"
                   placeholder="Owner Name"
                   isSearchable={false}
                   isMulti={false}
@@ -269,7 +269,7 @@ const AddProductModal = (props) => {
                   compLeft={0}
                   compRight={0}
                   compType="EditText"
-                  name="Enter value"
+                  name="Frame418"
                   placeholder="Enter value"
                 ></Input>
               </Column>
@@ -302,7 +302,7 @@ const AddProductModal = (props) => {
                   compLeft={0}
                   compRight={0}
                   compType="EditText"
-                  name="Choose date"
+                  name="Frame418"
                   placeholder="Choose date"
                   suffix={
                     <Image

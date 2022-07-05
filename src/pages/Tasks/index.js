@@ -28,7 +28,7 @@ const TasksPage = () => {
       >
         <Row
           className="items-start justify-evenly w-[100%]"
-          compId="160"
+          compId="159"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -87,7 +87,7 @@ const TasksPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_147.png"}
+                  src={"images/img_vector_143.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[19.98px] 2xl:h-[20px] 3xl:h-[24px] lg:mt-[20px] xl:mt-[23px] mt-[26px] 3xl:mt-[31px] mx-[auto] object-contain w-[40%]"
                   compId="I4713:8181;120:2258"
                   comWidth={19.96}
@@ -98,7 +98,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_148.png"}
+                  src={"images/img_vector_144.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20.01px] 2xl:h-[21px] 3xl:h-[25px] ml-[15.06px] mr-[15.04px] lg:mt-[28px] xl:mt-[32px] mt-[36.01px] 2xl:mt-[36px] 3xl:mt-[43px] lg:mx-[11px] xl:mx-[13px] 2xl:mx-[15px] 3xl:mx-[18px] object-contain w-[40%]"
                   compId="I4713:8182;120:2252"
                   comWidth={19.9}
@@ -109,7 +109,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_149.png"}
+                  src={"images/img_vector_145.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[19.89px] 2xl:h-[20px] 3xl:h-[24px] ml-[16.6px] mr-[16.51px] lg:mt-[27px] xl:mt-[32px] mt-[35.99px] 2xl:mt-[36px] 3xl:mt-[43px] lg:mx-[12px] xl:mx-[14px] 2xl:mx-[16px] 3xl:mx-[19px] object-contain w-[34%]"
                   compId="I4713:8183;120:328"
                   comWidth={16.89}
@@ -120,7 +120,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_150.png"}
+                  src={"images/img_vector_146.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36.12px] 2xl:mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4713:8184;120:1630"
                   comWidth={18}
@@ -131,7 +131,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_151.png"}
+                  src={"images/img_vector_147.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4713:8185;120:434"
                   comWidth={20}
@@ -142,7 +142,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_152.png"}
+                  src={"images/img_vector_148.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4713:8186;120:1750"
                   comWidth={20}
@@ -153,7 +153,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_153.png"}
+                  src={"images/img_vector_149.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[11px] ml-[14.86px] 2xl:ml-[14px] 3xl:ml-[17px] lg:mr-[12px] mr-[15.49px] 2xl:mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] xl:mx-[13px] object-contain w-[39%]"
                   compId="I4713:8187;120:1890"
                   comWidth={19.65}
@@ -168,7 +168,7 @@ const TasksPage = () => {
           </aside>
           <Column
             className="items-center justify-start lg:mb-[46px] xl:mb-[53px] mb-[60px] 3xl:mb-[72px] w-[93%]"
-            compId="159"
+            compId="158"
             comWidth={1342}
             comHeight={964}
             compLeft={0}
@@ -202,13 +202,13 @@ const TasksPage = () => {
                   compRight={0}
                   compType="Dropdown"
                   placeholderClassName="bg-transparent text-bluegray_700"
-                  name="All"
+                  name="Group187"
                   placeholder="All"
                   isSearchable={false}
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_155.png"}
+                      src={"images/img_vector_151.png"}
                       className="w-[10.54px] h-[6.25px] mr-[12.71px] object-contain right-[2%] absolute lg:w-[8px] lg:h-[5px] lg:mr-[9px] xl:w-[9px] xl:h-[6px] xl:mr-[11px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[12px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[15px]"
                       compId="I4797:8958;120:93"
                       comWidth={10.54}
@@ -229,13 +229,13 @@ const TasksPage = () => {
                   compLeft={0}
                   compRight={0}
                   compType="EditText"
-                  name="Search your CRM"
+                  name="Group94"
                   placeholder="Search your CRM..."
                 ></Input>
               </Stack>
               <Row
                 className="items-center justify-between w-[22%]"
-                compId="163"
+                compId="162"
                 comWidth={292}
                 comHeight={40}
                 compLeft={0}
@@ -394,7 +394,7 @@ const TasksPage = () => {
             </Row>
             <Stack
               className="3xl:h-[1005px] lg:h-[651px] xl:h-[745px] h-[837px] 2xl:h-[838px] w-[100%]"
-              compId="152"
+              compId="151"
               comWidth={1342}
               comHeight={837}
               compLeft={0}
@@ -473,7 +473,7 @@ const TasksPage = () => {
                 </Stack>
                 <Stack
                   className="lg:h-[606px] xl:h-[693px] h-[778px] 2xl:h-[779px] 3xl:h-[935px] w-[100%]"
-                  compId="153"
+                  compId="152"
                   comWidth={885}
                   comHeight={778}
                   compLeft={0}
@@ -482,7 +482,7 @@ const TasksPage = () => {
                 >
                   <Stack
                     className="absolute lg:h-[606px] xl:h-[693px] h-[778px] 2xl:h-[779px] 3xl:h-[935px] inset-[0] w-[100%]"
-                    compId="154"
+                    compId="153"
                     comWidth={885}
                     comHeight={778}
                     compLeft={0}
@@ -491,7 +491,7 @@ const TasksPage = () => {
                   >
                     <Stack
                       className="absolute lg:h-[606px] xl:h-[693px] h-[778px] 2xl:h-[779px] 3xl:h-[935px] inset-[0] w-[100%]"
-                      compId="155"
+                      compId="154"
                       comWidth={885}
                       comHeight={778}
                       compLeft={0}
@@ -500,7 +500,7 @@ const TasksPage = () => {
                     >
                       <Stack
                         className="absolute lg:h-[606px] xl:h-[693px] h-[778px] 2xl:h-[779px] 3xl:h-[935px] inset-[0] w-[100%]"
-                        compId="156"
+                        compId="155"
                         comWidth={885}
                         comHeight={778}
                         compLeft={0}
@@ -509,7 +509,7 @@ const TasksPage = () => {
                       >
                         <Column
                           className="absolute inset-[0] items-center justify-start w-[100%]"
-                          compId="157"
+                          compId="156"
                           comWidth={885}
                           comHeight={778}
                           compLeft={0}
@@ -567,7 +567,7 @@ const TasksPage = () => {
                               </Text>
                               <Column
                                 className="items-center lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] w-[100%]"
-                                compId="164"
+                                compId="163"
                                 comWidth={186}
                                 comHeight={26}
                                 compLeft={0}
@@ -678,7 +678,7 @@ const TasksPage = () => {
                               </Text>
                               <Column
                                 className="items-center lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] w-[100%]"
-                                compId="165"
+                                compId="164"
                                 comWidth={144}
                                 comHeight={26}
                                 compLeft={0}
@@ -770,7 +770,7 @@ const TasksPage = () => {
                             </Text>
                             <Column
                               className="items-center lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] w-[100%]"
-                              compId="166"
+                              compId="165"
                               comWidth={144}
                               comHeight={26}
                               compLeft={0}
@@ -862,7 +862,7 @@ const TasksPage = () => {
                           </Text>
                           <Column
                             className="items-center lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] w-[100%]"
-                            compId="167"
+                            compId="166"
                             comWidth={144}
                             comHeight={26}
                             compLeft={0}
@@ -953,7 +953,7 @@ const TasksPage = () => {
                           </Text>
                           <Column
                             className="items-center lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] w-[100%]"
-                            compId="168"
+                            compId="167"
                             comWidth={144}
                             comHeight={26}
                             compLeft={0}
@@ -1045,7 +1045,7 @@ const TasksPage = () => {
                         </Text>
                         <Column
                           className="items-center lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] w-[100%]"
-                          compId="169"
+                          compId="168"
                           comWidth={144}
                           comHeight={26}
                           compLeft={0}
@@ -1077,7 +1077,7 @@ const TasksPage = () => {
                         </Text>
                       </Column>
                       <Image
-                        src={"images/img_vector_156.png"}
+                        src={"images/img_vector_152.png"}
                         className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mb-[28px] xl:mb-[32px] mb-[36px] 3xl:mb-[43px] lg:ml-[456px] xl:ml-[522px] ml-[587px] 3xl:ml-[704px] lg:mt-[24px] xl:mt-[28px] mt-[32px] 3xl:mt-[38px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                         compId="I4797:9017;120:1686"
                         comWidth={20}
@@ -1088,7 +1088,7 @@ const TasksPage = () => {
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_157.png"}
+                        src={"images/img_vector_153.png"}
                         className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mb-[28px] xl:mb-[32px] mb-[36px] 3xl:mb-[43px] lg:ml-[22px] xl:ml-[25px] ml-[29px] 3xl:ml-[34px] lg:mt-[24px] xl:mt-[28px] mt-[32px] 3xl:mt-[38px] object-contain w-[2%]"
                         compId="I4797:9018;120:2204"
                         comWidth={18}
@@ -1133,13 +1133,13 @@ const TasksPage = () => {
                 </Text>
                 <RadioGroup
                   className="lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[19%]"
-                  compId="161"
+                  compId="160"
                   comWidth={86}
                   comHeight={85}
                   compLeft={0}
                   compRight={0}
                   compType="RadioGroup"
-                  name="Group161"
+                  name="Group160"
                 >
                   <Radio
                     value={false}
@@ -1151,7 +1151,7 @@ const TasksPage = () => {
                     compLeft={0}
                     compRight={11}
                     compType="Radio"
-                    name="Group161"
+                    name="Group160"
                     label="Overdue"
                   ></Radio>
                   <Radio
@@ -1164,7 +1164,7 @@ const TasksPage = () => {
                     compLeft={0}
                     compRight={25}
                     compType="Radio"
-                    name="Group161"
+                    name="Group160"
                     label="Today"
                   ></Radio>
                   <Radio
@@ -1177,7 +1177,7 @@ const TasksPage = () => {
                     compLeft={0}
                     compRight={0}
                     compType="Radio"
-                    name="Group161"
+                    name="Group160"
                     label="Tomorrow"
                   ></Radio>
                 </RadioGroup>
@@ -1195,13 +1195,13 @@ const TasksPage = () => {
                 <RadioGroup
                   selectedValue="Open"
                   className="lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[20%]"
-                  compId="162"
+                  compId="161"
                   comWidth={90}
                   comHeight={54}
                   compLeft={0}
                   compRight={0}
                   compType="RadioGroup"
-                  name="Group162"
+                  name="Group161"
                 >
                   <Radio
                     value={true}
@@ -1213,7 +1213,7 @@ const TasksPage = () => {
                     compLeft={0}
                     compRight={33}
                     compType="Radio"
-                    name="Group162"
+                    name="Group161"
                     label="Open"
                   ></Radio>
                   <Radio
@@ -1226,7 +1226,7 @@ const TasksPage = () => {
                     compLeft={0}
                     compRight={0}
                     compType="Radio"
-                    name="Group162"
+                    name="Group161"
                     label="Completed"
                   ></Radio>
                 </RadioGroup>
