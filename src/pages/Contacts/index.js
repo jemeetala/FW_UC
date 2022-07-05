@@ -641,27 +641,17 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Column"
                     >
-                      <Column
-                        className="items-center w-[100%]"
-                        compId="98"
+                      <Text
+                        className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                        compId="4793:8373"
                         comWidth={49}
                         comHeight={22}
                         compLeft={0}
                         compRight={0}
-                        compType="Column"
+                        compType="Text"
                       >
-                        <Text
-                          className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                          compId="4793:8373"
-                          comWidth={49}
-                          comHeight={22}
-                          compLeft={0}
-                          compRight={0}
-                          compType="Text"
-                        >
-                          Riya D
-                        </Text>
-                      </Column>
+                        {apiDataEle?.first_name}
+                      </Text>
                       <Text
                         className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                         compId="4793:8374"
@@ -671,7 +661,7 @@ const ContactsPage = () => {
                         compRight={0}
                         compType="Text"
                       >
-                        {apiDataEle?.display_name}
+                        Lead
                       </Text>
                     </Column>
                     <Text
@@ -705,7 +695,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiDataEle?.open_deals_amount}
+                      $0
                     </Text>
                     <Text
                       className="font-normal lg:ml-[126px] xl:ml-[144px] ml-[162.25px] 2xl:ml-[162px] 3xl:ml-[194px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]"
@@ -716,7 +706,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiDataEle?.last_contacted}
+                      Not Available
                     </Text>
                     <Text
                       className="font-normal 3xl:ml-[119px] lg:ml-[77px] xl:ml-[88px] ml-[99.25px] 2xl:ml-[99px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"

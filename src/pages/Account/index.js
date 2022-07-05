@@ -769,27 +769,17 @@ const AccountPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Column
-                    className="items-center w-[100%]"
-                    compId="133"
+                  <Text
+                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                    compId="4797:9875"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Text"
                   >
-                    <Text
-                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                      compId="4797:9875"
-                      comWidth={47}
-                      comHeight={22}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Riya D
-                    </Text>
-                  </Column>
+                    Riya D
+                  </Text>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:9876"
@@ -937,27 +927,17 @@ const AccountPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Column
-                    className="items-center w-[100%]"
-                    compId="134"
+                  <Text
+                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                    compId="4797:9898"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Text"
                   >
-                    <Text
-                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                      compId="4797:9898"
-                      comWidth={47}
-                      comHeight={22}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Riya D
-                    </Text>
-                  </Column>
+                    Riya D
+                  </Text>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:9899"
@@ -1105,27 +1085,17 @@ const AccountPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Column
-                    className="items-center w-[100%]"
-                    compId="135"
+                  <Text
+                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                    compId="4797:9920"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Text"
                   >
-                    <Text
-                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                      compId="4797:9920"
-                      comWidth={47}
-                      comHeight={22}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Riya D
-                    </Text>
-                  </Column>
+                    Riya D
+                  </Text>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:9921"
@@ -1273,27 +1243,17 @@ const AccountPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Column
-                    className="items-center w-[100%]"
-                    compId="136"
+                  <Text
+                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                    compId="4797:9942"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Text"
                   >
-                    <Text
-                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                      compId="4797:9942"
-                      comWidth={47}
-                      comHeight={22}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Riya D
-                    </Text>
-                  </Column>
+                    Riya D
+                  </Text>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:9943"
@@ -1441,27 +1401,17 @@ const AccountPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Column
-                    className="items-center w-[100%]"
-                    compId="137"
+                  <Text
+                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                    compId="4797:9964"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Text"
                   >
-                    <Text
-                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                      compId="4797:9964"
-                      comWidth={47}
-                      comHeight={22}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Riya D
-                    </Text>
-                  </Column>
+                    Riya D
+                  </Text>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:9965"
@@ -1609,27 +1559,17 @@ const AccountPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Column
-                    className="items-center w-[100%]"
-                    compId="138"
+                  <Text
+                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                    compId="4797:9986"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Text"
                   >
-                    <Text
-                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                      compId="4797:9986"
-                      comWidth={47}
-                      comHeight={22}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Riya D
-                    </Text>
-                  </Column>
+                    Riya D
+                  </Text>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:9987"
@@ -1777,27 +1717,17 @@ const AccountPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Column
-                    className="items-center w-[100%]"
-                    compId="139"
+                  <Text
+                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                    compId="4797:10008"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Text"
                   >
-                    <Text
-                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                      compId="4797:10008"
-                      comWidth={47}
-                      comHeight={22}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Riya D
-                    </Text>
-                  </Column>
+                    Riya D
+                  </Text>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:10009"
@@ -1945,27 +1875,17 @@ const AccountPage = () => {
                   compRight={0}
                   compType="Column"
                 >
-                  <Column
-                    className="items-center w-[100%]"
-                    compId="140"
+                  <Text
+                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                    compId="4797:10030"
                     comWidth={47}
                     comHeight={22}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Text"
                   >
-                    <Text
-                      className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                      compId="4797:10030"
-                      comWidth={47}
-                      comHeight={22}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Riya D
-                    </Text>
-                  </Column>
+                    Riya D
+                  </Text>
                   <Text
                     className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                     compId="4797:10031"
