@@ -124,7 +124,7 @@ const AddAccountModal = (props) => {
             >
               <Input
                 className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
-                WrapClassName="2xl:pr-[15px] 3xl:pl-[14px] 3xl:pr-[18px] 3xl:py-[8px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pl-[9px] lg:pr-[11px] lg:py-[5px] pl-[12px] pr-[15.34px] py-[7px] rounded-radius4 w-[100%] xl:pl-[10px] xl:pr-[13px] xl:py-[6px]"
+                WrapClassName="3xl:pl-[14px] 3xl:pr-[18px] 3xl:py-[8px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pl-[9px] lg:pr-[11px] lg:py-[5px] pl-[12px] pr-[15px] py-[7px] rounded-radius4 w-[100%] xl:pl-[10px] xl:pr-[13px] xl:py-[6px]"
                 compId="4797:10727"
                 comWidth={0}
                 comHeight={36}
@@ -184,12 +184,12 @@ const AddAccountModal = (props) => {
                 indicator={
                   <Image
                     src={"images/img_vector_53.png"}
-                    className="w-[8.67px] h-[5.17px] mr-[21.66px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[19px] 2xl:w-[8px] 2xl:h-[6px] 2xl:mr-[21px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[26px]"
+                    className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
                     compId="I4797:10690;120:3699"
                     comWidth={8.67}
                     comHeight={5.17}
                     compLeft={0}
-                    compRight={21.66}
+                    compRight={21}
                     compType="Image"
                     alt="Vector"
                   />

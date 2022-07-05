@@ -76,28 +76,28 @@ const ProductsPage = () => {
                 />
                 <Image
                   src={"images/img_vector_1.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[19.98px] 2xl:h-[20px] 3xl:h-[24px] lg:mt-[21px] xl:mt-[24px] mt-[27px] 3xl:mt-[32px] mx-[auto] object-contain w-[40%]"
+                  className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[21px] xl:mt-[24px] mt-[27px] 3xl:mt-[32px] mx-[auto] object-contain lg:w-[14px] xl:w-[16px] w-[19px] 3xl:w-[22px]"
                   compId="I4797:10788;120:2258"
-                  comWidth={19.96}
-                  comHeight={19.98}
-                  compLeft={15.02}
-                  compRight={15.02}
+                  comWidth={19}
+                  comHeight={19}
+                  compLeft={15}
+                  compRight={15}
                   compType="Image"
                   alt="Vector"
                 />
                 <Image
                   src={"images/img_vector_2.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20.01px] 2xl:h-[21px] 3xl:h-[25px] ml-[15.06px] mr-[15.04px] lg:mt-[20px] xl:mt-[23px] mt-[26.01px] 2xl:mt-[26px] 3xl:mt-[31px] lg:mx-[11px] xl:mx-[13px] 2xl:mx-[15px] 3xl:mx-[18px] object-contain w-[40%]"
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[20px] xl:mt-[23px] mt-[26px] 3xl:mt-[31px] mx-[auto] object-contain w-[38%]"
                   compId="I4797:10789;120:2252"
-                  comWidth={19.9}
-                  comHeight={20.01}
-                  compLeft={15.06}
-                  compRight={15.04}
+                  comWidth={19}
+                  comHeight={20}
+                  compLeft={15}
+                  compRight={15}
                   compType="Image"
                   alt="Vector"
                 />
                 <Button
-                  className="bg-blue_50 flex lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:mt-[26px] xl:mt-[30px] mt-[34px] 3xl:mt-[40px] lg:p-[11px] xl:p-[13px] p-[14.99px] 2xl:p-[15px] 3xl:p-[17px] rounded-radius4 lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
+                  className="bg-blue_50 flex lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:mt-[26px] xl:mt-[30px] mt-[34px] 3xl:mt-[40px] lg:p-[10px] xl:p-[12px] p-[14px] 3xl:p-[16px] rounded-radius4 lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
                   compId="4797:10794"
                   comWidth={50}
                   comHeight={50}
@@ -107,7 +107,7 @@ const ProductsPage = () => {
                 >
                   <Image
                     src={"images/img_group331.png"}
-                    className="w-[84%] flex items-center justify-center"
+                    className="w-[77%] flex items-center justify-center"
                     compId="4797:10794"
                     comWidth={50}
                     comHeight={50}
@@ -152,12 +152,12 @@ const ProductsPage = () => {
                 />
                 <Image
                   src={"images/img_vector_6.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[11px] ml-[14.86px] 2xl:ml-[14px] 3xl:ml-[17px] lg:mr-[12px] mr-[15.49px] 2xl:mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] xl:mx-[13px] object-contain w-[39%]"
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4797:10793;120:1890"
-                  comWidth={19.65}
+                  comWidth={19}
                   comHeight={20}
-                  compLeft={14.86}
-                  compRight={15.49}
+                  compLeft={14}
+                  compRight={15}
                   compType="Image"
                   alt="Vector"
                 />
@@ -183,7 +183,7 @@ const ProductsPage = () => {
               compType="Row"
             >
               <SelectBox
-                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6.01px] 2xl:pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
+                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
                 compId="4797:10771"
                 comWidth={0}
                 comHeight={40}
@@ -198,12 +198,12 @@ const ProductsPage = () => {
                 indicator={
                   <Image
                     src={"images/img_vector_8.png"}
-                    className="w-[10.54px] h-[6.25px] mr-[14.71px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                    className="w-[10.54px] h-[6.25px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                     compId="I4797:10775;120:93"
                     comWidth={10.54}
                     comHeight={6.25}
                     compLeft={0}
-                    compRight={14.71}
+                    compRight={14}
                     compType="Image"
                     alt="Vector"
                   />
@@ -273,7 +273,7 @@ const ProductsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:p-[1px] p-[2.45px] 3xl:p-[2px] 2xl:p-[2px] xl:p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:10761"
                   comWidth={40}
                   comHeight={40}
@@ -315,7 +315,7 @@ const ProductsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12.26px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:10767"
                   comWidth={40}
                   comHeight={40}
@@ -325,7 +325,7 @@ const ProductsPage = () => {
                 >
                   <Image
                     src={"images/img_group99.png"}
-                    className="w-[74%] flex items-center justify-center"
+                    className="w-[72%] flex items-center justify-center"
                     compId="4797:10767"
                     comWidth={40}
                     comHeight={40}
@@ -347,7 +347,7 @@ const ProductsPage = () => {
               compType="Row"
             >
               <Text
-                className="font-normal 3xl:my-[10px] lg:my-[6px] xl:my-[7px] my-[8.5px] 2xl:my-[8px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                className="font-normal lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
                 compId="4509:6318"
                 comWidth={68}
                 comHeight={23}
@@ -359,21 +359,21 @@ const ProductsPage = () => {
               </Text>
               <Image
                 src={"images/img_vector_9.png"}
-                className="lg:h-[11px] xl:h-[12px] h-[13.4px] 2xl:h-[14px] 3xl:h-[17px] xl:mb-[11px] mb-[12.8px] 2xl:mb-[12px] 3xl:mb-[15px] lg:mb-[9px] lg:ml-[14px] xl:ml-[16px] ml-[18.1px] 2xl:ml-[18px] 3xl:ml-[21px] lg:mt-[10px] xl:mt-[12px] mt-[13.8px] 2xl:mt-[13px] 3xl:mt-[16px] object-contain w-[1%]"
+                className="lg:h-[11px] xl:h-[12px] h-[13px] 2xl:h-[14px] 3xl:h-[16px] xl:mb-[10px] mb-[12px] 3xl:mb-[14px] lg:mb-[9px] lg:ml-[14px] xl:ml-[16px] ml-[18px] 3xl:ml-[21px] lg:mt-[10px] xl:mt-[11px] mt-[13px] 3xl:mt-[15px] object-contain w-[1%]"
                 compId="I4509:6319;120:97"
-                comWidth={7.7}
-                comHeight={13.4}
-                compLeft={18.1}
+                comWidth={7}
+                comHeight={13}
+                compLeft={18}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24.2px] 2xl:ml-[24px] 3xl:ml-[29px] 3xl:my-[10px] lg:my-[6px] xl:my-[7px] my-[8.5px] 2xl:my-[8px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
+                className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
                 compId="4509:6321"
                 comWidth={114}
                 comHeight={23}
-                compLeft={24.2}
+                compLeft={24}
                 compRight={0}
                 compType="Text"
               >
@@ -389,7 +389,7 @@ const ProductsPage = () => {
                 compType="Row"
               >
                 <SelectBox
-                  className="bg-bluegray_900 border border-gray_201 border-solid font-normal lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] 3xl:py-[10px] lg:py-[6px] xl:py-[7px] py-[8.5px] 2xl:py-[8px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[19%]"
+                  className="bg-bluegray_900 border border-gray_201 border-solid font-normal lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[19%]"
                   compId="4509:6331"
                   comWidth={123}
                   comHeight={40}
@@ -404,19 +404,19 @@ const ProductsPage = () => {
                   indicator={
                     <Image
                       src={"images/img_vector_10.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4509:6333;120:3699"
                       comWidth={10.4}
                       comHeight={6.2}
                       compLeft={0}
-                      compRight={14.8}
+                      compRight={14}
                       compType="Image"
                       alt="Vector"
                     />
                   }
                 ></SelectBox>
                 <SelectBox
-                  className="bg-white_A700 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] 3xl:py-[10px] lg:py-[6px] xl:py-[7px] py-[8.5px] 2xl:py-[8px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[21%]"
+                  className="bg-white_A700 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[21%]"
                   compId="4509:6334"
                   comWidth={136}
                   comHeight={40}
@@ -431,12 +431,12 @@ const ProductsPage = () => {
                   indicator={
                     <Image
                       src={"images/img_vector_11.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4509:6337;120:3699"
                       comWidth={10.4}
                       comHeight={6.2}
                       compLeft={0}
-                      compRight={14.8}
+                      compRight={14}
                       compType="Image"
                       alt="Vector"
                     />
@@ -458,19 +458,19 @@ const ProductsPage = () => {
                   indicator={
                     <Image
                       src={"images/img_vector_13.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4509:6690;120:3699"
                       comWidth={10.4}
                       comHeight={6.2}
                       compLeft={0}
-                      compRight={14.8}
+                      compRight={14}
                       compType="Image"
                       alt="Vector"
                     />
                   }
                 ></SelectBox>
                 <Row
-                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] 3xl:pl-[11px] lg:pl-[7px] xl:pl-[8px] pl-[9.86px] 2xl:pl-[9px] lg:pr-[11px] xl:pr-[13px] pr-[14.8px] 2xl:pr-[14px] 3xl:pr-[17px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] rounded-radius4 w-[11%]"
+                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[10px] xl:pr-[12px] pr-[14px] 3xl:pr-[16px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] rounded-radius4 w-[11%]"
                   compId="4509:6338"
                   comWidth={74}
                   comHeight={40}
@@ -480,9 +480,9 @@ const ProductsPage = () => {
                 >
                   <Image
                     src={"images/img_vector_14.png"}
-                    className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] object-contain w-[40%]"
+                    className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] object-contain w-[37%]"
                     compId="I4509:6339;120:1890"
-                    comWidth={19.65}
+                    comWidth={19}
                     comHeight={20}
                     compLeft={0}
                     compRight={0}
@@ -491,18 +491,18 @@ const ProductsPage = () => {
                   />
                   <Image
                     src={"images/img_vector_15.png"}
-                    className="lg:h-[5px] h-[6.2px] xl:h-[6px] 2xl:h-[7px] 3xl:h-[8px] lg:ml-[15px] xl:ml-[17px] ml-[19.29px] 2xl:ml-[19px] 3xl:ml-[23px] lg:my-[5px] my-[6.9px] 2xl:my-[6px] xl:my-[6px] 3xl:my-[8px] object-contain w-[21%]"
+                    className="lg:h-[5px] h-[6px] 2xl:h-[7px] 3xl:h-[8px] lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:my-[4px] xl:my-[5px] my-[6px] 3xl:my-[7px] object-contain w-[20%]"
                     compId="I4509:6520;120:3699"
-                    comWidth={10.4}
-                    comHeight={6.2}
-                    compLeft={19.29}
+                    comWidth={10}
+                    comHeight={6}
+                    compLeft={19}
                     compRight={0}
                     compType="Image"
                     alt="Vector"
                   />
                 </Row>
                 <Row
-                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-evenly ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] 3xl:py-[10px] lg:py-[6px] xl:py-[7px] py-[8.5px] 2xl:py-[8px] rounded-radius4 w-[18%]"
+                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-evenly ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[18%]"
                   compId="4509:6513"
                   comWidth={119}
                   comHeight={40}
@@ -533,7 +533,7 @@ const ProductsPage = () => {
                     Filters
                   </Text>
                   <Text
-                    className="bg-blue_800 font-bold my-[1px] lg:pl-[3px] pl-[4.5px] 2xl:pl-[4px] 3xl:pl-[5px] lg:pr-[4px] pr-[5.5px] 2xl:pr-[5px] 3xl:pr-[6px] xl:px-[4px] py-[0] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-white_A700 w-[auto]"
+                    className="bg-blue_800 font-bold my-[1px] xl:pl-[3px] pl-[4px] xl:pr-[4px] pr-[5px] 3xl:pr-[6px] lg:px-[3px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-white_A700 w-[auto]"
                     compId="4509:6516"
                     comWidth={22}
                     comHeight={20}
@@ -577,21 +577,21 @@ const ProductsPage = () => {
               </Text>
               <Image
                 src={"images/img_vector_17.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10820;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
+                comWidth={10}
+                comHeight={15}
                 compLeft={10}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-semibold lg:ml-[160px] xl:ml-[184px] ml-[206.99px] 2xl:ml-[207px] 3xl:ml-[248px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold lg:ml-[160px] xl:ml-[183px] ml-[206px] 3xl:ml-[247px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4797:10825"
                 comWidth={43}
                 comHeight={22}
-                compLeft={206.99}
+                compLeft={206}
                 compRight={0}
                 compType="Text"
               >
@@ -599,21 +599,21 @@ const ProductsPage = () => {
               </Text>
               <Image
                 src={"images/img_vector_18.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10826;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
+                comWidth={10}
+                comHeight={15}
                 compLeft={9}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-semibold lg:ml-[51px] xl:ml-[58px] ml-[65.99px] 2xl:ml-[66px] 3xl:ml-[79px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold lg:ml-[50px] xl:ml-[57px] ml-[65px] 3xl:ml-[78px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4797:10822"
                 comWidth={156}
                 comHeight={22}
-                compLeft={65.99}
+                compLeft={65}
                 compRight={0}
                 compType="Text"
               >
@@ -621,21 +621,21 @@ const ProductsPage = () => {
               </Text>
               <Image
                 src={"images/img_vector_19.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10823;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
+                comWidth={10}
+                comHeight={15}
                 compLeft={9}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-semibold 2xl:ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] ml-[99.99px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold 3xl:ml-[118px] lg:ml-[77px] xl:ml-[88px] ml-[99px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4797:10827"
                 comWidth={64}
                 comHeight={22}
-                compLeft={99.99}
+                compLeft={99}
                 compRight={0}
                 compType="Text"
               >
@@ -654,21 +654,21 @@ const ProductsPage = () => {
               </Text>
               <Image
                 src={"images/img_vector_20.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10830;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
+                comWidth={10}
+                comHeight={15}
                 compLeft={9}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-semibold ml-[101.99px] 2xl:ml-[102px] 3xl:ml-[122px] lg:ml-[79px] xl:ml-[90px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                className="font-semibold ml-[101px] 3xl:ml-[121px] lg:ml-[78px] xl:ml-[89px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4797:10832"
                 comWidth={73}
                 comHeight={22}
-                compLeft={101.99}
+                compLeft={101}
                 compRight={0}
                 compType="Text"
               >
@@ -676,10 +676,10 @@ const ProductsPage = () => {
               </Text>
               <Image
                 src={"images/img_vector_21.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
+                className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10833;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
+                comWidth={10}
+                comHeight={15}
                 compLeft={9}
                 compRight={0}
                 compType="Image"
@@ -715,7 +715,7 @@ const ProductsPage = () => {
                   compType="View"
                 ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
+                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
                   compId="4797:10854"
                   comWidth={46}
                   comHeight={46}
@@ -862,7 +862,7 @@ const ProductsPage = () => {
                   compType="View"
                 ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
+                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
                   compId="4797:10923"
                   comWidth={46}
                   comHeight={46}
@@ -1009,7 +1009,7 @@ const ProductsPage = () => {
                   compType="View"
                 ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
+                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
                   compId="4797:10941"
                   comWidth={46}
                   comHeight={46}
@@ -1156,7 +1156,7 @@ const ProductsPage = () => {
                   compType="View"
                 ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
+                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
                   compId="4797:10959"
                   comWidth={46}
                   comHeight={46}
@@ -1303,7 +1303,7 @@ const ProductsPage = () => {
                   compType="View"
                 ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
+                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
                   compId="4797:10977"
                   comWidth={46}
                   comHeight={46}
@@ -1450,7 +1450,7 @@ const ProductsPage = () => {
                   compType="View"
                 ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
+                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
                   compId="4797:10995"
                   comWidth={46}
                   comHeight={46}
@@ -1597,7 +1597,7 @@ const ProductsPage = () => {
                   compType="View"
                 ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
+                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
                   compId="4797:11013"
                   comWidth={46}
                   comHeight={46}
@@ -1744,7 +1744,7 @@ const ProductsPage = () => {
                   compType="View"
                 ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] pb-[9.8px] pl-[14.95px] 2xl:pl-[14px] 3xl:pl-[17px] pr-[15.05px] 2xl:pr-[15px] 3xl:pr-[18px] pt-[9.2px] lg:px-[11px] xl:px-[13px] 3xl:py-[11px] lg:py-[7px] xl:py-[8px] 2xl:py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
+                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
                   compId="4797:11031"
                   comWidth={46}
                   comHeight={46}

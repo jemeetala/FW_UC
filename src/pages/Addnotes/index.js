@@ -25,7 +25,7 @@ const AddnotesPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="143"
+          compId="142"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -63,7 +63,7 @@ const AddnotesPage = () => {
                   alt="Group345"
                 />
                 <Image
-                  src={"images/img_vector_115.png"}
+                  src={"images/img_vector_102.png"}
                   className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mt-[25px] xl:mt-[29px] mt-[33px] 3xl:mt-[39px] mx-[auto] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                   compId="I4798:8761;275:1558"
                   comWidth={16}
@@ -95,30 +95,30 @@ const AddnotesPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_116.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20.01px] 2xl:h-[21px] 3xl:h-[25px] ml-[15.06px] mr-[15.04px] lg:mt-[18px] xl:mt-[21px] mt-[23.99px] 2xl:mt-[24px] 3xl:mt-[28px] lg:mx-[11px] xl:mx-[13px] 2xl:mx-[15px] 3xl:mx-[18px] object-contain w-[40%]"
+                  src={"images/img_vector_103.png"}
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[17px] xl:mt-[20px] mt-[23px] 3xl:mt-[27px] mx-[auto] object-contain w-[38%]"
                   compId="I4798:8762;120:2252"
-                  comWidth={19.9}
-                  comHeight={20.01}
-                  compLeft={15.06}
-                  compRight={15.04}
+                  comWidth={19}
+                  comHeight={20}
+                  compLeft={15}
+                  compRight={15}
                   compType="Image"
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_117.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[19.89px] 2xl:h-[20px] 3xl:h-[24px] ml-[16.6px] mr-[16.51px] lg:mt-[27px] xl:mt-[32px] mt-[35.99px] 2xl:mt-[36px] 3xl:mt-[43px] lg:mx-[12px] xl:mx-[14px] 2xl:mx-[16px] 3xl:mx-[19px] object-contain w-[34%]"
+                  src={"images/img_vector_104.png"}
+                  className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I4798:8763;120:328"
-                  comWidth={16.89}
-                  comHeight={19.89}
-                  compLeft={16.6}
-                  compRight={16.51}
+                  comWidth={16}
+                  comHeight={19}
+                  compLeft={16}
+                  compRight={16}
                   compType="Image"
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_118.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36.12px] 2xl:mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
+                  src={"images/img_vector_105.png"}
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4798:8764;120:1630"
                   comWidth={18}
                   comHeight={20}
@@ -128,7 +128,7 @@ const AddnotesPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_119.png"}
+                  src={"images/img_vector_106.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4798:8765;120:434"
                   comWidth={20}
@@ -139,7 +139,7 @@ const AddnotesPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_120.png"}
+                  src={"images/img_vector_107.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4798:8766;120:1750"
                   comWidth={20}
@@ -150,13 +150,13 @@ const AddnotesPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_121.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[11px] ml-[14.86px] 2xl:ml-[14px] 3xl:ml-[17px] lg:mr-[12px] mr-[15.49px] 2xl:mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] xl:mx-[13px] object-contain w-[39%]"
+                  src={"images/img_vector_108.png"}
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4798:8767;120:1890"
-                  comWidth={19.65}
+                  comWidth={19}
                   comHeight={20}
-                  compLeft={14.86}
-                  compRight={15.49}
+                  compLeft={14}
+                  compRight={15}
                   compType="Image"
                   alt="Vector"
                 />
@@ -165,7 +165,7 @@ const AddnotesPage = () => {
           </aside>
           <Column
             className="items-center lg:mb-[21px] xl:mb-[24px] mb-[27px] 3xl:mb-[32px] w-[93%]"
-            compId="142"
+            compId="141"
             comWidth={1342}
             comHeight={997}
             compLeft={0}
@@ -182,7 +182,7 @@ const AddnotesPage = () => {
               compType="Row"
             >
               <SelectBox
-                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6.01px] 2xl:pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
+                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
                 compId="4797:11522"
                 comWidth={0}
                 comHeight={40}
@@ -196,13 +196,13 @@ const AddnotesPage = () => {
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_123.png"}
-                    className="w-[10.54px] h-[6.25px] mr-[14.71px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                    src={"images/img_vector_110.png"}
+                    className="w-[10.54px] h-[6.25px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                     compId="I4797:11526;120:93"
                     comWidth={10.54}
                     comHeight={6.25}
                     compLeft={0}
-                    compRight={14.71}
+                    compRight={14}
                     compType="Image"
                     alt="Vector"
                   />
@@ -222,7 +222,7 @@ const AddnotesPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="144"
+                compId="143"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -272,7 +272,7 @@ const AddnotesPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:p-[1px] p-[2.45px] 3xl:p-[2px] 2xl:p-[2px] xl:p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:11512"
                   comWidth={40}
                   comHeight={40}
@@ -314,7 +314,7 @@ const AddnotesPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12.26px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:11518"
                   comWidth={40}
                   comHeight={40}
@@ -324,7 +324,7 @@ const AddnotesPage = () => {
                 >
                   <Image
                     src={"images/img_group99_4.png"}
-                    className="w-[74%] flex items-center justify-center"
+                    className="w-[72%] flex items-center justify-center"
                     compId="4797:11518"
                     comWidth={40}
                     comHeight={40}
@@ -357,22 +357,22 @@ const AddnotesPage = () => {
                 Contacts
               </Text>
               <Image
-                src={"images/img_vector_124.png"}
-                className="lg:h-[11px] xl:h-[12px] h-[13.4px] 2xl:h-[14px] 3xl:h-[17px] lg:ml-[14px] xl:ml-[16px] ml-[18.1px] 2xl:ml-[18px] 3xl:ml-[21px] lg:my-[10px] xl:my-[11px] my-[13.3px] 2xl:my-[13px] 3xl:my-[15px] object-contain w-[1%]"
+                src={"images/img_vector_111.png"}
+                className="lg:h-[11px] xl:h-[12px] h-[13px] 2xl:h-[14px] 3xl:h-[16px] lg:ml-[14px] xl:ml-[16px] ml-[18px] 3xl:ml-[21px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] object-contain w-[1%]"
                 compId="I4582:7249;120:97"
-                comWidth={7.7}
-                comHeight={13.4}
-                compLeft={18.1}
+                comWidth={7}
+                comHeight={13}
+                compLeft={18}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-normal 3xl:mb-[10px] lg:mb-[7px] xl:mb-[8px] mb-[9px] lg:ml-[18px] xl:ml-[21px] ml-[24.2px] 2xl:ml-[24px] 3xl:ml-[29px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
+                className="font-normal 3xl:mb-[10px] lg:mb-[7px] xl:mb-[8px] mb-[9px] lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
                 compId="4582:7251"
                 comWidth={121}
                 comHeight={23}
-                compLeft={24.2}
+                compLeft={24}
                 compRight={0}
                 compType="Text"
               >
@@ -380,7 +380,7 @@ const AddnotesPage = () => {
               </Text>
               <Row
                 className="items-center justify-center lg:ml-[248px] xl:ml-[283px] ml-[319px] 3xl:ml-[383px] w-[56%]"
-                compId="145"
+                compId="144"
                 comWidth={745}
                 comHeight={40}
                 compLeft={319}
@@ -389,7 +389,7 @@ const AddnotesPage = () => {
               >
                 <Input
                   className="bg-transparent border-0 font-normal not-italic p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
-                  WrapClassName="2xl:py-[8px] 3xl:pl-[12px] 3xl:pr-[13px] 3xl:py-[10px] bg-white_A700 border border-gray_201 border-solid flex lg:pl-[7px] lg:pr-[8px] lg:py-[6px] pl-[10px] pr-[11px] py-[8.5px] rounded-radius4 w-[11%] xl:pl-[8px] xl:pr-[9px] xl:py-[7px]"
+                  WrapClassName="3xl:pl-[12px] 3xl:pr-[13px] 3xl:py-[9px] bg-white_A700 border border-gray_201 border-solid flex lg:pl-[7px] lg:pr-[8px] lg:py-[6px] pl-[10px] pr-[11px] py-[8px] rounded-radius4 w-[11%] xl:pl-[8px] xl:pr-[9px] xl:py-[7px]"
                   compId="4582:7673"
                   comWidth={0}
                   comHeight={40}
@@ -400,7 +400,7 @@ const AddnotesPage = () => {
                   placeholder="Email"
                   prefix={
                     <Image
-                      src={"images/img_vector_125.png"}
+                      src={"images/img_vector_112.png"}
                       className="w-[20px] lg:w-[15px] xl:w-[17px] 3xl:w-[24px] my-[auto]"
                       compId="I4582:7674;120:866"
                       comWidth={20}
@@ -413,7 +413,7 @@ const AddnotesPage = () => {
                   }
                 ></Input>
                 <SelectBox
-                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12.09px] 2xl:pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
+                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
                   compId="4582:7701"
                   comWidth={0}
                   comHeight={40}
@@ -427,13 +427,13 @@ const AddnotesPage = () => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_127.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                      src={"images/img_vector_114.png"}
+                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4582:7704;120:3699"
                       comWidth={10.4}
                       comHeight={6.2}
                       compLeft={0}
-                      compRight={14.8}
+                      compRight={14}
                       compType="Image"
                       alt="Vector"
                     />
@@ -454,20 +454,20 @@ const AddnotesPage = () => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_129.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                      src={"images/img_vector_116.png"}
+                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4582:7697;120:3699"
                       comWidth={10.4}
                       comHeight={6.2}
                       compLeft={0}
-                      compRight={14.8}
+                      compRight={14}
                       compType="Image"
                       alt="Vector"
                     />
                   }
                 ></SelectBox>
                 <Button
-                  className="2xl:py-[8px] 3xl:ml-[12px] 3xl:px-[9px] 3xl:py-[10px] bg-white_A700 border border-gray_201 border-solid flex items-center justify-between lg:ml-[7px] lg:p-[6px] ml-[10px] px-[8px] py-[8.5px] rounded-radius4 text-center w-[10%] xl:ml-[8px] xl:p-[7px]"
+                  className="3xl:ml-[12px] 3xl:p-[9px] bg-white_A700 border border-gray_201 border-solid flex items-center justify-between lg:ml-[7px] lg:p-[6px] ml-[10px] p-[8px] rounded-radius4 text-center w-[10%] xl:ml-[8px] xl:p-[7px]"
                   compId="4582:7682"
                   comWidth={0}
                   comHeight={40}
@@ -507,13 +507,13 @@ const AddnotesPage = () => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_131.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                      src={"images/img_vector_118.png"}
+                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4582:7690;120:3699"
                       comWidth={10.4}
                       comHeight={6.2}
                       compLeft={0}
-                      compRight={14.8}
+                      compRight={14}
                       compType="Image"
                       alt="Vector"
                     />
@@ -534,13 +534,13 @@ const AddnotesPage = () => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_133.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
+                      src={"images/img_vector_120.png"}
+                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4582:7669;120:3699"
                       comWidth={10.4}
                       comHeight={6.2}
                       compLeft={0}
-                      compRight={14.8}
+                      compRight={14}
                       compType="Image"
                       alt="Vector"
                     />
@@ -600,7 +600,7 @@ const AddnotesPage = () => {
                 />
                 <Row
                   className="items-start justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[40%]"
-                  compId="146"
+                  compId="145"
                   comWidth={271}
                   comHeight={70}
                   compLeft={8}
@@ -608,9 +608,9 @@ const AddnotesPage = () => {
                   compType="Row"
                 >
                   <Column
-                    className="items-start justify-start w-[74%]"
+                    className="items-start justify-start w-[73%]"
                     compId="4582:7340"
-                    comWidth={199.33}
+                    comWidth={199}
                     comHeight={70}
                     compLeft={0}
                     compRight={0}
@@ -618,8 +618,8 @@ const AddnotesPage = () => {
                   >
                     <Column
                       className="items-center w-[100%]"
-                      compId="147"
-                      comWidth={199.33}
+                      compId="146"
+                      comWidth={199}
                       comHeight={22}
                       compLeft={0}
                       compRight={0}
@@ -628,7 +628,7 @@ const AddnotesPage = () => {
                       <Row
                         className="items-center justify-evenly w-[100%]"
                         compId="4582:7749"
-                        comWidth={199.33}
+                        comWidth={199}
                         comHeight={22}
                         compLeft={0}
                         compRight={0}
@@ -646,7 +646,7 @@ const AddnotesPage = () => {
                           Jane Sampleton
                         </Text>
                         <Button
-                          className="bg-blue_A400 flex lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] items-center justify-center my-[1px] xl:p-[3px] lg:p-[3px] p-[4.44px] 2xl:p-[4px] 3xl:p-[5px] rounded-radius50 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                          className="bg-blue_A400 flex lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] items-center justify-center my-[1px] xl:p-[3px] lg:p-[3px] p-[4px] rounded-radius50 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                           compId="4582:7736"
                           comWidth={20}
                           comHeight={20}
@@ -656,7 +656,7 @@ const AddnotesPage = () => {
                         >
                           <Image
                             src={"images/img_group79.png"}
-                            className="w-[52%] flex items-center justify-center"
+                            className="w-[48%] flex items-center justify-center"
                             compId="4582:7736"
                             comWidth={20}
                             comHeight={20}
@@ -667,7 +667,7 @@ const AddnotesPage = () => {
                           />
                         </Button>
                         <Button
-                          className="bg-light_blue_800 flex lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] items-center justify-center my-[1px] xl:p-[3px] lg:p-[3px] p-[4.44px] 2xl:p-[4px] 3xl:p-[5px] rounded-radius50 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                          className="bg-light_blue_800 flex lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] items-center justify-center my-[1px] xl:p-[3px] lg:p-[3px] p-[4px] rounded-radius50 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                           compId="4582:7737"
                           comWidth={20}
                           comHeight={20}
@@ -677,7 +677,7 @@ const AddnotesPage = () => {
                         >
                           <Image
                             src={"images/img_group80.png"}
-                            className="w-[99%] flex items-center justify-center"
+                            className="w-[92%] flex items-center justify-center"
                             compId="4582:7737"
                             comWidth={20}
                             comHeight={20}
@@ -688,7 +688,7 @@ const AddnotesPage = () => {
                           />
                         </Button>
                         <Button
-                          className="bg-blue_500 flex lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] items-center justify-center my-[1px] xl:p-[3px] lg:p-[3px] p-[4.44px] 2xl:p-[4px] 3xl:p-[5px] rounded-radius50 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                          className="bg-blue_500 flex lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] items-center justify-center my-[1px] xl:p-[3px] lg:p-[3px] p-[4px] rounded-radius50 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                           compId="4582:7743"
                           comWidth={20}
                           comHeight={20}
@@ -698,7 +698,7 @@ const AddnotesPage = () => {
                         >
                           <Image
                             src={"images/img_group81.png"}
-                            className="w-[100%] flex items-center justify-center"
+                            className="w-[93%] flex items-center justify-center"
                             compId="4582:7743"
                             comWidth={20}
                             comHeight={20}
@@ -711,38 +711,38 @@ const AddnotesPage = () => {
                       </Row>
                     </Column>
                     <Row
-                      className="items-center justify-start ml-[2.93px] 2xl:ml-[2px] xl:ml-[2px] lg:ml-[2px] 3xl:ml-[3px] lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[88%]"
+                      className="items-center justify-start xl:ml-[1px] lg:ml-[1px] ml-[2px] lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[88%]"
                       compId="4582:7722"
-                      comWidth={176.07}
+                      comWidth={176}
                       comHeight={32}
-                      compLeft={2.93}
+                      compLeft={2}
                       compRight={0}
                       compType="Row"
                     >
                       <Image
-                        src={"images/img_vector_134.png"}
-                        className="lg:h-[14px] xl:h-[15px] h-[16.72px] 2xl:h-[17px] 3xl:h-[21px] mb-[7.62px] mt-[7.66px] lg:my-[5px] xl:my-[6px] 2xl:my-[7px] 3xl:my-[9px] object-contain w-[8%]"
+                        src={"images/img_vector_121.png"}
+                        className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] object-contain w-[8%]"
                         compId="I4582:7723;120:1464"
-                        comWidth={14.13}
-                        comHeight={16.72}
+                        comWidth={14}
+                        comHeight={16}
                         compLeft={0}
                         compRight={0}
                         compType="Image"
                         alt="Vector"
                       />
                       <Text
-                        className="font-semibold ml-[10.94px] 2xl:ml-[10px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] lg:my-[3px] xl:my-[4px] my-[5px] 3xl:my-[6px] xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-blue_800 w-[auto]"
+                        className="font-semibold ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:my-[3px] xl:my-[4px] my-[5px] 3xl:my-[6px] xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-blue_800 w-[auto]"
                         compId="4582:7724"
                         comWidth={111}
                         comHeight={22}
-                        compLeft={10.94}
+                        compLeft={10}
                         compRight={0}
                         compType="Text"
                       >
                         Galveston, Texas, US
                       </Text>
                       <Button
-                        className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[25px] xl:h-[29px] h-[32px] 2xl:h-[33px] 3xl:h-[39px] items-center justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] 3xl:p-[11px] lg:p-[7px] xl:p-[8px] p-[9.33px] 2xl:p-[9px] rounded-radius4 lg:w-[24px] xl:w-[28px] w-[32px] 3xl:w-[38px]"
+                        className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[25px] xl:h-[29px] h-[32px] 2xl:h-[33px] 3xl:h-[39px] items-center justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] 3xl:p-[10px] lg:p-[7px] xl:p-[8px] p-[9px] rounded-radius4 lg:w-[24px] xl:w-[28px] w-[32px] 3xl:w-[38px]"
                         compId="4797:11549"
                         comWidth={32}
                         comHeight={32}
@@ -752,7 +752,7 @@ const AddnotesPage = () => {
                       >
                         <Image
                           src={"images/img_group437.png"}
-                          className="w-[90%] flex items-center justify-center"
+                          className="w-[86%] flex items-center justify-center"
                           compId="4797:11549"
                           comWidth={32}
                           comHeight={32}
@@ -765,11 +765,11 @@ const AddnotesPage = () => {
                     </Row>
                   </Column>
                   <Line
-                    className="bg-bluegray_100 h-[2px] lg:mb-[13px] xl:mb-[15px] mb-[17px] 3xl:mb-[20px] lg:ml-[12px] xl:ml-[14px] ml-[16.67px] 2xl:ml-[16px] 3xl:ml-[20px] rotate-[-90deg] w-[1%]"
+                    className="bg-bluegray_100 h-[2px] lg:mb-[13px] xl:mb-[15px] mb-[17px] 3xl:mb-[20px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] rotate-[-90deg] w-[1%]"
                     compId="4582:7750"
                     comWidth={2}
                     comHeight={53}
-                    compLeft={16.67}
+                    compLeft={16}
                     compRight={0}
                     compType="Line"
                   />
@@ -784,7 +784,7 @@ const AddnotesPage = () => {
                   >
                     <Column
                       className="items-center w-[100%]"
-                      compId="148"
+                      compId="147"
                       comWidth={39}
                       comHeight={22}
                       compLeft={0}
@@ -817,7 +817,7 @@ const AddnotesPage = () => {
                   </Column>
                 </Row>
                 <Column
-                  className="items-start justify-start lg:mb-[17px] xl:mb-[19px] mb-[22px] 3xl:mb-[26px] lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:pb-[1px] lg:pb-[1px] pb-[2.05px] 3xl:pb-[2px] 2xl:pb-[2px] pt-[1px] w-[17%]"
+                  className="items-start justify-start lg:mb-[17px] xl:mb-[19px] mb-[22px] 3xl:mb-[26px] lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:pb-[1px] lg:pb-[1px] pb-[2px] pt-[1px] w-[17%]"
                   compId="4582:7772"
                   comWidth={116}
                   comHeight={48}
@@ -846,7 +846,7 @@ const AddnotesPage = () => {
                       Customer fit
                     </Text>
                     <Image
-                      src={"images/img_vector_135.png"}
+                      src={"images/img_vector_122.png"}
                       className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                       compId="I4582:7786;120:1336"
                       comWidth={20}
@@ -858,73 +858,73 @@ const AddnotesPage = () => {
                     />
                   </Row>
                   <Column
-                    className="items-center mr-[1px] lg:mt-[5px] xl:mt-[6px] mt-[7.05px] 2xl:mt-[7px] 3xl:mt-[8px] pl-[1.67px] 2xl:pl-[1px] xl:pl-[1px] lg:pl-[1px] 3xl:pl-[2px] w-[99%]"
-                    compId="149"
-                    comWidth={114.35}
-                    comHeight={15.9}
+                    className="items-center mr-[1px] lg:mt-[5px] xl:mt-[6px] mt-[7px] 3xl:mt-[8px] pl-[1px] w-[98%]"
+                    compId="148"
+                    comWidth={114}
+                    comHeight={15}
                     compLeft={0}
-                    compRight={1.65}
+                    compRight={1}
                     compType="Column"
                   >
                     <Row
-                      className="items-center justify-between w-[100%]"
+                      className="items-center justify-between w-[99%]"
                       compId="4582:7790"
-                      comWidth={112.68}
-                      comHeight={15.9}
+                      comWidth={112}
+                      comHeight={15}
                       compLeft={0}
                       compRight={0}
                       compType="Row"
                     >
                       <Image
-                        src={"images/img_vector_136.png"}
-                        className="lg:h-[13px] h-[15.9px] xl:h-[15px] 2xl:h-[16px] 3xl:h-[20px] object-contain w-[15%]"
+                        src={"images/img_vector_123.png"}
+                        className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7791;120:5517"
-                        comWidth={16.68}
-                        comHeight={15.9}
+                        comWidth={16}
+                        comHeight={15}
                         compLeft={0}
                         compRight={0}
                         compType="Image"
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_137.png"}
-                        className="lg:h-[13px] h-[15.9px] xl:h-[15px] 2xl:h-[16px] 3xl:h-[20px] object-contain w-[15%]"
+                        src={"images/img_vector_124.png"}
+                        className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7792;120:5517"
-                        comWidth={16.68}
-                        comHeight={15.9}
+                        comWidth={16}
+                        comHeight={15}
                         compLeft={0}
                         compRight={0}
                         compType="Image"
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_138.png"}
-                        className="lg:h-[13px] h-[15.9px] xl:h-[15px] 2xl:h-[16px] 3xl:h-[20px] object-contain w-[15%]"
+                        src={"images/img_vector_125.png"}
+                        className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7793;120:5517"
-                        comWidth={16.68}
-                        comHeight={15.9}
+                        comWidth={16}
+                        comHeight={15}
                         compLeft={0}
                         compRight={0}
                         compType="Image"
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_139.png"}
-                        className="lg:h-[13px] h-[15.9px] xl:h-[15px] 2xl:h-[16px] 3xl:h-[20px] object-contain w-[15%]"
+                        src={"images/img_vector_126.png"}
+                        className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7794;120:5517"
-                        comWidth={16.68}
-                        comHeight={15.9}
+                        comWidth={16}
+                        comHeight={15}
                         compLeft={0}
                         compRight={0}
                         compType="Image"
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_140.png"}
-                        className="lg:h-[13px] h-[15.9px] xl:h-[15px] 2xl:h-[16px] 3xl:h-[20px] object-contain w-[15%]"
+                        src={"images/img_vector_127.png"}
+                        className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7795;120:5517"
-                        comWidth={16.68}
-                        comHeight={15.9}
+                        comWidth={16}
+                        comHeight={15}
                         compLeft={0}
                         compRight={0}
                         compType="Image"
@@ -945,7 +945,7 @@ const AddnotesPage = () => {
                   Show scoring factors
                 </Text>
                 <Image
-                  src={"images/img_vector_141.png"}
+                  src={"images/img_vector_128.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mb-[37px] xl:mb-[42px] mb-[48px] 3xl:mb-[57px] lg:ml-[4px] xl:ml-[5px] ml-[6px] 3xl:ml-[7px] xl:mt-[1px] lg:mt-[1px] mt-[2px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4582:7804;120:1336"
                   comWidth={20}
@@ -1031,7 +1031,7 @@ const AddnotesPage = () => {
                   </Text>
                   <Column
                     className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                    compId="150"
+                    compId="149"
                     comWidth={181}
                     comHeight={22}
                     compLeft={0}

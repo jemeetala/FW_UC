@@ -25,7 +25,7 @@ const AddContactsModal = (props) => {
             placeholder="Add Contact"
             suffix={
               <Image
-                src={"images/img_vector_86.png"}
+                src={"images/img_vector_73.png"}
                 className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                 compId="I4542:7615;120:1608"
                 comWidth={16.01}
@@ -62,7 +62,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="107"
+              compId="106"
               comWidth={489}
               comHeight={36}
               compLeft={0}
@@ -98,7 +98,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="108"
+              compId="107"
               comWidth={489}
               comHeight={36}
               compLeft={0}
@@ -131,7 +131,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="109"
+              compId="108"
               comWidth={489}
               comHeight={39}
               compLeft={0}
@@ -164,7 +164,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="110"
+              compId="109"
               comWidth={489}
               comHeight={39}
               compLeft={0}

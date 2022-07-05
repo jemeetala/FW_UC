@@ -34,7 +34,7 @@ const AddTaskModal = (props) => {
             placeholder="Add task"
             suffix={
               <Image
-                src={"images/img_vector_87.png"}
+                src={"images/img_vector_74.png"}
                 className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                 compId="I4712:9389;120:1608"
                 comWidth={16.01}
@@ -57,7 +57,7 @@ const AddTaskModal = (props) => {
           >
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] w-[94%]"
-              compId="111"
+              compId="110"
               comWidth={484}
               comHeight={55}
               compLeft={0}
@@ -74,7 +74,7 @@ const AddTaskModal = (props) => {
                 compType="Column"
               >
                 <CheckBox
-                  className="font-normal not-italic pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] pr-[0] py-[0] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_901 w-[37%]"
+                  className="font-normal not-italic pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_901 w-[37%]"
                   inputClassName="2xl:h-[24px] 3xl:h-[28px] 3xl:w-[27px] bg-white_A700 border-bluegray_201 border-bw083 border-solid h-[23px] lg:h-[18px] lg:w-[17px] rounded-radius25 w-[23px] xl:h-[21px] xl:w-[20px] mr-[5px]"
                   compId="4712:9308"
                   comWidth={172}
@@ -101,7 +101,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="112"
+              compId="111"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -110,7 +110,7 @@ const AddTaskModal = (props) => {
             >
               <Input
                 className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
-                WrapClassName="2xl:pr-[15px] 3xl:pl-[14px] 3xl:pr-[18px] 3xl:py-[8px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pl-[9px] lg:pr-[11px] lg:py-[5px] pl-[12px] pr-[15.34px] py-[7px] rounded-radius4 w-[100%] xl:pl-[10px] xl:pr-[13px] xl:py-[6px]"
+                WrapClassName="3xl:pl-[14px] 3xl:pr-[18px] 3xl:py-[8px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pl-[9px] lg:pr-[11px] lg:py-[5px] pl-[12px] pr-[15px] py-[7px] rounded-radius4 w-[100%] xl:pl-[10px] xl:pr-[13px] xl:py-[6px]"
                 compId="4712:9313"
                 comWidth={0}
                 comHeight={36}
@@ -121,7 +121,7 @@ const AddTaskModal = (props) => {
                 placeholder="Enter title of task"
                 suffix={
                   <Image
-                    src={"images/img_vector_88.png"}
+                    src={"images/img_vector_75.png"}
                     className="w-[13.33px] h-[13.33px] lg:w-[10px] lg:h-[11px] xl:w-[11px] xl:h-[12px] 2xl:w-[13px] 2xl:h-[14px] 3xl:w-[16px] 3xl:h-[17px] my-[auto]"
                     compId="4712:9318"
                     comWidth={13.33}
@@ -147,7 +147,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="113"
+              compId="112"
               comWidth={484}
               comHeight={214}
               compLeft={0}
@@ -206,7 +206,7 @@ const AddTaskModal = (props) => {
                   </Text>
                   <Column
                     className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
-                    compId="115"
+                    compId="114"
                     comWidth={145}
                     comHeight={36}
                     compLeft={0}
@@ -228,13 +228,13 @@ const AddTaskModal = (props) => {
                       isMulti={false}
                       indicator={
                         <Image
-                          src={"images/img_vector_89.png"}
-                          className="w-[8.67px] h-[5.17px] mr-[21.66px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[19px] 2xl:w-[8px] 2xl:h-[6px] 2xl:mr-[21px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[26px]"
+                          src={"images/img_vector_76.png"}
+                          className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
                           compId="I4712:9331;120:3699"
                           comWidth={8.67}
                           comHeight={5.17}
                           compLeft={0}
-                          compRight={21.66}
+                          compRight={21}
                           compType="Image"
                           alt="Vector"
                         />
@@ -252,11 +252,11 @@ const AddTaskModal = (props) => {
                   compType="Column"
                 >
                   <Text
-                    className="font-normal ml-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    className="font-normal ml-[0] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
                     compId="4712:9333"
                     comWidth={58}
                     comHeight={22}
-                    compLeft={0.33}
+                    compLeft={0}
                     compRight={0}
                     compType="Text"
                   >
@@ -267,7 +267,7 @@ const AddTaskModal = (props) => {
                   </Text>
                   <Column
                     className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
-                    compId="116"
+                    compId="115"
                     comWidth={314}
                     comHeight={36}
                     compLeft={0}
@@ -284,8 +284,8 @@ const AddTaskModal = (props) => {
                       compType="Row"
                     >
                       <Input
-                        className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[22px] xl:pr-[25px] pr-[28.67px] 2xl:pr-[28px] 3xl:pr-[34px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
-                        WrapClassName="2xl:pr-[17px] 3xl:pb-[8px] 3xl:pl-[19px] 3xl:pr-[21px] 3xl:pt-[7px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pb-[5px] lg:pl-[12px] lg:pr-[13px] lg:pt-[4px] pb-[7px] pl-[16px] pr-[17.66px] pt-[6px] rounded-radius4 w-[46%] xl:pb-[6px] xl:pl-[14px] xl:pr-[15px] xl:pt-[5px]"
+                        className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[21px] xl:pr-[24px] pr-[28px] 3xl:pr-[33px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
+                        WrapClassName="3xl:pb-[8px] 3xl:pl-[19px] 3xl:pr-[20px] 3xl:pt-[7px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pb-[5px] lg:pl-[12px] lg:pr-[13px] lg:pt-[4px] pb-[7px] pl-[16px] pr-[17px] pt-[6px] rounded-radius4 w-[46%] xl:pb-[6px] xl:pl-[14px] xl:pr-[15px] xl:pt-[5px]"
                         compId="4712:9335"
                         comWidth={0}
                         comHeight={36}
@@ -296,7 +296,7 @@ const AddTaskModal = (props) => {
                         placeholder="06/28/2022"
                         suffix={
                           <Image
-                            src={"images/img_vector_90.png"}
+                            src={"images/img_vector_77.png"}
                             className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                             compId="I4712:9339;120:380"
                             comWidth={16.67}
@@ -310,7 +310,7 @@ const AddTaskModal = (props) => {
                       ></Input>
                       <Input
                         className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
-                        WrapClassName="2xl:pr-[17px] 3xl:pb-[8px] 3xl:pl-[19px] 3xl:pr-[21px] 3xl:pt-[7px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pb-[5px] lg:pl-[12px] lg:pr-[13px] lg:pt-[4px] pb-[7px] pl-[16px] pr-[17.66px] pt-[6px] rounded-radius4 w-[46%] xl:pb-[6px] xl:pl-[14px] xl:pr-[15px] xl:pt-[5px]"
+                        WrapClassName="3xl:pb-[8px] 3xl:pl-[19px] 3xl:pr-[20px] 3xl:pt-[7px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pb-[5px] lg:pl-[12px] lg:pr-[13px] lg:pt-[4px] pb-[7px] pl-[16px] pr-[17px] pt-[6px] rounded-radius4 w-[46%] xl:pb-[6px] xl:pl-[14px] xl:pr-[15px] xl:pt-[5px]"
                         compId="4712:9340"
                         comWidth={0}
                         comHeight={36}
@@ -321,7 +321,7 @@ const AddTaskModal = (props) => {
                         placeholder="09:40"
                         suffix={
                           <Image
-                            src={"images/img_vector_91.png"}
+                            src={"images/img_vector_78.png"}
                             className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                             compId="I4712:9344;120:470"
                             comWidth={16.67}
@@ -351,7 +351,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="114"
+              compId="113"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -373,13 +373,13 @@ const AddTaskModal = (props) => {
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_92.png"}
-                    className="w-[8.67px] h-[5.17px] mr-[21.66px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[19px] 2xl:w-[8px] 2xl:h-[6px] 2xl:mr-[21px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[26px]"
+                    src={"images/img_vector_79.png"}
+                    className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
                     compId="I4712:9351;120:3699"
                     comWidth={8.67}
                     comHeight={5.17}
                     compLeft={0}
-                    compRight={21.66}
+                    compRight={21}
                     compType="Image"
                     alt="Vector"
                   />

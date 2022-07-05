@@ -8,8 +8,9 @@ import {
   Image,
   Button,
   Input,
-  Text,
   List,
+  Text,
+  Stack,
   Line,
 } from "components";
 
@@ -42,7 +43,7 @@ const ContactsPage = () => {
   return (
     <>
       <Column
-        className="bg-bluegray_50 font-sourcesanspro items-center justify-end mx-[auto] w-[100%]"
+        className="bg-bluegray_50 font-sourcesanspro items-center justify-start mx-[auto] pr-[1px] w-[100%]"
         compId="4793:8287"
         comWidth={1440}
         comHeight={1024}
@@ -51,15 +52,15 @@ const ContactsPage = () => {
         compType="Column"
       >
         <Row
-          className="items-center justify-evenly w-[100%]"
-          compId="94"
-          comWidth={1440}
-          comHeight={1055}
+          className="items-start justify-evenly w-[100%]"
+          compId="92"
+          comWidth={1439}
+          comHeight={1024}
           compLeft={0}
           compRight={0}
           compType="Row"
         >
-          <aside className="items-center lg:mb-[24px] xl:mb-[27px] mb-[31px] 3xl:mb-[37px] w-[7%]">
+          <aside className="items-center justify-start w-[7%]">
             <Column
               className=""
               compId="12"
@@ -123,29 +124,29 @@ const ContactsPage = () => {
                 </Button>
                 <Image
                   src={"images/img_vector_61.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20.01px] 2xl:h-[21px] 3xl:h-[25px] ml-[15.06px] mr-[15.04px] lg:mt-[18px] xl:mt-[21px] mt-[23.99px] 2xl:mt-[24px] 3xl:mt-[28px] lg:mx-[11px] xl:mx-[13px] 2xl:mx-[15px] 3xl:mx-[18px] object-contain w-[40%]"
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[17px] xl:mt-[20px] mt-[23px] 3xl:mt-[27px] mx-[auto] object-contain w-[38%]"
                   compId="I4793:8299;120:2252"
-                  comWidth={19.9}
-                  comHeight={20.01}
-                  compLeft={15.06}
-                  compRight={15.04}
+                  comWidth={19}
+                  comHeight={20}
+                  compLeft={15}
+                  compRight={15}
                   compType="Image"
                   alt="Vector"
                 />
                 <Image
                   src={"images/img_vector_62.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[19.89px] 2xl:h-[20px] 3xl:h-[24px] ml-[16.6px] mr-[16.51px] lg:mt-[27px] xl:mt-[32px] mt-[35.99px] 2xl:mt-[36px] 3xl:mt-[43px] lg:mx-[12px] xl:mx-[14px] 2xl:mx-[16px] 3xl:mx-[19px] object-contain w-[34%]"
+                  className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I4793:8300;120:328"
-                  comWidth={16.89}
-                  comHeight={19.89}
-                  compLeft={16.6}
-                  compRight={16.51}
+                  comWidth={16}
+                  comHeight={19}
+                  compLeft={16}
+                  compRight={16}
                   compType="Image"
                   alt="Vector"
                 />
                 <Image
                   src={"images/img_vector_63.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36.12px] 2xl:mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4793:8301;120:1630"
                   comWidth={18}
                   comHeight={20}
@@ -178,12 +179,12 @@ const ContactsPage = () => {
                 />
                 <Image
                   src={"images/img_vector_66.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[11px] ml-[14.86px] 2xl:ml-[14px] 3xl:ml-[17px] lg:mr-[12px] mr-[15.49px] 2xl:mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] xl:mx-[13px] object-contain w-[39%]"
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4793:8304;120:1890"
-                  comWidth={19.65}
+                  comWidth={19}
                   comHeight={20}
-                  compLeft={14.86}
-                  compRight={15.49}
+                  compLeft={14}
+                  compRight={15}
                   compType="Image"
                   alt="Vector"
                 />
@@ -191,10 +192,10 @@ const ContactsPage = () => {
             </Column>
           </aside>
           <Column
-            className="items-center w-[93%]"
-            compId="93"
-            comWidth={1342}
-            comHeight={1055}
+            className="items-center justify-start mb-[111px] 3xl:mb-[133px] lg:mb-[86px] xl:mb-[98px] w-[93%]"
+            compId="5022:8436"
+            comWidth={1341}
+            comHeight={913}
             compLeft={0}
             compRight={0}
             compType="Column"
@@ -205,14 +206,14 @@ const ContactsPage = () => {
               comWidth={1341}
               comHeight={72}
               compLeft={0}
-              compRight={1}
+              compRight={0}
               compType="Row"
             >
               <Input
                 value={inputvalue}
                 onChange={(e) => setInputvalue(e?.target?.value)}
-                className="bg-transparent border-0 font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6.01px] 2xl:pl-[6px] 3xl:pl-[7px] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
-                WrapClassName="2xl:pl-[6px] 3xl:pb-[9px] 3xl:pl-[7px] 3xl:pr-[26px] 3xl:pt-[10px] border border-bluegray_200 border-solid flex lg:pb-[6px] lg:pl-[4px] lg:pr-[17px] lg:pt-[7px] pb-[8px] pl-[6.01px] pr-[22px] pt-[9px] rounded-bl-[4px] rounded-br-[0] rounded-tl-[4px] rounded-tr-[0] w-[11%] xl:pb-[7px] xl:pl-[5px] xl:pr-[19px] xl:pt-[8px]"
+                className="bg-transparent border-0 font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
+                WrapClassName="3xl:pb-[9px] 3xl:pl-[7px] 3xl:pr-[26px] 3xl:pt-[10px] border border-bluegray_200 border-solid flex lg:pb-[6px] lg:pl-[4px] lg:pr-[17px] lg:pt-[7px] pb-[8px] pl-[6px] pr-[22px] pt-[9px] rounded-bl-[4px] rounded-br-[0] rounded-tl-[4px] rounded-tr-[0] w-[11%] xl:pb-[7px] xl:pl-[5px] xl:pr-[19px] xl:pt-[8px]"
                 compId="4793:8328"
                 comWidth={0}
                 comHeight={40}
@@ -267,7 +268,7 @@ const ContactsPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="96"
+                compId="94"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -317,7 +318,7 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:p-[1px] p-[2.45px] 3xl:p-[2px] 2xl:p-[2px] xl:p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4793:8318"
                   comWidth={40}
                   comHeight={40}
@@ -359,7 +360,7 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12.26px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4793:8324"
                   comWidth={40}
                   comHeight={40}
@@ -369,7 +370,7 @@ const ContactsPage = () => {
                 >
                   <Image
                     src={"images/img_group99_2.png"}
-                    className="w-[74%] flex items-center justify-center"
+                    className="w-[72%] flex items-center justify-center"
                     compId="4793:8324"
                     comWidth={40}
                     comHeight={40}
@@ -382,259 +383,243 @@ const ContactsPage = () => {
               </Row>
             </Row>
             <Row
-              className="bg-gray_100 border border-gray_201 border-solid items-center justify-start lg:pl-[14px] xl:pl-[16px] pl-[18px] 3xl:pl-[21px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] w-[100%]"
-              compId="4793:8604"
-              comWidth={1342}
-              comHeight={55}
+              className="bg-white_A700 font-montserrat items-center justify-between lg:p-[12px] xl:p-[14px] p-[16px] 3xl:p-[19px] w-[100%]"
+              compId="5022:8437"
+              comWidth={1341}
+              comHeight={72}
               compLeft={0}
               compRight={0}
               compType="Row"
             >
-              <Text
-                className="font-normal lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                compId="4793:8517"
-                comWidth={67}
-                comHeight={23}
+              <List
+                className="lg:gap-[10px] xl:gap-[11px] gap-[13px] 3xl:gap-[15px] grid grid-cols-3 min-h-[auto] w-[19%]"
+                compId="95"
+                comWidth={243}
+                comHeight={40}
                 compLeft={0}
                 compRight={0}
-                compType="Text"
+                compType="List"
+                orientation="horizontal"
               >
-                Contacts
-              </Text>
-              <Image
-                src={"images/img_vector_68.png"}
-                className="lg:h-[11px] xl:h-[12px] h-[13.4px] 2xl:h-[14px] 3xl:h-[17px] xl:mb-[10px] mb-[12.3px] 2xl:mb-[12px] 3xl:mb-[14px] lg:mb-[9px] lg:ml-[14px] xl:ml-[16px] ml-[18.1px] 2xl:ml-[18px] 3xl:ml-[21px] lg:mt-[10px] xl:mt-[11px] mt-[13.3px] 2xl:mt-[13px] 3xl:mt-[15px] object-contain w-[1%]"
-                compId="I4793:8518;120:97"
-                comWidth={7.7}
-                comHeight={13.4}
-                compLeft={18.1}
-                compRight={0}
-                compType="Image"
-                alt="Vector"
-              />
-              <Text
-                className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24.2px] 2xl:ml-[24px] 3xl:ml-[29px] lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
-                compId="4793:8519"
-                comWidth={92}
-                comHeight={23}
-                compLeft={24.2}
-                compRight={0}
-                compType="Text"
-              >
-                My Contacts
-              </Text>
+                <Text
+                  className="font-medium lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[15px] xl:text-[17px] text-[20px] 3xl:text-[24px] text-black_900 w-[100%]"
+                  compId="5022:8440"
+                  comWidth={80}
+                  comHeight={24}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Contact
+                </Text>
+                <Stack
+                  className="bg-white_A700 lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] xl:pr-[3px] lg:pr-[3px] pr-[4px] rounded-radius8 w-[100%]"
+                  compId="5022:8441"
+                  comWidth={37}
+                  comHeight={40}
+                  compLeft={13}
+                  compRight={0}
+                  compType="Stack"
+                >
+                  <Image
+                    src={"images/img_angleleftbou.png"}
+                    className="absolute lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] inset-y-[0] my-[auto] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                    compId="5022:8762"
+                    comWidth={24}
+                    comHeight={24}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Image"
+                    alt="angleleftbOu"
+                  />
+                </Stack>
+                <Text
+                  className="font-medium my-[10px] 3xl:my-[12px] lg:my-[7px] xl:my-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-black_900 w-[100%]"
+                  compId="5022:8444"
+                  comWidth={101}
+                  comHeight={20}
+                  compLeft={12}
+                  compRight={0}
+                  compType="Text"
+                >
+                  My Contacts
+                </Text>
+              </List>
               <Button
-                className="common-pointer bg-bluegray_900 border border-gray_201 border-solid font-normal 3xl:ml-[1179px] lg:ml-[763px] xl:ml-[873px] ml-[982px] not-italic lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-center text-white_A700 w-[7%]"
-                compId="4793:8522"
-                comWidth={98}
-                comHeight={39}
-                compLeft={982}
+                className="3xl:pl-[16px] 3xl:pr-[18px] 3xl:py-[9px] bg-deep_purple_A200 flex items-center justify-between lg:my-[3px] lg:pl-[10px] lg:pr-[11px] lg:py-[6px] my-[4px] pl-[14px] pr-[15px] py-[8px] rounded-radius8 text-center w-[10%] xl:my-[3px] xl:pl-[12px] xl:pr-[13px] xl:py-[7px]"
+                compId="5022:8448"
+                comWidth={0}
+                comHeight={32}
+                compLeft={0}
                 compRight={0}
                 compType="Button"
                 onClick={handleOpenAddContactsModal}
+                leftIcon={
+                  <Image
+                    src={"images/img_vector_68.png"}
+                    className="w-[11.5px] h-[11.5px] text-center lg:w-[8px] lg:h-[9px] xl:w-[10px] xl:h-[11px] 2xl:w-[11px] 2xl:h-[12px] 3xl:w-[13px] 3xl:h-[14px]"
+                    compId="I5022:8449;7:264"
+                    comWidth={11.5}
+                    comHeight={11.5}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Image"
+                    alt="Vector"
+                  />
+                }
               >
-                Add Contatcts
+                <div className="common-pointer bg-transparent font-bold xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-white_A700">
+                  Add Contacts
+                </div>
               </Button>
             </Row>
             <Row
-              className="bg-gray_100 border border-gray_201 border-solid items-center justify-start xl:pb-[10px] pb-[12px] 3xl:pb-[14px] lg:pb-[9px] lg:pl-[17px] xl:pl-[20px] pl-[23px] 3xl:pl-[27px] pt-[10px] 3xl:pt-[12px] lg:pt-[7px] xl:pt-[8px] w-[100%]"
-              compId="4793:8605"
-              comWidth={1342}
-              comHeight={46}
+              className="bg-white_A700 font-montserrat items-center justify-evenly lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+              compId="5022:8452"
+              comWidth={1341}
+              comHeight={66}
               compLeft={0}
               compRight={0}
               compType="Row"
             >
-              <div
-                className="bg-white_A700 border-bluegray_300 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] mb-[1px] xl:mt-[2px] lg:mt-[2px] mt-[3px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
-                compId="4797:9075"
-                comWidth={20}
-                comHeight={20}
-                compLeft={0}
-                compRight={0}
-                compType="View"
-              ></div>
               <Text
-                className="font-semibold xl:mb-[1px] lg:mb-[1px] mb-[2px] 3xl:ml-[100px] lg:ml-[65px] xl:ml-[74px] ml-[84px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                compId="4793:8343"
-                comWidth={35}
-                comHeight={22}
-                compLeft={84}
+                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                compId="5022:8454"
+                comWidth={149}
+                comHeight={17}
+                compLeft={0}
                 compRight={0}
                 compType="Text"
               >
                 Name
               </Text>
+              <Text
+                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                compId="5022:8456"
+                comWidth={129}
+                comHeight={17}
+                compLeft={0}
+                compRight={0}
+                compType="Text"
+              >
+                Score
+              </Text>
               <Image
                 src={"images/img_vector_69.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] xl:mb-[4px] lg:mb-[4px] mb-[5.49px] 2xl:mb-[5px] 3xl:mb-[6px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] lg:mt-[2px] mt-[3.5px] 2xl:mt-[3px] xl:mt-[3px] 3xl:mt-[4px] object-contain w-[1%]"
-                compId="I4793:8344;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
-                compLeft={9}
+                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] my-[10px] 3xl:my-[12px] lg:my-[7px] xl:my-[8px] object-contain w-[1%]"
+                compId="I5022:8457;5:15"
+                comWidth={9}
+                comHeight={12}
+                compLeft={0}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
-              <Row
-                className="items-center justify-center lg:ml-[124px] xl:ml-[142px] ml-[159.66px] 2xl:ml-[159px] 3xl:ml-[191px] xl:mt-[1px] lg:mt-[1px] mt-[2px] w-[6%]"
-                compId="97"
-                comWidth={82.34}
-                comHeight={22}
-                compLeft={159.66}
-                compRight={0}
-                compType="Row"
-              >
-                <Image
-                  src={"images/img_vector_70.png"}
-                  className="lg:h-[13px] xl:h-[15px] h-[16.67px] 2xl:h-[17px] 3xl:h-[21px] mb-[2.66px] mt-[2.67px] 2xl:my-[2px] xl:my-[2px] lg:my-[2px] 3xl:my-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16.67px] 2xl:w-[16px] 3xl:w-[20px]"
-                  compId="I4793:8346;120:1336"
-                  comWidth={16.67}
-                  comHeight={16.67}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Image"
-                  alt="Vector"
-                />
-                <Text
-                  className="font-semibold lg:ml-[4px] ml-[5.66px] 2xl:ml-[5px] xl:ml-[5px] 3xl:ml-[6px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                  compId="4793:8347"
-                  comWidth={41}
-                  comHeight={22}
-                  compLeft={5.66}
-                  compRight={0}
-                  compType="Text"
-                >
-                  Score
-                </Text>
-                <Image
-                  src={"images/img_vector_71.png"}
-                  className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[12%]"
-                  compId="I4793:8348;120:2012"
-                  comWidth={10.01}
-                  comHeight={15.01}
-                  compLeft={9}
-                  compRight={0}
-                  compType="Image"
-                  alt="Vector"
-                />
-              </Row>
               <Text
-                className="font-semibold lg:ml-[27px] xl:ml-[31px] ml-[34.99px] 2xl:ml-[35px] 3xl:ml-[42px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                compId="4793:8350"
-                comWidth={127}
-                comHeight={22}
-                compLeft={34.99}
+                className="font-bold leading-[normal] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 text-left w-[9%]"
+                compId="5022:8459"
+                comWidth={125}
+                comHeight={34}
+                compLeft={0}
                 compRight={0}
                 compType="Text"
               >
-                Open deals amou...
+                Open Deals Amount
               </Text>
               <Image
-                src={"images/img_vector_72.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
-                compId="I4793:8351;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
-                compLeft={9}
+                src={"images/img_vector_70.png"}
+                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] lg:mb-[14px] xl:mb-[16px] mb-[19px] 3xl:mb-[22px] mt-[1px] object-contain w-[1%]"
+                compId="I5022:8460;5:15"
+                comWidth={9}
+                comHeight={12}
+                compLeft={0}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-semibold lg:ml-[24px] xl:ml-[27px] ml-[31.24px] 2xl:ml-[31px] 3xl:ml-[37px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                compId="4793:8353"
-                comWidth={132}
-                comHeight={22}
-                compLeft={31.24}
-                compRight={0}
-                compType="Text"
-              >
-                last contacted ti...
-              </Text>
-              <Image
-                src={"images/img_vector_73.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
-                compId="I4793:8354;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
-                compLeft={9}
-                compRight={0}
-                compType="Image"
-                alt="Vector"
-              />
-              <Text
-                className="font-semibold lg:ml-[20px] xl:ml-[23px] ml-[26.24px] 2xl:ml-[26px] 3xl:ml-[31px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                compId="4793:8356"
-                comWidth={87}
-                comHeight={22}
-                compLeft={26.24}
-                compRight={0}
-                compType="Text"
-              >
-                sales owner
-              </Text>
-              <Image
-                src={"images/img_vector_74.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
-                compId="I4793:8357;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
-                compLeft={9}
-                compRight={0}
-                compType="Image"
-                alt="Vector"
-              />
-              <Text
-                className="font-semibold lg:ml-[55px] xl:ml-[63px] ml-[71.24px] 2xl:ml-[71px] 3xl:ml-[85px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                compId="4793:8359"
-                comWidth={45}
-                comHeight={22}
-                compLeft={71.24}
+                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                compId="5022:8462"
+                comWidth={126}
+                comHeight={17}
+                compLeft={0}
                 compRight={0}
                 compType="Text"
               >
                 Emails
               </Text>
               <Image
-                src={"images/img_vector_75.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
-                compId="I4793:8360;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
-                compLeft={9}
+                src={"images/img_vector_71.png"}
+                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] my-[10px] 3xl:my-[12px] lg:my-[7px] xl:my-[8px] object-contain w-[1%]"
+                compId="I5022:8463;5:15"
+                comWidth={9}
+                comHeight={12}
+                compLeft={0}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-semibold xl:ml-[100px] ml-[113.24px] 2xl:ml-[113px] 3xl:ml-[135px] lg:ml-[88px] xl:mt-[1px] lg:mt-[1px] mt-[2px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                compId="4793:8362"
-                comWidth={38}
-                comHeight={22}
-                compLeft={113.24}
+                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                compId="5022:8465"
+                comWidth={149}
+                comHeight={17}
+                compLeft={0}
+                compRight={0}
+                compType="Text"
+              >
+                Mobile No
+              </Text>
+              <Text
+                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                compId="5022:8467"
+                comWidth={149}
+                comHeight={17}
+                compLeft={0}
                 compRight={0}
                 compType="Text"
               >
                 Work
               </Text>
+              <Text
+                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                compId="5022:8469"
+                comWidth={125}
+                comHeight={17}
+                compLeft={0}
+                compRight={0}
+                compType="Text"
+              >
+                display_name
+              </Text>
               <Image
-                src={"images/img_vector_76.png"}
-                className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[2px] mb-[3.49px] 2xl:mb-[3px] xl:mb-[3px] 3xl:mb-[4px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:mt-[4px] lg:mt-[4px] mt-[5.5px] 2xl:mt-[5px] 3xl:mt-[6px] object-contain w-[1%]"
-                compId="I4793:8363;120:2012"
-                comWidth={10.01}
-                comHeight={15.01}
-                compLeft={9}
+                src={"images/img_vector_72.png"}
+                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] mb-[11px] 3xl:mb-[13px] lg:mb-[8px] xl:mb-[9px] mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] object-contain w-[1%]"
+                compId="I5022:8470;5:15"
+                comWidth={9}
+                comHeight={12}
+                compLeft={0}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
+              <Text
+                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                compId="5022:8472"
+                comWidth={149}
+                comHeight={17}
+                compLeft={0}
+                compRight={0}
+                compType="Text"
+              >
+                Action
+              </Text>
             </Row>
             <List
-              className="gap-[0] min-h-[auto] w-[100%]"
-              compId="95"
-              comWidth={1342}
-              comHeight={882}
+              className="font-montserrat gap-[0] min-h-[auto] w-[100%]"
+              compId="93"
+              comWidth={1341}
+              comHeight={640}
               compLeft={0}
               compRight={0}
               compType="List"
@@ -643,147 +628,203 @@ const ContactsPage = () => {
               {apiData?.contacts?.map((apiDataEle) => {
                 return (
                   <Row
-                    className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
-                    compId="4797:9078"
-                    comWidth={1342}
-                    comHeight={98}
+                    className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                    compId="5022:8473"
+                    comWidth={1341}
+                    comHeight={64}
                     compLeft={0}
                     compRight={0}
                     compType="Row"
                   >
-                    <div
-                      className="bg-white_A700 border-bluegray_300 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[10px] xl:my-[12px] my-[14px] 3xl:my-[16px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
-                      compId="4797:9077"
-                      comWidth={20}
-                      comHeight={20}
+                    <Text
+                      className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                      compId="5022:8475"
+                      comWidth={149}
+                      comHeight={17}
                       compLeft={0}
                       compRight={0}
-                      compType="View"
-                    ></div>
-                    <Column
-                      className="items-start 3xl:ml-[106px] lg:ml-[69px] xl:ml-[79px] ml-[89px] w-[4%]"
-                      compId="4793:8372"
-                      comWidth={49}
-                      comHeight={48}
-                      compLeft={89}
-                      compRight={0}
-                      compType="Column"
-                    >
-                      <Text
-                        className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                        compId="4793:8373"
-                        comWidth={49}
-                        comHeight={22}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Text"
-                      >
-                        {apiDataEle?.first_name}
-                      </Text>
-                      <Text
-                        className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                        compId="4793:8374"
-                        comWidth={29}
-                        comHeight={22}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Text"
-                      >
-                        Lead
-                      </Text>
-                    </Column>
-                    <Text
-                      className="font-semibold lg:ml-[122px] xl:ml-[140px] ml-[158px] 3xl:ml-[189px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
-                      compId="4793:8376"
-                      comWidth={15}
-                      comHeight={22}
-                      compLeft={158}
-                      compRight={0}
                       compType="Text"
                     >
-                      18
+                      {apiDataEle?.first_name}
                     </Text>
                     <Image
-                      src={"images/img_vector_77.png"}
-                      className="lg:h-[10px] xl:h-[11px] h-[12.1px] 2xl:h-[13px] 3xl:h-[15px] lg:mb-[14px] xl:mb-[16px] mb-[18px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:mt-[13px] xl:mt-[15px] mt-[17.9px] 2xl:mt-[17px] 3xl:my-[21px] object-contain w-[1%]"
-                      compId="I4793:8377;120:3793"
-                      comWidth={12}
-                      comHeight={12.1}
-                      compLeft={10}
+                      src={apiDataEle?.avatar}
+                      className="lg:h-[25px] xl:h-[29px] h-[32px] 2xl:h-[33px] 3xl:h-[39px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] object-contain rounded-radius8 lg:w-[24px] xl:w-[28px] w-[32px] 3xl:w-[38px]"
+                      compId="5022:8477"
+                      comWidth={32}
+                      comHeight={32}
+                      compLeft={16}
                       compRight={0}
                       compType="Image"
-                      alt="Vector"
+                      alt="unsplashh0AnGG"
                     />
-                    <Text
-                      className="font-semibold lg:ml-[63px] xl:ml-[72px] ml-[82px] 3xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
-                      compId="4793:8378"
-                      comWidth={15}
-                      comHeight={22}
-                      compLeft={82}
+                    <Row
+                      className="items-center justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] my-[0] w-[66%]"
+                      compId="96"
+                      comWidth={871}
+                      comHeight={31}
+                      compLeft={8}
                       compRight={0}
-                      compType="Text"
+                      compType="Row"
                     >
-                      $0
-                    </Text>
-                    <Text
-                      className="font-normal lg:ml-[126px] xl:ml-[144px] ml-[162.25px] 2xl:ml-[162px] 3xl:ml-[194px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]"
-                      compId="4793:8379"
-                      comWidth={78}
-                      comHeight={22}
-                      compLeft={162.25}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Not Available
-                    </Text>
-                    <Text
-                      className="font-normal 3xl:ml-[119px] lg:ml-[77px] xl:ml-[88px] ml-[99.25px] 2xl:ml-[99px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                      compId="4793:8380"
-                      comWidth={67}
-                      comHeight={22}
-                      compLeft={99.25}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      {apiDataEle?.display_name}
-                    </Text>
-                    <Text
-                      className="font-normal ml-[110.25px] 2xl:ml-[110px] 3xl:ml-[132px] lg:ml-[85px] xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                      compId="4793:8381"
-                      comWidth={95}
-                      comHeight={22}
-                      compLeft={110.25}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      {apiDataEle?.email}
-                    </Text>
-                    <Text
-                      className="font-normal lg:ml-[63px] xl:ml-[73px] ml-[82.25px] 2xl:ml-[82px] 3xl:ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[auto]"
-                      compId="4793:8382"
-                      comWidth={78}
-                      comHeight={22}
-                      compLeft={82.25}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      {apiDataEle?.mobile_number}
-                    </Text>
+                      <Text
+                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        compId="5022:8478"
+                        comWidth={109}
+                        comHeight={17}
+                        compLeft={0}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        {apiDataEle?.lead_score}
+                      </Text>
+                      <Text
+                        className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        compId="5022:8480"
+                        comWidth={149}
+                        comHeight={17}
+                        compLeft={16}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        {apiDataEle?.open_deals_amount}
+                      </Text>
+                      <Text
+                        className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        compId="5022:8482"
+                        comWidth={149}
+                        comHeight={17}
+                        compLeft={16}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        {apiDataEle?.email}
+                      </Text>
+                      <Text
+                        className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        compId="5022:8484"
+                        comWidth={149}
+                        comHeight={17}
+                        compLeft={16}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        {apiDataEle?.mobile_number}
+                      </Text>
+                      <Text
+                        className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        compId="5022:8486"
+                        comWidth={149}
+                        comHeight={17}
+                        compLeft={16}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        Tranfer Bank
+                      </Text>
+                      <Button
+                        className="bg-green_50 font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[10%]"
+                        compId="5022:8488"
+                        comWidth={83}
+                        comHeight={31}
+                        compLeft={16}
+                        compRight={0}
+                        compType="Button"
+                      >
+                        {apiDataEle?.display_name}
+                      </Button>
+                    </Row>
                     <Image
-                      src={"images/img_morevertical_9.png"}
-                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[42px] xl:ml-[48px] ml-[55px] 3xl:ml-[66px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                      compId="4793:8383"
+                      src={"images/img_edit12.png"}
+                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[111px] ml-[125px] 3xl:ml-[150px] lg:ml-[97px] xl:my-[3px] lg:my-[3px] my-[4px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                      compId="5022:8492"
                       comWidth={24}
                       comHeight={24}
-                      compLeft={55}
+                      compLeft={125}
                       compRight={0}
                       compType="Image"
-                      alt="morevertical"
+                      alt="edit12"
+                    />
+                    <Image
+                      src={"images/img_trash22.png"}
+                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[3px] lg:my-[3px] my-[4px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                      compId="5022:8493"
+                      comWidth={24}
+                      comHeight={24}
+                      compLeft={16}
+                      compRight={0}
+                      compType="Image"
+                      alt="trash22"
                     />
                   </Row>
                 );
               })}
             </List>
+            <Row
+              className="bg-white_A700 font-montserrat items-center justify-center lg:px-[434px] xl:px-[497px] px-[559px] 3xl:px-[671px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+              compId="5022:8684"
+              comWidth={1341}
+              comHeight={63}
+              compLeft={0}
+              compRight={0}
+              compType="Row"
+            >
+              <Text
+                className="font-medium lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-gray_500 w-[auto]"
+                compId="5022:8685"
+                comWidth={53}
+                comHeight={15}
+                compLeft={0}
+                compRight={0}
+                compType="Text"
+              >
+                Previous
+              </Text>
+              <Button
+                className="bg-deep_purple_A200 font-medium lg:h-[25px] xl:h-[28px] h-[31px] 2xl:h-[32px] 3xl:h-[38px] xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-white_A700 lg:w-[24px] xl:w-[27px] w-[31px] 3xl:w-[37px]"
+                compId="5022:8686"
+                comWidth={31}
+                comHeight={31}
+                compLeft={12}
+                compRight={0}
+                compType="Button"
+              >
+                1
+              </Button>
+              <Button
+                className="bg-gray_300 font-medium lg:h-[25px] xl:h-[28px] h-[31px] 2xl:h-[32px] 3xl:h-[38px] xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-black_900 text-center lg:w-[24px] xl:w-[27px] w-[31px] 3xl:w-[37px]"
+                compId="5022:8688"
+                comWidth={31}
+                comHeight={31}
+                compLeft={12}
+                compRight={0}
+                compType="Button"
+              >
+                2
+              </Button>
+              <Button
+                className="bg-gray_300 font-medium lg:h-[25px] xl:h-[28px] h-[31px] 2xl:h-[32px] 3xl:h-[38px] xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-black_900 text-center lg:w-[24px] xl:w-[27px] w-[31px] 3xl:w-[37px]"
+                compId="5022:8690"
+                comWidth={31}
+                comHeight={31}
+                compLeft={12}
+                compRight={0}
+                compType="Button"
+              >
+                3
+              </Button>
+              <Text
+                className="font-medium xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-gray_500 w-[auto]"
+                compId="5022:8692"
+                comWidth={29}
+                comHeight={15}
+                compLeft={12}
+                compRight={0}
+                compType="Text"
+              >
+                Next
+              </Text>
+            </Row>
           </Column>
         </Row>
       </Column>
