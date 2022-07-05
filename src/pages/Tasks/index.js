@@ -87,7 +87,7 @@ const TasksPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_143.png"}
+                  src={"images/img_vector_142.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[19.98px] 2xl:h-[20px] 3xl:h-[24px] lg:mt-[20px] xl:mt-[23px] mt-[26px] 3xl:mt-[31px] mx-[auto] object-contain w-[40%]"
                   compId="I4713:8181;120:2258"
                   comWidth={19.96}
@@ -98,7 +98,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_144.png"}
+                  src={"images/img_vector_143.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20.01px] 2xl:h-[21px] 3xl:h-[25px] ml-[15.06px] mr-[15.04px] lg:mt-[28px] xl:mt-[32px] mt-[36.01px] 2xl:mt-[36px] 3xl:mt-[43px] lg:mx-[11px] xl:mx-[13px] 2xl:mx-[15px] 3xl:mx-[18px] object-contain w-[40%]"
                   compId="I4713:8182;120:2252"
                   comWidth={19.9}
@@ -109,7 +109,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_145.png"}
+                  src={"images/img_vector_144.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[19.89px] 2xl:h-[20px] 3xl:h-[24px] ml-[16.6px] mr-[16.51px] lg:mt-[27px] xl:mt-[32px] mt-[35.99px] 2xl:mt-[36px] 3xl:mt-[43px] lg:mx-[12px] xl:mx-[14px] 2xl:mx-[16px] 3xl:mx-[19px] object-contain w-[34%]"
                   compId="I4713:8183;120:328"
                   comWidth={16.89}
@@ -120,7 +120,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_146.png"}
+                  src={"images/img_vector_145.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36.12px] 2xl:mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4713:8184;120:1630"
                   comWidth={18}
@@ -131,7 +131,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_147.png"}
+                  src={"images/img_vector_146.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4713:8185;120:434"
                   comWidth={20}
@@ -142,7 +142,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_148.png"}
+                  src={"images/img_vector_147.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4713:8186;120:1750"
                   comWidth={20}
@@ -153,7 +153,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_149.png"}
+                  src={"images/img_vector_148.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[11px] ml-[14.86px] 2xl:ml-[14px] 3xl:ml-[17px] lg:mr-[12px] mr-[15.49px] 2xl:mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] xl:mx-[13px] object-contain w-[39%]"
                   compId="I4713:8187;120:1890"
                   comWidth={19.65}
@@ -208,7 +208,7 @@ const TasksPage = () => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_151.png"}
+                      src={"images/img_vector_150.png"}
                       className="w-[10.54px] h-[6.25px] mr-[12.71px] object-contain right-[2%] absolute lg:w-[8px] lg:h-[5px] lg:mr-[9px] xl:w-[9px] xl:h-[6px] xl:mr-[11px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[12px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[15px]"
                       compId="I4797:8958;120:93"
                       comWidth={10.54}
@@ -1077,7 +1077,7 @@ const TasksPage = () => {
                         </Text>
                       </Column>
                       <Image
-                        src={"images/img_vector_152.png"}
+                        src={"images/img_vector_151.png"}
                         className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mb-[28px] xl:mb-[32px] mb-[36px] 3xl:mb-[43px] lg:ml-[456px] xl:ml-[522px] ml-[587px] 3xl:ml-[704px] lg:mt-[24px] xl:mt-[28px] mt-[32px] 3xl:mt-[38px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                         compId="I4797:9017;120:1686"
                         comWidth={20}
@@ -1088,7 +1088,7 @@ const TasksPage = () => {
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_153.png"}
+                        src={"images/img_vector_152.png"}
                         className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mb-[28px] xl:mb-[32px] mb-[36px] 3xl:mb-[43px] lg:ml-[22px] xl:ml-[25px] ml-[29px] 3xl:ml-[34px] lg:mt-[24px] xl:mt-[28px] mt-[32px] 3xl:mt-[38px] object-contain w-[2%]"
                         compId="I4797:9018;120:2204"
                         comWidth={18}

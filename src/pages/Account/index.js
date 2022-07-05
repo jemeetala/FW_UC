@@ -64,7 +64,7 @@ const AccountPage = () => {
                   alt="Group345"
                 />
                 <Image
-                  src={"images/img_vector_94.png"}
+                  src={"images/img_vector_93.png"}
                   className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mt-[25px] xl:mt-[29px] mt-[33px] 3xl:mt-[39px] mx-[auto] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                   compId="I4797:9812;275:1558"
                   comWidth={16}
@@ -75,7 +75,7 @@ const AccountPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_95.png"}
+                  src={"images/img_vector_94.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[19.98px] 2xl:h-[20px] 3xl:h-[24px] lg:mt-[21px] xl:mt-[24px] mt-[27px] 3xl:mt-[32px] mx-[auto] object-contain w-[40%]"
                   compId="I4797:9813;120:2258"
                   comWidth={19.96}
@@ -107,7 +107,7 @@ const AccountPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_96.png"}
+                  src={"images/img_vector_95.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[19.89px] 2xl:h-[20px] 3xl:h-[24px] ml-[16.6px] mr-[16.51px] lg:mt-[26px] xl:mt-[30px] mt-[33.99px] 2xl:mt-[34px] 3xl:mt-[40px] lg:mx-[12px] xl:mx-[14px] 2xl:mx-[16px] 3xl:mx-[19px] object-contain w-[34%]"
                   compId="I4797:9814;120:328"
                   comWidth={16.89}
@@ -118,7 +118,7 @@ const AccountPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_97.png"}
+                  src={"images/img_vector_96.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36.12px] 2xl:mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4797:9815;120:1630"
                   comWidth={18}
@@ -129,7 +129,7 @@ const AccountPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_98.png"}
+                  src={"images/img_vector_97.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4797:9816;120:434"
                   comWidth={20}
@@ -140,7 +140,7 @@ const AccountPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_99.png"}
+                  src={"images/img_vector_98.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4797:9817;120:1750"
                   comWidth={20}
@@ -151,7 +151,7 @@ const AccountPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_100.png"}
+                  src={"images/img_vector_99.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[11px] ml-[14.86px] 2xl:ml-[14px] 3xl:ml-[17px] lg:mr-[12px] mr-[15.49px] 2xl:mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] xl:mx-[13px] object-contain w-[39%]"
                   compId="I4797:9818;120:1890"
                   comWidth={19.65}
@@ -197,7 +197,7 @@ const AccountPage = () => {
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_102.png"}
+                    src={"images/img_vector_101.png"}
                     className="w-[10.54px] h-[6.25px] mr-[14.71px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
                     compId="I4797:9794;120:93"
                     comWidth={10.54}
@@ -358,7 +358,7 @@ const AccountPage = () => {
                 Accounts
               </Text>
               <Image
-                src={"images/img_vector_103.png"}
+                src={"images/img_vector_102.png"}
                 className="lg:h-[11px] xl:h-[12px] h-[13.4px] 2xl:h-[14px] 3xl:h-[17px] xl:mb-[11px] mb-[12.8px] 2xl:mb-[12px] 3xl:mb-[15px] lg:mb-[9px] lg:ml-[14px] xl:ml-[16px] ml-[18.1px] 2xl:ml-[18px] 3xl:ml-[21px] lg:mt-[10px] xl:mt-[12px] mt-[13.8px] 2xl:mt-[13px] 3xl:mt-[16px] object-contain w-[1%]"
                 compId="I4509:5652;120:97"
                 comWidth={7.7}
@@ -398,7 +398,7 @@ const AccountPage = () => {
                   compType="Button"
                   leftIcon={
                     <Image
-                      src={"images/img_vector_104.png"}
+                      src={"images/img_vector_103.png"}
                       className="w-[20.01px] text-center lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]"
                       compId="I4509:6034;120:964"
                       comWidth={20.01}
@@ -424,7 +424,7 @@ const AccountPage = () => {
                   compType="Button"
                   leftIcon={
                     <Image
-                      src={"images/img_vector_105.png"}
+                      src={"images/img_vector_104.png"}
                       className="w-[20.01px] text-center lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]"
                       compId="I4509:6041;120:964"
                       comWidth={20.01}
@@ -465,7 +465,7 @@ const AccountPage = () => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_106.png"}
+                      src={"images/img_vector_105.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
                       compId="I4509:5660;120:3699"
                       comWidth={10.4}
@@ -492,7 +492,7 @@ const AccountPage = () => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_108.png"}
+                      src={"images/img_vector_107.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14.8px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[11px] xl:w-[9px] xl:h-[6px] xl:mr-[13px] 2xl:w-[10px] 2xl:h-[7px] 2xl:mr-[14px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[17px]"
                       compId="I4509:5664;120:3699"
                       comWidth={10.4}
@@ -514,7 +514,7 @@ const AccountPage = () => {
                   compType="Row"
                 >
                   <Image
-                    src={"images/img_vector_109.png"}
+                    src={"images/img_vector_108.png"}
                     className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                     compId="I4509:5666;120:1078"
                     comWidth={20}
@@ -579,7 +579,7 @@ const AccountPage = () => {
                 Name
               </Text>
               <Image
-                src={"images/img_vector_110.png"}
+                src={"images/img_vector_109.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
                 compId="I4797:9840;120:2012"
                 comWidth={10.01}
@@ -601,7 +601,7 @@ const AccountPage = () => {
                 Open deals amou...
               </Text>
               <Image
-                src={"images/img_vector_111.png"}
+                src={"images/img_vector_110.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
                 compId="I4797:9847;120:2012"
                 comWidth={10.01}
@@ -632,7 +632,7 @@ const AccountPage = () => {
                   last contacted ti...
                 </Text>
                 <Image
-                  src={"images/img_vector_112.png"}
+                  src={"images/img_vector_111.png"}
                   className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[3%]"
                   compId="I4797:9844;120:2012"
                   comWidth={10.01}
@@ -666,7 +666,7 @@ const AccountPage = () => {
                 sales owner
               </Text>
               <Image
-                src={"images/img_vector_113.png"}
+                src={"images/img_vector_112.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
                 compId="I4797:9853;120:2012"
                 comWidth={10.01}
@@ -688,7 +688,7 @@ const AccountPage = () => {
                 Webdite
               </Text>
               <Image
-                src={"images/img_vector_114.png"}
+                src={"images/img_vector_113.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
                 compId="I4797:9856;120:2012"
                 comWidth={10.01}
@@ -710,7 +710,7 @@ const AccountPage = () => {
                 Work
               </Text>
               <Image
-                src={"images/img_vector_115.png"}
+                src={"images/img_vector_114.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15.01px] 2xl:h-[16px] 3xl:h-[19px] mb-[3.49px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] mt-[3.5px] lg:my-[2px] 2xl:my-[3px] xl:my-[3px] 3xl:my-[4px] object-contain w-[1%]"
                 compId="I4797:9859;120:2012"
                 comWidth={10.01}

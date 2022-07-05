@@ -25,7 +25,7 @@ const AddContactsModal = (props) => {
             placeholder="Add Contact"
             suffix={
               <Image
-                src={"images/img_vector_87.png"}
+                src={"images/img_vector_86.png"}
                 className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                 compId="I4542:7615;120:1608"
                 comWidth={16.01}

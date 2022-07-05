@@ -34,7 +34,7 @@ const AddTaskModal = (props) => {
             placeholder="Add task"
             suffix={
               <Image
-                src={"images/img_vector_88.png"}
+                src={"images/img_vector_87.png"}
                 className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                 compId="I4712:9389;120:1608"
                 comWidth={16.01}
@@ -121,7 +121,7 @@ const AddTaskModal = (props) => {
                 placeholder="Enter title of task"
                 suffix={
                   <Image
-                    src={"images/img_vector_89.png"}
+                    src={"images/img_vector_88.png"}
                     className="w-[13.33px] h-[13.33px] lg:w-[10px] lg:h-[11px] xl:w-[11px] xl:h-[12px] 2xl:w-[13px] 2xl:h-[14px] 3xl:w-[16px] 3xl:h-[17px] my-[auto]"
                     compId="4712:9318"
                     comWidth={13.33}
@@ -228,7 +228,7 @@ const AddTaskModal = (props) => {
                       isMulti={false}
                       indicator={
                         <Image
-                          src={"images/img_vector_90.png"}
+                          src={"images/img_vector_89.png"}
                           className="w-[8.67px] h-[5.17px] mr-[21.66px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[19px] 2xl:w-[8px] 2xl:h-[6px] 2xl:mr-[21px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[26px]"
                           compId="I4712:9331;120:3699"
                           comWidth={8.67}
@@ -296,7 +296,7 @@ const AddTaskModal = (props) => {
                         placeholder="06/28/2022"
                         suffix={
                           <Image
-                            src={"images/img_vector_91.png"}
+                            src={"images/img_vector_90.png"}
                             className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                             compId="I4712:9339;120:380"
                             comWidth={16.67}
@@ -321,7 +321,7 @@ const AddTaskModal = (props) => {
                         placeholder="09:40"
                         suffix={
                           <Image
-                            src={"images/img_vector_92.png"}
+                            src={"images/img_vector_91.png"}
                             className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                             compId="I4712:9344;120:470"
                             comWidth={16.67}
@@ -373,7 +373,7 @@ const AddTaskModal = (props) => {
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_93.png"}
+                    src={"images/img_vector_92.png"}
                     className="w-[8.67px] h-[5.17px] mr-[21.66px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[19px] 2xl:w-[8px] 2xl:h-[6px] 2xl:mr-[21px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[26px]"
                     compId="I4712:9351;120:3699"
                     comWidth={8.67}
