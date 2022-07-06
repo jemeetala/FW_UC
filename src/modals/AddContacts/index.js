@@ -3,17 +3,41 @@ import ModalProvider from "react-modal";
 
 import { postContacts } from "service/api";
 import "react-toastify/dist/ReactToastify.css";
-import { useNavigate } from "react-router-dom";
 import useForm from "simple-react-hook-form";
+import * as yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
 import { Column, Input, Image, Text, Row, Button } from "components";
 
 const AddContactsModal = (props) => {
   const [apiData, setapiData] = React.useState();
-  const form = useForm({
-    contact: { first_name: "", last_name: "", mobile_number: "", emails: "" },
-  });
-  const navigate = useNavigate();
+  const formValidationSchema = yup
+    .object()
+    .shape({
+      contact: yup
+        .object()
+        .shape({ first_name: yup.string().required("First_name is required") }),
+      contact: yup
+        .object()
+        .shape({ last_name: yup.string().required("Last_name is required") }),
+      contact: yup
+        .object()
+        .shape({
+          mobile_number: yup.string().required("Mobile_number is required"),
+        }),
+      contact: yup
+        .object()
+        .shape({ emails: yup.string().required("Emails is required") }),
+    });
+  const form = useForm(
+    {
+      contact: { first_name: "", last_name: "", mobile_number: "", emails: "" },
+    },
+    {
+      validate: true,
+      validateSchema: formValidationSchema,
+      validationOnChange: true,
+    }
+  );
 
   function callApi(data) {
     const req = { data: { ...data } };
@@ -21,7 +45,7 @@ const AddContactsModal = (props) => {
       .then((res) => {
         setapiData(res);
 
-        navigate("/contacts");
+        toast.success("Contact Details successfully inserted");
       })
       .catch((err) => {
         console.error(err);
@@ -50,7 +74,7 @@ const AddContactsModal = (props) => {
             placeholder="Add Contact"
             suffix={
               <Image
-                src={"images/img_vector_73.png"}
+                src={"images/img_vector_74.png"}
                 className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                 compId="I4542:7615;120:1608"
                 comWidth={16.01}
@@ -72,7 +96,7 @@ const AddContactsModal = (props) => {
             compType="Column"
           >
             <Text
-              className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+              className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
               compId="I4797:9749;122:20717"
               comWidth={72}
               comHeight={22}
@@ -80,14 +104,14 @@ const AddContactsModal = (props) => {
               compRight={0}
               compType="Text"
             >
-              <span className="text-black_901 font-sourcesanspro">
+              <span className="text-black_900 font-sourcesanspro">
                 First Name{" "}
               </span>
               <span className="text-red_700 font-sourcesanspro">*</span>
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="110"
+              compId="108"
               comWidth={489}
               comHeight={36}
               compLeft={0}
@@ -106,13 +130,14 @@ const AddContactsModal = (props) => {
                 onChange={(e) => {
                   form.handleChange("contact.first_name", e.target.value);
                 }}
+                errors={form?.errors?.contact?.first_name}
                 value={form?.values?.contact?.first_name}
                 name="InputField"
                 placeholder="Enter First Name"
               ></Input>
             </Column>
             <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
               compId="I4797:9737;122:20717"
               comWidth={71}
               comHeight={22}
@@ -120,14 +145,14 @@ const AddContactsModal = (props) => {
               compRight={0}
               compType="Text"
             >
-              <span className="text-black_901 font-sourcesanspro">
+              <span className="text-black_900 font-sourcesanspro">
                 Last Name{" "}
               </span>
               <span className="text-red_700 font-sourcesanspro">*</span>
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="111"
+              compId="109"
               comWidth={489}
               comHeight={36}
               compLeft={0}
@@ -146,13 +171,14 @@ const AddContactsModal = (props) => {
                 onChange={(e) => {
                   form.handleChange("contact.last_name", e.target.value);
                 }}
+                errors={form?.errors?.contact?.last_name}
                 value={form?.values?.contact?.last_name}
                 name="InputField"
                 placeholder="Enter Last Name"
               ></Input>
             </Column>
             <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
               compId="I4542:7628;122:20717"
               comWidth={90}
               comHeight={22}
@@ -164,7 +190,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="112"
+              compId="110"
               comWidth={489}
               comHeight={39}
               compLeft={0}
@@ -183,13 +209,14 @@ const AddContactsModal = (props) => {
                 onChange={(e) => {
                   form.handleChange("contact.mobile_number", e.target.value);
                 }}
+                errors={form?.errors?.contact?.mobile_number}
                 value={form?.values?.contact?.mobile_number}
                 name="Frame418"
                 placeholder="Enter mobile number"
               ></Input>
             </Column>
             <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
               compId="I4542:7633;122:20717"
               comWidth={31}
               comHeight={22}
@@ -201,7 +228,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="113"
+              compId="111"
               comWidth={489}
               comHeight={39}
               compLeft={0}
@@ -220,6 +247,7 @@ const AddContactsModal = (props) => {
                 onChange={(e) => {
                   form.handleChange("contact.emails", e.target.value);
                 }}
+                errors={form?.errors?.contact?.emails}
                 value={form?.values?.contact?.emails}
                 name="Frame418"
                 placeholder="Enter mail addres"

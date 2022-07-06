@@ -26,7 +26,7 @@ const ProductsPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="39"
+          compId="37"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -166,7 +166,7 @@ const ProductsPage = () => {
           </aside>
           <Column
             className="items-center lg:mb-[6px] xl:mb-[7px] mb-[8px] 3xl:mb-[9px] w-[93%]"
-            compId="38"
+            compId="36"
             comWidth={1342}
             comHeight={1016}
             compLeft={0}
@@ -223,7 +223,7 @@ const ProductsPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="41"
+                compId="39"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -381,7 +381,7 @@ const ProductsPage = () => {
               </Text>
               <Row
                 className="items-center justify-center lg:ml-[327px] xl:ml-[374px] ml-[421px] 3xl:ml-[505px] w-[49%]"
-                compId="42"
+                compId="40"
                 comWidth={649}
                 comHeight={40}
                 compLeft={421}
@@ -688,7 +688,7 @@ const ProductsPage = () => {
             </Row>
             <List
               className="gap-[0] min-h-[auto] w-[100%]"
-              compId="40"
+              compId="38"
               comWidth={1342}
               comHeight={784}
               compLeft={0}
@@ -781,7 +781,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="43"
+                  compId="41"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -928,7 +928,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="44"
+                  compId="42"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1075,7 +1075,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="45"
+                  compId="43"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1222,7 +1222,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="46"
+                  compId="44"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1369,7 +1369,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="47"
+                  compId="45"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1516,7 +1516,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="48"
+                  compId="46"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1663,7 +1663,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="49"
+                  compId="47"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1810,7 +1810,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="50"
+                  compId="48"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}

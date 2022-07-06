@@ -25,7 +25,7 @@ const AddAccountModal = (props) => {
             placeholder="Add Account"
             suffix={
               <Image
-                src={"images/img_vector_51.png"}
+                src={"images/img_vector_53.png"}
                 className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                 compId="I4797:10673;120:1608"
                 comWidth={16.01}
@@ -48,7 +48,7 @@ const AddAccountModal = (props) => {
           >
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] w-[94%]"
-              compId="80"
+              compId="78"
               comWidth={484}
               comHeight={55}
               compLeft={0}
@@ -69,7 +69,7 @@ const AddAccountModal = (props) => {
               ></Input>
             </Column>
             <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
               compId="I4797:10738;122:20717"
               comWidth={43}
               comHeight={22}
@@ -77,12 +77,12 @@ const AddAccountModal = (props) => {
               compRight={0}
               compType="Text"
             >
-              <span className="text-black_901 font-sourcesanspro">Name </span>
+              <span className="text-black_900 font-sourcesanspro">Name </span>
               <span className="text-red_700 font-sourcesanspro">*</span>
             </Text>
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="81"
+              compId="79"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -103,7 +103,7 @@ const AddAccountModal = (props) => {
               ></Input>
             </Column>
             <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
               compId="I4797:10726;122:20717"
               comWidth={47}
               comHeight={22}
@@ -115,7 +115,7 @@ const AddAccountModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="82"
+              compId="80"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -135,7 +135,7 @@ const AddAccountModal = (props) => {
                 placeholder="Enter website"
                 suffix={
                   <Image
-                    src={"images/img_vector_52.png"}
+                    src={"images/img_vector_54.png"}
                     className="w-[13.33px] h-[13.33px] lg:w-[10px] lg:h-[11px] xl:w-[11px] xl:h-[12px] 2xl:w-[13px] 2xl:h-[14px] 3xl:w-[16px] 3xl:h-[17px] my-[auto]"
                     compId="I4797:10727;122:20774;120:5117"
                     comWidth={13.33}
@@ -149,7 +149,7 @@ const AddAccountModal = (props) => {
               ></Input>
             </Column>
             <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
               compId="4797:10723"
               comWidth={38}
               comHeight={22}
@@ -161,7 +161,7 @@ const AddAccountModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="83"
+              compId="81"
               comWidth={484}
               comHeight={39}
               compLeft={0}
@@ -183,7 +183,7 @@ const AddAccountModal = (props) => {
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_53.png"}
+                    src={"images/img_vector_55.png"}
                     className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
                     compId="I4797:10690;120:3699"
                     comWidth={8.67}
@@ -197,7 +197,7 @@ const AddAccountModal = (props) => {
               ></SelectBox>
             </Column>
             <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
               compId="4797:10721"
               comWidth={73}
               comHeight={22}
@@ -209,7 +209,7 @@ const AddAccountModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="84"
+              compId="82"
               comWidth={484}
               comHeight={39}
               compLeft={0}
@@ -231,7 +231,7 @@ const AddAccountModal = (props) => {
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_54.png"}
+                    src={"images/img_vector_56.png"}
                     className="w-[13.34px] h-[13.34px] mr-[35px] object-contain lg:w-[10px] lg:h-[11px] lg:mr-[27px] xl:w-[11px] xl:h-[12px] xl:mr-[31px] 2xl:w-[13px] 2xl:h-[14px] 3xl:w-[16px] 3xl:h-[17px] 3xl:mr-[42px]"
                     compId="I4797:10697;120:1608"
                     comWidth={13.34}
