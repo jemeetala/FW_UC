@@ -12,6 +12,9 @@ const Home = () => {
       </p>
       <ul>
         <li>
+          <Link to="/tasklist">Tasklist</Link>
+        </li>
+        <li>
           <Link to="/tasks">Tasks</Link>
         </li>
         <li>

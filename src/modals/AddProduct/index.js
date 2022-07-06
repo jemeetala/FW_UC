@@ -23,7 +23,7 @@ const AddProductModal = (props) => {
           >
             <Column
               className="absolute items-center justify-start w-[100%]"
-              compId="86"
+              compId="89"
               comWidth={551}
               comHeight={538}
               compLeft={0}
@@ -43,7 +43,7 @@ const AddProductModal = (props) => {
                 placeholder="Add Account"
                 suffix={
                   <Image
-                    src={"images/img_vector_66.png"}
+                    src={"images/img_vector_73.png"}
                     className="w-[16.01px] lg:w-[12px] xl:w-[14px] 2xl:w-[16px] 3xl:w-[19px] my-[auto]"
                     compId="I4797:11349;120:1608"
                     comWidth={16.01}
@@ -65,7 +65,7 @@ const AddProductModal = (props) => {
                 compType="Row"
               >
                 <Text
-                  className="bg-white_A700 border border-gray_200 border-solid font-normal mt-[1px] not-italic lg:pb-[3px] xl:pb-[4px] pb-[5px] 3xl:pb-[6px] pt-[1px] lg:px-[12px] xl:px-[14px] px-[16px] 3xl:px-[19px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
+                  className="bg-white_A700 border border-gray_201 border-solid font-normal mt-[1px] not-italic lg:pb-[3px] xl:pb-[4px] pb-[5px] 3xl:pb-[6px] pt-[1px] lg:px-[12px] xl:px-[14px] px-[16px] 3xl:px-[19px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
                   compId="4797:11342"
                   comWidth={72}
                   comHeight={29}
@@ -76,7 +76,7 @@ const AddProductModal = (props) => {
                   Cancel
                 </Text>
                 <Text
-                  className="bg-bluegray_900 border border-gray_200 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] not-italic lg:pb-[10px] xl:pb-[11px] pb-[13px] 3xl:pb-[15px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] pt-[1px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[auto]"
+                  className="bg-bluegray_900 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] not-italic lg:pb-[10px] xl:pb-[11px] pb-[13px] 3xl:pb-[15px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] pt-[1px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[auto]"
                   compId="4797:11344"
                   comWidth={62}
                   comHeight={30}
@@ -111,7 +111,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[1px] lg:pl-[1px] pl-[2px] pr-[1px] w-[94%]"
-                compId="88"
+                compId="91"
                 comWidth={487}
                 comHeight={36}
                 compLeft={0}
@@ -119,7 +119,7 @@ const AddProductModal = (props) => {
                 compType="Column"
               >
                 <Input
-                  className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
+                  className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
                   WrapClassName="3xl:pl-[14px] 3xl:pr-[18px] 3xl:py-[8px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pl-[9px] lg:pr-[11px] lg:py-[5px] pl-[12px] pr-[15px] py-[7px] rounded-radius4 w-[100%] xl:pl-[10px] xl:pr-[13px] xl:py-[6px]"
                   compId="4797:11490"
                   comWidth={0}
@@ -131,7 +131,7 @@ const AddProductModal = (props) => {
                   placeholder="Enter title of task"
                   suffix={
                     <Image
-                      src={"images/img_vector_67.png"}
+                      src={"images/img_vector_74.png"}
                       className="w-[13.33px] h-[13.33px] lg:w-[10px] lg:h-[11px] xl:w-[11px] xl:h-[12px] 2xl:w-[13px] 2xl:h-[14px] 3xl:w-[16px] 3xl:h-[17px] my-[auto]"
                       compId="I4797:11490;122:20774;120:5117"
                       comWidth={13.33}
@@ -157,7 +157,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[1px] lg:pl-[1px] pl-[2px] pr-[1px] w-[94%]"
-                compId="89"
+                compId="92"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -165,7 +165,7 @@ const AddProductModal = (props) => {
                 compType="Column"
               >
                 <SelectBox
-                  className="bg-transparent border border-gray_200 border-solid font-normal lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[100%]"
+                  className="bg-transparent border border-gray_201 border-solid font-normal lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[100%]"
                   compId="4797:11431"
                   comWidth={484}
                   comHeight={39}
@@ -179,7 +179,7 @@ const AddProductModal = (props) => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_68.png"}
+                      src={"images/img_vector_75.png"}
                       className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
                       compId="I4797:11433;120:3699"
                       comWidth={8.67}
@@ -205,7 +205,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] pl-[1px] xl:pr-[1px] lg:pr-[1px] pr-[2px] w-[94%]"
-                compId="90"
+                compId="93"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -213,21 +213,21 @@ const AddProductModal = (props) => {
                 compType="Column"
               >
                 <SelectBox
-                  className="bg-transparent border border-gray_200 border-solid font-normal lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[100%]"
+                  className="bg-transparent border border-gray_201 border-solid font-normal lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
                   compId="5000:8128"
                   comWidth={484}
                   comHeight={39}
                   compLeft={0}
                   compRight={0}
                   compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_700"
+                  placeholderClassName="bg-transparent text-bluegray_701"
                   name="Frame418"
                   placeholder="Owner Name"
                   isSearchable={false}
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_69.png"}
+                      src={"images/img_vector_76.png"}
                       className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
                       compId="I5000:8132;120:3699"
                       comWidth={8.67}
@@ -253,7 +253,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[2px] lg:pl-[2px] pl-[3px] w-[94%]"
-                compId="91"
+                compId="94"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -262,7 +262,7 @@ const AddProductModal = (props) => {
               >
                 <Input
                   className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_300 text-bluegray_300 w-[100%]"
-                  WrapClassName="border border-gray_200 border-solid rounded-radius4 w-[100%]"
+                  WrapClassName="border border-gray_201 border-solid rounded-radius4 w-[100%]"
                   compId="4797:11440"
                   comWidth={484}
                   comHeight={39}
@@ -286,7 +286,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pr-[2px] lg:pr-[2px] pr-[3px] w-[94%]"
-                compId="92"
+                compId="95"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -294,8 +294,8 @@ const AddProductModal = (props) => {
                 compType="Column"
               >
                 <Input
-                  className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_200 text-bluegray_200 w-[100%]"
-                  WrapClassName="3xl:pl-[19px] 3xl:pr-[20px] 3xl:py-[9px] border border-gray_200 border-solid flex lg:pl-[12px] lg:pr-[13px] lg:py-[6px] pl-[16px] pr-[17px] py-[8px] rounded-radius4 w-[100%] xl:pl-[14px] xl:pr-[15px] xl:py-[7px]"
+                  className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="3xl:pl-[19px] 3xl:pr-[20px] 3xl:py-[9px] border border-gray_201 border-solid flex lg:pl-[12px] lg:pr-[13px] lg:py-[6px] pl-[16px] pr-[17px] py-[8px] rounded-radius4 w-[100%] xl:pl-[14px] xl:pr-[15px] xl:py-[7px]"
                   compId="4797:11453"
                   comWidth={0}
                   comHeight={39}
@@ -306,7 +306,7 @@ const AddProductModal = (props) => {
                   placeholder="Choose date"
                   suffix={
                     <Image
-                      src={"images/img_vector_70.png"}
+                      src={"images/img_vector_77.png"}
                       className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                       compId="I4797:11456;120:380"
                       comWidth={16.67}

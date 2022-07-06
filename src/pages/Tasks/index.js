@@ -1,5 +1,6 @@
 import React from "react";
 
+import { getTasks } from "service/api";
 import {
   Stack,
   Row,
@@ -9,10 +10,8 @@ import {
   Line,
   List,
   Image,
-  SelectBox,
   Input,
 } from "components";
-import { getTasks } from "service/api";
 
 const TasksPage = () => {
   const [apiData, setapiData] = React.useState();
@@ -30,6 +29,8 @@ const TasksPage = () => {
         console.error(err);
       });
   }
+
+  const [inputvalue, setInputvalue] = React.useState("");
 
   return (
     <>
@@ -52,7 +53,7 @@ const TasksPage = () => {
           compType="Row"
         >
           <Text
-            className="font-semibold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[15px] xl:text-[17px] text-[20px] 3xl:text-[24px] text-bluegray_700 w-[auto]"
+            className="font-semibold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[15px] xl:text-[17px] text-[20px] 3xl:text-[24px] text-bluegray_701 w-[auto]"
             compId="5042:8273"
             comWidth={197}
             comHeight={23}
@@ -63,7 +64,7 @@ const TasksPage = () => {
             My meetings and Tasks
           </Text>
           <Button
-            className="bg-white_A700 border border-gray_200 border-solid font-normal 3xl:ml-[1129px] lg:ml-[731px] xl:ml-[837px] ml-[941px] not-italic lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 text-center w-[7%]"
+            className="bg-white_A700 border border-gray_201 border-solid font-normal 3xl:ml-[1129px] lg:ml-[731px] xl:ml-[837px] ml-[941px] not-italic lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 text-center w-[7%]"
             compId="5042:8274"
             comWidth={91}
             comHeight={39}
@@ -74,7 +75,7 @@ const TasksPage = () => {
             Add meeting
           </Button>
           <Button
-            className="bg-bluegray_900 border border-gray_200 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] not-italic lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-center text-white_A700 w-[5%]"
+            className="bg-bluegray_900 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] not-italic lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-center text-white_A700 w-[5%]"
             compId="5042:8276"
             comWidth={69}
             comHeight={39}
@@ -87,7 +88,7 @@ const TasksPage = () => {
         </Row>
         <Stack
           className="absolute h-[1024px] 2xl:h-[1025px] 3xl:h-[1230px] lg:h-[797px] xl:h-[911px] w-[100%]"
-          compId="32"
+          compId="35"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -113,8 +114,8 @@ const TasksPage = () => {
               compType="Stack"
             >
               <Column
-                className="absolute border border-gray_200 border-solid items-center justify-start lg:pb-[10px] xl:pb-[12px] pb-[14px] 3xl:pb-[16px] lg:pl-[24px] xl:pl-[28px] pl-[32px] 3xl:pl-[38px] lg:pt-[14px] xl:pt-[16px] pt-[18px] 3xl:pt-[21px] w-[100%]"
-                compId="1"
+                className="absolute border border-gray_201 border-solid items-center justify-start lg:pb-[10px] xl:pb-[12px] pb-[14px] 3xl:pb-[16px] lg:pl-[24px] xl:pl-[28px] pl-[32px] 3xl:pl-[38px] lg:pt-[14px] xl:pt-[16px] pt-[18px] 3xl:pt-[21px] w-[100%]"
+                compId="3"
                 comWidth={1336}
                 comHeight={58}
                 compLeft={0}
@@ -166,7 +167,7 @@ const TasksPage = () => {
             </Stack>
             <List
               className="gap-[0] min-h-[auto] w-[100%]"
-              compId="33"
+              compId="36"
               comWidth={1342}
               comHeight={360}
               compLeft={0}
@@ -177,8 +178,8 @@ const TasksPage = () => {
               {apiData?.tasks?.map((apiDataEle) => {
                 return (
                   <Row
-                    className="bg-white_A700 border border-gray_200 border-solid items-center justify-start my-[0] lg:pl-[18px] xl:pl-[21px] pl-[24px] 3xl:pl-[28px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
-                    compId="2"
+                    className="bg-white_A700 border border-gray_201 border-solid items-center justify-start my-[0] lg:pl-[18px] xl:pl-[21px] pl-[24px] 3xl:pl-[28px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                    compId="4"
                     comWidth={1340}
                     comHeight={120}
                     compLeft={0}
@@ -186,7 +187,7 @@ const TasksPage = () => {
                     compType="Row"
                   >
                     <div
-                      className="bg-white_A700 border-bluegray_200 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[26px] xl:my-[30px] my-[34px] 3xl:my-[40px] rounded-radius25 w-[2%]"
+                      className="bg-white_A700 border-bluegray_201 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[26px] xl:my-[30px] my-[34px] 3xl:my-[40px] rounded-radius25 w-[2%]"
                       compId="5042:8297"
                       comWidth={30}
                       comHeight={20}
@@ -251,7 +252,7 @@ const TasksPage = () => {
               compType="Column"
             >
               <Text
-                className="font-normal not-italic lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_700 w-[auto]"
+                className="font-normal not-italic lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_701 w-[auto]"
                 compId="5042:8285"
                 comWidth={336}
                 comHeight={23}
@@ -259,10 +260,10 @@ const TasksPage = () => {
                 compRight={0}
                 compType="Text"
               >
-                <span className="text-bluegray_700 font-sourcesanspro">
+                <span className="text-bluegray_701 font-sourcesanspro">
                   Showing task due from{" "}
                 </span>
-                <span className="text-bluegray_700 font-sourcesanspro font-semibold">
+                <span className="text-bluegray_701 font-sourcesanspro font-semibold">
                   18 may 2022 - 22 May 2023
                 </span>
               </Text>
@@ -271,7 +272,7 @@ const TasksPage = () => {
           <aside className="absolute items-center justify-start w-[7%]">
             <Column
               className=""
-              compId="5"
+              compId="7"
               comWidth={98}
               comHeight={1024}
               compLeft={0}
@@ -320,7 +321,7 @@ const TasksPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector.png"}
+                  src={"images/img_vector_8.png"}
                   className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[20px] xl:mt-[23px] mt-[26px] 3xl:mt-[31px] mx-[auto] object-contain lg:w-[14px] xl:w-[16px] w-[19px] 3xl:w-[22px]"
                   compId="I5042:8365;120:2258"
                   comWidth={19}
@@ -331,7 +332,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_1.png"}
+                  src={"images/img_vector_9.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[38%]"
                   compId="I5042:8366;120:2252"
                   comWidth={19}
@@ -342,7 +343,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_2.png"}
+                  src={"images/img_vector_10.png"}
                   className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I5042:8367;120:328"
                   comWidth={16}
@@ -353,7 +354,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_3.png"}
+                  src={"images/img_vector_11.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I5042:8368;120:1630"
                   comWidth={18}
@@ -364,7 +365,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_4.png"}
+                  src={"images/img_vector_12.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I5042:8369;120:434"
                   comWidth={20}
@@ -375,7 +376,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_5.png"}
+                  src={"images/img_vector_13.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I5042:8370;120:1750"
                   comWidth={20}
@@ -386,7 +387,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_6.png"}
+                  src={"images/img_vector_14.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I5042:8371;120:1890"
                   comWidth={19}
@@ -408,36 +409,54 @@ const TasksPage = () => {
             compRight={0}
             compType="Row"
           >
-            <SelectBox
-              className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[100%]"
+            <Input
+              value={inputvalue}
+              onChange={(e) => setInputvalue(e?.target?.value)}
+              className="bg-transparent border-0 font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
+              WrapClassName="3xl:pb-[10px] 3xl:pl-[7px] 3xl:pr-[26px] 3xl:pt-[9px] border border-bluegray_200 border-solid flex lg:pb-[7px] lg:pl-[4px] lg:pr-[17px] lg:pt-[6px] pb-[9px] pl-[6px] pr-[22px] pt-[8px] rounded-bl-[4px] rounded-br-[0] rounded-tl-[4px] rounded-tr-[0] w-[7%] xl:pb-[8px] xl:pl-[5px] xl:pr-[19px] xl:pt-[7px]"
               compId="5042:8390"
               comWidth={0}
               comHeight={40}
               compLeft={0}
               compRight={0}
-              compType="Dropdown"
-              placeholderClassName="bg-transparent text-bluegray_701"
+              compType="SearchView"
               name="Group187"
               placeholder="All"
-              isSearchable={false}
-              isMulti={false}
-              indicator={
+              prefix={
                 <Image
-                  src={"images/img_vector_8.png"}
-                  className="w-[10.54px] h-[6.25px] mr-[12px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[9px] xl:w-[9px] xl:h-[6px] xl:mr-[10px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[14px]"
-                  compId="I5042:8394;120:93"
-                  comWidth={10.54}
-                  comHeight={6.25}
+                  src={"images/img_vector_15.png"}
+                  className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
+                  compId="I5042:8392;120:1866"
+                  comWidth={20.01}
+                  comHeight={20}
                   compLeft={0}
-                  compRight={12}
+                  compRight={0}
                   compType="Image"
                   alt="Vector"
                 />
               }
-            ></SelectBox>
+              suffix={
+                inputvalue?.length > 0 ? (
+                  <Image
+                    onClick={() => setInputvalue("")}
+                    src={"images/close1.svg"}
+                    className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
+                    compId="I2:3811;309:8624"
+                    comWidth={20.01}
+                    comHeight={20}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Image"
+                    alt="Vector"
+                  />
+                ) : (
+                  ""
+                )
+              }
+            ></Input>
             <Input
               className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
-              WrapClassName="border border-bluegray_201 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
+              WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
               compId="5042:8396"
               comWidth={446}
               comHeight={40}
@@ -449,7 +468,7 @@ const TasksPage = () => {
             ></Input>
             <Row
               className="items-center justify-between lg:ml-[376px] xl:ml-[430px] ml-[484px] 3xl:ml-[581px] w-[22%]"
-              compId="34"
+              compId="37"
               comWidth={292}
               comHeight={40}
               compLeft={484}
@@ -466,7 +485,7 @@ const TasksPage = () => {
                 compType="IconButton"
               >
                 <Image
-                  src={"images/img_group5.png"}
+                  src={"images/img_group5_1.png"}
                   className="w-[16px] h-[16px] flex items-center justify-center lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px]"
                   compId="5042:8374"
                   comWidth={40}
@@ -478,7 +497,7 @@ const TasksPage = () => {
                 />
               </Button>
               <Button
-                className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                 compId="5042:8377"
                 comWidth={40}
                 comHeight={40}
@@ -487,7 +506,7 @@ const TasksPage = () => {
                 compType="IconButton"
               >
                 <Image
-                  src={"images/img_group4.png"}
+                  src={"images/img_group4_1.png"}
                   className="w-[100%] flex items-center justify-center"
                   compId="5042:8377"
                   comWidth={40}
@@ -499,7 +518,7 @@ const TasksPage = () => {
                 />
               </Button>
               <Button
-                className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                 compId="5042:8380"
                 comWidth={40}
                 comHeight={40}
@@ -508,7 +527,7 @@ const TasksPage = () => {
                 compType="IconButton"
               >
                 <Image
-                  src={"images/img_group3.png"}
+                  src={"images/img_group3_1.png"}
                   className="w-[31.09px] h-[31.09px] flex items-center justify-center lg:w-[24px] lg:h-[25px] xl:w-[27px] xl:h-[28px] 2xl:w-[31px] 2xl:h-[32px] 3xl:w-[37px] 3xl:h-[38px]"
                   compId="5042:8380"
                   comWidth={40}
@@ -529,7 +548,7 @@ const TasksPage = () => {
                 compType="IconButton"
               >
                 <Image
-                  src={"images/img_group100.png"}
+                  src={"images/img_group100_1.png"}
                   className="w-[37%] flex items-center justify-center"
                   compId="5042:8383"
                   comWidth={36}
@@ -550,7 +569,7 @@ const TasksPage = () => {
                 compType="IconButton"
               >
                 <Image
-                  src={"images/img_group99.png"}
+                  src={"images/img_group99_1.png"}
                   className="w-[72%] flex items-center justify-center"
                   compId="5042:8386"
                   comWidth={40}

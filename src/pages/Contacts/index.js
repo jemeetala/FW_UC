@@ -8,8 +8,8 @@ import {
   Image,
   Button,
   Input,
-  List,
   Text,
+  List,
   Line,
 } from "components";
 
@@ -52,7 +52,7 @@ const ContactsPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="93"
+          compId="96"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -62,7 +62,7 @@ const ContactsPage = () => {
           <aside className="items-center w-[7%]">
             <Column
               className=""
-              compId="18"
+              compId="20"
               comWidth={98}
               comHeight={1024}
               compLeft={0}
@@ -79,7 +79,7 @@ const ContactsPage = () => {
                 compType="Column"
               >
                 <Image
-                  src={"images/img_group345_1.png"}
+                  src={"images/img_group345_2.png"}
                   className="lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] object-contain lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
                   compId="4793:8601"
                   comWidth={50}
@@ -90,7 +90,7 @@ const ContactsPage = () => {
                   alt="Group345"
                 />
                 <Image
-                  src={"images/img_vector_71.png"}
+                  src={"images/img_vector_78.png"}
                   className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mt-[25px] xl:mt-[29px] mt-[33px] 3xl:mt-[39px] mx-[auto] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                   compId="I4793:8298;275:1558"
                   comWidth={16}
@@ -110,7 +110,7 @@ const ContactsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group331_1.png"}
+                    src={"images/img_group331_2.png"}
                     className="w-[100%] flex items-center justify-center"
                     compId="4793:8305"
                     comWidth={50}
@@ -122,7 +122,7 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_72.png"}
+                  src={"images/img_vector_79.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[17px] xl:mt-[20px] mt-[23px] 3xl:mt-[27px] mx-[auto] object-contain w-[38%]"
                   compId="I4793:8299;120:2252"
                   comWidth={19}
@@ -133,7 +133,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_73.png"}
+                  src={"images/img_vector_80.png"}
                   className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I4793:8300;120:328"
                   comWidth={16}
@@ -144,7 +144,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_74.png"}
+                  src={"images/img_vector_81.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4793:8301;120:1630"
                   comWidth={18}
@@ -155,7 +155,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_75.png"}
+                  src={"images/img_vector_82.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4793:8302;120:434"
                   comWidth={20}
@@ -166,7 +166,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_76.png"}
+                  src={"images/img_vector_83.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4793:8303;120:1750"
                   comWidth={20}
@@ -177,7 +177,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_77.png"}
+                  src={"images/img_vector_84.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4793:8304;120:1890"
                   comWidth={19}
@@ -211,8 +211,8 @@ const ContactsPage = () => {
               <Input
                 value={inputvalue}
                 onChange={(e) => setInputvalue(e?.target?.value)}
-                className="bg-transparent border-0 font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
-                WrapClassName="3xl:pb-[9px] 3xl:pl-[7px] 3xl:pr-[26px] 3xl:pt-[10px] border border-bluegray_201 border-solid flex lg:pb-[6px] lg:pl-[4px] lg:pr-[17px] lg:pt-[7px] pb-[8px] pl-[6px] pr-[22px] pt-[9px] rounded-bl-[4px] rounded-br-[0] rounded-tl-[4px] rounded-tr-[0] w-[11%] xl:pb-[7px] xl:pl-[5px] xl:pr-[19px] xl:pt-[8px]"
+                className="bg-transparent border-0 font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
+                WrapClassName="3xl:pb-[9px] 3xl:pl-[7px] 3xl:pr-[26px] 3xl:pt-[10px] border border-bluegray_200 border-solid flex lg:pb-[6px] lg:pl-[4px] lg:pr-[17px] lg:pt-[7px] pb-[8px] pl-[6px] pr-[22px] pt-[9px] rounded-bl-[4px] rounded-br-[0] rounded-tl-[4px] rounded-tr-[0] w-[11%] xl:pb-[7px] xl:pl-[5px] xl:pr-[19px] xl:pt-[8px]"
                 compId="4793:8328"
                 comWidth={0}
                 comHeight={40}
@@ -223,7 +223,7 @@ const ContactsPage = () => {
                 placeholder="Contacts"
                 prefix={
                   <Image
-                    src={"images/img_vector_78.png"}
+                    src={"images/img_vector_85.png"}
                     className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
                     compId="I4793:8330;120:1866"
                     comWidth={20.01}
@@ -238,7 +238,7 @@ const ContactsPage = () => {
                   inputvalue?.length > 0 ? (
                     <Image
                       onClick={() => setInputvalue("")}
-                      src={"images/close.svg"}
+                      src={"images/close2.svg"}
                       className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
                       compId="I2:3811;309:8624"
                       comWidth={20.01}
@@ -255,7 +255,7 @@ const ContactsPage = () => {
               ></Input>
               <Input
                 className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
-                WrapClassName="border border-bluegray_201 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
+                WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
                 compId="4793:8334"
                 comWidth={446}
                 comHeight={40}
@@ -265,18 +265,17 @@ const ContactsPage = () => {
                 name="Group94"
                 placeholder="Search your CRM..."
               ></Input>
-              <List
-                className="lg:gap-[18px] xl:gap-[21px] gap-[24px] 3xl:gap-[28px] grid grid-cols-5 min-h-[auto] lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="95"
+              <Row
+                className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
+                compId="98"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
                 compRight={0}
-                compType="List"
-                orientation="horizontal"
+                compType="Row"
               >
                 <Button
-                  className="common-pointer bg-bluegray_900 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 w-[100%]"
+                  className="common-pointer bg-bluegray_900 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4793:8312"
                   comWidth={40}
                   comHeight={40}
@@ -286,7 +285,7 @@ const ContactsPage = () => {
                   onClick={handleOpenAddContactsModal}
                 >
                   <Image
-                    src={"images/img_group5_2.png"}
+                    src={"images/img_group5_3.png"}
                     className="w-[16px] h-[16px] flex items-center justify-center lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px]"
                     compId="4793:8312"
                     comWidth={40}
@@ -299,7 +298,7 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 w-[100%]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4793:8315"
                   comWidth={40}
                   comHeight={40}
@@ -308,7 +307,7 @@ const ContactsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group4_2.png"}
+                    src={"images/img_group4_3.png"}
                     className="w-[100%] flex items-center justify-center"
                     compId="4793:8315"
                     comWidth={40}
@@ -320,7 +319,7 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 w-[100%]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4793:8318"
                   comWidth={40}
                   comHeight={40}
@@ -329,7 +328,7 @@ const ContactsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group3_3.png"}
+                    src={"images/img_group3_4.png"}
                     className="w-[31.09px] h-[31.09px] flex items-center justify-center lg:w-[24px] lg:h-[25px] xl:w-[27px] xl:h-[28px] 2xl:w-[31px] 2xl:h-[32px] 3xl:w-[37px] 3xl:h-[38px]"
                     compId="4793:8318"
                     comWidth={40}
@@ -341,7 +340,7 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-red_600 flex lg:h-[28px] xl:h-[33px] h-[36px] 2xl:h-[37px] 3xl:h-[44px] items-center justify-center xl:my-[1px] lg:my-[1px] my-[2px] p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] rounded-radius50 w-[100%]"
+                  className="bg-red_600 flex lg:h-[28px] xl:h-[33px] h-[36px] 2xl:h-[37px] 3xl:h-[44px] items-center justify-center xl:my-[1px] lg:my-[1px] my-[2px] p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] rounded-radius50 lg:w-[28px] xl:w-[32px] w-[36px] 3xl:w-[43px]"
                   compId="4793:8321"
                   comWidth={36}
                   comHeight={36}
@@ -350,7 +349,7 @@ const ContactsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group100_2.png"}
+                    src={"images/img_group100_3.png"}
                     className="w-[37%] flex items-center justify-center"
                     compId="4793:8321"
                     comWidth={36}
@@ -362,7 +361,7 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 w-[100%]"
+                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4793:8324"
                   comWidth={40}
                   comHeight={40}
@@ -371,7 +370,7 @@ const ContactsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group99_2.png"}
+                    src={"images/img_group99_3.png"}
                     className="w-[72%] flex items-center justify-center"
                     compId="4793:8324"
                     comWidth={40}
@@ -382,7 +381,7 @@ const ContactsPage = () => {
                     alt="Group99"
                   />
                 </Button>
-              </List>
+              </Row>
             </Row>
             <Row
               className="bg-white_A700 font-montserrat items-center justify-start xl:mt-[10px] mt-[12px] 3xl:mt-[14px] lg:mt-[9px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
@@ -416,7 +415,7 @@ const ContactsPage = () => {
                 Lead Score
               </Text>
               <Image
-                src={"images/img_vector_79.png"}
+                src={"images/img_vector_86.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] lg:ml-[5px] xl:ml-[6px] ml-[7px] 3xl:ml-[8px] xl:my-[1px] lg:my-[1px] my-[2px] object-contain w-[1%]"
                 compId="I5022:8457;5:15"
                 comWidth={9}
@@ -438,7 +437,7 @@ const ContactsPage = () => {
                 Emails
               </Text>
               <Image
-                src={"images/img_vector_80.png"}
+                src={"images/img_vector_87.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:mb-[1px] lg:mb-[1px] mb-[2px] ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] object-contain w-[1%]"
                 compId="I5022:8460;5:15"
                 comWidth={9}
@@ -461,7 +460,7 @@ const ContactsPage = () => {
               </Text>
               <Row
                 className="items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] w-[37%]"
-                compId="96"
+                compId="99"
                 comWidth={485}
                 comHeight={17}
                 compLeft={10}
@@ -469,7 +468,7 @@ const ContactsPage = () => {
                 compType="Row"
               >
                 <Image
-                  src={"images/img_vector_81.png"}
+                  src={"images/img_vector_88.png"}
                   className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:my-[1px] lg:my-[1px] my-[2px] object-contain w-[2%]"
                   compId="I5022:8463;5:15"
                   comWidth={9}
@@ -514,7 +513,7 @@ const ContactsPage = () => {
                 </Text>
               </Row>
               <Image
-                src={"images/img_vector_82.png"}
+                src={"images/img_vector_89.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:mb-[1px] lg:mb-[1px] mb-[2px] ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] object-contain w-[1%]"
                 compId="I5022:8470;5:15"
                 comWidth={9}
@@ -538,7 +537,7 @@ const ContactsPage = () => {
             </Row>
             <List
               className="font-montserrat gap-[0] min-h-[auto] w-[100%]"
-              compId="94"
+              compId="97"
               comWidth={1341}
               comHeight={882}
               compLeft={1}
@@ -557,7 +556,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] w-[51%]"
-                  compId="97"
+                  compId="100"
                   comWidth={675}
                   comHeight={17}
                   compLeft={0}
@@ -696,7 +695,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="98"
+                  compId="101"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -824,7 +823,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="99"
+                  compId="102"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -952,7 +951,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="100"
+                  compId="103"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -1080,7 +1079,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="101"
+                  compId="104"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -1208,7 +1207,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="102"
+                  compId="105"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1336,7 +1335,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="103"
+                  compId="106"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1464,7 +1463,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="104"
+                  compId="107"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1592,7 +1591,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="105"
+                  compId="108"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -1720,7 +1719,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="106"
+                  compId="109"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
@@ -1848,7 +1847,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="107"
+                  compId="110"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -1976,7 +1975,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="108"
+                  compId="111"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -2104,7 +2103,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="109"
+                  compId="112"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
@@ -2232,7 +2231,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="110"
+                  compId="113"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
