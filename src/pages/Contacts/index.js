@@ -52,15 +52,15 @@ const ContactsPage = () => {
         compType="Column"
       >
         <Row
-          className="items-start justify-evenly w-[100%]"
+          className="items-center justify-evenly w-[100%]"
           compId="92"
           comWidth={1439}
-          comHeight={1024}
+          comHeight={1029}
           compLeft={0}
           compRight={0}
           compType="Row"
         >
-          <aside className="items-center justify-start w-[7%]">
+          <aside className="items-center lg:mb-[3px] xl:mb-[4px] mb-[5px] 3xl:mb-[6px] w-[7%]">
             <Column
               className=""
               compId="12"
@@ -192,10 +192,10 @@ const ContactsPage = () => {
             </Column>
           </aside>
           <Column
-            className="items-center justify-start mb-[111px] 3xl:mb-[133px] lg:mb-[86px] xl:mb-[98px] w-[93%]"
+            className="items-center w-[93%]"
             compId="5022:8436"
             comWidth={1341}
-            comHeight={913}
+            comHeight={1029}
             compLeft={0}
             compRight={0}
             compType="Column"
@@ -619,7 +619,7 @@ const ContactsPage = () => {
               className="font-montserrat gap-[0] min-h-[auto] w-[100%]"
               compId="93"
               comWidth={1341}
-              comHeight={640}
+              comHeight={819}
               compLeft={0}
               compRight={0}
               compType="List"
@@ -631,46 +631,35 @@ const ContactsPage = () => {
                     className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
                     compId="5022:8473"
                     comWidth={1341}
-                    comHeight={64}
+                    comHeight={63}
                     compLeft={0}
                     compRight={0}
                     compType="Row"
                   >
-                    <Text
-                      className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-                      compId="5022:8475"
-                      comWidth={149}
-                      comHeight={17}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      {apiDataEle?.first_name}
-                    </Text>
-                    <Image
-                      src={apiDataEle?.avatar}
-                      className="lg:h-[25px] xl:h-[29px] h-[32px] 2xl:h-[33px] 3xl:h-[39px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] object-contain rounded-radius8 lg:w-[24px] xl:w-[28px] w-[32px] 3xl:w-[38px]"
-                      compId="5022:8477"
-                      comWidth={32}
-                      comHeight={32}
-                      compLeft={16}
-                      compRight={0}
-                      compType="Image"
-                      alt="unsplashh0AnGG"
-                    />
                     <Row
-                      className="items-center justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] my-[0] w-[66%]"
+                      className="items-center justify-between w-[81%]"
                       compId="96"
-                      comWidth={871}
+                      comWidth={1076}
                       comHeight={31}
-                      compLeft={8}
+                      compLeft={0}
                       compRight={0}
                       compType="Row"
                     >
                       <Text
                         className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        compId="5022:8475"
+                        comWidth={149}
+                        comHeight={17}
+                        compLeft={0}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        {apiDataEle?.first_name}
+                      </Text>
+                      <Text
+                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8478"
-                        comWidth={109}
+                        comWidth={149}
                         comHeight={17}
                         compLeft={0}
                         compRight={0}
@@ -679,55 +668,55 @@ const ContactsPage = () => {
                         {apiDataEle?.lead_score}
                       </Text>
                       <Text
-                        className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8480"
                         comWidth={149}
                         comHeight={17}
-                        compLeft={16}
+                        compLeft={0}
                         compRight={0}
                         compType="Text"
                       >
                         {apiDataEle?.open_deals_amount}
                       </Text>
                       <Text
-                        className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8482"
                         comWidth={149}
                         comHeight={17}
-                        compLeft={16}
+                        compLeft={0}
                         compRight={0}
                         compType="Text"
                       >
                         {apiDataEle?.email}
                       </Text>
                       <Text
-                        className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8484"
                         comWidth={149}
                         comHeight={17}
-                        compLeft={16}
+                        compLeft={0}
                         compRight={0}
                         compType="Text"
                       >
                         {apiDataEle?.mobile_number}
                       </Text>
                       <Text
-                        className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8486"
                         comWidth={149}
                         comHeight={17}
-                        compLeft={16}
+                        compLeft={0}
                         compRight={0}
                         compType="Text"
                       >
                         Tranfer Bank
                       </Text>
                       <Button
-                        className="bg-green_50 font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[10%]"
+                        className="bg-green_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[8%]"
                         compId="5022:8488"
                         comWidth={83}
                         comHeight={31}
-                        compLeft={16}
+                        compLeft={0}
                         compRight={0}
                         compType="Button"
                       >
@@ -736,7 +725,7 @@ const ContactsPage = () => {
                     </Row>
                     <Image
                       src={"images/img_edit12.png"}
-                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[111px] ml-[125px] 3xl:ml-[150px] lg:ml-[97px] xl:my-[3px] lg:my-[3px] my-[4px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[111px] ml-[125px] 3xl:ml-[150px] lg:ml-[97px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       compId="5022:8492"
                       comWidth={24}
                       comHeight={24}
@@ -747,7 +736,7 @@ const ContactsPage = () => {
                     />
                     <Image
                       src={"images/img_trash22.png"}
-                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[3px] lg:my-[3px] my-[4px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       compId="5022:8493"
                       comWidth={24}
                       comHeight={24}
@@ -760,71 +749,6 @@ const ContactsPage = () => {
                 );
               })}
             </List>
-            <Row
-              className="bg-white_A700 font-montserrat items-center justify-center lg:px-[434px] xl:px-[497px] px-[559px] 3xl:px-[671px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
-              compId="5022:8684"
-              comWidth={1341}
-              comHeight={63}
-              compLeft={0}
-              compRight={0}
-              compType="Row"
-            >
-              <Text
-                className="font-medium lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-gray_500 w-[auto]"
-                compId="5022:8685"
-                comWidth={53}
-                comHeight={15}
-                compLeft={0}
-                compRight={0}
-                compType="Text"
-              >
-                Previous
-              </Text>
-              <Button
-                className="bg-deep_purple_A200 font-medium lg:h-[25px] xl:h-[28px] h-[31px] 2xl:h-[32px] 3xl:h-[38px] xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-white_A700 lg:w-[24px] xl:w-[27px] w-[31px] 3xl:w-[37px]"
-                compId="5022:8686"
-                comWidth={31}
-                comHeight={31}
-                compLeft={12}
-                compRight={0}
-                compType="Button"
-              >
-                1
-              </Button>
-              <Button
-                className="bg-gray_300 font-medium lg:h-[25px] xl:h-[28px] h-[31px] 2xl:h-[32px] 3xl:h-[38px] xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-black_900 text-center lg:w-[24px] xl:w-[27px] w-[31px] 3xl:w-[37px]"
-                compId="5022:8688"
-                comWidth={31}
-                comHeight={31}
-                compLeft={12}
-                compRight={0}
-                compType="Button"
-              >
-                2
-              </Button>
-              <Button
-                className="bg-gray_300 font-medium lg:h-[25px] xl:h-[28px] h-[31px] 2xl:h-[32px] 3xl:h-[38px] xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-black_900 text-center lg:w-[24px] xl:w-[27px] w-[31px] 3xl:w-[37px]"
-                compId="5022:8690"
-                comWidth={31}
-                comHeight={31}
-                compLeft={12}
-                compRight={0}
-                compType="Button"
-              >
-                3
-              </Button>
-              <Text
-                className="font-medium xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-gray_500 w-[auto]"
-                compId="5022:8692"
-                comWidth={29}
-                comHeight={15}
-                compLeft={12}
-                compRight={0}
-                compType="Text"
-              >
-                Next
-              </Text>
-            </Row>
           </Column>
         </Row>
       </Column>

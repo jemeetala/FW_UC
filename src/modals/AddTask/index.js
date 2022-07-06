@@ -57,7 +57,7 @@ const AddTaskModal = (props) => {
           >
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] w-[94%]"
-              compId="110"
+              compId="113"
               comWidth={484}
               comHeight={55}
               compLeft={0}
@@ -101,7 +101,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="111"
+              compId="114"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -147,7 +147,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="112"
+              compId="115"
               comWidth={484}
               comHeight={214}
               compLeft={0}
@@ -206,7 +206,7 @@ const AddTaskModal = (props) => {
                   </Text>
                   <Column
                     className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
-                    compId="114"
+                    compId="117"
                     comWidth={145}
                     comHeight={36}
                     compLeft={0}
@@ -267,7 +267,7 @@ const AddTaskModal = (props) => {
                   </Text>
                   <Column
                     className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
-                    compId="115"
+                    compId="118"
                     comWidth={314}
                     comHeight={36}
                     compLeft={0}
@@ -351,7 +351,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="113"
+              compId="116"
               comWidth={484}
               comHeight={36}
               compLeft={0}
