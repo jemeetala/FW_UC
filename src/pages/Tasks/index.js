@@ -516,32 +516,17 @@ const TasksPage = () => {
                           >
                             {apiDataEle?.description}
                           </Text>
-                          <Column
-                            className="items-center lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] w-[100%]"
-                            compId="89"
+                          <Text
+                            className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                            compId="5052:8619"
                             comWidth={186}
                             comHeight={26}
                             compLeft={0}
                             compRight={0}
-                            compType="Column"
+                            compType="Text"
                           >
-                            <Text
-                              className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
-                              compId="5052:8619"
-                              comWidth={186}
-                              comHeight={26}
-                              compLeft={0}
-                              compRight={0}
-                              compType="Text"
-                            >
-                              <span className="text-bluegray_600 font-sourcesanspro">
-                                Due date:{" "}
-                              </span>
-                              <span className="text-red_700 font-sourcesanspro">
-                                20 days ago (overdue)
-                              </span>
-                            </Text>
-                          </Column>
+                            {apiDataEle?.due_date}
+                          </Text>
                         </Column>
                       </Row>
                     );
