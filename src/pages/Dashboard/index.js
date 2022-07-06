@@ -26,7 +26,7 @@ const DashboardPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="68"
+          compId="67"
           comWidth={1440}
           comHeight={1040}
           compLeft={0}
@@ -166,7 +166,7 @@ const DashboardPage = () => {
           </aside>
           <Column
             className="items-center w-[93%]"
-            compId="67"
+            compId="66"
             comWidth={1341}
             comHeight={1040}
             compLeft={0}
@@ -221,7 +221,7 @@ const DashboardPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[376px] xl:ml-[430px] ml-[484px] 3xl:ml-[581px] w-[22%]"
-                compId="70"
+                compId="69"
                 comWidth={292}
                 comHeight={34}
                 compLeft={484}
@@ -465,7 +465,7 @@ const DashboardPage = () => {
             </Row>
             <Row
               className="items-center justify-between lg:ml-[11px] xl:ml-[13px] ml-[15px] 3xl:ml-[18px] lg:mr-[12px] xl:mr-[14px] mr-[16px] 3xl:mr-[19px] xl:mt-[10px] mt-[12px] 3xl:mt-[14px] lg:mt-[9px] w-[98%]"
-              compId="66"
+              compId="65"
               comWidth={1310}
               comHeight={900}
               compLeft={15}
@@ -606,7 +606,7 @@ const DashboardPage = () => {
                   </Button>
                   <Row
                     className="items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] w-[30%]"
-                    compId="71"
+                    compId="70"
                     comWidth={255}
                     comHeight={23}
                     compLeft={10}
@@ -703,7 +703,7 @@ const DashboardPage = () => {
                     </Text>
                     <Column
                       className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                      compId="73"
+                      compId="72"
                       comWidth={389}
                       comHeight={85}
                       compLeft={0}
@@ -776,7 +776,7 @@ const DashboardPage = () => {
                           >
                             <Stack
                               className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                              compId="57"
+                              compId="56"
                               comWidth={15}
                               comHeight={20}
                               compLeft={0}
@@ -785,7 +785,7 @@ const DashboardPage = () => {
                             >
                               <Stack
                                 className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                compId="58"
+                                compId="57"
                                 comWidth={15}
                                 comHeight={20}
                                 compLeft={0}
@@ -794,7 +794,7 @@ const DashboardPage = () => {
                               >
                                 <Stack
                                   className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                  compId="59"
+                                  compId="58"
                                   comWidth={15}
                                   comHeight={20}
                                   compLeft={0}
@@ -803,7 +803,7 @@ const DashboardPage = () => {
                                 >
                                   <Stack
                                     className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[87%]"
-                                    compId="60"
+                                    compId="59"
                                     comWidth={13}
                                     comHeight={20}
                                     compLeft={0}
@@ -812,7 +812,7 @@ const DashboardPage = () => {
                                   >
                                     <Stack
                                       className="absolute lg:h-[4px] h-[5px] 2xl:h-[6px] 3xl:h-[7px] w-[100%]"
-                                      compId="61"
+                                      compId="60"
                                       comWidth={13}
                                       comHeight={5}
                                       compLeft={0}
@@ -1092,7 +1092,7 @@ const DashboardPage = () => {
                         >
                           <Stack
                             className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[87%]"
-                            compId="62"
+                            compId="61"
                             comWidth={13}
                             comHeight={20}
                             compLeft={0}
@@ -1101,7 +1101,7 @@ const DashboardPage = () => {
                           >
                             <Stack
                               className="absolute lg:h-[4px] h-[5px] 2xl:h-[6px] 3xl:h-[7px] w-[100%]"
-                              compId="63"
+                              compId="62"
                               comWidth={13}
                               comHeight={5}
                               compLeft={0}
@@ -1263,32 +1263,38 @@ const DashboardPage = () => {
                     compRight={0}
                     compType="Line"
                   />
-                  <Button
-                    className="3xl:ml-[133px] 3xl:pl-[20px] 3xl:pr-[19px] absolute bg-gray_50 border border-gray_201 border-solid flex items-center justify-between left-[26%] lg:ml-[86px] lg:pl-[13px] lg:pr-[12px] lg:py-[3px] ml-[111px] pl-[17px] pr-[16px] py-[4px] rounded-radius4 text-center w-[39%] xl:ml-[98px] xl:pl-[15px] xl:pr-[14px] xl:py-[3px]"
-                    compId="3"
-                    comWidth={0}
+                  <Row
+                    className="absolute bg-gray_50 border border-gray_201 border-solid items-center justify-center left-[26%] lg:pl-[13px] xl:pl-[15px] pl-[17px] 3xl:pl-[20px] xl:py-[3px] lg:py-[3px] py-[4px] rounded-radius4 w-[39%]"
+                    compId="4676:9106"
+                    comWidth={168}
                     comHeight={31}
-                    compLeft={0}
+                    compLeft={111}
                     compRight={0}
-                    compType="Button"
-                    leftIcon={
-                      <Image
-                        src={"images/img_vector_49.png"}
-                        className="w-[16.37px] text-center absolute lg:w-[12px] xl:w-[14px] 2xl:w-[16px] 3xl:w-[19px]"
-                        compId="I4477:6006;120:1890"
-                        comWidth={16.37}
-                        comHeight={16.67}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Image"
-                        alt="Vector"
-                      />
-                    }
+                    compType="Row"
                   >
-                    <div className="bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701">
+                    <Image
+                      src={"images/img_vector_49.png"}
+                      className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
+                      compId="I4477:6006;120:1890"
+                      comWidth={16}
+                      comHeight={16}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Image"
+                      alt="Vector"
+                    />
+                    <Text
+                      className="font-normal lg:ml-[14px] xl:ml-[16px] ml-[18px] 3xl:ml-[21px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                      compId="4477:6002"
+                      comWidth={116}
+                      comHeight={23}
+                      compLeft={18}
+                      compRight={0}
+                      compType="Text"
+                    >
                       Configure widgets
-                    </div>
-                  </Button>
+                    </Text>
+                  </Row>
                 </Stack>
                 <Column
                   className="bg-white_A700 items-start justify-start lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] lg:pb-[32px] xl:pb-[37px] pb-[42px] 3xl:pb-[50px] xl:pt-[10px] pt-[12px] 3xl:pt-[14px] lg:pt-[9px] rounded-radius8 w-[100%]"
@@ -1333,7 +1339,7 @@ const DashboardPage = () => {
                   </Row>
                   <Column
                     className="items-center xl:mt-[10px] mt-[12px] 3xl:mt-[14px] lg:mt-[9px] w-[100%]"
-                    compId="74"
+                    compId="73"
                     comWidth={426}
                     comHeight={64}
                     compLeft={0}
@@ -1414,7 +1420,7 @@ const DashboardPage = () => {
                   />
                   <Column
                     className="items-start justify-start lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:mr-[14px] xl:mr-[16px] mr-[18px] 3xl:mr-[21px] lg:mt-[11px] xl:mt-[13px] mt-[15px] 3xl:mt-[18px] w-[92%]"
-                    compId="69"
+                    compId="68"
                     comWidth={392}
                     comHeight={548}
                     compLeft={16}
@@ -1434,7 +1440,7 @@ const DashboardPage = () => {
                     </Text>
                     <Column
                       className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                      compId="75"
+                      compId="74"
                       comWidth={392}
                       comHeight={152}
                       compLeft={0}
@@ -1452,7 +1458,7 @@ const DashboardPage = () => {
                       >
                         <Row
                           className="items-center justify-between w-[27%]"
-                          compId="72"
+                          compId="71"
                           comWidth={105}
                           comHeight={23}
                           compLeft={0}
@@ -1568,7 +1574,7 @@ const DashboardPage = () => {
                     </Column>
                     <Column
                       className="items-end lg:mt-[31px] xl:mt-[35px] mt-[40px] 3xl:mt-[48px] w-[100%]"
-                      compId="76"
+                      compId="75"
                       comWidth={392}
                       comHeight={1}
                       compLeft={0}
@@ -1587,7 +1593,7 @@ const DashboardPage = () => {
                     </Column>
                     <Column
                       className="items-center 3xl:mt-[10px] lg:mt-[7px] xl:mt-[8px] mt-[9px] xl:pl-[1px] lg:pl-[1px] pl-[2px] w-[100%]"
-                      compId="77"
+                      compId="76"
                       comWidth={392}
                       comHeight={315}
                       compLeft={0}
@@ -1596,7 +1602,7 @@ const DashboardPage = () => {
                     >
                       <Row
                         className="items-center justify-between w-[100%]"
-                        compId="64"
+                        compId="63"
                         comWidth={389}
                         comHeight={23}
                         compLeft={0}

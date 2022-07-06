@@ -25,7 +25,7 @@ const AddnotesPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="144"
+          compId="143"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -165,7 +165,7 @@ const AddnotesPage = () => {
           </aside>
           <Column
             className="items-center lg:mb-[21px] xl:mb-[24px] mb-[27px] 3xl:mb-[32px] w-[93%]"
-            compId="143"
+            compId="142"
             comWidth={1342}
             comHeight={997}
             compLeft={0}
@@ -222,7 +222,7 @@ const AddnotesPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="145"
+                compId="144"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -380,7 +380,7 @@ const AddnotesPage = () => {
               </Text>
               <Row
                 className="items-center justify-center lg:ml-[248px] xl:ml-[283px] ml-[319px] 3xl:ml-[383px] w-[56%]"
-                compId="146"
+                compId="145"
                 comWidth={745}
                 comHeight={40}
                 compLeft={319}
@@ -600,7 +600,7 @@ const AddnotesPage = () => {
                 />
                 <Row
                   className="items-start justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[40%]"
-                  compId="147"
+                  compId="146"
                   comWidth={271}
                   comHeight={70}
                   compLeft={8}
@@ -618,7 +618,7 @@ const AddnotesPage = () => {
                   >
                     <Column
                       className="items-center w-[100%]"
-                      compId="148"
+                      compId="147"
                       comWidth={199}
                       comHeight={22}
                       compLeft={0}
@@ -784,7 +784,7 @@ const AddnotesPage = () => {
                   >
                     <Column
                       className="items-center w-[100%]"
-                      compId="149"
+                      compId="148"
                       comWidth={39}
                       comHeight={22}
                       compLeft={0}
@@ -859,7 +859,7 @@ const AddnotesPage = () => {
                   </Row>
                   <Column
                     className="items-center mr-[1px] lg:mt-[5px] xl:mt-[6px] mt-[7px] 3xl:mt-[8px] pl-[1px] w-[98%]"
-                    compId="150"
+                    compId="149"
                     comWidth={114}
                     comHeight={15}
                     compLeft={0}
@@ -1031,7 +1031,7 @@ const AddnotesPage = () => {
                   </Text>
                   <Column
                     className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                    compId="151"
+                    compId="150"
                     comWidth={181}
                     comHeight={22}
                     compLeft={0}

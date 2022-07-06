@@ -44,7 +44,7 @@ const ContactsPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="90"
+          compId="89"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -259,7 +259,7 @@ const ContactsPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="92"
+                compId="91"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -450,7 +450,7 @@ const ContactsPage = () => {
               </Text>
               <Row
                 className="items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] w-[37%]"
-                compId="93"
+                compId="92"
                 comWidth={485}
                 comHeight={17}
                 compLeft={10}
@@ -527,7 +527,7 @@ const ContactsPage = () => {
             </Row>
             <List
               className="font-montserrat gap-[0] min-h-[auto] w-[100%]"
-              compId="91"
+              compId="90"
               comWidth={1341}
               comHeight={882}
               compLeft={1}
@@ -546,7 +546,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] w-[51%]"
-                  compId="94"
+                  compId="93"
                   comWidth={675}
                   comHeight={17}
                   compLeft={0}
@@ -683,18 +683,17 @@ const ContactsPage = () => {
                 compRight={0}
                 compType="Row"
               >
-                <List
-                  className="lg:gap-[12px] xl:gap-[14px] gap-[16.62px] 2xl:gap-[16px] 3xl:gap-[19px] grid grid-cols-7 min-h-[auto] w-[86%]"
-                  compId="95"
+                <Row
+                  className="items-center justify-between w-[86%]"
+                  compId="94"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
                   compRight={0}
-                  compType="List"
-                  orientation="horizontal"
+                  compType="Row"
                 >
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
                     compId="5022:8496"
                     comWidth={149}
                     comHeight={17}
@@ -705,7 +704,7 @@ const ContactsPage = () => {
                     #18933
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
                     compId="5022:8499"
                     comWidth={149}
                     comHeight={17}
@@ -716,7 +715,7 @@ const ContactsPage = () => {
                     {apiData1?.contacts?.lead_score}
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
                     compId="5022:8501"
                     comWidth={149}
                     comHeight={17}
@@ -727,7 +726,7 @@ const ContactsPage = () => {
                     Wiktoria
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
                     compId="5022:8503"
                     comWidth={149}
                     comHeight={17}
@@ -738,7 +737,7 @@ const ContactsPage = () => {
                     22/05/2022
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
                     compId="5022:8505"
                     comWidth={149}
                     comHeight={17}
@@ -749,7 +748,7 @@ const ContactsPage = () => {
                     $8.95
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
                     compId="5022:8507"
                     comWidth={149}
                     comHeight={17}
@@ -760,7 +759,7 @@ const ContactsPage = () => {
                     {apiData1?.contacts?.work_number}
                   </Text>
                   <Button
-                    className="bg-green_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[100%]"
+                    className="bg-green_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[13%]"
                     compId="5022:8509"
                     comWidth={149}
                     comHeight={31}
@@ -770,7 +769,7 @@ const ContactsPage = () => {
                   >
                     Delivered
                   </Button>
-                </List>
+                </Row>
                 <Image
                   src={"images/img_edit12_1.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -812,17 +811,18 @@ const ContactsPage = () => {
                 compRight={0}
                 compType="Row"
               >
-                <Row
-                  className="items-center justify-between w-[86%]"
-                  compId="96"
+                <List
+                  className="lg:gap-[12px] xl:gap-[14px] gap-[16.62px] 2xl:gap-[16px] 3xl:gap-[19px] grid grid-cols-7 min-h-[auto] w-[86%]"
+                  compId="95"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
                   compRight={0}
-                  compType="Row"
+                  compType="List"
+                  orientation="horizontal"
                 >
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
                     compId="5022:8517"
                     comWidth={149}
                     comHeight={17}
@@ -833,7 +833,7 @@ const ContactsPage = () => {
                     #45169
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
                     compId="5022:8520"
                     comWidth={149}
                     comHeight={17}
@@ -844,7 +844,7 @@ const ContactsPage = () => {
                     Phone
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
                     compId="5022:8522"
                     comWidth={149}
                     comHeight={17}
@@ -855,7 +855,7 @@ const ContactsPage = () => {
                     Trixie Byrd
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
                     compId="5022:8524"
                     comWidth={149}
                     comHeight={17}
@@ -866,7 +866,7 @@ const ContactsPage = () => {
                     15/06/2022
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
                     compId="5022:8526"
                     comWidth={149}
                     comHeight={17}
@@ -877,7 +877,7 @@ const ContactsPage = () => {
                     $1,149.95
                   </Text>
                   <Text
-                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
                     compId="5022:8528"
                     comWidth={149}
                     comHeight={17}
@@ -888,7 +888,7 @@ const ContactsPage = () => {
                     Cash on Delivery
                   </Text>
                   <Button
-                    className="bg-orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-orange_900 w-[13%]"
+                    className="bg-orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-orange_900 w-[100%]"
                     compId="5022:8530"
                     comWidth={149}
                     comHeight={31}
@@ -898,7 +898,7 @@ const ContactsPage = () => {
                   >
                     Process
                   </Button>
-                </Row>
+                </List>
                 <Image
                   src={"images/img_edit12_2.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -942,7 +942,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="97"
+                  compId="96"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -1070,7 +1070,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="98"
+                  compId="97"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -1198,7 +1198,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="99"
+                  compId="98"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1326,7 +1326,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="100"
+                  compId="99"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1454,7 +1454,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="101"
+                  compId="100"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1582,7 +1582,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="102"
+                  compId="101"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -1710,7 +1710,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="103"
+                  compId="102"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
@@ -1838,7 +1838,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="104"
+                  compId="103"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -1966,7 +1966,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="105"
+                  compId="104"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -2094,7 +2094,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="106"
+                  compId="105"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
@@ -2222,7 +2222,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="107"
+                  compId="106"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
