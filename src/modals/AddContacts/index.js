@@ -1,9 +1,34 @@
 import React from "react";
 import ModalProvider from "react-modal";
 
+import { postContacts } from "service/api";
+import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
+import useForm from "simple-react-hook-form";
+import { ToastContainer, toast } from "react-toastify";
 import { Column, Input, Image, Text, Row, Button } from "components";
 
 const AddContactsModal = (props) => {
+  const [apiData, setapiData] = React.useState();
+  const form = useForm({
+    contact: { first_name: "", last_name: "", mobile_number: "", emails: "" },
+  });
+  const navigate = useNavigate();
+
+  function callApi(data) {
+    const req = { data: { ...data } };
+    postContacts(req)
+      .then((res) => {
+        setapiData(res);
+
+        navigate("/contacts");
+      })
+      .catch((err) => {
+        console.error(err);
+        toast.error("Contact Details are not inserted");
+      });
+  }
+
   return (
     <>
       <ModalProvider
@@ -62,7 +87,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="109"
+              compId="110"
               comWidth={489}
               comHeight={36}
               compLeft={0}
@@ -78,6 +103,10 @@ const AddContactsModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
+                onChange={(e) => {
+                  form.handleChange("contact.first_name", e.target.value);
+                }}
+                value={form?.values?.contact?.first_name}
                 name="InputField"
                 placeholder="Enter First Name"
               ></Input>
@@ -98,7 +127,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="110"
+              compId="111"
               comWidth={489}
               comHeight={36}
               compLeft={0}
@@ -114,6 +143,10 @@ const AddContactsModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
+                onChange={(e) => {
+                  form.handleChange("contact.last_name", e.target.value);
+                }}
+                value={form?.values?.contact?.last_name}
                 name="InputField"
                 placeholder="Enter Last Name"
               ></Input>
@@ -131,7 +164,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="111"
+              compId="112"
               comWidth={489}
               comHeight={39}
               compLeft={0}
@@ -147,6 +180,10 @@ const AddContactsModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
+                onChange={(e) => {
+                  form.handleChange("contact.mobile_number", e.target.value);
+                }}
+                value={form?.values?.contact?.mobile_number}
                 name="Frame418"
                 placeholder="Enter mobile number"
               ></Input>
@@ -164,7 +201,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="112"
+              compId="113"
               comWidth={489}
               comHeight={39}
               compLeft={0}
@@ -180,6 +217,10 @@ const AddContactsModal = (props) => {
                 compLeft={0}
                 compRight={0}
                 compType="EditText"
+                onChange={(e) => {
+                  form.handleChange("contact.emails", e.target.value);
+                }}
+                value={form?.values?.contact?.emails}
                 name="Frame418"
                 placeholder="Enter mail addres"
               ></Input>
@@ -206,19 +247,23 @@ const AddContactsModal = (props) => {
               Cancel
             </Button>
             <Button
-              className="bg-bluegray_900 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] not-italic lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-center text-white_A700 w-[42%]"
+              className="common-pointer bg-bluegray_900 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] not-italic lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-center text-white_A700 w-[42%]"
               compId="4713:9429"
               comWidth={60}
               comHeight={39}
               compLeft={10}
               compRight={0}
               compType="Button"
+              onClick={() => {
+                form.handleSubmit(callApi);
+              }}
             >
               Save
             </Button>
           </Row>
         </div>
       </ModalProvider>
+      <ToastContainer />
     </>
   );
 };

@@ -15,17 +15,17 @@ import {
 } from "components";
 
 const ContactsPage = () => {
-  const [apiData, setapiData] = React.useState();
+  const [apiData1, setapiData1] = React.useState();
   React.useEffect(() => {
-    callApi();
+    callApi1();
   }, []);
   const [isOpenAddContactsModal, setAddContactsModal] = React.useState(false);
 
-  function callApi() {
+  function callApi1() {
     const req = {};
     getContactssegmentid70003418989(req)
       .then((res) => {
-        setapiData(res);
+        setapiData1(res);
       })
       .catch((err) => {
         console.error(err);
@@ -55,12 +55,12 @@ const ContactsPage = () => {
           className="items-center justify-evenly w-[100%]"
           compId="92"
           comWidth={1439}
-          comHeight={1029}
+          comHeight={1024}
           compLeft={0}
           compRight={0}
           compType="Row"
         >
-          <aside className="items-center lg:mb-[3px] xl:mb-[4px] mb-[5px] 3xl:mb-[6px] w-[7%]">
+          <aside className="items-center w-[7%]">
             <Column
               className=""
               compId="12"
@@ -192,10 +192,10 @@ const ContactsPage = () => {
             </Column>
           </aside>
           <Column
-            className="items-center w-[93%]"
+            className="items-center xl:mb-[10px] mb-[12px] 3xl:mb-[14px] lg:mb-[9px] w-[93%]"
             compId="5022:8436"
             comWidth={1341}
-            comHeight={1029}
+            comHeight={1012}
             compLeft={0}
             compRight={0}
             compType="Column"
@@ -383,7 +383,7 @@ const ContactsPage = () => {
               </Row>
             </Row>
             <Row
-              className="bg-white_A700 font-montserrat items-center justify-between lg:p-[12px] xl:p-[14px] p-[16px] 3xl:p-[19px] w-[100%]"
+              className="bg-gray_201 font-montserrat items-center justify-between lg:p-[12px] xl:p-[14px] p-[16px] 3xl:p-[19px] w-[100%]"
               compId="5022:8437"
               comWidth={1341}
               comHeight={72}
@@ -474,16 +474,16 @@ const ContactsPage = () => {
               </Button>
             </Row>
             <Row
-              className="bg-white_A700 font-montserrat items-center justify-evenly lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+              className="bg-white_A700 font-montserrat items-center justify-start lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
               compId="5022:8452"
               comWidth={1341}
-              comHeight={66}
+              comHeight={49}
               compLeft={0}
               compRight={0}
               compType="Row"
             >
               <Text
-                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                className="font-bold lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                 compId="5022:8454"
                 comWidth={149}
                 comHeight={17}
@@ -494,121 +494,131 @@ const ContactsPage = () => {
                 Name
               </Text>
               <Text
-                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                className="font-bold lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                 compId="5022:8456"
-                comWidth={129}
+                comWidth={81}
                 comHeight={17}
-                compLeft={0}
+                compLeft={16}
                 compRight={0}
                 compType="Text"
               >
-                Score
+                Lead Score
               </Text>
               <Image
                 src={"images/img_vector_69.png"}
-                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] my-[10px] 3xl:my-[12px] lg:my-[7px] xl:my-[8px] object-contain w-[1%]"
+                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] lg:ml-[5px] xl:ml-[6px] ml-[7px] 3xl:ml-[8px] xl:my-[1px] lg:my-[1px] my-[2px] object-contain w-[1%]"
                 compId="I5022:8457;5:15"
                 comWidth={9}
                 comHeight={12}
-                compLeft={0}
+                compLeft={7}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-bold leading-[normal] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 text-left w-[9%]"
+                className="font-bold lg:ml-[52px] xl:ml-[60px] ml-[68px] 3xl:ml-[81px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                 compId="5022:8459"
                 comWidth={125}
-                comHeight={34}
-                compLeft={0}
-                compRight={0}
-                compType="Text"
-              >
-                Open Deals Amount
-              </Text>
-              <Image
-                src={"images/img_vector_70.png"}
-                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] lg:mb-[14px] xl:mb-[16px] mb-[19px] 3xl:mb-[22px] mt-[1px] object-contain w-[1%]"
-                compId="I5022:8460;5:15"
-                comWidth={9}
-                comHeight={12}
-                compLeft={0}
-                compRight={0}
-                compType="Image"
-                alt="Vector"
-              />
-              <Text
-                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-                compId="5022:8462"
-                comWidth={126}
                 comHeight={17}
-                compLeft={0}
+                compLeft={68}
                 compRight={0}
                 compType="Text"
               >
                 Emails
               </Text>
               <Image
-                src={"images/img_vector_71.png"}
-                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] my-[10px] 3xl:my-[12px] lg:my-[7px] xl:my-[8px] object-contain w-[1%]"
-                compId="I5022:8463;5:15"
+                src={"images/img_vector_70.png"}
+                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:mb-[1px] lg:mb-[1px] mb-[2px] ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] object-contain w-[1%]"
+                compId="I5022:8460;5:15"
                 comWidth={9}
                 comHeight={12}
-                compLeft={0}
+                compLeft={11}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-                compId="5022:8465"
-                comWidth={149}
+                className="font-bold lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                compId="5022:8462"
+                comWidth={126}
                 comHeight={17}
-                compLeft={0}
+                compLeft={19}
                 compRight={0}
                 compType="Text"
               >
                 Mobile No
               </Text>
-              <Text
-                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-                compId="5022:8467"
-                comWidth={149}
+              <Row
+                className="items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] w-[37%]"
+                compId="96"
+                comWidth={485}
                 comHeight={17}
-                compLeft={0}
+                compLeft={10}
                 compRight={0}
-                compType="Text"
+                compType="Row"
               >
-                Work
-              </Text>
-              <Text
-                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-                compId="5022:8469"
-                comWidth={125}
-                comHeight={17}
-                compLeft={0}
-                compRight={0}
-                compType="Text"
-              >
-                display_name
-              </Text>
+                <Image
+                  src={"images/img_vector_71.png"}
+                  className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:my-[1px] lg:my-[1px] my-[2px] object-contain w-[2%]"
+                  compId="I5022:8463;5:15"
+                  comWidth={9}
+                  comHeight={12}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Image"
+                  alt="Vector"
+                />
+                <Text
+                  className="font-bold lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="5022:8465"
+                  comWidth={149}
+                  comHeight={17}
+                  compLeft={19}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Open Deal Amount
+                </Text>
+                <Text
+                  className="font-bold lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="5022:8467"
+                  comWidth={149}
+                  comHeight={17}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Work
+                </Text>
+                <Text
+                  className="font-bold lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="5022:8469"
+                  comWidth={125}
+                  comHeight={17}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Text"
+                >
+                  display_name
+                </Text>
+              </Row>
               <Image
                 src={"images/img_vector_72.png"}
-                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] mb-[11px] 3xl:mb-[13px] lg:mb-[8px] xl:mb-[9px] mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] object-contain w-[1%]"
+                className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:mb-[1px] lg:mb-[1px] mb-[2px] ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] object-contain w-[1%]"
                 compId="I5022:8470;5:15"
                 comWidth={9}
                 comHeight={12}
-                compLeft={0}
+                compLeft={11}
                 compRight={0}
                 compType="Image"
                 alt="Vector"
               />
               <Text
-                className="font-bold lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                className="font-bold lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                 compId="5022:8472"
                 comWidth={149}
                 comHeight={17}
-                compLeft={0}
+                compLeft={19}
                 compRight={0}
                 compType="Text"
               >
@@ -625,7 +635,7 @@ const ContactsPage = () => {
               compType="List"
               orientation="vertical"
             >
-              {apiData?.contacts?.map((apiDataEle) => {
+              {apiData1?.contacts?.map((apiData1Ele) => {
                 return (
                   <Row
                     className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
@@ -637,16 +647,16 @@ const ContactsPage = () => {
                     compType="Row"
                   >
                     <Row
-                      className="items-center justify-between w-[81%]"
-                      compId="96"
-                      comWidth={1076}
-                      comHeight={31}
+                      className="items-center justify-between lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] w-[51%]"
+                      compId="97"
+                      comWidth={675}
+                      comHeight={17}
                       compLeft={0}
                       compRight={0}
                       compType="Row"
                     >
                       <Text
-                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8475"
                         comWidth={149}
                         comHeight={17}
@@ -654,10 +664,10 @@ const ContactsPage = () => {
                         compRight={0}
                         compType="Text"
                       >
-                        {apiDataEle?.first_name}
+                        #20462
                       </Text>
                       <Text
-                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8478"
                         comWidth={149}
                         comHeight={17}
@@ -665,10 +675,10 @@ const ContactsPage = () => {
                         compRight={0}
                         compType="Text"
                       >
-                        {apiDataEle?.lead_score}
+                        {apiData1Ele?.first_name}
                       </Text>
                       <Text
-                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8480"
                         comWidth={149}
                         comHeight={17}
@@ -676,10 +686,10 @@ const ContactsPage = () => {
                         compRight={0}
                         compType="Text"
                       >
-                        {apiDataEle?.open_deals_amount}
+                        {apiData1Ele?.email}
                       </Text>
                       <Text
-                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8482"
                         comWidth={149}
                         comHeight={17}
@@ -687,49 +697,60 @@ const ContactsPage = () => {
                         compRight={0}
                         compType="Text"
                       >
-                        {apiDataEle?.email}
+                        {apiData1Ele?.mobile_number}
                       </Text>
                       <Text
-                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
                         compId="5022:8484"
-                        comWidth={149}
+                        comWidth={13}
                         comHeight={17}
                         compLeft={0}
                         compRight={0}
                         compType="Text"
                       >
-                        {apiDataEle?.mobile_number}
+                        $
                       </Text>
-                      <Text
-                        className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-                        compId="5022:8486"
-                        comWidth={149}
-                        comHeight={17}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Text"
-                      >
-                        Tranfer Bank
-                      </Text>
-                      <Button
-                        className="bg-green_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[8%]"
-                        compId="5022:8488"
-                        comWidth={83}
-                        comHeight={31}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Button"
-                      >
-                        {apiDataEle?.display_name}
-                      </Button>
                     </Row>
+                    <Text
+                      className="font-medium lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                      compId="5032:8157"
+                      comWidth={56}
+                      comHeight={17}
+                      compLeft={8}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      4.95
+                    </Text>
+                    <Text
+                      className="font-medium 3xl:ml-[105px] lg:ml-[68px] xl:ml-[78px] ml-[88px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                      compId="5022:8486"
+                      comWidth={149}
+                      comHeight={17}
+                      compLeft={88}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      Tranfer Bank
+                    </Text>
+                    <Button
+                      className="bg-green_50 font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[11%]"
+                      compId="5022:8488"
+                      comWidth={149}
+                      comHeight={31}
+                      compLeft={16}
+                      compRight={0}
+                      compType="Button"
+                    >
+                      {apiData1Ele?.display_name}
+                    </Button>
                     <Image
                       src={"images/img_edit12.png"}
-                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[111px] ml-[125px] 3xl:ml-[150px] lg:ml-[97px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                       compId="5022:8492"
                       comWidth={24}
                       comHeight={24}
-                      compLeft={125}
+                      compLeft={59}
                       compRight={0}
                       compType="Image"
                       alt="edit12"
