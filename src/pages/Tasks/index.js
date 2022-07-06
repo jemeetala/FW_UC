@@ -493,7 +493,7 @@ const TasksPage = () => {
                             compRight={0}
                             compType="Text"
                           >
-                            {apiDataEle?.description}
+                            {apiDataEle?.due_date}
                           </Text>
                         </Column>
                       </Row>
