@@ -43,6 +43,20 @@ export const postContacts = ({
     },
   });
 };
+export const getTasks = ({
+  data = {},
+  headers = {},
+  params = {},
+  path = {},
+} = {}) => {
+  return defaultAxios({
+    url: `https://dhiwise-459662296123098611.myfreshworks.com/crm/sales/api/tasks`,
+    method: "get",
+    params: { filter: "open", ...params },
+    headers: { "Content-Type": "application/json", ...headers },
+    data,
+  });
+};
 export const getContactssegmentid70003418989 = ({
   data = {},
   headers = {},

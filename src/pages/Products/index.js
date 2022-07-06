@@ -26,7 +26,7 @@ const ProductsPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="26"
+          compId="40"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -36,7 +36,7 @@ const ProductsPage = () => {
           <aside className="items-center w-[7%]">
             <Column
               className=""
-              compId="1"
+              compId="9"
               comWidth={98}
               comHeight={1024}
               compLeft={0}
@@ -64,7 +64,7 @@ const ProductsPage = () => {
                   alt="Group345"
                 />
                 <Image
-                  src={"images/img_vector.png"}
+                  src={"images/img_vector_9.png"}
                   className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mt-[25px] xl:mt-[29px] mt-[33px] 3xl:mt-[39px] mx-[auto] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                   compId="I4797:10787;275:1558"
                   comWidth={16}
@@ -75,7 +75,7 @@ const ProductsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_1.png"}
+                  src={"images/img_vector_10.png"}
                   className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[21px] xl:mt-[24px] mt-[27px] 3xl:mt-[32px] mx-[auto] object-contain lg:w-[14px] xl:w-[16px] w-[19px] 3xl:w-[22px]"
                   compId="I4797:10788;120:2258"
                   comWidth={19}
@@ -86,7 +86,7 @@ const ProductsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_2.png"}
+                  src={"images/img_vector_11.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[20px] xl:mt-[23px] mt-[26px] 3xl:mt-[31px] mx-[auto] object-contain w-[38%]"
                   compId="I4797:10789;120:2252"
                   comWidth={19}
@@ -118,7 +118,7 @@ const ProductsPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_3.png"}
+                  src={"images/img_vector_12.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[26px] xl:mt-[30px] mt-[34px] 3xl:mt-[40px] mx-[auto] object-contain w-[36%]"
                   compId="I4797:10790;120:1630"
                   comWidth={18}
@@ -129,7 +129,7 @@ const ProductsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_4.png"}
+                  src={"images/img_vector_13.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4797:10791;120:434"
                   comWidth={20}
@@ -140,7 +140,7 @@ const ProductsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_5.png"}
+                  src={"images/img_vector_14.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4797:10792;120:1750"
                   comWidth={20}
@@ -151,7 +151,7 @@ const ProductsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_6.png"}
+                  src={"images/img_vector_15.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4797:10793;120:1890"
                   comWidth={19}
@@ -166,7 +166,7 @@ const ProductsPage = () => {
           </aside>
           <Column
             className="items-center lg:mb-[6px] xl:mb-[7px] mb-[8px] 3xl:mb-[9px] w-[93%]"
-            compId="25"
+            compId="39"
             comWidth={1342}
             comHeight={1016}
             compLeft={0}
@@ -183,21 +183,21 @@ const ProductsPage = () => {
               compType="Row"
             >
               <SelectBox
-                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
+                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[100%]"
                 compId="4797:10771"
                 comWidth={0}
                 comHeight={40}
                 compLeft={0}
                 compRight={0}
                 compType="Dropdown"
-                placeholderClassName="bg-transparent text-bluegray_700"
+                placeholderClassName="bg-transparent text-bluegray_701"
                 name="Group93"
                 placeholder="Contacts"
                 isSearchable={false}
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_8.png"}
+                    src={"images/img_vector_17.png"}
                     className="w-[10.54px] h-[6.25px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                     compId="I4797:10775;120:93"
                     comWidth={10.54}
@@ -211,7 +211,7 @@ const ProductsPage = () => {
               ></SelectBox>
               <Input
                 className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
-                WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
+                WrapClassName="border border-bluegray_201 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
                 compId="4797:10777"
                 comWidth={446}
                 comHeight={40}
@@ -223,7 +223,7 @@ const ProductsPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="28"
+                compId="42"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -240,7 +240,7 @@ const ProductsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group5.png"}
+                    src={"images/img_group5_1.png"}
                     className="w-[16px] h-[16px] flex items-center justify-center lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px]"
                     compId="4797:10755"
                     comWidth={40}
@@ -252,7 +252,7 @@ const ProductsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:10758"
                   comWidth={40}
                   comHeight={40}
@@ -261,7 +261,7 @@ const ProductsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group4.png"}
+                    src={"images/img_group4_1.png"}
                     className="w-[100%] flex items-center justify-center"
                     compId="4797:10758"
                     comWidth={40}
@@ -273,7 +273,7 @@ const ProductsPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:10761"
                   comWidth={40}
                   comHeight={40}
@@ -282,7 +282,7 @@ const ProductsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group3.png"}
+                    src={"images/img_group3_1.png"}
                     className="w-[31.09px] h-[31.09px] flex items-center justify-center lg:w-[24px] lg:h-[25px] xl:w-[27px] xl:h-[28px] 2xl:w-[31px] 2xl:h-[32px] 3xl:w-[37px] 3xl:h-[38px]"
                     compId="4797:10761"
                     comWidth={40}
@@ -303,7 +303,7 @@ const ProductsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group100.png"}
+                    src={"images/img_group100_1.png"}
                     className="w-[37%] flex items-center justify-center"
                     compId="4797:10764"
                     comWidth={36}
@@ -324,7 +324,7 @@ const ProductsPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group99.png"}
+                    src={"images/img_group99_1.png"}
                     className="w-[72%] flex items-center justify-center"
                     compId="4797:10767"
                     comWidth={40}
@@ -358,7 +358,7 @@ const ProductsPage = () => {
                 Products
               </Text>
               <Image
-                src={"images/img_vector_9.png"}
+                src={"images/img_vector_18.png"}
                 className="lg:h-[11px] xl:h-[12px] h-[13px] 2xl:h-[14px] 3xl:h-[16px] xl:mb-[10px] mb-[12px] 3xl:mb-[14px] lg:mb-[9px] lg:ml-[14px] xl:ml-[16px] ml-[18px] 3xl:ml-[21px] lg:mt-[10px] xl:mt-[11px] mt-[13px] 3xl:mt-[15px] object-contain w-[1%]"
                 compId="I4509:6319;120:97"
                 comWidth={7}
@@ -369,7 +369,7 @@ const ProductsPage = () => {
                 alt="Vector"
               />
               <Text
-                className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
+                className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[auto]"
                 compId="4509:6321"
                 comWidth={114}
                 comHeight={23}
@@ -381,7 +381,7 @@ const ProductsPage = () => {
               </Text>
               <Row
                 className="items-center justify-center lg:ml-[327px] xl:ml-[374px] ml-[421px] 3xl:ml-[505px] w-[49%]"
-                compId="29"
+                compId="43"
                 comWidth={649}
                 comHeight={40}
                 compLeft={421}
@@ -389,7 +389,7 @@ const ProductsPage = () => {
                 compType="Row"
               >
                 <SelectBox
-                  className="bg-bluegray_900 border border-gray_201 border-solid font-normal lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[19%]"
+                  className="bg-bluegray_900 border border-gray_200 border-solid font-normal lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[19%]"
                   compId="4509:6331"
                   comWidth={123}
                   comHeight={40}
@@ -403,7 +403,7 @@ const ProductsPage = () => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_10.png"}
+                      src={"images/img_vector_19.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4509:6333;120:3699"
                       comWidth={10.4}
@@ -416,21 +416,21 @@ const ProductsPage = () => {
                   }
                 ></SelectBox>
                 <SelectBox
-                  className="bg-white_A700 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[21%]"
+                  className="bg-white_A700 border border-gray_200 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[21%]"
                   compId="4509:6334"
                   comWidth={136}
                   comHeight={40}
                   compLeft={10}
                   compRight={0}
                   compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
+                  placeholderClassName="bg-transparent text-bluegray_700"
                   name="Frame418"
                   placeholder="Add categories"
                   isSearchable={false}
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_11.png"}
+                      src={"images/img_vector_20.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4509:6337;120:3699"
                       comWidth={10.4}
@@ -443,21 +443,21 @@ const ProductsPage = () => {
                   }
                 ></SelectBox>
                 <SelectBox
-                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
+                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[100%]"
                   compId="4509:6687"
                   comWidth={0}
                   comHeight={40}
                   compLeft={0}
                   compRight={0}
                   compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
+                  placeholderClassName="bg-transparent text-bluegray_700"
                   name="Frame422"
                   placeholder="Edit coumns"
                   isSearchable={false}
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_13.png"}
+                      src={"images/img_vector_22.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4509:6690;120:3699"
                       comWidth={10.4}
@@ -470,7 +470,7 @@ const ProductsPage = () => {
                   }
                 ></SelectBox>
                 <Row
-                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[10px] xl:pr-[12px] pr-[14px] 3xl:pr-[16px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] rounded-radius4 w-[11%]"
+                  className="bg-white_A700 border border-gray_200 border-solid items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[10px] xl:pr-[12px] pr-[14px] 3xl:pr-[16px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] rounded-radius4 w-[11%]"
                   compId="4509:6338"
                   comWidth={74}
                   comHeight={40}
@@ -479,7 +479,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Image
-                    src={"images/img_vector_14.png"}
+                    src={"images/img_vector_23.png"}
                     className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] object-contain w-[37%]"
                     compId="I4509:6339;120:1890"
                     comWidth={19}
@@ -490,7 +490,7 @@ const ProductsPage = () => {
                     alt="Vector"
                   />
                   <Image
-                    src={"images/img_vector_15.png"}
+                    src={"images/img_vector_24.png"}
                     className="lg:h-[5px] h-[6px] 2xl:h-[7px] 3xl:h-[8px] lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:my-[4px] xl:my-[5px] my-[6px] 3xl:my-[7px] object-contain w-[20%]"
                     compId="I4509:6520;120:3699"
                     comWidth={10}
@@ -502,7 +502,7 @@ const ProductsPage = () => {
                   />
                 </Row>
                 <Row
-                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-evenly ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[18%]"
+                  className="bg-white_A700 border border-gray_200 border-solid items-center justify-evenly ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[18%]"
                   compId="4509:6513"
                   comWidth={119}
                   comHeight={40}
@@ -511,7 +511,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Image
-                    src={"images/img_vector_16.png"}
+                    src={"images/img_vector_25.png"}
                     className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                     compId="I4509:6514;120:1078"
                     comWidth={20}
@@ -522,7 +522,7 @@ const ProductsPage = () => {
                     alt="Vector"
                   />
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4509:6515"
                     comWidth={37}
                     comHeight={23}
@@ -547,7 +547,7 @@ const ProductsPage = () => {
               </Row>
             </Row>
             <Row
-              className="bg-gray_100 border border-gray_201 border-solid items-center justify-start lg:pl-[17px] xl:pl-[20px] pl-[23px] 3xl:pl-[27px] xl:py-[10px] py-[12px] 3xl:py-[14px] lg:py-[9px] w-[100%]"
+              className="bg-gray_100 border border-gray_200 border-solid items-center justify-start lg:pl-[17px] xl:pl-[20px] pl-[23px] 3xl:pl-[27px] xl:py-[10px] py-[12px] 3xl:py-[14px] lg:py-[9px] w-[100%]"
               compId="4797:10815"
               comWidth={1342}
               comHeight={46}
@@ -576,7 +576,7 @@ const ProductsPage = () => {
                 Name
               </Text>
               <Image
-                src={"images/img_vector_17.png"}
+                src={"images/img_vector_26.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10820;120:2012"
                 comWidth={10}
@@ -598,7 +598,7 @@ const ProductsPage = () => {
                 Active
               </Text>
               <Image
-                src={"images/img_vector_18.png"}
+                src={"images/img_vector_27.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10826;120:2012"
                 comWidth={10}
@@ -620,7 +620,7 @@ const ProductsPage = () => {
                 Base currency amount
               </Text>
               <Image
-                src={"images/img_vector_19.png"}
+                src={"images/img_vector_28.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10823;120:2012"
                 comWidth={10}
@@ -653,7 +653,7 @@ const ProductsPage = () => {
                 created at
               </Text>
               <Image
-                src={"images/img_vector_20.png"}
+                src={"images/img_vector_29.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10830;120:2012"
                 comWidth={10}
@@ -675,7 +675,7 @@ const ProductsPage = () => {
                 created by
               </Text>
               <Image
-                src={"images/img_vector_21.png"}
+                src={"images/img_vector_30.png"}
                 className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
                 compId="I4797:10833;120:2012"
                 comWidth={10}
@@ -688,7 +688,7 @@ const ProductsPage = () => {
             </Row>
             <List
               className="gap-[0] min-h-[auto] w-[100%]"
-              compId="27"
+              compId="41"
               comWidth={1342}
               comHeight={784}
               compLeft={0}
@@ -697,7 +697,7 @@ const ProductsPage = () => {
               orientation="vertical"
             >
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:10851"
                 comWidth={1342}
                 comHeight={98}
@@ -769,7 +769,7 @@ const ProductsPage = () => {
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                   compId="4797:10865"
                   comWidth={8}
                   comHeight={22}
@@ -781,7 +781,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="30"
+                  compId="44"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -789,7 +789,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10860"
                     comWidth={58}
                     comHeight={22}
@@ -800,7 +800,7 @@ const ProductsPage = () => {
                     Hardware
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10861"
                     comWidth={107}
                     comHeight={22}
@@ -811,7 +811,7 @@ const ProductsPage = () => {
                     A few seconds ago
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10862"
                     comWidth={67}
                     comHeight={22}
@@ -844,7 +844,7 @@ const ProductsPage = () => {
                 compType="Row"
               />
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:10920"
                 comWidth={1342}
                 comHeight={98}
@@ -916,7 +916,7 @@ const ProductsPage = () => {
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                   compId="4797:10934"
                   comWidth={8}
                   comHeight={22}
@@ -928,7 +928,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="31"
+                  compId="45"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -936,7 +936,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10929"
                     comWidth={58}
                     comHeight={22}
@@ -947,7 +947,7 @@ const ProductsPage = () => {
                     Hardware
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10930"
                     comWidth={107}
                     comHeight={22}
@@ -958,7 +958,7 @@ const ProductsPage = () => {
                     A few seconds ago
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10931"
                     comWidth={67}
                     comHeight={22}
@@ -991,7 +991,7 @@ const ProductsPage = () => {
                 compType="Row"
               />
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:10938"
                 comWidth={1342}
                 comHeight={98}
@@ -1063,7 +1063,7 @@ const ProductsPage = () => {
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                   compId="4797:10952"
                   comWidth={8}
                   comHeight={22}
@@ -1075,7 +1075,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="32"
+                  compId="46"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1083,7 +1083,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10947"
                     comWidth={58}
                     comHeight={22}
@@ -1094,7 +1094,7 @@ const ProductsPage = () => {
                     Hardware
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10948"
                     comWidth={107}
                     comHeight={22}
@@ -1105,7 +1105,7 @@ const ProductsPage = () => {
                     A few seconds ago
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10949"
                     comWidth={67}
                     comHeight={22}
@@ -1138,7 +1138,7 @@ const ProductsPage = () => {
                 compType="Row"
               />
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:10956"
                 comWidth={1342}
                 comHeight={98}
@@ -1210,7 +1210,7 @@ const ProductsPage = () => {
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                   compId="4797:10970"
                   comWidth={8}
                   comHeight={22}
@@ -1222,7 +1222,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="33"
+                  compId="47"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1230,7 +1230,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10965"
                     comWidth={58}
                     comHeight={22}
@@ -1241,7 +1241,7 @@ const ProductsPage = () => {
                     Hardware
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10966"
                     comWidth={107}
                     comHeight={22}
@@ -1252,7 +1252,7 @@ const ProductsPage = () => {
                     A few seconds ago
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10967"
                     comWidth={67}
                     comHeight={22}
@@ -1285,7 +1285,7 @@ const ProductsPage = () => {
                 compType="Row"
               />
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:10974"
                 comWidth={1342}
                 comHeight={98}
@@ -1357,7 +1357,7 @@ const ProductsPage = () => {
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                   compId="4797:10988"
                   comWidth={8}
                   comHeight={22}
@@ -1369,7 +1369,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="34"
+                  compId="48"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1377,7 +1377,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10983"
                     comWidth={58}
                     comHeight={22}
@@ -1388,7 +1388,7 @@ const ProductsPage = () => {
                     Hardware
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10984"
                     comWidth={107}
                     comHeight={22}
@@ -1399,7 +1399,7 @@ const ProductsPage = () => {
                     A few seconds ago
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:10985"
                     comWidth={67}
                     comHeight={22}
@@ -1432,7 +1432,7 @@ const ProductsPage = () => {
                 compType="Row"
               />
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:10992"
                 comWidth={1342}
                 comHeight={98}
@@ -1504,7 +1504,7 @@ const ProductsPage = () => {
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                   compId="4797:11006"
                   comWidth={8}
                   comHeight={22}
@@ -1516,7 +1516,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="35"
+                  compId="49"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1524,7 +1524,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11001"
                     comWidth={58}
                     comHeight={22}
@@ -1535,7 +1535,7 @@ const ProductsPage = () => {
                     Hardware
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11002"
                     comWidth={107}
                     comHeight={22}
@@ -1546,7 +1546,7 @@ const ProductsPage = () => {
                     A few seconds ago
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11003"
                     comWidth={67}
                     comHeight={22}
@@ -1579,7 +1579,7 @@ const ProductsPage = () => {
                 compType="Row"
               />
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:11010"
                 comWidth={1342}
                 comHeight={98}
@@ -1651,7 +1651,7 @@ const ProductsPage = () => {
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                   compId="4797:11024"
                   comWidth={8}
                   comHeight={22}
@@ -1663,7 +1663,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="36"
+                  compId="50"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1671,7 +1671,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11019"
                     comWidth={58}
                     comHeight={22}
@@ -1682,7 +1682,7 @@ const ProductsPage = () => {
                     Hardware
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11020"
                     comWidth={107}
                     comHeight={22}
@@ -1693,7 +1693,7 @@ const ProductsPage = () => {
                     A few seconds ago
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11021"
                     comWidth={67}
                     comHeight={22}
@@ -1726,7 +1726,7 @@ const ProductsPage = () => {
                 compType="Row"
               />
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:11028"
                 comWidth={1342}
                 comHeight={98}
@@ -1798,7 +1798,7 @@ const ProductsPage = () => {
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal font-sourcesanspro ml-[100px] 3xl:ml-[120px] lg:ml-[77px] xl:ml-[88px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                   compId="4797:11042"
                   comWidth={8}
                   comHeight={22}
@@ -1810,7 +1810,7 @@ const ProductsPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="37"
+                  compId="51"
                   comWidth={409}
                   comHeight={22}
                   compLeft={267}
@@ -1818,7 +1818,7 @@ const ProductsPage = () => {
                   compType="Row"
                 >
                   <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11037"
                     comWidth={58}
                     comHeight={22}
@@ -1829,7 +1829,7 @@ const ProductsPage = () => {
                     Hardware
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11038"
                     comWidth={107}
                     comHeight={22}
@@ -1840,7 +1840,7 @@ const ProductsPage = () => {
                     A few seconds ago
                   </Text>
                   <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
                     compId="4797:11039"
                     comWidth={67}
                     comHeight={22}
@@ -1865,8 +1865,8 @@ const ProductsPage = () => {
               </Row>
             </List>
             <Input
-              className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[14px] xl:py-[16px] py-[18px] 3xl:py-[21px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
-              WrapClassName="bg-white_A700 border border-gray_201 border-solid w-[100%]"
+              className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[14px] xl:py-[16px] py-[18px] 3xl:py-[21px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
+              WrapClassName="bg-white_A700 border border-gray_200 border-solid w-[100%]"
               compId="4797:11047"
               comWidth={1342}
               comHeight={59}

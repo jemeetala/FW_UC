@@ -25,7 +25,7 @@ const AddnotesPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="133"
+          compId="147"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -35,7 +35,7 @@ const AddnotesPage = () => {
           <aside className="items-center w-[7%]">
             <Column
               className=""
-              compId="22"
+              compId="30"
               comWidth={98}
               comHeight={1024}
               compLeft={0}
@@ -63,7 +63,7 @@ const AddnotesPage = () => {
                   alt="Group345"
                 />
                 <Image
-                  src={"images/img_vector_103.png"}
+                  src={"images/img_vector_112.png"}
                   className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mt-[25px] xl:mt-[29px] mt-[33px] 3xl:mt-[39px] mx-[auto] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                   compId="I4798:8761;275:1558"
                   comWidth={16}
@@ -95,7 +95,7 @@ const AddnotesPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_104.png"}
+                  src={"images/img_vector_113.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[17px] xl:mt-[20px] mt-[23px] 3xl:mt-[27px] mx-[auto] object-contain w-[38%]"
                   compId="I4798:8762;120:2252"
                   comWidth={19}
@@ -106,7 +106,7 @@ const AddnotesPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_105.png"}
+                  src={"images/img_vector_114.png"}
                   className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I4798:8763;120:328"
                   comWidth={16}
@@ -117,7 +117,7 @@ const AddnotesPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_106.png"}
+                  src={"images/img_vector_115.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4798:8764;120:1630"
                   comWidth={18}
@@ -128,7 +128,7 @@ const AddnotesPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_107.png"}
+                  src={"images/img_vector_116.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4798:8765;120:434"
                   comWidth={20}
@@ -139,7 +139,7 @@ const AddnotesPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_108.png"}
+                  src={"images/img_vector_117.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4798:8766;120:1750"
                   comWidth={20}
@@ -150,7 +150,7 @@ const AddnotesPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_109.png"}
+                  src={"images/img_vector_118.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4798:8767;120:1890"
                   comWidth={19}
@@ -165,7 +165,7 @@ const AddnotesPage = () => {
           </aside>
           <Column
             className="items-center lg:mb-[21px] xl:mb-[24px] mb-[27px] 3xl:mb-[32px] w-[93%]"
-            compId="132"
+            compId="146"
             comWidth={1342}
             comHeight={997}
             compLeft={0}
@@ -182,21 +182,21 @@ const AddnotesPage = () => {
               compType="Row"
             >
               <SelectBox
-                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
+                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[100%]"
                 compId="4797:11522"
                 comWidth={0}
                 comHeight={40}
                 compLeft={0}
                 compRight={0}
                 compType="Dropdown"
-                placeholderClassName="bg-transparent text-bluegray_700"
+                placeholderClassName="bg-transparent text-bluegray_701"
                 name="Group93"
                 placeholder="Contacts"
                 isSearchable={false}
                 isMulti={false}
                 indicator={
                   <Image
-                    src={"images/img_vector_111.png"}
+                    src={"images/img_vector_120.png"}
                     className="w-[10.54px] h-[6.25px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                     compId="I4797:11526;120:93"
                     comWidth={10.54}
@@ -210,7 +210,7 @@ const AddnotesPage = () => {
               ></SelectBox>
               <Input
                 className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
-                WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
+                WrapClassName="border border-bluegray_201 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
                 compId="4797:11528"
                 comWidth={446}
                 comHeight={40}
@@ -222,7 +222,7 @@ const AddnotesPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="134"
+                compId="148"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -251,7 +251,7 @@ const AddnotesPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:11509"
                   comWidth={40}
                   comHeight={40}
@@ -272,7 +272,7 @@ const AddnotesPage = () => {
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:11512"
                   comWidth={40}
                   comHeight={40}
@@ -281,7 +281,7 @@ const AddnotesPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group3_4.png"}
+                    src={"images/img_group3_5.png"}
                     className="w-[31.09px] h-[31.09px] flex items-center justify-center lg:w-[24px] lg:h-[25px] xl:w-[27px] xl:h-[28px] 2xl:w-[31px] 2xl:h-[32px] 3xl:w-[37px] 3xl:h-[38px]"
                     compId="4797:11512"
                     comWidth={40}
@@ -302,7 +302,7 @@ const AddnotesPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group100_3.png"}
+                    src={"images/img_group100_4.png"}
                     className="w-[37%] flex items-center justify-center"
                     compId="4797:11515"
                     comWidth={36}
@@ -323,7 +323,7 @@ const AddnotesPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group99_3.png"}
+                    src={"images/img_group99_4.png"}
                     className="w-[72%] flex items-center justify-center"
                     compId="4797:11518"
                     comWidth={40}
@@ -357,7 +357,7 @@ const AddnotesPage = () => {
                 Contacts
               </Text>
               <Image
-                src={"images/img_vector_112.png"}
+                src={"images/img_vector_121.png"}
                 className="lg:h-[11px] xl:h-[12px] h-[13px] 2xl:h-[14px] 3xl:h-[16px] lg:ml-[14px] xl:ml-[16px] ml-[18px] 3xl:ml-[21px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] object-contain w-[1%]"
                 compId="I4582:7249;120:97"
                 comWidth={7}
@@ -368,7 +368,7 @@ const AddnotesPage = () => {
                 alt="Vector"
               />
               <Text
-                className="font-normal 3xl:mb-[10px] lg:mb-[7px] xl:mb-[8px] mb-[9px] lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
+                className="font-normal 3xl:mb-[10px] lg:mb-[7px] xl:mb-[8px] mb-[9px] lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[auto]"
                 compId="4582:7251"
                 comWidth={121}
                 comHeight={23}
@@ -380,7 +380,7 @@ const AddnotesPage = () => {
               </Text>
               <Row
                 className="items-center justify-center lg:ml-[248px] xl:ml-[283px] ml-[319px] 3xl:ml-[383px] w-[56%]"
-                compId="135"
+                compId="149"
                 comWidth={745}
                 comHeight={40}
                 compLeft={319}
@@ -388,8 +388,8 @@ const AddnotesPage = () => {
                 compType="Row"
               >
                 <Input
-                  className="bg-transparent border-0 font-normal not-italic p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
-                  WrapClassName="3xl:pl-[12px] 3xl:pr-[13px] 3xl:py-[9px] bg-white_A700 border border-gray_201 border-solid flex lg:pl-[7px] lg:pr-[8px] lg:py-[6px] pl-[10px] pr-[11px] py-[8px] rounded-radius4 w-[11%] xl:pl-[8px] xl:pr-[9px] xl:py-[7px]"
+                  className="bg-transparent border-0 font-normal not-italic p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
+                  WrapClassName="3xl:pl-[12px] 3xl:pr-[13px] 3xl:py-[9px] bg-white_A700 border border-gray_200 border-solid flex lg:pl-[7px] lg:pr-[8px] lg:py-[6px] pl-[10px] pr-[11px] py-[8px] rounded-radius4 w-[11%] xl:pl-[8px] xl:pr-[9px] xl:py-[7px]"
                   compId="4582:7673"
                   comWidth={0}
                   comHeight={40}
@@ -400,7 +400,7 @@ const AddnotesPage = () => {
                   placeholder="Email"
                   prefix={
                     <Image
-                      src={"images/img_vector_113.png"}
+                      src={"images/img_vector_122.png"}
                       className="w-[20px] lg:w-[15px] xl:w-[17px] 3xl:w-[24px] my-[auto]"
                       compId="I4582:7674;120:866"
                       comWidth={20}
@@ -413,21 +413,21 @@ const AddnotesPage = () => {
                   }
                 ></Input>
                 <SelectBox
-                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
+                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[100%]"
                   compId="4582:7701"
                   comWidth={0}
                   comHeight={40}
                   compLeft={0}
                   compRight={0}
                   compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
+                  placeholderClassName="bg-transparent text-bluegray_700"
                   name="Frame426"
                   placeholder="Call"
                   isSearchable={false}
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_115.png"}
+                      src={"images/img_vector_124.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4582:7704;120:3699"
                       comWidth={10.4}
@@ -440,21 +440,21 @@ const AddnotesPage = () => {
                   }
                 ></SelectBox>
                 <SelectBox
-                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
+                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[100%]"
                   compId="4582:7694"
                   comWidth={0}
                   comHeight={40}
                   compLeft={0}
                   compRight={0}
                   compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
+                  placeholderClassName="bg-transparent text-bluegray_700"
                   name="Frame425"
                   placeholder="SMS"
                   isSearchable={false}
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_117.png"}
+                      src={"images/img_vector_126.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4582:7697;120:3699"
                       comWidth={10.4}
@@ -467,7 +467,7 @@ const AddnotesPage = () => {
                   }
                 ></SelectBox>
                 <Button
-                  className="3xl:ml-[12px] 3xl:p-[9px] bg-white_A700 border border-gray_201 border-solid flex items-center justify-between lg:ml-[7px] lg:p-[6px] ml-[10px] p-[8px] rounded-radius4 text-center w-[10%] xl:ml-[8px] xl:p-[7px]"
+                  className="3xl:ml-[12px] 3xl:p-[9px] bg-white_A700 border border-gray_200 border-solid flex items-center justify-between lg:ml-[7px] lg:p-[6px] ml-[10px] p-[8px] rounded-radius4 text-center w-[10%] xl:ml-[8px] xl:p-[7px]"
                   compId="4582:7682"
                   comWidth={0}
                   comHeight={40}
@@ -488,26 +488,26 @@ const AddnotesPage = () => {
                     />
                   }
                 >
-                  <div className="bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701">
+                  <div className="bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700">
                     Task
                   </div>
                 </Button>
                 <SelectBox
-                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
+                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[100%]"
                   compId="4582:7687"
                   comWidth={0}
                   comHeight={40}
                   compLeft={0}
                   compRight={0}
                   compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
+                  placeholderClassName="bg-transparent text-bluegray_700"
                   name="Frame424"
                   placeholder="Meeting"
                   isSearchable={false}
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_119.png"}
+                      src={"images/img_vector_128.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4582:7690;120:3699"
                       comWidth={10.4}
@@ -520,21 +520,21 @@ const AddnotesPage = () => {
                   }
                 ></SelectBox>
                 <SelectBox
-                  className="bg-transparent font-normal p-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
+                  className="bg-transparent font-normal p-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[100%]"
                   compId="4582:7666"
                   comWidth={0}
                   comHeight={40}
                   compLeft={0}
                   compRight={0}
                   compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
+                  placeholderClassName="bg-transparent text-bluegray_700"
                   name="Frame421"
                   placeholder="Add deal"
                   isSearchable={false}
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_121.png"}
+                      src={"images/img_vector_130.png"}
                       className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
                       compId="I4582:7669;120:3699"
                       comWidth={10.4}
@@ -547,7 +547,7 @@ const AddnotesPage = () => {
                   }
                 ></SelectBox>
                 <Button
-                  className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:p-[6px] xl:p-[7px] p-[8px] 3xl:p-[9px] rounded-radius4 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:p-[6px] xl:p-[7px] p-[8px] 3xl:p-[9px] rounded-radius4 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4582:7262"
                   comWidth={40}
                   comHeight={40}
@@ -600,7 +600,7 @@ const AddnotesPage = () => {
                 />
                 <Row
                   className="items-start justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[40%]"
-                  compId="136"
+                  compId="150"
                   comWidth={271}
                   comHeight={70}
                   compLeft={8}
@@ -618,7 +618,7 @@ const AddnotesPage = () => {
                   >
                     <Column
                       className="items-center w-[100%]"
-                      compId="137"
+                      compId="151"
                       comWidth={199}
                       comHeight={22}
                       compLeft={0}
@@ -720,7 +720,7 @@ const AddnotesPage = () => {
                       compType="Row"
                     >
                       <Image
-                        src={"images/img_vector_122.png"}
+                        src={"images/img_vector_131.png"}
                         className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] object-contain w-[8%]"
                         compId="I4582:7723;120:1464"
                         comWidth={14}
@@ -742,7 +742,7 @@ const AddnotesPage = () => {
                         Galveston, Texas, US
                       </Text>
                       <Button
-                        className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[25px] xl:h-[29px] h-[32px] 2xl:h-[33px] 3xl:h-[39px] items-center justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] 3xl:p-[10px] lg:p-[7px] xl:p-[8px] p-[9px] rounded-radius4 lg:w-[24px] xl:w-[28px] w-[32px] 3xl:w-[38px]"
+                        className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[25px] xl:h-[29px] h-[32px] 2xl:h-[33px] 3xl:h-[39px] items-center justify-center lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] 3xl:p-[10px] lg:p-[7px] xl:p-[8px] p-[9px] rounded-radius4 lg:w-[24px] xl:w-[28px] w-[32px] 3xl:w-[38px]"
                         compId="4797:11549"
                         comWidth={32}
                         comHeight={32}
@@ -784,7 +784,7 @@ const AddnotesPage = () => {
                   >
                     <Column
                       className="items-center w-[100%]"
-                      compId="138"
+                      compId="152"
                       comWidth={39}
                       comHeight={22}
                       compLeft={0}
@@ -846,7 +846,7 @@ const AddnotesPage = () => {
                       Customer fit
                     </Text>
                     <Image
-                      src={"images/img_vector_123.png"}
+                      src={"images/img_vector_132.png"}
                       className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                       compId="I4582:7786;120:1336"
                       comWidth={20}
@@ -859,7 +859,7 @@ const AddnotesPage = () => {
                   </Row>
                   <Column
                     className="items-center mr-[1px] lg:mt-[5px] xl:mt-[6px] mt-[7px] 3xl:mt-[8px] pl-[1px] w-[98%]"
-                    compId="139"
+                    compId="153"
                     comWidth={114}
                     comHeight={15}
                     compLeft={0}
@@ -876,7 +876,7 @@ const AddnotesPage = () => {
                       compType="Row"
                     >
                       <Image
-                        src={"images/img_vector_124.png"}
+                        src={"images/img_vector_133.png"}
                         className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7791;120:5517"
                         comWidth={16}
@@ -887,7 +887,7 @@ const AddnotesPage = () => {
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_125.png"}
+                        src={"images/img_vector_134.png"}
                         className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7792;120:5517"
                         comWidth={16}
@@ -898,7 +898,7 @@ const AddnotesPage = () => {
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_126.png"}
+                        src={"images/img_vector_135.png"}
                         className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7793;120:5517"
                         comWidth={16}
@@ -909,7 +909,7 @@ const AddnotesPage = () => {
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_127.png"}
+                        src={"images/img_vector_136.png"}
                         className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7794;120:5517"
                         comWidth={16}
@@ -920,7 +920,7 @@ const AddnotesPage = () => {
                         alt="Vector"
                       />
                       <Image
-                        src={"images/img_vector_128.png"}
+                        src={"images/img_vector_137.png"}
                         className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[14%]"
                         compId="I4582:7795;120:5517"
                         comWidth={16}
@@ -945,7 +945,7 @@ const AddnotesPage = () => {
                   Show scoring factors
                 </Text>
                 <Image
-                  src={"images/img_vector_129.png"}
+                  src={"images/img_vector_138.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mb-[37px] xl:mb-[42px] mb-[48px] 3xl:mb-[57px] lg:ml-[4px] xl:ml-[5px] ml-[6px] 3xl:ml-[7px] xl:mt-[1px] lg:mt-[1px] mt-[2px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4582:7804;120:1336"
                   comWidth={20}
@@ -1031,7 +1031,7 @@ const AddnotesPage = () => {
                   </Text>
                   <Column
                     className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                    compId="140"
+                    compId="154"
                     comWidth={181}
                     comHeight={22}
                     compLeft={0}
