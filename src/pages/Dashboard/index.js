@@ -19,7 +19,9 @@ const DashboardPage = () => {
   const [isOpenAddTaskModal, setAddTaskModal] = React.useState(false);
 
   function handleNavigate1() {
-    navigate("/tasks");
+    //TODO: You had integrated navigation action, since you've not selected the target page,
+    // you will have to update navigation code manually.
+    navigate("");
   }
   function handleOpenAddTaskModal() {
     setAddTaskModal(true);
@@ -41,7 +43,7 @@ const DashboardPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="74"
+          compId="67"
           comWidth={1440}
           comHeight={1040}
           compLeft={0}
@@ -51,7 +53,7 @@ const DashboardPage = () => {
           <aside className="items-center lg:mb-[12px] xl:mb-[14px] mb-[16px] 3xl:mb-[19px] w-[7%]">
             <Column
               className=""
-              compId="16"
+              compId="6"
               comWidth={98}
               comHeight={1024}
               compLeft={0}
@@ -88,7 +90,7 @@ const DashboardPage = () => {
                   compType="IconButton"
                 >
                   <Image
-                    src={"images/img_group177_1.png"}
+                    src={"images/img_group177.png"}
                     className="w-[16px] h-[16px] flex items-center justify-center lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px]"
                     compId="4712:8189"
                     comWidth={50}
@@ -100,7 +102,7 @@ const DashboardPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_38.png"}
+                  src={"images/img_vector_22.png"}
                   className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[20px] xl:mt-[23px] mt-[26px] 3xl:mt-[31px] mx-[auto] object-contain lg:w-[14px] xl:w-[16px] w-[19px] 3xl:w-[22px]"
                   compId="I4712:8168;120:2258"
                   comWidth={19}
@@ -111,7 +113,7 @@ const DashboardPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_39.png"}
+                  src={"images/img_vector_23.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[38%]"
                   compId="I4712:8170;120:2252"
                   comWidth={19}
@@ -122,7 +124,7 @@ const DashboardPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_40.png"}
+                  src={"images/img_vector_24.png"}
                   className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I4712:8172;120:328"
                   comWidth={16}
@@ -133,7 +135,7 @@ const DashboardPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_41.png"}
+                  src={"images/img_vector_25.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4712:8174;120:1630"
                   comWidth={18}
@@ -144,7 +146,7 @@ const DashboardPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_42.png"}
+                  src={"images/img_vector_26.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4712:8176;120:434"
                   comWidth={20}
@@ -155,7 +157,7 @@ const DashboardPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_43.png"}
+                  src={"images/img_vector_27.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4712:8178;120:1750"
                   comWidth={20}
@@ -166,7 +168,7 @@ const DashboardPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_44.png"}
+                  src={"images/img_vector_28.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4712:8180;120:1890"
                   comWidth={19}
@@ -181,7 +183,7 @@ const DashboardPage = () => {
           </aside>
           <Column
             className="items-center w-[93%]"
-            compId="73"
+            compId="66"
             comWidth={1341}
             comHeight={1040}
             compLeft={0}
@@ -210,7 +212,7 @@ const DashboardPage = () => {
                 placeholder="All"
                 prefix={
                   <Image
-                    src={"images/img_vector_45.png"}
+                    src={"images/img_vector_29.png"}
                     className="w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
                     compId="I4712:8218;120:1866"
                     comWidth={20.01}
@@ -236,7 +238,7 @@ const DashboardPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[376px] xl:ml-[430px] ml-[484px] 3xl:ml-[581px] w-[22%]"
-                compId="76"
+                compId="69"
                 comWidth={292}
                 comHeight={34}
                 compLeft={484}
@@ -262,7 +264,7 @@ const DashboardPage = () => {
                     compType="View"
                   ></div>
                   <Image
-                    src={"images/img_vector_46.png"}
+                    src={"images/img_vector_30.png"}
                     className="absolute lg:h-[11px] xl:h-[12px] h-[13px] 2xl:h-[14px] 3xl:h-[16px] inset-[0] justify-center m-[auto] object-contain w-[40%]"
                     compId="I4712:8201;120:5217"
                     comWidth={16}
@@ -292,7 +294,7 @@ const DashboardPage = () => {
                     compType="View"
                   ></div>
                   <Image
-                    src={"images/img_vector_47.png"}
+                    src={"images/img_vector_31.png"}
                     className="absolute lg:h-[11px] xl:h-[12px] h-[13px] 2xl:h-[14px] 3xl:h-[16px] inset-[0] justify-center m-[auto] object-contain w-[50%]"
                     compId="I4712:8204;120:870"
                     comWidth={20}
@@ -322,7 +324,7 @@ const DashboardPage = () => {
                     compType="View"
                   ></div>
                   <Image
-                    src={"images/img_vector_48.png"}
+                    src={"images/img_vector_32.png"}
                     className="absolute bottom-[6%] lg:h-[21px] xl:h-[24px] h-[26px] 2xl:h-[27px] 3xl:h-[32px] inset-x-[0] mx-[auto] object-contain w-[78%]"
                     compId="I4712:8207;120:1818"
                     comWidth={31}
@@ -447,7 +449,7 @@ const DashboardPage = () => {
                 Sales Dashboard
               </Text>
               <Image
-                src={"images/img_vector_49.png"}
+                src={"images/img_vector_33.png"}
                 className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mb-[14px] xl:mb-[16px] mb-[19px] 3xl:mb-[22px] lg:ml-[11px] xl:ml-[13px] ml-[15px] 3xl:ml-[18px] lg:mt-[15px] xl:mt-[17px] mt-[20px] 3xl:mt-[24px] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                 compId="I4712:8254;120:1608"
                 comWidth={16}
@@ -467,7 +469,7 @@ const DashboardPage = () => {
                 compType="Line"
               />
               <Image
-                src={"images/img_vector_50.png"}
+                src={"images/img_vector_34.png"}
                 className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:my-[15px] xl:my-[17px] my-[20px] 3xl:my-[24px] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                 compId="I4461:4476;120:5217"
                 comWidth={16}
@@ -480,7 +482,7 @@ const DashboardPage = () => {
             </Row>
             <Row
               className="items-center justify-between lg:ml-[11px] xl:ml-[13px] ml-[15px] 3xl:ml-[18px] lg:mr-[12px] xl:mr-[14px] mr-[16px] 3xl:mr-[19px] 3xl:mt-[10px] lg:mt-[7px] xl:mt-[8px] mt-[9px] w-[98%]"
-              compId="72"
+              compId="65"
               comWidth={1310}
               comHeight={903}
               compLeft={15}
@@ -561,7 +563,7 @@ const DashboardPage = () => {
                     compType="Button"
                     leftIcon={
                       <Image
-                        src={"images/img_vector_51.png"}
+                        src={"images/img_vector_35.png"}
                         className="w-[16.67px] text-center lg:w-[12px] xl:w-[14px] 2xl:w-[16px] 3xl:w-[20px]"
                         compId="I4712:8404;120:380"
                         comWidth={16.67}
@@ -622,7 +624,7 @@ const DashboardPage = () => {
                   </Button>
                   <Row
                     className="items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] w-[30%]"
-                    compId="77"
+                    compId="70"
                     comWidth={255}
                     comHeight={23}
                     compLeft={10}
@@ -720,7 +722,7 @@ const DashboardPage = () => {
                     </Text>
                     <Column
                       className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                      compId="79"
+                      compId="72"
                       comWidth={389}
                       comHeight={85}
                       compLeft={0}
@@ -793,7 +795,7 @@ const DashboardPage = () => {
                           >
                             <Stack
                               className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                              compId="63"
+                              compId="56"
                               comWidth={15}
                               comHeight={20}
                               compLeft={0}
@@ -802,7 +804,7 @@ const DashboardPage = () => {
                             >
                               <Stack
                                 className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                compId="64"
+                                compId="57"
                                 comWidth={15}
                                 comHeight={20}
                                 compLeft={0}
@@ -811,7 +813,7 @@ const DashboardPage = () => {
                               >
                                 <Stack
                                   className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                  compId="65"
+                                  compId="58"
                                   comWidth={15}
                                   comHeight={20}
                                   compLeft={0}
@@ -820,7 +822,7 @@ const DashboardPage = () => {
                                 >
                                   <Stack
                                     className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[87%]"
-                                    compId="66"
+                                    compId="59"
                                     comWidth={13}
                                     comHeight={20}
                                     compLeft={0}
@@ -829,7 +831,7 @@ const DashboardPage = () => {
                                   >
                                     <Stack
                                       className="absolute lg:h-[4px] h-[5px] 2xl:h-[6px] 3xl:h-[7px] w-[100%]"
-                                      compId="67"
+                                      compId="60"
                                       comWidth={13}
                                       comHeight={5}
                                       compLeft={0}
@@ -850,7 +852,7 @@ const DashboardPage = () => {
                                         }}
                                       >
                                         <Image
-                                          src={"images/img_vector_52.png"}
+                                          src={"images/img_vector_36.png"}
                                           className="absolute h-[4px] 3xl:h-[5px] 2xl:h-[5px] inset-x-[0] mx-[auto] object-contain w-[92%]"
                                           compId="4712:8447"
                                           comWidth={12}
@@ -875,7 +877,7 @@ const DashboardPage = () => {
                                         }}
                                       >
                                         <Image
-                                          src={"images/img_vector_53.png"}
+                                          src={"images/img_vector_37.png"}
                                           className="absolute h-[4px] 3xl:h-[5px] 2xl:h-[5px] object-cover w-[100%]"
                                           compId="4712:8450"
                                           comWidth={12}
@@ -888,7 +890,7 @@ const DashboardPage = () => {
                                       </Stack>
                                     </Stack>
                                     <Image
-                                      src={"images/img_vector_54.png"}
+                                      src={"images/img_vector_38.png"}
                                       className="absolute lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] object-contain right-[0] w-[46%]"
                                       compId="4712:8451"
                                       comWidth={6}
@@ -900,7 +902,7 @@ const DashboardPage = () => {
                                     />
                                   </Stack>
                                   <Image
-                                    src={"images/img_vector_55.png"}
+                                    src={"images/img_vector_39.png"}
                                     className="absolute lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[60%]"
                                     compId="4712:8452"
                                     comWidth={9}
@@ -912,7 +914,7 @@ const DashboardPage = () => {
                                   />
                                 </Stack>
                                 <Image
-                                  src={"images/img_vector_56.png"}
+                                  src={"images/img_vector_40.png"}
                                   className="absolute bottom-[5%] h-[4px] 3xl:h-[5px] 2xl:h-[5px] left-[13%] object-contain w-[40%]"
                                   compId="4712:8453"
                                   comWidth={6}
@@ -924,7 +926,7 @@ const DashboardPage = () => {
                                 />
                               </Stack>
                               <Image
-                                src={"images/img_vector_57.png"}
+                                src={"images/img_vector_41.png"}
                                 className="absolute lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-contain w-[60%]"
                                 compId="4712:8454"
                                 comWidth={9}
@@ -936,7 +938,7 @@ const DashboardPage = () => {
                               />
                             </Stack>
                             <Image
-                              src={"images/img_vector_58.png"}
+                              src={"images/img_vector_42.png"}
                               className="absolute bottom-[5%] h-[4px] 3xl:h-[5px] 2xl:h-[5px] left-[13%] object-contain w-[40%]"
                               compId="4712:8455"
                               comWidth={6}
@@ -995,7 +997,7 @@ const DashboardPage = () => {
                           compType="Button"
                           leftIcon={
                             <Image
-                              src={"images/img_vector_59.png"}
+                              src={"images/img_vector_43.png"}
                               className="w-[13.99px] text-center lg:w-[10px] xl:w-[12px] 2xl:w-[13px] 3xl:w-[16px]"
                               compId="4712:8472"
                               comWidth={13.99}
@@ -1109,7 +1111,7 @@ const DashboardPage = () => {
                         >
                           <Stack
                             className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[87%]"
-                            compId="68"
+                            compId="61"
                             comWidth={13}
                             comHeight={20}
                             compLeft={0}
@@ -1118,7 +1120,7 @@ const DashboardPage = () => {
                           >
                             <Stack
                               className="absolute lg:h-[4px] h-[5px] 2xl:h-[6px] 3xl:h-[7px] w-[100%]"
-                              compId="69"
+                              compId="62"
                               comWidth={13}
                               comHeight={5}
                               compLeft={0}
@@ -1139,7 +1141,7 @@ const DashboardPage = () => {
                                 }}
                               >
                                 <Image
-                                  src={"images/img_vector_60.png"}
+                                  src={"images/img_vector_44.png"}
                                   className="absolute h-[4px] 3xl:h-[5px] 2xl:h-[5px] inset-x-[0] mx-[auto] object-contain w-[92%]"
                                   compId="4712:8486"
                                   comWidth={12}
@@ -1164,7 +1166,7 @@ const DashboardPage = () => {
                                 }}
                               >
                                 <Image
-                                  src={"images/img_vector_61.png"}
+                                  src={"images/img_vector_45.png"}
                                   className="absolute h-[4px] 3xl:h-[5px] 2xl:h-[5px] object-cover w-[100%]"
                                   compId="4712:8489"
                                   comWidth={12}
@@ -1177,7 +1179,7 @@ const DashboardPage = () => {
                               </Stack>
                             </Stack>
                             <Image
-                              src={"images/img_vector_62.png"}
+                              src={"images/img_vector_46.png"}
                               className="absolute lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] object-contain right-[0] w-[46%]"
                               compId="4712:8490"
                               comWidth={6}
@@ -1190,18 +1192,18 @@ const DashboardPage = () => {
                           </Stack>
                           <Stack
                             className="absolute bg-cover bg-repeat lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] w-[60%]"
-                            compId="14"
+                            compId="4"
                             comWidth={9}
                             comHeight={15}
                             compLeft={0}
                             compRight={0}
                             compType="Stack"
                             style={{
-                              backgroundImage: "url('images/img_group14.png')",
+                              backgroundImage: "url('images/img_group4_1.png')",
                             }}
                           >
                             <Image
-                              src={"images/img_vector_63.png"}
+                              src={"images/img_vector_47.png"}
                               className="absolute lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] object-cover w-[100%]"
                               compId="4712:8493"
                               comWidth={9}
@@ -1214,18 +1216,18 @@ const DashboardPage = () => {
                           </Stack>
                           <Stack
                             className="absolute bg-cover bg-repeat bottom-[5%] h-[4px] 3xl:h-[5px] 2xl:h-[5px] left-[13%] w-[40%]"
-                            compId="15"
+                            compId="5"
                             comWidth={6}
                             comHeight={4}
                             compLeft={2}
                             compRight={0}
                             compType="Stack"
                             style={{
-                              backgroundImage: "url('images/img_group15.png')",
+                              backgroundImage: "url('images/img_group5_1.png')",
                             }}
                           >
                             <Image
-                              src={"images/img_vector_64.png"}
+                              src={"images/img_vector_48.png"}
                               className="absolute h-[4px] 3xl:h-[5px] 2xl:h-[5px] object-cover w-[100%]"
                               compId="4712:8494"
                               comWidth={6}
@@ -1290,7 +1292,7 @@ const DashboardPage = () => {
                     compType="Row"
                   >
                     <Image
-                      src={"images/img_vector_65.png"}
+                      src={"images/img_vector_49.png"}
                       className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                       compId="I4477:6006;120:1890"
                       comWidth={16}
@@ -1332,7 +1334,7 @@ const DashboardPage = () => {
                     compType="Row"
                   >
                     <Image
-                      src={"images/img_group3_3.png"}
+                      src={"images/img_group3_1.png"}
                       className="lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] object-contain lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                       compId="4712:8552"
                       comWidth={40}
@@ -1356,7 +1358,7 @@ const DashboardPage = () => {
                   </Row>
                   <Column
                     className="items-center xl:mt-[10px] mt-[12px] 3xl:mt-[14px] lg:mt-[9px] w-[100%]"
-                    compId="80"
+                    compId="73"
                     comWidth={426}
                     comHeight={64}
                     compLeft={0}
@@ -1415,7 +1417,7 @@ const DashboardPage = () => {
                       My calender
                     </Text>
                     <Image
-                      src={"images/img_vector_66.png"}
+                      src={"images/img_vector_50.png"}
                       className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] xl:mb-[1px] lg:mb-[1px] mb-[2px] xl:mt-[2px] lg:mt-[2px] mt-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                       compId="I4712:8598;120:1890"
                       comWidth={16}
@@ -1437,7 +1439,7 @@ const DashboardPage = () => {
                   />
                   <Column
                     className="items-start justify-start lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:mr-[14px] xl:mr-[16px] mr-[18px] 3xl:mr-[21px] lg:mt-[11px] xl:mt-[13px] mt-[15px] 3xl:mt-[18px] w-[92%]"
-                    compId="75"
+                    compId="68"
                     comWidth={392}
                     comHeight={548}
                     compLeft={16}
@@ -1457,7 +1459,7 @@ const DashboardPage = () => {
                     </Text>
                     <Column
                       className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                      compId="81"
+                      compId="74"
                       comWidth={392}
                       comHeight={152}
                       compLeft={0}
@@ -1475,7 +1477,7 @@ const DashboardPage = () => {
                       >
                         <Row
                           className="items-center justify-between w-[27%]"
-                          compId="78"
+                          compId="71"
                           comWidth={105}
                           comHeight={23}
                           compLeft={0}
@@ -1494,7 +1496,7 @@ const DashboardPage = () => {
                             27 Jun
                           </Text>
                           <Image
-                            src={"images/img_vector_67.png"}
+                            src={"images/img_vector_51.png"}
                             className="lg:h-[11px] xl:h-[12px] h-[13px] 2xl:h-[14px] 3xl:h-[16px] xl:mb-[4px] mb-[5px] 3xl:mb-[6px] xl:mt-[3px] mt-[4px] lg:my-[3px] object-contain w-[7%]"
                             compId="I4712:8604;120:3703"
                             comWidth={7}
@@ -1505,7 +1507,7 @@ const DashboardPage = () => {
                             alt="Vector"
                           />
                           <Image
-                            src={"images/img_vector_68.png"}
+                            src={"images/img_vector_52.png"}
                             className="lg:h-[11px] xl:h-[12px] h-[13px] 2xl:h-[14px] 3xl:h-[16px] xl:mb-[4px] mb-[5px] 3xl:mb-[6px] xl:mt-[3px] mt-[4px] lg:my-[3px] object-contain w-[7%]"
                             compId="I4712:8605;120:3703"
                             comWidth={7}
@@ -1591,7 +1593,7 @@ const DashboardPage = () => {
                     </Column>
                     <Column
                       className="items-end lg:mt-[31px] xl:mt-[35px] mt-[40px] 3xl:mt-[48px] w-[100%]"
-                      compId="82"
+                      compId="75"
                       comWidth={392}
                       comHeight={1}
                       compLeft={0}
@@ -1610,7 +1612,7 @@ const DashboardPage = () => {
                     </Column>
                     <Column
                       className="items-center 3xl:mt-[10px] lg:mt-[7px] xl:mt-[8px] mt-[9px] xl:pl-[1px] lg:pl-[1px] pl-[2px] w-[100%]"
-                      compId="83"
+                      compId="76"
                       comWidth={392}
                       comHeight={315}
                       compLeft={0}
@@ -1619,7 +1621,7 @@ const DashboardPage = () => {
                     >
                       <Row
                         className="items-center justify-between w-[100%]"
-                        compId="70"
+                        compId="63"
                         comWidth={389}
                         comHeight={23}
                         compLeft={0}

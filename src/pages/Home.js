@@ -12,16 +12,13 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/tasklist">Tasklist</Link>
-        </li>
-        <li>
-          <Link to="/tasks">Tasks</Link>
-        </li>
-        <li>
           <Link to="/products">Products</Link>
         </li>
         <li>
           <Link to="/dashboard">Dashboard</Link>
+        </li>
+        <li>
+          <Link to="/tasks">Tasks</Link>
         </li>
         <li>
           <Link to="/contacts">Contacts</Link>

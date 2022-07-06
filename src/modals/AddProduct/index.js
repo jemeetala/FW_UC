@@ -23,7 +23,7 @@ const AddProductModal = (props) => {
           >
             <Column
               className="absolute items-center justify-start w-[100%]"
-              compId="89"
+              compId="93"
               comWidth={551}
               comHeight={538}
               compLeft={0}
@@ -43,7 +43,7 @@ const AddProductModal = (props) => {
                 placeholder="Add Account"
                 suffix={
                   <Image
-                    src={"images/img_vector_73.png"}
+                    src={"images/img_vector_65.png"}
                     className="w-[16.01px] lg:w-[12px] xl:w-[14px] 2xl:w-[16px] 3xl:w-[19px] my-[auto]"
                     compId="I4797:11349;120:1608"
                     comWidth={16.01}
@@ -111,7 +111,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[1px] lg:pl-[1px] pl-[2px] pr-[1px] w-[94%]"
-                compId="91"
+                compId="95"
                 comWidth={487}
                 comHeight={36}
                 compLeft={0}
@@ -131,7 +131,7 @@ const AddProductModal = (props) => {
                   placeholder="Enter title of task"
                   suffix={
                     <Image
-                      src={"images/img_vector_74.png"}
+                      src={"images/img_vector_66.png"}
                       className="w-[13.33px] h-[13.33px] lg:w-[10px] lg:h-[11px] xl:w-[11px] xl:h-[12px] 2xl:w-[13px] 2xl:h-[14px] 3xl:w-[16px] 3xl:h-[17px] my-[auto]"
                       compId="I4797:11490;122:20774;120:5117"
                       comWidth={13.33}
@@ -157,7 +157,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[1px] lg:pl-[1px] pl-[2px] pr-[1px] w-[94%]"
-                compId="92"
+                compId="96"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -179,7 +179,7 @@ const AddProductModal = (props) => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_75.png"}
+                      src={"images/img_vector_67.png"}
                       className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
                       compId="I4797:11433;120:3699"
                       comWidth={8.67}
@@ -205,7 +205,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] pl-[1px] xl:pr-[1px] lg:pr-[1px] pr-[2px] w-[94%]"
-                compId="93"
+                compId="97"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -227,7 +227,7 @@ const AddProductModal = (props) => {
                   isMulti={false}
                   indicator={
                     <Image
-                      src={"images/img_vector_76.png"}
+                      src={"images/img_vector_68.png"}
                       className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
                       compId="I5000:8132;120:3699"
                       comWidth={8.67}
@@ -253,7 +253,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[2px] lg:pl-[2px] pl-[3px] w-[94%]"
-                compId="94"
+                compId="98"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -286,7 +286,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pr-[2px] lg:pr-[2px] pr-[3px] w-[94%]"
-                compId="95"
+                compId="99"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -306,7 +306,7 @@ const AddProductModal = (props) => {
                   placeholder="Choose date"
                   suffix={
                     <Image
-                      src={"images/img_vector_77.png"}
+                      src={"images/img_vector_69.png"}
                       className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
                       compId="I4797:11456;120:380"
                       comWidth={16.67}
