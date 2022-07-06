@@ -7,7 +7,6 @@ import {
   Image,
   Button,
   Input,
-  Stack,
   Text,
   Line,
   List,
@@ -47,7 +46,7 @@ const TasksPage = () => {
       >
         <Row
           className="items-start justify-evenly w-[100%]"
-          compId="84"
+          compId="82"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -57,7 +56,7 @@ const TasksPage = () => {
           <aside className="items-center justify-start w-[7%]">
             <Column
               className=""
-              compId="15"
+              compId="13"
               comWidth={98}
               comHeight={1024}
               compLeft={0}
@@ -187,7 +186,7 @@ const TasksPage = () => {
           </aside>
           <Column
             className="items-center justify-start lg:mb-[322px] xl:mb-[368px] mb-[414px] 3xl:mb-[497px] w-[93%]"
-            compId="83"
+            compId="81"
             comWidth={1341}
             comHeight={610}
             compLeft={0}
@@ -262,7 +261,7 @@ const TasksPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[376px] xl:ml-[430px] ml-[484px] 3xl:ml-[581px] w-[22%]"
-                compId="88"
+                compId="87"
                 comWidth={292}
                 comHeight={40}
                 compLeft={484}
@@ -378,7 +377,7 @@ const TasksPage = () => {
             </Row>
             <Row
               className="items-start justify-evenly w-[100%]"
-              compId="82"
+              compId="80"
               comWidth={1337}
               comHeight={538}
               compLeft={4}
@@ -394,70 +393,39 @@ const TasksPage = () => {
                 compRight={0}
                 compType="Column"
               >
-                <Stack
-                  className="lg:h-[46px] xl:h-[52px] h-[58px] 2xl:h-[59px] 3xl:h-[70px] w-[100%]"
+                <Column
+                  className="border border-gray_201 border-solid items-center justify-end lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pt-[12px] xl:pt-[14px] pt-[16px] 3xl:pt-[19px] w-[100%]"
                   compId="5052:8605"
                   comWidth={883}
                   comHeight={58}
                   compLeft={1}
                   compRight={1}
-                  compType="Stack"
+                  compType="Column"
                 >
-                  <Column
-                    className="absolute border border-gray_201 border-solid items-center justify-start lg:pb-[10px] xl:pb-[12px] pb-[14px] 3xl:pb-[16px] lg:pl-[19px] xl:pl-[22px] pl-[25px] 3xl:pl-[30px] lg:pt-[14px] xl:pt-[16px] pt-[18px] 3xl:pt-[21px] w-[100%]"
-                    compId="9"
-                    comWidth={883}
-                    comHeight={58}
+                  <Text
+                    className="font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] not-italic lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_901 w-[auto]"
+                    compId="I5052:8608;186:751"
+                    comWidth={43}
+                    comHeight={26}
+                    compLeft={10}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    TASKS
+                  </Text>
+                  <Line
+                    className="bg-blue_800 h-[2px] lg:mt-[10px] xl:mt-[12px] mt-[14px] 3xl:mt-[16px] w-[7%]"
+                    compId="I5052:8608;186:754"
+                    comWidth={63}
+                    comHeight={2}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
-                  >
-                    <Text
-                      className="font-normal not-italic lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_400 w-[auto]"
-                      compId="I5052:8607;186:757"
-                      comWidth={71}
-                      comHeight={26}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      MEETINGS
-                    </Text>
-                  </Column>
-                  <Column
-                    className="absolute items-center justify-start left-[15%] w-[7%]"
-                    compId="5052:8608"
-                    comWidth={63}
-                    comHeight={42}
-                    compLeft={130}
-                    compRight={0}
-                    compType="Column"
-                  >
-                    <Text
-                      className="font-normal mx-[auto] not-italic lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_901 w-[auto]"
-                      compId="I5052:8608;186:751"
-                      comWidth={43}
-                      comHeight={26}
-                      compLeft={10}
-                      compRight={10}
-                      compType="Text"
-                    >
-                      TASKS
-                    </Text>
-                    <Line
-                      className="bg-blue_800 h-[2px] lg:mt-[10px] xl:mt-[12px] mt-[14px] 3xl:mt-[16px] w-[100%]"
-                      compId="I5052:8608;186:754"
-                      comWidth={63}
-                      comHeight={2}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Line"
-                    />
-                  </Column>
-                </Stack>
+                    compType="Line"
+                  />
+                </Column>
                 <List
                   className="gap-[0] min-h-[auto] w-[100%]"
-                  compId="87"
+                  compId="86"
                   comWidth={885}
                   comHeight={480}
                   compLeft={0}
@@ -469,7 +437,7 @@ const TasksPage = () => {
                     return (
                       <Row
                         className="bg-white_A700 border border-gray_201 border-solid items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
-                        compId="10"
+                        compId="9"
                         comWidth={885}
                         comHeight={120}
                         compLeft={0}
@@ -517,7 +485,7 @@ const TasksPage = () => {
                             {apiDataEle?.description}
                           </Text>
                           <Text
-                            className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                            className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-deep_orange_A700 w-[auto]"
                             compId="5052:8619"
                             comWidth={186}
                             comHeight={26}
@@ -525,7 +493,7 @@ const TasksPage = () => {
                             compRight={0}
                             compType="Text"
                           >
-                            {apiDataEle?.due_date}
+                            {apiDataEle?.description}
                           </Text>
                         </Column>
                       </Row>
@@ -533,33 +501,44 @@ const TasksPage = () => {
                   })}
                 </List>
               </Column>
-              <Stack
-                className="lg:h-[196px] xl:h-[224px] h-[251px] 2xl:h-[252px] 3xl:h-[302px] lg:mb-[206px] xl:mb-[236px] mb-[266px] 3xl:mb-[319px] lg:mt-[16px] xl:mt-[18px] mt-[21px] 3xl:mt-[25px] w-[34%]"
+              <Column
+                className="bg-white_A700 border border-gray_201 border-solid justify-center lg:mb-[206px] xl:mb-[236px] mb-[266px] 3xl:mb-[319px] lg:mt-[17px] xl:mt-[20px] mt-[23px] 3xl:mt-[27px] lg:pb-[26px] xl:pb-[30px] pb-[34px] 3xl:pb-[40px] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:pt-[4px] xl:pt-[5px] pt-[6px] 3xl:pt-[7px] w-[34%]"
                 compId="5052:8662"
                 comWidth={452}
-                comHeight={251}
+                comHeight={249}
                 compLeft={0}
                 compRight={0}
-                compType="Stack"
+                compType="Column"
               >
-                <Column
-                  className="absolute bg-white_A700 border border-gray_201 border-solid items-start justify-center lg:pb-[26px] xl:pb-[30px] pb-[34px] 3xl:pb-[40px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pt-[22px] xl:pt-[25px] pt-[29px] 3xl:pt-[34px] top-[1%] w-[100%]"
-                  compId="14"
-                  comWidth={452}
-                  comHeight={249}
+                <Text
+                  className="font-semibold lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  compId="5052:8664"
+                  comWidth={76}
+                  comHeight={23}
                   compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  OPEN TASKS
+                </Text>
+                <Column
+                  className="items-start justify-start lg:ml-[4px] xl:ml-[5px] ml-[6px] 3xl:ml-[7px] w-[20%]"
+                  compId="83"
+                  comWidth={90}
+                  comHeight={186}
+                  compLeft={6}
                   compRight={0}
                   compType="Column"
                 >
                   <RadioGroup
-                    className="w-[20%]"
-                    compId="85"
+                    className="w-[96%]"
+                    compId="84"
                     comWidth={86}
                     comHeight={85}
                     compLeft={0}
                     compRight={0}
                     compType="RadioGroup"
-                    name="Group85"
+                    name="Group84"
                   >
                     <Radio
                       value={false}
@@ -571,7 +550,7 @@ const TasksPage = () => {
                       compLeft={0}
                       compRight={11}
                       compType="Radio"
-                      name="Group85"
+                      name="Group84"
                       label="Overdue"
                     ></Radio>
                     <Radio
@@ -584,7 +563,7 @@ const TasksPage = () => {
                       compLeft={0}
                       compRight={25}
                       compType="Radio"
-                      name="Group85"
+                      name="Group84"
                       label="Today"
                     ></Radio>
                     <Radio
@@ -597,7 +576,7 @@ const TasksPage = () => {
                       compLeft={0}
                       compRight={0}
                       compType="Radio"
-                      name="Group85"
+                      name="Group84"
                       label="Tomorrow"
                     ></Radio>
                   </RadioGroup>
@@ -612,57 +591,56 @@ const TasksPage = () => {
                   >
                     ALL TASKS
                   </Text>
-                  <RadioGroup
-                    selectedValue="Open"
-                    className="lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[21%]"
-                    compId="86"
+                  <Column
+                    className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
+                    compId="93"
                     comWidth={90}
                     comHeight={54}
                     compLeft={0}
                     compRight={0}
-                    compType="RadioGroup"
-                    name="Group86"
+                    compType="Column"
                   >
-                    <Radio
-                      value={true}
-                      className="font-normal lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] not-italic lg:pl-[3px] xl:pl-[4px] pl-[5px] 3xl:pl-[6px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[63%]"
-                      inputClassName="2xl:h-[24px] 3xl:h-[28px] 3xl:w-[27px] bg-blue_800 h-[23px] lg:h-[18px] lg:w-[17px] rounded-radius10 w-[23px] xl:h-[21px] xl:w-[20px] mr-[5px]"
-                      compId="5052:8675"
-                      comWidth={57}
-                      comHeight={23}
-                      compLeft={0}
-                      compRight={33}
-                      compType="Radio"
-                      name="Group86"
-                      label="Open"
-                    ></Radio>
-                    <Radio
-                      value={false}
-                      className="font-normal lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:pl-[3px] xl:pl-[4px] pl-[5px] 3xl:pl-[6px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[100%]"
-                      inputClassName="2xl:h-[24px] 3xl:h-[28px] 3xl:w-[27px] bg-white_A700 border border-bluegray_201 border-solid h-[23px] lg:h-[18px] lg:w-[17px] rounded-radius10 w-[23px] xl:h-[21px] xl:w-[20px] mr-[5px]"
-                      compId="5052:8678"
+                    <RadioGroup
+                      selectedValue="Open"
+                      className="w-[100%]"
+                      compId="85"
                       comWidth={90}
-                      comHeight={23}
+                      comHeight={54}
                       compLeft={0}
                       compRight={0}
-                      compType="Radio"
-                      name="Group86"
-                      label="Completed"
-                    ></Radio>
-                  </RadioGroup>
+                      compType="RadioGroup"
+                      name="Group85"
+                    >
+                      <Radio
+                        value={true}
+                        className="font-normal lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] not-italic lg:pl-[3px] xl:pl-[4px] pl-[5px] 3xl:pl-[6px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[63%]"
+                        inputClassName="2xl:h-[24px] 3xl:h-[28px] 3xl:w-[27px] bg-blue_800 h-[23px] lg:h-[18px] lg:w-[17px] rounded-radius10 w-[23px] xl:h-[21px] xl:w-[20px] mr-[5px]"
+                        compId="5052:8675"
+                        comWidth={57}
+                        comHeight={23}
+                        compLeft={0}
+                        compRight={33}
+                        compType="Radio"
+                        name="Group85"
+                        label="Open"
+                      ></Radio>
+                      <Radio
+                        value={false}
+                        className="font-normal lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:pl-[3px] xl:pl-[4px] pl-[5px] 3xl:pl-[6px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[100%]"
+                        inputClassName="2xl:h-[24px] 3xl:h-[28px] 3xl:w-[27px] bg-white_A700 border border-bluegray_201 border-solid h-[23px] lg:h-[18px] lg:w-[17px] rounded-radius10 w-[23px] xl:h-[21px] xl:w-[20px] mr-[5px]"
+                        compId="5052:8678"
+                        comWidth={90}
+                        comHeight={23}
+                        compLeft={0}
+                        compRight={0}
+                        compType="Radio"
+                        name="Group85"
+                        label="Completed"
+                      ></Radio>
+                    </RadioGroup>
+                  </Column>
                 </Column>
-                <Text
-                  className="absolute font-semibold left-[4%] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
-                  compId="5052:8664"
-                  comWidth={76}
-                  comHeight={23}
-                  compLeft={16}
-                  compRight={0}
-                  compType="Text"
-                >
-                  OPEN TASKS
-                </Text>
-              </Stack>
+              </Column>
             </Row>
           </Column>
         </Row>

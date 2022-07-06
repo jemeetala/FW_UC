@@ -40,7 +40,6 @@ module.exports = {
         colors1: "#d03329ff",
         bluegray_701: "#424c5d",
         bluegray_600: "#5f6c86",
-        colors: "#5f6c86ff",
         orange_900: "#cd6200",
         red_600: "#e93c40",
         bluegray_900: "#12344d",
@@ -49,6 +48,8 @@ module.exports = {
         bluegray_901: "#262b35",
         bluegray_700: "#39566b",
         bluegray_400: "#74839d",
+        deep_orange_A700: "#c92800",
+        colors: "#c92800ff",
         gray_900_d8: "#121212d8",
       },
       fontFamily: {

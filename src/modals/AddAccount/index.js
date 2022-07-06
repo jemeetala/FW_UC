@@ -48,7 +48,7 @@ const AddAccountModal = (props) => {
           >
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] w-[94%]"
-              compId="77"
+              compId="75"
               comWidth={484}
               comHeight={55}
               compLeft={0}
@@ -82,7 +82,7 @@ const AddAccountModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="78"
+              compId="76"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -115,7 +115,7 @@ const AddAccountModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="79"
+              compId="77"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -161,7 +161,7 @@ const AddAccountModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="80"
+              compId="78"
               comWidth={484}
               comHeight={39}
               compLeft={0}
@@ -209,7 +209,7 @@ const AddAccountModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[25px] xl:mr-[29px] mr-[33px] 3xl:mr-[39px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="81"
+              compId="79"
               comWidth={484}
               comHeight={39}
               compLeft={0}

@@ -113,7 +113,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="118"
+              compId="119"
               comWidth={489}
               comHeight={36}
               compLeft={0}
@@ -154,7 +154,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="119"
+              compId="120"
               comWidth={489}
               comHeight={36}
               compLeft={0}
@@ -192,7 +192,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="120"
+              compId="121"
               comWidth={489}
               comHeight={39}
               compLeft={0}
@@ -230,7 +230,7 @@ const AddContactsModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="121"
+              compId="122"
               comWidth={489}
               comHeight={39}
               compLeft={0}

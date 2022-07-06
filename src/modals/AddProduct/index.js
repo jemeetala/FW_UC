@@ -23,7 +23,7 @@ const AddProductModal = (props) => {
           >
             <Column
               className="absolute items-center justify-start w-[100%]"
-              compId="93"
+              compId="94"
               comWidth={551}
               comHeight={538}
               compLeft={0}
@@ -111,7 +111,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[1px] lg:pl-[1px] pl-[2px] pr-[1px] w-[94%]"
-                compId="95"
+                compId="96"
                 comWidth={487}
                 comHeight={36}
                 compLeft={0}
@@ -157,7 +157,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[1px] lg:pl-[1px] pl-[2px] pr-[1px] w-[94%]"
-                compId="96"
+                compId="97"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -205,7 +205,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] pl-[1px] xl:pr-[1px] lg:pr-[1px] pr-[2px] w-[94%]"
-                compId="97"
+                compId="98"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -253,7 +253,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[2px] lg:pl-[2px] pl-[3px] w-[94%]"
-                compId="98"
+                compId="99"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -286,7 +286,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pr-[2px] lg:pr-[2px] pr-[3px] w-[94%]"
-                compId="99"
+                compId="100"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}

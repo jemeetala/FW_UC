@@ -52,7 +52,7 @@ const ContactsPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="100"
+          compId="101"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -62,7 +62,7 @@ const ContactsPage = () => {
           <aside className="items-center w-[7%]">
             <Column
               className=""
-              compId="20"
+              compId="18"
               comWidth={98}
               comHeight={1024}
               compLeft={0}
@@ -267,7 +267,7 @@ const ContactsPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="102"
+                compId="103"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -460,7 +460,7 @@ const ContactsPage = () => {
               </Text>
               <Row
                 className="items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] w-[37%]"
-                compId="103"
+                compId="104"
                 comWidth={485}
                 comHeight={17}
                 compLeft={10}
@@ -537,7 +537,7 @@ const ContactsPage = () => {
             </Row>
             <List
               className="font-montserrat gap-[0] min-h-[auto] w-[100%]"
-              compId="101"
+              compId="102"
               comWidth={1341}
               comHeight={882}
               compLeft={1}
@@ -556,7 +556,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] w-[51%]"
-                  compId="104"
+                  compId="105"
                   comWidth={675}
                   comHeight={17}
                   compLeft={0}
@@ -695,7 +695,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="105"
+                  compId="106"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -823,7 +823,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="106"
+                  compId="107"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -951,7 +951,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="107"
+                  compId="108"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -1079,7 +1079,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[86%]"
-                  compId="108"
+                  compId="109"
                   comWidth={1142}
                   comHeight={31}
                   compLeft={0}
@@ -1207,7 +1207,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="109"
+                  compId="110"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1335,7 +1335,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="110"
+                  compId="111"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1463,7 +1463,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="111"
+                  compId="112"
                   comWidth={1076}
                   comHeight={31}
                   compLeft={0}
@@ -1591,7 +1591,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="112"
+                  compId="113"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -1719,7 +1719,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="113"
+                  compId="114"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
@@ -1847,7 +1847,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="114"
+                  compId="115"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -1975,7 +1975,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[81%]"
-                  compId="115"
+                  compId="116"
                   comWidth={1074}
                   comHeight={31}
                   compLeft={0}
@@ -2103,7 +2103,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="116"
+                  compId="117"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
@@ -2231,7 +2231,7 @@ const ContactsPage = () => {
               >
                 <Row
                   className="items-center justify-between w-[80%]"
-                  compId="117"
+                  compId="118"
                   comWidth={1064}
                   comHeight={31}
                   compLeft={0}
