@@ -26,7 +26,7 @@ const AccountPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="119"
+          compId="109"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -166,7 +166,7 @@ const AccountPage = () => {
           </aside>
           <Column
             className="items-center lg:mb-[6px] xl:mb-[7px] mb-[8px] 3xl:mb-[9px] w-[93%]"
-            compId="118"
+            compId="108"
             comWidth={1342}
             comHeight={1016}
             compLeft={0}
@@ -223,7 +223,7 @@ const AccountPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="121"
+                compId="111"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -370,7 +370,7 @@ const AccountPage = () => {
               />
               <Row
                 className="items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] w-[29%]"
-                compId="122"
+                compId="112"
                 comWidth={378}
                 comHeight={40}
                 compLeft={24}
@@ -443,7 +443,7 @@ const AccountPage = () => {
               </Row>
               <Row
                 className="items-center justify-center lg:ml-[300px] xl:ml-[343px] ml-[386px] 3xl:ml-[463px] w-[32%]"
-                compId="123"
+                compId="113"
                 comWidth={419}
                 comHeight={40}
                 compLeft={386}
@@ -613,7 +613,7 @@ const AccountPage = () => {
               />
               <Row
                 className="items-center justify-center lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] w-[22%]"
-                compId="124"
+                compId="114"
                 comWidth={286}
                 comHeight={22}
                 compLeft={19}
@@ -723,7 +723,7 @@ const AccountPage = () => {
             </Row>
             <List
               className="gap-[0] min-h-[auto] w-[100%]"
-              compId="120"
+              compId="110"
               comWidth={1342}
               comHeight={784}
               compLeft={0}
@@ -838,7 +838,7 @@ const AccountPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="125"
+                  compId="115"
                   comWidth={323}
                   comHeight={24}
                   compLeft={98}
@@ -996,7 +996,7 @@ const AccountPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="126"
+                  compId="116"
                   comWidth={323}
                   comHeight={24}
                   compLeft={98}
@@ -1154,7 +1154,7 @@ const AccountPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="127"
+                  compId="117"
                   comWidth={323}
                   comHeight={24}
                   compLeft={98}
@@ -1312,7 +1312,7 @@ const AccountPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="128"
+                  compId="118"
                   comWidth={323}
                   comHeight={24}
                   compLeft={98}
@@ -1470,7 +1470,7 @@ const AccountPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="129"
+                  compId="119"
                   comWidth={323}
                   comHeight={24}
                   compLeft={98}
@@ -1628,7 +1628,7 @@ const AccountPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="130"
+                  compId="120"
                   comWidth={323}
                   comHeight={24}
                   compLeft={98}
@@ -1786,7 +1786,7 @@ const AccountPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="131"
+                  compId="121"
                   comWidth={323}
                   comHeight={24}
                   compLeft={98}
@@ -1944,7 +1944,7 @@ const AccountPage = () => {
                 </Text>
                 <Row
                   className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="132"
+                  compId="122"
                   comWidth={323}
                   comHeight={24}
                   compLeft={98}

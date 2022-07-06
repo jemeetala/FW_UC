@@ -1,5 +1,6 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
 import {
   Column,
   Row,
@@ -13,6 +14,14 @@ import {
 } from "components";
 
 const DashboardPage = () => {
+  const navigate = useNavigate();
+
+  function handleNavigate1() {
+    //TODO: You had integrated navigation action, since you've not selected the target page,
+    // you will have to update navigation code manually.
+    navigate("");
+  }
+
   return (
     <>
       <Column
@@ -26,7 +35,7 @@ const DashboardPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="67"
+          compId="57"
           comWidth={1440}
           comHeight={1040}
           compLeft={0}
@@ -166,7 +175,7 @@ const DashboardPage = () => {
           </aside>
           <Column
             className="items-center w-[93%]"
-            compId="66"
+            compId="56"
             comWidth={1341}
             comHeight={1040}
             compLeft={0}
@@ -221,7 +230,7 @@ const DashboardPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[376px] xl:ml-[430px] ml-[484px] 3xl:ml-[581px] w-[22%]"
-                compId="69"
+                compId="59"
                 comWidth={292}
                 comHeight={34}
                 compLeft={484}
@@ -464,16 +473,16 @@ const DashboardPage = () => {
               />
             </Row>
             <Row
-              className="items-center justify-between lg:ml-[11px] xl:ml-[13px] ml-[15px] 3xl:ml-[18px] lg:mr-[12px] xl:mr-[14px] mr-[16px] 3xl:mr-[19px] xl:mt-[10px] mt-[12px] 3xl:mt-[14px] lg:mt-[9px] w-[98%]"
-              compId="65"
+              className="items-center justify-between lg:ml-[11px] xl:ml-[13px] ml-[15px] 3xl:ml-[18px] lg:mr-[12px] xl:mr-[14px] mr-[16px] 3xl:mr-[19px] 3xl:mt-[10px] lg:mt-[7px] xl:mt-[8px] mt-[9px] w-[98%]"
+              compId="55"
               comWidth={1310}
-              comHeight={900}
+              comHeight={903}
               compLeft={15}
               compRight={16}
               compType="Row"
             >
               <Column
-                className="bg-white_A700 items-center lg:mb-[12px] xl:mb-[14px] mb-[16px] 3xl:mb-[19px] lg:pb-[280px] xl:pb-[321px] pb-[361px] 3xl:pb-[433px] lg:pt-[25px] xl:pt-[29px] pt-[33px] 3xl:pt-[39px] rounded-radius8 w-[66%]"
+                className="bg-white_A700 items-center lg:mb-[14px] xl:mb-[16px] mb-[19px] 3xl:mb-[22px] lg:pb-[278px] xl:pb-[318px] pb-[358px] 3xl:pb-[429px] lg:pt-[28px] xl:pt-[32px] pt-[36px] 3xl:pt-[43px] rounded-radius8 w-[66%]"
                 compId="4797:8614"
                 comWidth={868}
                 comHeight={884}
@@ -517,6 +526,7 @@ const DashboardPage = () => {
                     compLeft={0}
                     compRight={0}
                     compType="Button"
+                    onClick={handleNavigate1}
                     leftIcon={
                       <Image
                         src={"images/img_addtask_1.png"}
@@ -531,7 +541,7 @@ const DashboardPage = () => {
                       />
                     }
                   >
-                    <div className="bg-transparent font-normal font-sourcesanspro not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701">
+                    <div className="common-pointer bg-transparent font-normal font-sourcesanspro not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701">
                       Add task
                     </div>
                   </Button>
@@ -606,7 +616,7 @@ const DashboardPage = () => {
                   </Button>
                   <Row
                     className="items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] w-[30%]"
-                    compId="70"
+                    compId="60"
                     comWidth={255}
                     comHeight={23}
                     compLeft={10}
@@ -703,7 +713,7 @@ const DashboardPage = () => {
                     </Text>
                     <Column
                       className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                      compId="72"
+                      compId="62"
                       comWidth={389}
                       comHeight={85}
                       compLeft={0}
@@ -776,7 +786,7 @@ const DashboardPage = () => {
                           >
                             <Stack
                               className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                              compId="56"
+                              compId="46"
                               comWidth={15}
                               comHeight={20}
                               compLeft={0}
@@ -785,7 +795,7 @@ const DashboardPage = () => {
                             >
                               <Stack
                                 className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                compId="57"
+                                compId="47"
                                 comWidth={15}
                                 comHeight={20}
                                 compLeft={0}
@@ -794,7 +804,7 @@ const DashboardPage = () => {
                               >
                                 <Stack
                                   className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                  compId="58"
+                                  compId="48"
                                   comWidth={15}
                                   comHeight={20}
                                   compLeft={0}
@@ -803,7 +813,7 @@ const DashboardPage = () => {
                                 >
                                   <Stack
                                     className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[87%]"
-                                    compId="59"
+                                    compId="49"
                                     comWidth={13}
                                     comHeight={20}
                                     compLeft={0}
@@ -812,7 +822,7 @@ const DashboardPage = () => {
                                   >
                                     <Stack
                                       className="absolute lg:h-[4px] h-[5px] 2xl:h-[6px] 3xl:h-[7px] w-[100%]"
-                                      compId="60"
+                                      compId="50"
                                       comWidth={13}
                                       comHeight={5}
                                       compLeft={0}
@@ -1092,7 +1102,7 @@ const DashboardPage = () => {
                         >
                           <Stack
                             className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[87%]"
-                            compId="61"
+                            compId="51"
                             comWidth={13}
                             comHeight={20}
                             compLeft={0}
@@ -1101,7 +1111,7 @@ const DashboardPage = () => {
                           >
                             <Stack
                               className="absolute lg:h-[4px] h-[5px] 2xl:h-[6px] 3xl:h-[7px] w-[100%]"
-                              compId="62"
+                              compId="52"
                               comWidth={13}
                               comHeight={5}
                               compLeft={0}
@@ -1237,7 +1247,7 @@ const DashboardPage = () => {
                 </Row>
               </Column>
               <Column
-                className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[33%]"
+                className="items-center lg:mt-[5px] xl:mt-[6px] mt-[7px] 3xl:mt-[8px] w-[33%]"
                 compId="4797:8620"
                 comWidth={426}
                 comHeight={896}
@@ -1339,7 +1349,7 @@ const DashboardPage = () => {
                   </Row>
                   <Column
                     className="items-center xl:mt-[10px] mt-[12px] 3xl:mt-[14px] lg:mt-[9px] w-[100%]"
-                    compId="73"
+                    compId="63"
                     comWidth={426}
                     comHeight={64}
                     compLeft={0}
@@ -1420,7 +1430,7 @@ const DashboardPage = () => {
                   />
                   <Column
                     className="items-start justify-start lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:mr-[14px] xl:mr-[16px] mr-[18px] 3xl:mr-[21px] lg:mt-[11px] xl:mt-[13px] mt-[15px] 3xl:mt-[18px] w-[92%]"
-                    compId="68"
+                    compId="58"
                     comWidth={392}
                     comHeight={548}
                     compLeft={16}
@@ -1440,7 +1450,7 @@ const DashboardPage = () => {
                     </Text>
                     <Column
                       className="items-center lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                      compId="74"
+                      compId="64"
                       comWidth={392}
                       comHeight={152}
                       compLeft={0}
@@ -1458,7 +1468,7 @@ const DashboardPage = () => {
                       >
                         <Row
                           className="items-center justify-between w-[27%]"
-                          compId="71"
+                          compId="61"
                           comWidth={105}
                           comHeight={23}
                           compLeft={0}
@@ -1574,7 +1584,7 @@ const DashboardPage = () => {
                     </Column>
                     <Column
                       className="items-end lg:mt-[31px] xl:mt-[35px] mt-[40px] 3xl:mt-[48px] w-[100%]"
-                      compId="75"
+                      compId="65"
                       comWidth={392}
                       comHeight={1}
                       compLeft={0}
@@ -1593,7 +1603,7 @@ const DashboardPage = () => {
                     </Column>
                     <Column
                       className="items-center 3xl:mt-[10px] lg:mt-[7px] xl:mt-[8px] mt-[9px] xl:pl-[1px] lg:pl-[1px] pl-[2px] w-[100%]"
-                      compId="76"
+                      compId="66"
                       comWidth={392}
                       comHeight={315}
                       compLeft={0}
@@ -1602,7 +1612,7 @@ const DashboardPage = () => {
                     >
                       <Row
                         className="items-center justify-between w-[100%]"
-                        compId="63"
+                        compId="53"
                         comWidth={389}
                         comHeight={23}
                         compLeft={0}

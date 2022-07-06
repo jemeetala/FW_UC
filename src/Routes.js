@@ -1,5 +1,4 @@
 import React from "react";
-import Tasks from "pages/Tasks";
 import Addnotes from "pages/Addnotes";
 import Account from "pages/Account";
 import Contacts from "pages/Contacts";
@@ -20,7 +19,6 @@ const ProjectRoutes = () => {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/account" element={<Account />} />
         <Route path="/addnotes" element={<Addnotes />} />
-        <Route path="/tasks" element={<Tasks />} />
       </Routes>
     </Router>
   );

@@ -52,7 +52,7 @@ const ContactsPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="89"
+          compId="79"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -267,7 +267,7 @@ const ContactsPage = () => {
               ></Input>
               <Row
                 className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="91"
+                compId="81"
                 comWidth={292}
                 comHeight={40}
                 compLeft={430}
@@ -460,7 +460,7 @@ const ContactsPage = () => {
               </Text>
               <Row
                 className="items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] w-[37%]"
-                compId="92"
+                compId="82"
                 comWidth={485}
                 comHeight={17}
                 compLeft={10}
@@ -537,7 +537,7 @@ const ContactsPage = () => {
             </Row>
             <List
               className="font-montserrat gap-[0] min-h-[auto] w-[100%]"
-              compId="90"
+              compId="80"
               comWidth={1341}
               comHeight={882}
               compLeft={1}
@@ -545,140 +545,1801 @@ const ContactsPage = () => {
               compType="List"
               orientation="vertical"
             >
-              {apiData1?.contacts?.map((apiData1Ele) => {
-                return (
-                  <Row
-                    className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
-                    compId="5022:8473"
-                    comWidth={1341}
-                    comHeight={63}
+              <Row
+                className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8473"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] w-[51%]"
+                  compId="83"
+                  comWidth={675}
+                  comHeight={17}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8475"
+                    comWidth={149}
+                    comHeight={17}
                     compLeft={0}
                     compRight={0}
-                    compType="Row"
+                    compType="Text"
                   >
-                    <Row
-                      className="items-center justify-between lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] w-[51%]"
-                      compId="93"
-                      comWidth={675}
-                      comHeight={17}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Row"
-                    >
-                      <Text
-                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
-                        compId="5022:8475"
-                        comWidth={149}
-                        comHeight={17}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Text"
-                      >
-                        {apiData1Ele?.first_name}
-                      </Text>
-                      <Text
-                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
-                        compId="5022:8478"
-                        comWidth={149}
-                        comHeight={17}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Text"
-                      >
-                        {apiData1Ele?.lead_score}
-                      </Text>
-                      <Text
-                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
-                        compId="5022:8480"
-                        comWidth={149}
-                        comHeight={17}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Text"
-                      >
-                        {apiData1Ele?.email}
-                      </Text>
-                      <Text
-                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
-                        compId="5022:8482"
-                        comWidth={149}
-                        comHeight={17}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Text"
-                      >
-                        {apiData1Ele?.mobile_number}
-                      </Text>
-                      <Text
-                        className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
-                        compId="5022:8484"
-                        comWidth={13}
-                        comHeight={17}
-                        compLeft={0}
-                        compRight={0}
-                        compType="Text"
-                      >
-                        $
-                      </Text>
-                    </Row>
-                    <Text
-                      className="font-medium lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
-                      compId="5032:8157"
-                      comWidth={56}
-                      comHeight={17}
-                      compLeft={8}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      {apiData1Ele?.open_deals_amount}
-                    </Text>
-                    <Text
-                      className="font-medium 3xl:ml-[105px] lg:ml-[68px] xl:ml-[78px] ml-[88px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
-                      compId="5022:8486"
-                      comWidth={149}
-                      comHeight={17}
-                      compLeft={88}
-                      compRight={0}
-                      compType="Text"
-                    >
-                      Tranfer Bank
-                    </Text>
-                    <Button
-                      className="bg-green_50 font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[11%]"
-                      compId="5022:8488"
-                      comWidth={149}
-                      comHeight={31}
-                      compLeft={16}
-                      compRight={0}
-                      compType="Button"
-                    >
-                      {apiData1Ele?.display_name}
-                    </Button>
-                    <Image
-                      src={"images/img_edit12.png"}
-                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                      compId="5022:8492"
-                      comWidth={24}
-                      comHeight={24}
-                      compLeft={59}
-                      compRight={0}
-                      compType="Image"
-                      alt="edit12"
-                    />
-                    <Image
-                      src={"images/img_trash22.png"}
-                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                      compId="5022:8493"
-                      comWidth={24}
-                      comHeight={24}
-                      compLeft={16}
-                      compRight={0}
-                      compType="Image"
-                      alt="trash22"
-                    />
-                  </Row>
-                );
-              })}
+                    {apiData1?.contacts?.first_name}
+                  </Text>
+                  <Text
+                    className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8478"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    {apiData1?.contacts?.lead_score}
+                  </Text>
+                  <Text
+                    className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8480"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    {apiData1?.contacts?.email}
+                  </Text>
+                  <Text
+                    className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8482"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    {apiData1?.contacts?.mobile_number}
+                  </Text>
+                  <Text
+                    className="font-medium lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8484"
+                    comWidth={13}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $
+                  </Text>
+                </Row>
+                <Text
+                  className="font-medium lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                  compId="5032:8157"
+                  comWidth={56}
+                  comHeight={17}
+                  compLeft={8}
+                  compRight={0}
+                  compType="Text"
+                >
+                  {apiData1?.contacts?.open_deals_amount}
+                </Text>
+                <Text
+                  className="font-medium 3xl:ml-[105px] lg:ml-[68px] xl:ml-[78px] ml-[88px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                  compId="5022:8486"
+                  comWidth={149}
+                  comHeight={17}
+                  compLeft={88}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Tranfer Bank
+                </Text>
+                <Button
+                  className="bg-green_50 font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[11%]"
+                  compId="5022:8488"
+                  comWidth={149}
+                  comHeight={31}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Button"
+                >
+                  {apiData1?.contacts?.display_name}
+                </Button>
+                <Image
+                  src={"images/img_edit12.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8492"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8493"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-white_A700 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8494"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[86%]"
+                  compId="84"
+                  comWidth={1142}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8496"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #18933
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8499"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Laptop
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8501"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Wiktoria
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8503"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    22/05/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8505"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $8.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8507"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Cash on Delivery
+                  </Text>
+                  <Button
+                    className="bg-green_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[13%]"
+                    compId="5022:8509"
+                    comWidth={149}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Delivered
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_1.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8513"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_1.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8514"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8515"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[86%]"
+                  compId="85"
+                  comWidth={1142}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8517"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #45169
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8520"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Phone
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8522"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Trixie Byrd
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8524"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    15/06/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8526"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $1,149.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8528"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Cash on Delivery
+                  </Text>
+                  <Button
+                    className="bg-orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-orange_900 w-[13%]"
+                    compId="5022:8530"
+                    comWidth={149}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Process
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_2.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8534"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_2.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8535"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-white_A700 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8536"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[86%]"
+                  compId="86"
+                  comWidth={1142}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8538"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #34304
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8541"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Bag
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8543"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Brad Mason
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8545"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    06/09/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8547"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $899.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8549"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-orange_900 w-[13%]"
+                    compId="5022:8551"
+                    comWidth={149}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Process
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_3.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8555"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_3.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8556"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8557"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[86%]"
+                  compId="87"
+                  comWidth={1142}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8559"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #17188
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8562"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Headset
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8564"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Sanderson
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8566"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    25/09/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8568"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $22.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8570"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Cash on Delivery
+                  </Text>
+                  <Button
+                    className="bg-deep_orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-red_900 w-[13%]"
+                    compId="5022:8572"
+                    comWidth={149}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Canceled
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_4.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8576"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_4.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8577"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-white_A700 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8578"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[81%]"
+                  compId="88"
+                  comWidth={1076}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8580"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #73003
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8583"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Mouse
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8585"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Jun Redfern
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8587"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    04/10/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8589"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $54.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8591"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-green_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[8%]"
+                    compId="5022:8593"
+                    comWidth={83}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Delivered
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_5.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[111px] ml-[125px] 3xl:ml-[150px] lg:ml-[97px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8597"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={125}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_5.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8598"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8599"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[81%]"
+                  compId="89"
+                  comWidth={1076}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8601"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #58825
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8604"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Clock
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8606"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Miriam Kidd
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8608"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    17/10/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8610"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $174.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8612"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-green_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[8%]"
+                    compId="5022:8614"
+                    comWidth={83}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Delivered
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_6.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[111px] ml-[125px] 3xl:ml-[150px] lg:ml-[97px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8618"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={125}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_6.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8619"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-white_A700 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8620"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[81%]"
+                  compId="90"
+                  comWidth={1076}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8622"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #44122
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8625"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    T-shirt
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8627"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Dominic
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8629"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    24/10/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8631"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $249.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8633"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Cash on Delivery
+                  </Text>
+                  <Button
+                    className="bg-green_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[8%]"
+                    compId="5022:8635"
+                    comWidth={83}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Delivered
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_7.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[111px] ml-[125px] 3xl:ml-[150px] lg:ml-[97px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8639"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={125}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_7.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8640"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8641"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[81%]"
+                  compId="91"
+                  comWidth={1074}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8643"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #89094
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8646"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Monitor
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8648"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Shanice
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8650"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    01/11/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8652"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $899.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8654"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-deep_orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-red_900 w-[8%]"
+                    compId="5022:8656"
+                    comWidth={81}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Canceled
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_8.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[112px] ml-[127px] 3xl:ml-[152px] lg:ml-[98px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8660"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={127}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_8.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8661"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-white_A700 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5022:8662"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[80%]"
+                  compId="92"
+                  comWidth={1064}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8664"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #85252
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8667"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Keyboard
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8669"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Poppy-Rose
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8671"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    22/11/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8673"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $6.948
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5022:8675"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-orange_900 w-[7%]"
+                    compId="5022:8677"
+                    comWidth={71}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Process
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_9.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[106px] xl:ml-[121px] ml-[137px] 3xl:ml-[164px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8681"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={137}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_9.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5022:8682"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5029:8191"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[81%]"
+                  compId="93"
+                  comWidth={1074}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8193"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #89094
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8195"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Monitor
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8197"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Shanice
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8199"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    01/11/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8201"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $899.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8203"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-deep_orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-red_900 w-[8%]"
+                    compId="5029:8205"
+                    comWidth={81}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Canceled
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_10.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[112px] ml-[127px] 3xl:ml-[152px] lg:ml-[98px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5029:8209"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={127}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_10.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5029:8210"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5029:8243"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[81%]"
+                  compId="94"
+                  comWidth={1074}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8245"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #89094
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8247"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Monitor
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8249"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Shanice
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8251"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    01/11/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8253"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $899.95
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5029:8255"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-deep_orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-red_900 w-[8%]"
+                    compId="5029:8257"
+                    comWidth={81}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Canceled
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_11.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:ml-[112px] ml-[127px] 3xl:ml-[152px] lg:ml-[98px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5029:8261"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={127}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_11.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5029:8262"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-white_A700 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5029:8217"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <List
+                  className="lg:gap-[12px] xl:gap-[14px] gap-[16.62px] 2xl:gap-[16px] 3xl:gap-[19px] grid grid-cols-7 min-h-[auto] w-[80%]"
+                  compId="95"
+                  comWidth={1064}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="List"
+                  orientation="horizontal"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    compId="5029:8219"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #85252
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    compId="5029:8221"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Keyboard
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    compId="5029:8223"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Poppy-Rose
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    compId="5029:8225"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    22/11/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    compId="5029:8227"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $6.948
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[100%]"
+                    compId="5029:8229"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-orange_900 w-[100%]"
+                    compId="5029:8231"
+                    comWidth={71}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Process
+                  </Button>
+                </List>
+                <Image
+                  src={"images/img_edit12_12.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[106px] xl:ml-[121px] ml-[137px] 3xl:ml-[164px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5029:8235"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={137}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_12.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5029:8236"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4793:8602"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={1}
+                compType="Row"
+              />
+              <Row
+                className="bg-white_A700 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="5038:8158"
+                comWidth={1341}
+                comHeight={63}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              >
+                <Row
+                  className="items-center justify-between w-[80%]"
+                  compId="96"
+                  comWidth={1064}
+                  comHeight={31}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Row"
+                >
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5038:8160"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    #85252
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5038:8162"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Keyboard
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5038:8164"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Poppy-Rose
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5038:8166"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    22/11/2022
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5038:8168"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    $6.948
+                  </Text>
+                  <Text
+                    className="font-medium lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
+                    compId="5038:8170"
+                    comWidth={149}
+                    comHeight={17}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Text"
+                  >
+                    Tranfer Bank
+                  </Text>
+                  <Button
+                    className="bg-orange_50 font-medium lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-orange_900 w-[7%]"
+                    compId="5038:8172"
+                    comWidth={71}
+                    comHeight={31}
+                    compLeft={0}
+                    compRight={0}
+                    compType="Button"
+                  >
+                    Process
+                  </Button>
+                </Row>
+                <Image
+                  src={"images/img_edit12_13.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[106px] xl:ml-[121px] ml-[137px] 3xl:ml-[164px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5038:8176"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={137}
+                  compRight={0}
+                  compType="Image"
+                  alt="edit12"
+                />
+                <Image
+                  src={"images/img_trash22_13.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="5038:8177"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={16}
+                  compRight={0}
+                  compType="Image"
+                  alt="trash22"
+                />
+              </Row>
             </List>
           </Column>
         </Row>
