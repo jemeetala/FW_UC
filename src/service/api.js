@@ -37,7 +37,7 @@ export const postContacts = ({
         first_name: "John",
         last_name: "Duo",
         mobile_number: "9265504587",
-        emails: "johnduo@gmail.com",
+        emails: "john@gmail.com",
       },
       ...data,
     },

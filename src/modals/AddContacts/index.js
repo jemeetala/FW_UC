@@ -3,6 +3,7 @@ import ModalProvider from "react-modal";
 
 import { postContacts } from "service/api";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
 import useForm from "simple-react-hook-form";
 import * as yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
@@ -38,6 +39,7 @@ const AddContactsModal = (props) => {
       validationOnChange: true,
     }
   );
+  const navigate = useNavigate();
 
   function callApi(data) {
     const req = { data: { ...data } };
@@ -45,11 +47,11 @@ const AddContactsModal = (props) => {
       .then((res) => {
         setapiData(res);
 
-        toast.success("Contact Details successfully inserted");
+        navigate("/contacts");
       })
       .catch((err) => {
         console.error(err);
-        toast.error("Contact Details are not inserted");
+        toast.error("Contact Details are not inserted..");
       });
   }
 
