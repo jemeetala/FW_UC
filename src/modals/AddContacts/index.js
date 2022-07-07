@@ -3,11 +3,10 @@ import ModalProvider from "react-modal";
 
 import { postContacts } from "service/api";
 import "react-toastify/dist/ReactToastify.css";
-import { useNavigate } from "react-router-dom";
 import useForm from "simple-react-hook-form";
 import * as yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
-import { Column, Input, Image, Text, Row, Button } from "components";
+import { Column, Input, Image, Row, Text, Grid, Button } from "components";
 
 const AddContactsModal = (props) => {
   const [apiData1, setapiData1] = React.useState();
@@ -28,10 +27,31 @@ const AddContactsModal = (props) => {
       contact: yup
         .object()
         .shape({ emails: yup.string().required("Emails is required") }),
+      contact: yup
+        .object()
+        .shape({ country: yup.string().required("Country is required") }),
+      contact: yup
+        .object()
+        .shape({ city: yup.string().required("City is required") }),
+      contact: yup
+        .object()
+        .shape({ job_title: yup.string().required("Job_title is required") }),
+      contact: yup
+        .object()
+        .shape({ zipcode: yup.string().required("Zipcode is required") }),
     });
   const form = useForm(
     {
-      contact: { first_name: "", last_name: "", mobile_number: "", emails: "" },
+      contact: {
+        first_name: "",
+        last_name: "",
+        mobile_number: "",
+        emails: "",
+        country: "",
+        city: "",
+        job_title: "",
+        zipcode: "",
+      },
     },
     {
       validate: true,
@@ -39,7 +59,6 @@ const AddContactsModal = (props) => {
       validationOnChange: true,
     }
   );
-  const navigate = useNavigate();
 
   function callApi1(data) {
     const req = { data: { ...data } };
@@ -47,7 +66,7 @@ const AddContactsModal = (props) => {
       .then((res) => {
         setapiData1(res);
 
-        navigate("/contacts");
+        toast.success("Contact Details inserted successfully");
       })
       .catch((err) => {
         console.error(err);
@@ -89,7 +108,7 @@ const AddContactsModal = (props) => {
             }
           ></Input>
           <Column
-            className="bg-white_A700 items-start justify-center lg:pb-[21px] xl:pb-[24px] pb-[28px] 3xl:pb-[33px] lg:pl-[23px] xl:pl-[26px] pl-[30px] 3xl:pl-[36px] lg:pt-[22px] xl:pt-[25px] pt-[29px] 3xl:pt-[34px] w-[100%]"
+            className="bg-white_A700 items-center justify-center lg:pb-[27px] xl:pb-[31px] pb-[35px] 3xl:pb-[42px] lg:pl-[22px] xl:pl-[25px] pl-[29px] 3xl:pl-[34px] lg:pr-[31px] xl:pr-[36px] pr-[41px] 3xl:pr-[49px] lg:pt-[22px] xl:pt-[25px] pt-[29px] 3xl:pt-[34px] w-[100%]"
             compId="4797:9770"
             comWidth={551}
             comHeight={359}
@@ -97,164 +116,342 @@ const AddContactsModal = (props) => {
             compRight={0}
             compType="Column"
           >
-            <Text
-              className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-              compId="I4797:9749;122:20717"
-              comWidth={72}
-              comHeight={22}
-              compLeft={0}
-              compRight={0}
-              compType="Text"
+            <Row
+              className="items-center justify-start ml-[1px] xl:mr-[2px] lg:mr-[2px] mr-[3px] w-[99%]"
+              compId="85"
+              comWidth={477}
+              comHeight={62}
+              compLeft={1}
+              compRight={3}
+              compType="Row"
             >
-              <span className="text-black_900 font-sourcesanspro">
-                First Name{" "}
-              </span>
-              <span className="text-red_700 font-sourcesanspro">*</span>
-            </Text>
-            <Column
-              className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="119"
-              comWidth={489}
-              comHeight={36}
-              compLeft={0}
-              compRight={32}
-              compType="Column"
-            >
-              <Input
-                className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
-                WrapClassName="bg-white_A700 border border-bluegray_100 border-solid rounded-radius4 w-[100%]"
-                compId="4797:9759"
-                comWidth={489}
-                comHeight={36}
+              <Column
+                className="items-start w-[54%]"
+                compId="4797:9748"
+                comWidth={258}
+                comHeight={62}
                 compLeft={0}
                 compRight={0}
-                compType="EditText"
-                onChange={(e) => {
-                  form.handleChange("contact.first_name", e.target.value);
-                }}
-                errors={form?.errors?.contact?.first_name}
-                value={form?.values?.contact?.first_name}
-                name="InputField"
-                placeholder="Enter First Name"
-              ></Input>
-            </Column>
-            <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-              compId="I4797:9737;122:20717"
-              comWidth={71}
-              comHeight={22}
-              compLeft={0}
-              compRight={0}
-              compType="Text"
-            >
-              <span className="text-black_900 font-sourcesanspro">
-                Last Name{" "}
-              </span>
-              <span className="text-red_700 font-sourcesanspro">*</span>
-            </Text>
-            <Column
-              className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="120"
-              comWidth={489}
-              comHeight={36}
-              compLeft={0}
-              compRight={32}
-              compType="Column"
-            >
-              <Input
-                className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
-                WrapClassName="bg-white_A700 border border-bluegray_100 border-solid rounded-radius4 w-[100%]"
-                compId="4797:9765"
-                comWidth={489}
-                comHeight={36}
+                compType="Column"
+              >
+                <Text
+                  className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="I4797:9749;122:20717"
+                  comWidth={72}
+                  comHeight={22}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  <span className="text-black_900 font-sourcesanspro">
+                    First Name{" "}
+                  </span>
+                  <span className="text-red_700 font-sourcesanspro">*</span>
+                </Text>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[86%] xl:mt-[3px]"
+                  compId="4797:9759"
+                  comWidth={222}
+                  comHeight={36}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  onChange={(e) => {
+                    form.handleChange("contact.first_name", e.target.value);
+                  }}
+                  errors={form?.errors?.contact?.first_name}
+                  value={form?.values?.contact?.first_name}
+                  name="InputField"
+                  placeholder="Enter First Name"
+                ></Input>
+              </Column>
+              <Column
+                className="items-start w-[46%]"
+                compId="5061:8149"
+                comWidth={219}
+                comHeight={62}
                 compLeft={0}
                 compRight={0}
-                compType="EditText"
-                onChange={(e) => {
-                  form.handleChange("contact.last_name", e.target.value);
-                }}
-                errors={form?.errors?.contact?.last_name}
-                value={form?.values?.contact?.last_name}
-                name="InputField"
-                placeholder="Enter Last Name"
-              ></Input>
-            </Column>
-            <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-              compId="I4542:7628;122:20717"
-              comWidth={90}
-              comHeight={22}
+                compType="Column"
+              >
+                <Text
+                  className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="I5061:8150;122:20717"
+                  comWidth={71}
+                  comHeight={22}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  <span className="text-black_900 font-sourcesanspro">
+                    Last Name{" "}
+                  </span>
+                  <span className="text-red_700 font-sourcesanspro">*</span>
+                </Text>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
+                  compId="5061:8151"
+                  comWidth={219}
+                  comHeight={36}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  onChange={(e) => {
+                    form.handleChange("contact.last_name", e.target.value);
+                  }}
+                  errors={form?.errors?.contact?.last_name}
+                  value={form?.values?.contact?.last_name}
+                  name="InputField"
+                  placeholder="Enter Last Name"
+                ></Input>
+              </Column>
+            </Row>
+            <Grid
+              className="lg:gap-[28px] xl:gap-[32px] gap-[37px] 3xl:gap-[44px] grid grid-cols-2 lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[100%]"
+              compId="90"
+              comWidth={481}
+              comHeight={217}
               compLeft={0}
               compRight={0}
-              compType="Text"
+              compType="Grid"
             >
-              Mobile Number
-            </Text>
-            <Column
-              className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="121"
-              comWidth={489}
-              comHeight={39}
-              compLeft={0}
-              compRight={32}
-              compType="Column"
-            >
-              <Input
-                className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
-                WrapClassName="border border-gray_201 border-solid rounded-radius4 w-[100%]"
-                compId="4542:7629"
-                comWidth={489}
-                comHeight={39}
+              <Column
+                className="items-start justify-start w-[100%]"
+                compId="5061:8156"
+                comWidth={222}
+                comHeight={62}
                 compLeft={0}
+                compRight={259}
+                compType="Column"
+              >
+                <Text
+                  className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="I5061:8157;122:20717"
+                  comWidth={40}
+                  comHeight={22}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  <span className="text-black_900 font-sourcesanspro">
+                    Email{" "}
+                  </span>
+                  <span className="text-red_700 font-sourcesanspro">*</span>
+                </Text>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
+                  compId="5061:8158"
+                  comWidth={222}
+                  comHeight={36}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  onChange={(e) => {
+                    form.handleChange("contact.emails", e.target.value);
+                  }}
+                  errors={form?.errors?.contact?.emails}
+                  value={form?.values?.contact?.emails}
+                  name="InputField"
+                  placeholder="Enter First Name"
+                ></Input>
+              </Column>
+              <Column
+                className="items-start justify-start w-[100%]"
+                compId="5061:8162"
+                comWidth={222}
+                comHeight={62}
+                compLeft={259}
                 compRight={0}
-                compType="EditText"
-                onChange={(e) => {
-                  form.handleChange("contact.mobile_number", e.target.value);
-                }}
-                errors={form?.errors?.contact?.mobile_number}
-                value={form?.values?.contact?.mobile_number}
-                name="Frame418"
-                placeholder="Enter mobile number"
-              ></Input>
-            </Column>
-            <Text
-              className="font-normal lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
-              compId="I4542:7633;122:20717"
-              comWidth={31}
-              comHeight={22}
-              compLeft={0}
-              compRight={0}
-              compType="Text"
-            >
-              Email
-            </Text>
-            <Column
-              className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="122"
-              comWidth={489}
-              comHeight={39}
-              compLeft={0}
-              compRight={32}
-              compType="Column"
-            >
-              <Input
-                className="bg-transparent border-0 font-normal not-italic lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
-                WrapClassName="border border-gray_201 border-solid rounded-radius4 w-[100%]"
-                compId="4542:7634"
-                comWidth={489}
-                comHeight={39}
-                compLeft={0}
-                compRight={0}
-                compType="EditText"
-                onChange={(e) => {
-                  form.handleChange("contact.emails", e.target.value);
-                }}
-                errors={form?.errors?.contact?.emails}
-                value={form?.values?.contact?.emails}
-                name="Frame418"
-                placeholder="Enter mail addres"
-              ></Input>
-            </Column>
+                compType="Column"
+              >
+                <Text
+                  className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="I5061:8163;122:20717"
+                  comWidth={68}
+                  comHeight={22}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  <span className="text-black_900 font-sourcesanspro">
+                    Mobile No{" "}
+                  </span>
+                  <span className="text-red_700 font-sourcesanspro">*</span>
+                </Text>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
+                  compId="5061:8164"
+                  comWidth={222}
+                  comHeight={36}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  onChange={(e) => {
+                    form.handleChange("contact.mobile_number", e.target.value);
+                  }}
+                  errors={form?.errors?.contact?.mobile_number}
+                  value={form?.values?.contact?.mobile_number}
+                  name="InputField"
+                  placeholder="Enter First Name"
+                ></Input>
+              </Column>
+              <Column
+                className="items-start justify-start w-[100%]"
+                compId="5061:8168"
+                comWidth={222}
+                comHeight={62}
+                compLeft={1}
+                compRight={258}
+                compType="Column"
+              >
+                <Text
+                  className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="I5061:8169;122:20717"
+                  comWidth={47}
+                  comHeight={22}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Country
+                </Text>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
+                  compId="5061:8170"
+                  comWidth={222}
+                  comHeight={36}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  onChange={(e) => {
+                    form.handleChange("contact.country", e.target.value);
+                  }}
+                  errors={form?.errors?.contact?.country}
+                  value={form?.values?.contact?.country}
+                  name="InputField"
+                  placeholder="Enter First Name"
+                ></Input>
+              </Column>
+              <Column
+                className="items-start justify-start w-[100%]"
+                compId="5061:8174"
+                comWidth={222}
+                comHeight={62}
+                compLeft={256}
+                compRight={3}
+                compType="Column"
+              >
+                <Text
+                  className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="I5061:8175;122:20717"
+                  comWidth={23}
+                  comHeight={22}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  City
+                </Text>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
+                  compId="5061:8176"
+                  comWidth={222}
+                  comHeight={36}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  onChange={(e) => {
+                    form.handleChange("contact.city", e.target.value);
+                  }}
+                  errors={form?.errors?.contact?.city}
+                  value={form?.values?.contact?.city}
+                  name="InputField"
+                  placeholder="Enter First Name"
+                ></Input>
+              </Column>
+              <Column
+                className="items-start justify-start w-[100%]"
+                compId="5061:8180"
+                comWidth={222}
+                comHeight={62}
+                compLeft={1}
+                compRight={258}
+                compType="Column"
+              >
+                <Text
+                  className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="I5061:8181;122:20717"
+                  comWidth={48}
+                  comHeight={22}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Zipcode
+                </Text>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
+                  compId="5061:8182"
+                  comWidth={222}
+                  comHeight={36}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  onChange={(e) => {
+                    form.handleChange("contact.zipcode", e.target.value);
+                  }}
+                  errors={form?.errors?.contact?.zipcode}
+                  value={form?.values?.contact?.zipcode}
+                  name="InputField"
+                  placeholder="Enter First Name"
+                ></Input>
+              </Column>
+              <Column
+                className="items-start justify-start w-[100%]"
+                compId="5061:8186"
+                comWidth={222}
+                comHeight={62}
+                compLeft={253}
+                compRight={6}
+                compType="Column"
+              >
+                <Text
+                  className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900 w-[auto]"
+                  compId="I5061:8187;122:20717"
+                  comWidth={52}
+                  comHeight={22}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Job Title
+                </Text>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:py-[5px] xl:py-[6px] py-[7px] 3xl:py-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_201 text-bluegray_201 w-[100%]"
+                  WrapClassName="bg-white_A700 border border-bluegray_100 border-solid lg:mt-[3px] mt-[4px] rounded-radius4 w-[100%] xl:mt-[3px]"
+                  compId="5061:8188"
+                  comWidth={222}
+                  comHeight={36}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  onChange={(e) => {
+                    form.handleChange("contact.job_title", e.target.value);
+                  }}
+                  errors={form?.errors?.contact?.job_title}
+                  value={form?.values?.contact?.job_title}
+                  name="InputField"
+                  placeholder="Enter First Name"
+                ></Input>
+              </Column>
+            </Grid>
           </Column>
           <Row
             className="bg-gray_100 border border-indigo_50 border-solid items-center justify-center lg:pl-[293px] xl:pl-[335px] pl-[377px] 3xl:pl-[452px] lg:pr-[24px] xl:pr-[28px] pr-[32px] 3xl:pr-[38px] lg:py-[18px] xl:py-[21px] py-[24px] 3xl:py-[28px] w-[100%]"

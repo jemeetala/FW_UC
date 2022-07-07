@@ -1,5 +1,6 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
 import {
   Column,
   Row,
@@ -13,6 +14,12 @@ import {
 } from "components";
 
 const AccountPage = () => {
+  const navigate = useNavigate();
+
+  function handleNavigate6() {
+    navigate("/");
+  }
+
   return (
     <>
       <Column
@@ -26,7 +33,7 @@ const AccountPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="131"
+          compId="97"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -54,13 +61,14 @@ const AccountPage = () => {
               >
                 <Image
                   src={"images/img_group345_2.png"}
-                  className="lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] object-contain lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
+                  className="common-pointer lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] object-contain lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
                   compId="4797:9807"
                   comWidth={50}
                   comHeight={50}
                   compLeft={0}
                   compRight={0}
                   compType="Image"
+                  onClick={handleNavigate6}
                   alt="Group345"
                 />
                 <Image
@@ -165,77 +173,77 @@ const AccountPage = () => {
             </Column>
           </aside>
           <Column
-            className="items-center lg:mb-[6px] xl:mb-[7px] mb-[8px] 3xl:mb-[9px] w-[93%]"
-            compId="130"
+            className="items-start lg:mb-[6px] xl:mb-[7px] mb-[8px] 3xl:mb-[9px] w-[93%]"
+            compId="96"
             comWidth={1342}
             comHeight={1016}
             compLeft={0}
             compRight={0}
             compType="Column"
           >
-            <Row
-              className="bg-white_A700 border border-indigo_50 border-solid items-center justify-start lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
-              compId="4797:9772"
-              comWidth={1341}
+            <Column
+              className="items-center pr-[1px] w-[100%]"
+              compId="99"
+              comWidth={1342}
               comHeight={72}
               compLeft={0}
-              compRight={1}
-              compType="Row"
+              compRight={0}
+              compType="Column"
             >
-              <SelectBox
-                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
-                compId="4797:9790"
-                comWidth={0}
-                comHeight={40}
-                compLeft={0}
-                compRight={0}
-                compType="Dropdown"
-                placeholderClassName="bg-transparent text-bluegray_700"
-                name="Group93"
-                placeholder="Contacts"
-                isSearchable={false}
-                isMulti={false}
-                indicator={
-                  <Image
-                    src={"images/img_vector_97.png"}
-                    className="w-[10.54px] h-[6.25px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
-                    compId="I4797:9794;120:93"
-                    comWidth={10.54}
-                    comHeight={6.25}
-                    compLeft={0}
-                    compRight={14}
-                    compType="Image"
-                    alt="Vector"
-                  />
-                }
-              ></SelectBox>
-              <Input
-                className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
-                WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
-                compId="4797:9796"
-                comWidth={446}
-                comHeight={40}
-                compLeft={0}
-                compRight={0}
-                compType="EditText"
-                name="Group94"
-                placeholder="Search your CRM..."
-              ></Input>
               <Row
-                className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="133"
-                comWidth={292}
-                comHeight={40}
-                compLeft={430}
+                className="bg-white_A700 border border-indigo_50 border-solid items-center justify-start lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="4797:9772"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
                 compRight={0}
                 compType="Row"
               >
+                <SelectBox
+                  className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
+                  compId="4797:9790"
+                  comWidth={0}
+                  comHeight={40}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Dropdown"
+                  placeholderClassName="bg-transparent text-bluegray_700"
+                  name="Group93"
+                  placeholder="Contacts"
+                  isSearchable={false}
+                  isMulti={false}
+                  indicator={
+                    <Image
+                      src={"images/img_vector_97.png"}
+                      className="w-[10.54px] h-[6.25px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
+                      compId="I4797:9794;120:93"
+                      comWidth={10.54}
+                      comHeight={6.25}
+                      compLeft={0}
+                      compRight={14}
+                      compType="Image"
+                      alt="Vector"
+                    />
+                  }
+                ></SelectBox>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
+                  WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
+                  compId="4797:9796"
+                  comWidth={446}
+                  comHeight={40}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  name="Group94"
+                  placeholder="Search your CRM..."
+                ></Input>
                 <Button
-                  className="bg-bluegray_900 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-bluegray_900 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:9774"
                   comWidth={40}
                   comHeight={40}
-                  compLeft={0}
+                  compLeft={430}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -245,18 +253,18 @@ const AccountPage = () => {
                     compId="4797:9774"
                     comWidth={40}
                     comHeight={40}
-                    compLeft={0}
+                    compLeft={430}
                     compRight={0}
                     compType="IconButton"
                     alt="Group5"
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:9777"
                   comWidth={40}
                   comHeight={40}
-                  compLeft={0}
+                  compLeft={24}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -266,18 +274,18 @@ const AccountPage = () => {
                     compId="4797:9777"
                     comWidth={40}
                     comHeight={40}
-                    compLeft={0}
+                    compLeft={24}
                     compRight={0}
                     compType="IconButton"
                     alt="Group4"
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:9780"
                   comWidth={40}
                   comHeight={40}
-                  compLeft={0}
+                  compLeft={24}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -287,18 +295,18 @@ const AccountPage = () => {
                     compId="4797:9780"
                     comWidth={40}
                     comHeight={40}
-                    compLeft={0}
+                    compLeft={24}
                     compRight={0}
                     compType="IconButton"
                     alt="Group3"
                   />
                 </Button>
                 <Button
-                  className="bg-red_600 flex lg:h-[28px] xl:h-[33px] h-[36px] 2xl:h-[37px] 3xl:h-[44px] items-center justify-center xl:my-[1px] lg:my-[1px] my-[2px] p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] rounded-radius50 lg:w-[28px] xl:w-[32px] w-[36px] 3xl:w-[43px]"
+                  className="bg-red_600 flex lg:h-[28px] xl:h-[33px] h-[36px] 2xl:h-[37px] 3xl:h-[44px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:my-[1px] lg:my-[1px] my-[2px] p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] rounded-radius50 lg:w-[28px] xl:w-[32px] w-[36px] 3xl:w-[43px]"
                   compId="4797:9783"
                   comWidth={36}
                   comHeight={36}
-                  compLeft={0}
+                  compLeft={24}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -308,18 +316,18 @@ const AccountPage = () => {
                     compId="4797:9783"
                     comWidth={36}
                     comHeight={36}
-                    compLeft={0}
+                    compLeft={24}
                     compRight={0}
                     compType="IconButton"
                     alt="Group100"
                   />
                 </Button>
                 <Button
-                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:9786"
                   comWidth={40}
                   comHeight={40}
-                  compLeft={0}
+                  compLeft={24}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -329,14 +337,14 @@ const AccountPage = () => {
                     compId="4797:9786"
                     comWidth={40}
                     comHeight={40}
-                    compLeft={0}
+                    compLeft={24}
                     compRight={0}
                     compType="IconButton"
                     alt="Group99"
                   />
                 </Button>
               </Row>
-            </Row>
+            </Column>
             <Row
               className="bg-gray_100 border border-indigo_50 border-solid items-center justify-start lg:pb-[5px] xl:pb-[6px] pb-[7px] 3xl:pb-[8px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pt-[6px] xl:pt-[7px] pt-[8px] 3xl:pt-[9px] w-[100%]"
               compId="4797:9834"
@@ -368,185 +376,165 @@ const AccountPage = () => {
                 compType="Image"
                 alt="Vector"
               />
-              <Row
-                className="items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] w-[29%]"
-                compId="134"
-                comWidth={378}
-                comHeight={40}
+              <Text
+                className="font-normal lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
+                compId="4509:5654"
+                comWidth={126}
+                comHeight={23}
                 compLeft={24}
                 compRight={0}
-                compType="Row"
+                compType="Text"
               >
-                <Text
-                  className="font-normal lg:my-[6px] xl:my-[7px] my-[8px] 3xl:my-[9px] not-italic lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_701 w-[auto]"
-                  compId="4509:5654"
-                  comWidth={126}
-                  comHeight={23}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Text"
-                >
-                  My Accounts (03)
-                </Text>
-                <Button
-                  className="3xl:ml-[19px] 3xl:pl-[21px] 3xl:pr-[19px] 3xl:py-[9px] bg-indigo_51 border border-blue_800 border-solid flex items-center justify-between lg:ml-[12px] lg:pl-[14px] lg:pr-[12px] lg:py-[6px] ml-[16px] pl-[18px] pr-[16px] py-[8px] rounded-radius4 text-center w-[37%] xl:ml-[14px] xl:pl-[16px] xl:pr-[14px] xl:py-[7px]"
-                  compId="4509:6033"
-                  comWidth={0}
-                  comHeight={40}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Button"
-                  leftIcon={
-                    <Image
-                      src={"images/img_vector_99.png"}
-                      className="w-[20.01px] text-center lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]"
-                      compId="I4509:6034;120:964"
-                      comWidth={20.01}
-                      comHeight={16}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                >
-                  <div className="bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800">
-                    My Accounts
-                  </div>
-                </Button>
-                <Button
-                  className="3xl:ml-[19px] 3xl:pl-[21px] 3xl:pr-[20px] 3xl:py-[9px] bg-indigo_51 border border-blue_800 border-solid flex items-center justify-between lg:ml-[12px] lg:pl-[14px] lg:pr-[13px] lg:py-[6px] ml-[16px] pl-[18px] pr-[17px] py-[8px] rounded-radius4 text-center w-[21%] xl:ml-[14px] xl:pl-[16px] xl:pr-[15px] xl:py-[7px]"
-                  compId="4509:6040"
-                  comWidth={0}
-                  comHeight={40}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Button"
-                  leftIcon={
-                    <Image
-                      src={"images/img_vector_100.png"}
-                      className="w-[20.01px] text-center lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]"
-                      compId="I4509:6041;120:964"
-                      comWidth={20.01}
-                      comHeight={16}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                >
-                  <div className="bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800">
-                    All
-                  </div>
-                </Button>
-              </Row>
-              <Row
-                className="items-center justify-center lg:ml-[300px] xl:ml-[343px] ml-[386px] 3xl:ml-[463px] w-[32%]"
-                compId="135"
-                comWidth={419}
+                My Accounts (03)
+              </Text>
+              <Button
+                className="3xl:ml-[19px] 3xl:pl-[21px] 3xl:pr-[19px] 3xl:py-[9px] bg-indigo_51 border border-blue_800 border-solid flex items-center justify-between lg:ml-[12px] lg:pl-[14px] lg:pr-[12px] lg:py-[6px] ml-[16px] pl-[18px] pr-[16px] py-[8px] rounded-radius4 text-center w-[10%] xl:ml-[14px] xl:pl-[16px] xl:pr-[14px] xl:py-[7px]"
+                compId="4509:6033"
+                comWidth={0}
                 comHeight={40}
-                compLeft={386}
+                compLeft={0}
                 compRight={0}
-                compType="Row"
-              >
-                <SelectBox
-                  className="bg-bluegray_900 border border-gray_201 border-solid font-normal lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[29%]"
-                  compId="4509:5658"
-                  comWidth={123}
-                  comHeight={40}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Dropdown"
-                  placeholderClassName="bg-transparent text-white_A700"
-                  name="Frame419"
-                  placeholder="Add account"
-                  isSearchable={false}
-                  isMulti={false}
-                  indicator={
-                    <Image
-                      src={"images/img_vector_101.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
-                      compId="I4509:5660;120:3699"
-                      comWidth={10.4}
-                      comHeight={6.2}
-                      compLeft={0}
-                      compRight={14}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                ></SelectBox>
-                <SelectBox
-                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
-                  compId="4509:5661"
-                  comWidth={0}
-                  comHeight={40}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
-                  name="Frame418"
-                  placeholder="Edit coumns"
-                  isSearchable={false}
-                  isMulti={false}
-                  indicator={
-                    <Image
-                      src={"images/img_vector_103.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
-                      compId="I4509:5664;120:3699"
-                      comWidth={10.4}
-                      comHeight={6.2}
-                      compLeft={0}
-                      compRight={14}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                ></SelectBox>
-                <Row
-                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-evenly ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[28%]"
-                  compId="4509:5665"
-                  comWidth={119}
-                  comHeight={40}
-                  compLeft={10}
-                  compRight={0}
-                  compType="Row"
-                >
+                compType="Button"
+                leftIcon={
                   <Image
-                    src={"images/img_vector_104.png"}
-                    className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
-                    compId="I4509:5666;120:1078"
-                    comWidth={20}
-                    comHeight={20}
+                    src={"images/img_vector_99.png"}
+                    className="w-[20.01px] text-center lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]"
+                    compId="I4509:6034;120:964"
+                    comWidth={20.01}
+                    comHeight={16}
                     compLeft={0}
                     compRight={0}
                     compType="Image"
                     alt="Vector"
                   />
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4509:5667"
-                    comWidth={37}
-                    comHeight={23}
+                }
+              >
+                <div className="bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800">
+                  My Accounts
+                </div>
+              </Button>
+              <Button
+                className="3xl:ml-[19px] 3xl:pl-[21px] 3xl:pr-[20px] 3xl:py-[9px] bg-indigo_51 border border-blue_800 border-solid flex items-center justify-between lg:ml-[12px] lg:pl-[14px] lg:pr-[13px] lg:py-[6px] ml-[16px] pl-[18px] pr-[17px] py-[8px] rounded-radius4 text-center w-[6%] xl:ml-[14px] xl:pl-[16px] xl:pr-[15px] xl:py-[7px]"
+                compId="4509:6040"
+                comWidth={0}
+                comHeight={40}
+                compLeft={0}
+                compRight={0}
+                compType="Button"
+                leftIcon={
+                  <Image
+                    src={"images/img_vector_100.png"}
+                    className="w-[20.01px] text-center lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]"
+                    compId="I4509:6041;120:964"
+                    comWidth={20.01}
+                    comHeight={16}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
-                  >
-                    Filters
-                  </Text>
-                  <Text
-                    className="bg-blue_800 font-bold my-[1px] xl:pl-[3px] pl-[4px] xl:pr-[4px] pr-[5px] 3xl:pr-[6px] lg:px-[3px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-white_A700 w-[auto]"
-                    compId="4509:5668"
-                    comWidth={22}
-                    comHeight={20}
+                    compType="Image"
+                    alt="Vector"
+                  />
+                }
+              >
+                <div className="bg-transparent font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800">
+                  All
+                </div>
+              </Button>
+              <SelectBox
+                className="bg-bluegray_900 border border-gray_201 border-solid font-normal lg:ml-[300px] xl:ml-[343px] ml-[386px] 3xl:ml-[463px] lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[9%]"
+                compId="4509:5658"
+                comWidth={123}
+                comHeight={40}
+                compLeft={386}
+                compRight={0}
+                compType="Dropdown"
+                placeholderClassName="bg-transparent text-white_A700"
+                name="Frame419"
+                placeholder="Add account"
+                isSearchable={false}
+                isMulti={false}
+                indicator={
+                  <Image
+                    src={"images/img_vector_101.png"}
+                    className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
+                    compId="I4509:5660;120:3699"
+                    comWidth={10.4}
+                    comHeight={6.2}
                     compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    01
-                  </Text>
-                </Row>
+                    compRight={14}
+                    compType="Image"
+                    alt="Vector"
+                  />
+                }
+              ></SelectBox>
+              <SelectBox
+                className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
+                compId="4509:5661"
+                comWidth={0}
+                comHeight={40}
+                compLeft={0}
+                compRight={0}
+                compType="Dropdown"
+                placeholderClassName="bg-transparent text-bluegray_701"
+                name="Frame418"
+                placeholder="Edit coumns"
+                isSearchable={false}
+                isMulti={false}
+                indicator={
+                  <Image
+                    src={"images/img_vector_103.png"}
+                    className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
+                    compId="I4509:5664;120:3699"
+                    comWidth={10.4}
+                    comHeight={6.2}
+                    compLeft={0}
+                    compRight={14}
+                    compType="Image"
+                    alt="Vector"
+                  />
+                }
+              ></SelectBox>
+              <Row
+                className="bg-white_A700 border border-gray_201 border-solid items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:pr-[6px] xl:pr-[7px] pr-[8px] 3xl:pr-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[9%]"
+                compId="4509:5665"
+                comWidth={119}
+                comHeight={40}
+                compLeft={10}
+                compRight={0}
+                compType="Row"
+              >
+                <Image
+                  src={"images/img_vector_104.png"}
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                  compId="I4509:5666;120:1078"
+                  comWidth={20}
+                  comHeight={20}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Image"
+                  alt="Vector"
+                />
+                <Text
+                  className="font-normal xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4509:5667"
+                  comWidth={37}
+                  comHeight={23}
+                  compLeft={12}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Filters
+                </Text>
+                <Text
+                  className="bg-blue_800 font-bold ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] my-[1px] xl:pl-[3px] pl-[4px] xl:pr-[4px] pr-[5px] 3xl:pr-[6px] lg:px-[3px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-white_A700 w-[auto]"
+                  compId="4509:5668"
+                  comWidth={22}
+                  comHeight={20}
+                  compLeft={10}
+                  compRight={0}
+                  compType="Text"
+                >
+                  01
+                </Text>
               </Row>
             </Row>
             <Row
@@ -611,49 +599,39 @@ const AccountPage = () => {
                 compType="Image"
                 alt="Vector"
               />
-              <Row
-                className="items-center justify-center lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] w-[22%]"
-                compId="136"
-                comWidth={286}
+              <Text
+                className="font-semibold lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                compId="4797:9843"
+                comWidth={132}
                 comHeight={22}
                 compLeft={19}
                 compRight={0}
-                compType="Row"
+                compType="Text"
               >
-                <Text
-                  className="font-semibold lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                  compId="4797:9843"
-                  comWidth={132}
-                  comHeight={22}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Text"
-                >
-                  last contacted ti...
-                </Text>
-                <Image
-                  src={"images/img_vector_107.png"}
-                  className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[3%]"
-                  compId="I4797:9844;120:2012"
-                  comWidth={10}
-                  comHeight={15}
-                  compLeft={9}
-                  compRight={0}
-                  compType="Image"
-                  alt="Vector"
-                />
-                <Text
-                  className="font-semibold lg:ml-[10px] xl:ml-[11px] ml-[13px] 3xl:ml-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
-                  compId="4797:9849"
-                  comWidth={121}
-                  comHeight={22}
-                  compLeft={13}
-                  compRight={0}
-                  compType="Text"
-                >
-                  Related contacts
-                </Text>
-              </Row>
+                last contacted ti...
+              </Text>
+              <Image
+                src={"images/img_vector_107.png"}
+                className="lg:h-[12px] xl:h-[14px] h-[15px] 2xl:h-[16px] 3xl:h-[19px] 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] ml-[9px] xl:my-[2px] lg:my-[2px] my-[3px] object-contain w-[1%]"
+                compId="I4797:9844;120:2012"
+                comWidth={10}
+                comHeight={15}
+                compLeft={9}
+                compRight={0}
+                compType="Image"
+                alt="Vector"
+              />
+              <Text
+                className="font-semibold lg:ml-[10px] xl:ml-[11px] ml-[13px] 3xl:ml-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
+                compId="4797:9849"
+                comWidth={121}
+                comHeight={22}
+                compLeft={13}
+                compRight={0}
+                compType="Text"
+              >
+                Related contacts
+              </Text>
               <Text
                 className="font-semibold lg:ml-[35px] xl:ml-[40px] ml-[45px] 3xl:ml-[54px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 uppercase w-[auto]"
                 compId="4797:9852"
@@ -723,7 +701,7 @@ const AccountPage = () => {
             </Row>
             <List
               className="gap-[0] min-h-[auto] w-[100%]"
-              compId="132"
+              compId="98"
               comWidth={1342}
               comHeight={784}
               compLeft={0}
@@ -761,9 +739,9 @@ const AccountPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:9874"
-                  comWidth={47}
+                  comWidth={199}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -793,11 +771,11 @@ const AccountPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:9888"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={160}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -836,49 +814,39 @@ const AccountPage = () => {
                 >
                   Jemee Tala
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="137"
-                  comWidth={323}
-                  comHeight={24}
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9878"
+                  comWidth={107}
+                  comHeight={22}
                   compLeft={98}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9878"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    www.dhiwise.com
-                  </Text>
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9879"
-                    comWidth={70}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    1234567866
-                  </Text>
-                  <Image
-                    src={"images/img_morevertical_8.png"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    compId="4797:9880"
-                    comWidth={24}
-                    comHeight={24}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="morevertical"
-                  />
-                </Row>
+                  www.dhiwise.com
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9879"
+                  comWidth={70}
+                  comHeight={22}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Text"
+                >
+                  1234567866
+                </Text>
+                <Image
+                  src={"images/img_morevertical_8.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="4797:9880"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={63}
+                  compRight={0}
+                  compType="Image"
+                  alt="morevertical"
+                />
               </Row>
               <Line
                 className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
@@ -886,7 +854,7 @@ const AccountPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -919,9 +887,9 @@ const AccountPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:9897"
-                  comWidth={47}
+                  comWidth={199}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -951,11 +919,11 @@ const AccountPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:9904"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={160}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -994,49 +962,39 @@ const AccountPage = () => {
                 >
                   Jemee Tala
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="138"
-                  comWidth={323}
-                  comHeight={24}
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9901"
+                  comWidth={107}
+                  comHeight={22}
                   compLeft={98}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9901"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    www.dhiwise.com
-                  </Text>
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9902"
-                    comWidth={70}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    1234567866
-                  </Text>
-                  <Image
-                    src={"images/img_morevertical_9.png"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    compId="4797:9903"
-                    comWidth={24}
-                    comHeight={24}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="morevertical"
-                  />
-                </Row>
+                  www.dhiwise.com
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9902"
+                  comWidth={70}
+                  comHeight={22}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Text"
+                >
+                  1234567866
+                </Text>
+                <Image
+                  src={"images/img_morevertical_9.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="4797:9903"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={63}
+                  compRight={0}
+                  compType="Image"
+                  alt="morevertical"
+                />
               </Row>
               <Line
                 className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
@@ -1044,7 +1002,7 @@ const AccountPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1077,9 +1035,9 @@ const AccountPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:9919"
-                  comWidth={47}
+                  comWidth={199}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1109,11 +1067,11 @@ const AccountPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:9926"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={160}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1152,49 +1110,39 @@ const AccountPage = () => {
                 >
                   Jemee Tala
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="139"
-                  comWidth={323}
-                  comHeight={24}
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9923"
+                  comWidth={107}
+                  comHeight={22}
                   compLeft={98}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9923"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    www.dhiwise.com
-                  </Text>
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9924"
-                    comWidth={70}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    1234567866
-                  </Text>
-                  <Image
-                    src={"images/img_morevertical_10.png"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    compId="4797:9925"
-                    comWidth={24}
-                    comHeight={24}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="morevertical"
-                  />
-                </Row>
+                  www.dhiwise.com
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9924"
+                  comWidth={70}
+                  comHeight={22}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Text"
+                >
+                  1234567866
+                </Text>
+                <Image
+                  src={"images/img_morevertical_10.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="4797:9925"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={63}
+                  compRight={0}
+                  compType="Image"
+                  alt="morevertical"
+                />
               </Row>
               <Line
                 className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
@@ -1202,7 +1150,7 @@ const AccountPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1235,9 +1183,9 @@ const AccountPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:9941"
-                  comWidth={47}
+                  comWidth={199}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1267,11 +1215,11 @@ const AccountPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:9948"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={160}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1310,49 +1258,39 @@ const AccountPage = () => {
                 >
                   Jemee Tala
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="140"
-                  comWidth={323}
-                  comHeight={24}
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9945"
+                  comWidth={107}
+                  comHeight={22}
                   compLeft={98}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9945"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    www.dhiwise.com
-                  </Text>
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9946"
-                    comWidth={70}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    1234567866
-                  </Text>
-                  <Image
-                    src={"images/img_morevertical_11.png"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    compId="4797:9947"
-                    comWidth={24}
-                    comHeight={24}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="morevertical"
-                  />
-                </Row>
+                  www.dhiwise.com
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9946"
+                  comWidth={70}
+                  comHeight={22}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Text"
+                >
+                  1234567866
+                </Text>
+                <Image
+                  src={"images/img_morevertical_11.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="4797:9947"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={63}
+                  compRight={0}
+                  compType="Image"
+                  alt="morevertical"
+                />
               </Row>
               <Line
                 className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
@@ -1360,7 +1298,7 @@ const AccountPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1393,9 +1331,9 @@ const AccountPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:9963"
-                  comWidth={47}
+                  comWidth={199}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1425,11 +1363,11 @@ const AccountPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:9970"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={160}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1468,49 +1406,39 @@ const AccountPage = () => {
                 >
                   Jemee Tala
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="141"
-                  comWidth={323}
-                  comHeight={24}
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9967"
+                  comWidth={107}
+                  comHeight={22}
                   compLeft={98}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9967"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    www.dhiwise.com
-                  </Text>
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9968"
-                    comWidth={70}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    1234567866
-                  </Text>
-                  <Image
-                    src={"images/img_morevertical_12.png"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    compId="4797:9969"
-                    comWidth={24}
-                    comHeight={24}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="morevertical"
-                  />
-                </Row>
+                  www.dhiwise.com
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9968"
+                  comWidth={70}
+                  comHeight={22}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Text"
+                >
+                  1234567866
+                </Text>
+                <Image
+                  src={"images/img_morevertical_12.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="4797:9969"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={63}
+                  compRight={0}
+                  compType="Image"
+                  alt="morevertical"
+                />
               </Row>
               <Line
                 className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
@@ -1518,7 +1446,7 @@ const AccountPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1551,9 +1479,9 @@ const AccountPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:9985"
-                  comWidth={47}
+                  comWidth={199}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1583,11 +1511,11 @@ const AccountPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:9992"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={160}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1626,49 +1554,39 @@ const AccountPage = () => {
                 >
                   Jemee Tala
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="142"
-                  comWidth={323}
-                  comHeight={24}
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9989"
+                  comWidth={107}
+                  comHeight={22}
                   compLeft={98}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9989"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    www.dhiwise.com
-                  </Text>
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9990"
-                    comWidth={70}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    1234567866
-                  </Text>
-                  <Image
-                    src={"images/img_morevertical_13.png"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    compId="4797:9991"
-                    comWidth={24}
-                    comHeight={24}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="morevertical"
-                  />
-                </Row>
+                  www.dhiwise.com
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:9990"
+                  comWidth={70}
+                  comHeight={22}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Text"
+                >
+                  1234567866
+                </Text>
+                <Image
+                  src={"images/img_morevertical_13.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="4797:9991"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={63}
+                  compRight={0}
+                  compType="Image"
+                  alt="morevertical"
+                />
               </Row>
               <Line
                 className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
@@ -1676,7 +1594,7 @@ const AccountPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1709,9 +1627,9 @@ const AccountPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:10007"
-                  comWidth={47}
+                  comWidth={199}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1741,11 +1659,11 @@ const AccountPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:10014"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={160}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1784,49 +1702,39 @@ const AccountPage = () => {
                 >
                   Jemee Tala
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="143"
-                  comWidth={323}
-                  comHeight={24}
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:10011"
+                  comWidth={107}
+                  comHeight={22}
                   compLeft={98}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:10011"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    www.dhiwise.com
-                  </Text>
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:10012"
-                    comWidth={70}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    1234567866
-                  </Text>
-                  <Image
-                    src={"images/img_morevertical_14.png"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    compId="4797:10013"
-                    comWidth={24}
-                    comHeight={24}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="morevertical"
-                  />
-                </Row>
+                  www.dhiwise.com
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:10012"
+                  comWidth={70}
+                  comHeight={22}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Text"
+                >
+                  1234567866
+                </Text>
+                <Image
+                  src={"images/img_morevertical_14.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="4797:10013"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={63}
+                  compRight={0}
+                  compType="Image"
+                  alt="morevertical"
+                />
               </Row>
               <Line
                 className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
@@ -1834,7 +1742,7 @@ const AccountPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1867,9 +1775,9 @@ const AccountPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:10029"
-                  comWidth={47}
+                  comWidth={199}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1899,11 +1807,11 @@ const AccountPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:10036"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={160}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1942,49 +1850,39 @@ const AccountPage = () => {
                 >
                   Jemee Tala
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-between 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] w-[24%]"
-                  compId="144"
-                  comWidth={323}
-                  comHeight={24}
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:10033"
+                  comWidth={107}
+                  comHeight={22}
                   compLeft={98}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:10033"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    www.dhiwise.com
-                  </Text>
-                  <Text
-                    className="font-normal my-[1px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:10034"
-                    comWidth={70}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    1234567866
-                  </Text>
-                  <Image
-                    src={"images/img_morevertical_15.png"}
-                    className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                    compId="4797:10035"
-                    comWidth={24}
-                    comHeight={24}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="morevertical"
-                  />
-                </Row>
+                  www.dhiwise.com
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  compId="4797:10034"
+                  comWidth={70}
+                  comHeight={22}
+                  compLeft={59}
+                  compRight={0}
+                  compType="Text"
+                >
+                  1234567866
+                </Text>
+                <Image
+                  src={"images/img_morevertical_15.png"}
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  compId="4797:10035"
+                  comWidth={24}
+                  comHeight={24}
+                  compLeft={63}
+                  compRight={0}
+                  compType="Image"
+                  alt="morevertical"
+                />
               </Row>
             </List>
             <Input

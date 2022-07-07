@@ -28,16 +28,20 @@ export const postContacts = ({
   path = {},
 } = {}) => {
   return defaultAxios({
-    url: `https://dhiwise-459662296123098611.myfreshworks.com/crm/sales/api/contacts`,
+    url: `https://dhiwise-465019586991918096.myfreshworks.com/crm/sales/api/contacts`,
     method: "post",
     params,
     headers: { "Content-Type": "application/json", ...headers },
     data: {
       contact: {
-        first_name: "John",
-        last_name: "Duo",
+        first_name: "jainil",
+        last_name: "Tala",
         mobile_number: "9265504587",
-        emails: "john@gmail.com",
+        emails: "jainil@gmail.com",
+        city: "surat",
+        country: "India",
+        job_title: "Intern",
+        zipcode: "395006",
       },
       ...data,
     },
@@ -57,16 +61,16 @@ export const getTasks = ({
     data,
   });
 };
-export const getContactssegmentid70003418989 = ({
+export const getContacts = ({
   data = {},
   headers = {},
   params = {},
   path = {},
 } = {}) => {
   return defaultAxios({
-    url: `https://dhiwise-459662296123098611.myfreshworks.com/crm/sales/contacts?segment_id=70003418989`,
+    url: `https://dhiwise-465019586991918096.myfreshworks.com/crm/sales/contacts`,
     method: "get",
-    params: { page: "1", segment_id: "70003418989", ...params },
+    params: { segment_id: "70003565022", page: "1", ...params },
     headers: {
       Accept: "application/json, text/javascript, */*; q=0.01",
       "Accept-Language": "en-US,en;q=0.9",

@@ -13,14 +13,14 @@ const ProjectRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/account" element={<Account />} />
         <Route path="/addnotes" element={<Addnotes />} />
+        <Route path="/dhiwise-dashboard" element={<Home />} />
       </Routes>
     </Router>
   );

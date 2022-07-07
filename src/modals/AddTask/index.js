@@ -57,7 +57,7 @@ const AddTaskModal = (props) => {
           >
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] w-[94%]"
-              compId="123"
+              compId="91"
               comWidth={484}
               comHeight={55}
               compLeft={0}
@@ -101,7 +101,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="124"
+              compId="92"
               comWidth={484}
               comHeight={36}
               compLeft={0}
@@ -147,7 +147,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="125"
+              compId="93"
               comWidth={484}
               comHeight={214}
               compLeft={0}
@@ -185,9 +185,9 @@ const AddTaskModal = (props) => {
                 compType="Row"
               >
                 <Column
-                  className="items-start w-[30%]"
+                  className="items-start w-[35%]"
                   compId="4712:9325"
-                  comWidth={145}
+                  comWidth={169}
                   comHeight={62}
                   compLeft={0}
                   compRight={0}
@@ -204,50 +204,40 @@ const AddTaskModal = (props) => {
                   >
                     Task Type
                   </Text>
-                  <Column
-                    className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
-                    compId="127"
+                  <SelectBox
+                    className="bg-white_A700 border border-bluegray_100 border-solid font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] lg:pb-[5px] xl:pb-[6px] pb-[7px] 3xl:pb-[8px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pt-[4px] xl:pt-[5px] pt-[6px] 3xl:pt-[7px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[86%]"
+                    compId="4712:9327"
                     comWidth={145}
                     comHeight={36}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
-                  >
-                    <SelectBox
-                      className="bg-white_A700 border border-bluegray_100 border-solid font-normal lg:pb-[5px] xl:pb-[6px] pb-[7px] 3xl:pb-[8px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pt-[4px] xl:pt-[5px] pt-[6px] 3xl:pt-[7px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_300 w-[100%]"
-                      compId="4712:9327"
-                      comWidth={145}
-                      comHeight={36}
-                      compLeft={0}
-                      compRight={0}
-                      compType="Dropdown"
-                      placeholderClassName="bg-transparent text-bluegray_300"
-                      name="Group280"
-                      placeholder="Select type"
-                      isSearchable={false}
-                      isMulti={false}
-                      indicator={
-                        <Image
-                          src={"images/img_vector_85.png"}
-                          className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
-                          compId="I4712:9331;120:3699"
-                          comWidth={8.67}
-                          comHeight={5.17}
-                          compLeft={0}
-                          compRight={21}
-                          compType="Image"
-                          alt="Vector"
-                        />
-                      }
-                    ></SelectBox>
-                  </Column>
+                    compType="Dropdown"
+                    placeholderClassName="bg-transparent text-bluegray_300"
+                    name="Group280"
+                    placeholder="Select type"
+                    isSearchable={false}
+                    isMulti={false}
+                    indicator={
+                      <Image
+                        src={"images/img_vector_85.png"}
+                        className="w-[8.67px] h-[5.17px] mr-[21px] object-contain lg:w-[6px] lg:h-[5px] lg:mr-[16px] xl:w-[7px] xl:h-[5px] xl:mr-[18px] 2xl:w-[8px] 2xl:h-[6px] 3xl:w-[10px] 3xl:h-[7px] 3xl:mr-[25px]"
+                        compId="I4712:9331;120:3699"
+                        comWidth={8.67}
+                        comHeight={5.17}
+                        compLeft={0}
+                        compRight={21}
+                        compType="Image"
+                        alt="Vector"
+                      />
+                    }
+                  ></SelectBox>
                 </Column>
                 <Column
-                  className="items-start lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] w-[65%]"
+                  className="items-start w-[65%]"
                   compId="4712:9332"
                   comWidth={314}
                   comHeight={62}
-                  compLeft={24}
+                  compLeft={0}
                   compRight={0}
                   compType="Column"
                 >
@@ -265,76 +255,80 @@ const AddTaskModal = (props) => {
                     </span>
                     <span className="text-red_700 font-sourcesanspro">*</span>
                   </Text>
-                  <Column
-                    className="items-center xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
-                    compId="128"
+                  <Row
+                    className="items-center justify-between xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[100%]"
+                    compId="4712:9334"
                     comWidth={314}
                     comHeight={36}
                     compLeft={0}
                     compRight={0}
-                    compType="Column"
+                    compType="Row"
                   >
                     <Row
-                      className="items-center justify-between w-[100%]"
-                      compId="4712:9334"
-                      comWidth={314}
+                      className="bg-white_A700 border border-bluegray_100 border-solid items-center justify-between lg:pb-[5px] xl:pb-[6px] pb-[7px] 3xl:pb-[8px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[13px] xl:pr-[15px] pr-[17px] 3xl:pr-[20px] lg:pt-[4px] xl:pt-[5px] pt-[6px] 3xl:pt-[7px] rounded-radius4 w-[46%]"
+                      compId="4712:9337"
+                      comWidth={145}
                       comHeight={36}
                       compLeft={0}
                       compRight={0}
                       compType="Row"
                     >
-                      <Input
-                        className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[21px] xl:pr-[24px] pr-[28px] 3xl:pr-[33px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
-                        WrapClassName="3xl:pb-[8px] 3xl:pl-[19px] 3xl:pr-[20px] 3xl:pt-[7px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pb-[5px] lg:pl-[12px] lg:pr-[13px] lg:pt-[4px] pb-[7px] pl-[16px] pr-[17px] pt-[6px] rounded-radius4 w-[46%] xl:pb-[6px] xl:pl-[14px] xl:pr-[15px] xl:pt-[5px]"
-                        compId="4712:9335"
-                        comWidth={0}
-                        comHeight={36}
+                      <Text
+                        className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                        compId="4712:9338"
+                        comWidth={66}
+                        comHeight={23}
                         compLeft={0}
                         compRight={0}
-                        compType="EditText"
-                        name="Group283"
-                        placeholder="06/28/2022"
-                        suffix={
-                          <Image
-                            src={"images/img_vector_86.png"}
-                            className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
-                            compId="I4712:9339;120:380"
-                            comWidth={16.67}
-                            comHeight={16.67}
-                            compLeft={0}
-                            compRight={0}
-                            compType="Image"
-                            alt="Vector"
-                          />
-                        }
-                      ></Input>
-                      <Input
-                        className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
-                        WrapClassName="3xl:pb-[8px] 3xl:pl-[19px] 3xl:pr-[20px] 3xl:pt-[7px] bg-white_A700 border border-bluegray_100 border-solid flex lg:pb-[5px] lg:pl-[12px] lg:pr-[13px] lg:pt-[4px] pb-[7px] pl-[16px] pr-[17px] pt-[6px] rounded-radius4 w-[46%] xl:pb-[6px] xl:pl-[14px] xl:pr-[15px] xl:pt-[5px]"
-                        compId="4712:9340"
-                        comWidth={0}
-                        comHeight={36}
+                        compType="Text"
+                      >
+                        06/28/2022
+                      </Text>
+                      <Image
+                        src={"images/img_vector_86.png"}
+                        className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] xl:mb-[2px] lg:mb-[2px] mb-[3px] xl:mt-[1px] lg:mt-[1px] mt-[2px] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
+                        compId="I4712:9339;120:380"
+                        comWidth={16}
+                        comHeight={16}
                         compLeft={0}
                         compRight={0}
-                        compType="EditText"
-                        name="Group285"
-                        placeholder="09:40"
-                        suffix={
-                          <Image
-                            src={"images/img_vector_87.png"}
-                            className="w-[16.67px] h-[16.67px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[20px] 3xl:h-[21px] my-[auto]"
-                            compId="I4712:9344;120:470"
-                            comWidth={16.67}
-                            comHeight={16.67}
-                            compLeft={0}
-                            compRight={0}
-                            compType="Image"
-                            alt="Vector"
-                          />
-                        }
-                      ></Input>
+                        compType="Image"
+                        alt="Vector"
+                      />
                     </Row>
-                  </Column>
+                    <Row
+                      className="bg-white_A700 border border-bluegray_100 border-solid items-center justify-between lg:pb-[5px] xl:pb-[6px] pb-[7px] 3xl:pb-[8px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[13px] xl:pr-[15px] pr-[17px] 3xl:pr-[20px] lg:pt-[4px] xl:pt-[5px] pt-[6px] 3xl:pt-[7px] rounded-radius4 w-[46%]"
+                      compId="4712:9342"
+                      comWidth={145}
+                      comHeight={36}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Row"
+                    >
+                      <Text
+                        className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                        compId="4712:9343"
+                        comWidth={31}
+                        comHeight={23}
+                        compLeft={0}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        09:40
+                      </Text>
+                      <Image
+                        src={"images/img_vector_87.png"}
+                        className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] xl:mb-[1px] lg:mb-[1px] mb-[2px] xl:mt-[2px] lg:mt-[2px] mt-[3px] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
+                        compId="I4712:9344;120:470"
+                        comWidth={16}
+                        comHeight={16}
+                        compLeft={0}
+                        compRight={0}
+                        compType="Image"
+                        alt="Vector"
+                      />
+                    </Row>
+                  </Row>
                 </Column>
               </Row>
             </Column>
@@ -351,7 +345,7 @@ const AddTaskModal = (props) => {
             </Text>
             <Column
               className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] w-[94%]"
-              compId="126"
+              compId="94"
               comWidth={484}
               comHeight={36}
               compLeft={0}

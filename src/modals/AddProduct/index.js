@@ -22,8 +22,8 @@ const AddProductModal = (props) => {
             compType="Stack"
           >
             <Column
-              className="absolute items-center justify-start w-[100%]"
-              compId="94"
+              className="absolute items-start justify-start w-[100%]"
+              compId="76"
               comWidth={551}
               comHeight={538}
               compLeft={0}
@@ -89,7 +89,7 @@ const AddProductModal = (props) => {
               </Row>
             </Column>
             <Column
-              className="absolute bg-white_A700 inset-y-[8%] items-start justify-center lg:pb-[54px] xl:pb-[62px] pb-[70px] 3xl:pb-[84px] lg:pl-[24px] xl:pl-[28px] pl-[32px] 3xl:pl-[38px] lg:pt-[21px] xl:pt-[24px] pt-[27px] 3xl:pt-[32px] w-[100%]"
+              className="absolute bg-white_A700 h-[max-content] inset-y-[0] items-start justify-center my-[auto] lg:pb-[54px] xl:pb-[62px] pb-[70px] 3xl:pb-[84px] lg:pl-[24px] xl:pl-[28px] pl-[32px] 3xl:pl-[38px] lg:pt-[21px] xl:pt-[24px] pt-[27px] 3xl:pt-[32px] w-[100%]"
               compId="4797:11502"
               comWidth={551}
               comHeight={450}
@@ -111,7 +111,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[1px] lg:pl-[1px] pl-[2px] pr-[1px] w-[94%]"
-                compId="96"
+                compId="78"
                 comWidth={487}
                 comHeight={36}
                 compLeft={0}
@@ -157,7 +157,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[1px] lg:pl-[1px] pl-[2px] pr-[1px] w-[94%]"
-                compId="97"
+                compId="79"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -205,7 +205,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] pl-[1px] xl:pr-[1px] lg:pr-[1px] pr-[2px] w-[94%]"
-                compId="98"
+                compId="80"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -253,7 +253,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pl-[2px] lg:pl-[2px] pl-[3px] w-[94%]"
-                compId="99"
+                compId="81"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}
@@ -286,7 +286,7 @@ const AddProductModal = (props) => {
               </Text>
               <Column
                 className="items-center lg:mr-[24px] xl:mr-[28px] mr-[32px] 3xl:mr-[38px] xl:mt-[3px] lg:mt-[3px] mt-[4px] xl:pr-[2px] lg:pr-[2px] pr-[3px] w-[94%]"
-                compId="100"
+                compId="82"
                 comWidth={487}
                 comHeight={39}
                 compLeft={0}

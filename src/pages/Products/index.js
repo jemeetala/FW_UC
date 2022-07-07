@@ -11,8 +11,15 @@ import {
   List,
   Line,
 } from "components";
+import { useNavigate } from "react-router-dom";
 
 const ProductsPage = () => {
+  const navigate = useNavigate();
+
+  function handleNavigate8() {
+    navigate("/");
+  }
+
   return (
     <>
       <Column
@@ -54,13 +61,14 @@ const ProductsPage = () => {
               >
                 <Image
                   src={"images/img_group345.png"}
-                  className="lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] object-contain lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
+                  className="common-pointer lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] object-contain lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
                   compId="4797:10782"
                   comWidth={50}
                   comHeight={50}
                   compLeft={0}
                   compRight={0}
                   compType="Image"
+                  onClick={handleNavigate8}
                   alt="Group345"
                 />
                 <Image
@@ -165,7 +173,7 @@ const ProductsPage = () => {
             </Column>
           </aside>
           <Column
-            className="items-center lg:mb-[6px] xl:mb-[7px] mb-[8px] 3xl:mb-[9px] w-[93%]"
+            className="items-start lg:mb-[6px] xl:mb-[7px] mb-[8px] 3xl:mb-[9px] w-[93%]"
             compId="33"
             comWidth={1342}
             comHeight={1016}
@@ -173,69 +181,69 @@ const ProductsPage = () => {
             compRight={0}
             compType="Column"
           >
-            <Row
-              className="bg-white_A700 border border-indigo_50 border-solid items-center justify-start lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
-              compId="4797:10753"
-              comWidth={1341}
+            <Column
+              className="items-center pr-[1px] w-[100%]"
+              compId="36"
+              comWidth={1342}
               comHeight={72}
               compLeft={0}
-              compRight={1}
-              compType="Row"
+              compRight={0}
+              compType="Column"
             >
-              <SelectBox
-                className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
-                compId="4797:10771"
-                comWidth={0}
-                comHeight={40}
-                compLeft={0}
-                compRight={0}
-                compType="Dropdown"
-                placeholderClassName="bg-transparent text-bluegray_700"
-                name="Group93"
-                placeholder="Contacts"
-                isSearchable={false}
-                isMulti={false}
-                indicator={
-                  <Image
-                    src={"images/img_vector_8.png"}
-                    className="w-[10.54px] h-[6.25px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
-                    compId="I4797:10775;120:93"
-                    comWidth={10.54}
-                    comHeight={6.25}
-                    compLeft={0}
-                    compRight={14}
-                    compType="Image"
-                    alt="Vector"
-                  />
-                }
-              ></SelectBox>
-              <Input
-                className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
-                WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
-                compId="4797:10777"
-                comWidth={446}
-                comHeight={40}
-                compLeft={0}
-                compRight={0}
-                compType="EditText"
-                name="Group94"
-                placeholder="Search your CRM..."
-              ></Input>
               <Row
-                className="items-center justify-between lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] w-[22%]"
-                compId="36"
-                comWidth={292}
-                comHeight={40}
-                compLeft={430}
+                className="bg-white_A700 border border-indigo_50 border-solid items-center justify-start lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                compId="4797:10753"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
                 compRight={0}
                 compType="Row"
               >
+                <SelectBox
+                  className="bg-transparent font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-bluegray_700 w-[100%]"
+                  compId="4797:10771"
+                  comWidth={0}
+                  comHeight={40}
+                  compLeft={0}
+                  compRight={0}
+                  compType="Dropdown"
+                  placeholderClassName="bg-transparent text-bluegray_700"
+                  name="Group93"
+                  placeholder="Contacts"
+                  isSearchable={false}
+                  isMulti={false}
+                  indicator={
+                    <Image
+                      src={"images/img_vector_8.png"}
+                      className="w-[10.54px] h-[6.25px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
+                      compId="I4797:10775;120:93"
+                      comWidth={10.54}
+                      comHeight={6.25}
+                      compLeft={0}
+                      compRight={14}
+                      compType="Image"
+                      alt="Vector"
+                    />
+                  }
+                ></SelectBox>
+                <Input
+                  className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
+                  WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
+                  compId="4797:10777"
+                  comWidth={446}
+                  comHeight={40}
+                  compLeft={0}
+                  compRight={0}
+                  compType="EditText"
+                  name="Group94"
+                  placeholder="Search your CRM..."
+                ></Input>
                 <Button
-                  className="bg-bluegray_900 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-bluegray_900 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:10755"
                   comWidth={40}
                   comHeight={40}
-                  compLeft={0}
+                  compLeft={430}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -245,18 +253,18 @@ const ProductsPage = () => {
                     compId="4797:10755"
                     comWidth={40}
                     comHeight={40}
-                    compLeft={0}
+                    compLeft={430}
                     compRight={0}
                     compType="IconButton"
                     alt="Group5"
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:10758"
                   comWidth={40}
                   comHeight={40}
-                  compLeft={0}
+                  compLeft={24}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -266,18 +274,18 @@ const ProductsPage = () => {
                     compId="4797:10758"
                     comWidth={40}
                     comHeight={40}
-                    compLeft={0}
+                    compLeft={24}
                     compRight={0}
                     compType="IconButton"
                     alt="Group4"
                   />
                 </Button>
                 <Button
-                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:10761"
                   comWidth={40}
                   comHeight={40}
-                  compLeft={0}
+                  compLeft={24}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -287,18 +295,18 @@ const ProductsPage = () => {
                     compId="4797:10761"
                     comWidth={40}
                     comHeight={40}
-                    compLeft={0}
+                    compLeft={24}
                     compRight={0}
                     compType="IconButton"
                     alt="Group3"
                   />
                 </Button>
                 <Button
-                  className="bg-red_600 flex lg:h-[28px] xl:h-[33px] h-[36px] 2xl:h-[37px] 3xl:h-[44px] items-center justify-center xl:my-[1px] lg:my-[1px] my-[2px] p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] rounded-radius50 lg:w-[28px] xl:w-[32px] w-[36px] 3xl:w-[43px]"
+                  className="bg-red_600 flex lg:h-[28px] xl:h-[33px] h-[36px] 2xl:h-[37px] 3xl:h-[44px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:my-[1px] lg:my-[1px] my-[2px] p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] rounded-radius50 lg:w-[28px] xl:w-[32px] w-[36px] 3xl:w-[43px]"
                   compId="4797:10764"
                   comWidth={36}
                   comHeight={36}
-                  compLeft={0}
+                  compLeft={24}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -308,18 +316,18 @@ const ProductsPage = () => {
                     compId="4797:10764"
                     comWidth={36}
                     comHeight={36}
-                    compLeft={0}
+                    compLeft={24}
                     compRight={0}
                     compType="IconButton"
                     alt="Group100"
                   />
                 </Button>
                 <Button
-                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                  className="bg-amber_100 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                   compId="4797:10767"
                   comWidth={40}
                   comHeight={40}
-                  compLeft={0}
+                  compLeft={24}
                   compRight={0}
                   compType="IconButton"
                 >
@@ -329,14 +337,14 @@ const ProductsPage = () => {
                     compId="4797:10767"
                     comWidth={40}
                     comHeight={40}
-                    compLeft={0}
+                    compLeft={24}
                     compRight={0}
                     compType="IconButton"
                     alt="Group99"
                   />
                 </Button>
               </Row>
-            </Row>
+            </Column>
             <Row
               className="bg-gray_100 border border-indigo_50 border-solid items-center justify-start lg:pb-[5px] xl:pb-[6px] pb-[7px] 3xl:pb-[8px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pt-[6px] xl:pt-[7px] pt-[8px] 3xl:pt-[9px] w-[100%]"
               compId="4797:10814"
@@ -379,171 +387,161 @@ const ProductsPage = () => {
               >
                 All Products (1)
               </Text>
-              <Row
-                className="items-center justify-center lg:ml-[327px] xl:ml-[374px] ml-[421px] 3xl:ml-[505px] w-[49%]"
-                compId="37"
-                comWidth={649}
+              <SelectBox
+                className="bg-bluegray_900 border border-gray_201 border-solid font-normal lg:ml-[327px] xl:ml-[374px] ml-[421px] 3xl:ml-[505px] lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[9%]"
+                compId="4509:6331"
+                comWidth={123}
                 comHeight={40}
                 compLeft={421}
                 compRight={0}
+                compType="Dropdown"
+                placeholderClassName="bg-transparent text-white_A700"
+                name="Frame419"
+                placeholder="Add product"
+                isSearchable={false}
+                isMulti={false}
+                indicator={
+                  <Image
+                    src={"images/img_vector_10.png"}
+                    className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
+                    compId="I4509:6333;120:3699"
+                    comWidth={10.4}
+                    comHeight={6.2}
+                    compLeft={0}
+                    compRight={14}
+                    compType="Image"
+                    alt="Vector"
+                  />
+                }
+              ></SelectBox>
+              <SelectBox
+                className="bg-white_A700 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[10%]"
+                compId="4509:6334"
+                comWidth={136}
+                comHeight={40}
+                compLeft={10}
+                compRight={0}
+                compType="Dropdown"
+                placeholderClassName="bg-transparent text-bluegray_701"
+                name="Frame418"
+                placeholder="Add categories"
+                isSearchable={false}
+                isMulti={false}
+                indicator={
+                  <Image
+                    src={"images/img_vector_11.png"}
+                    className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
+                    compId="I4509:6337;120:3699"
+                    comWidth={10.4}
+                    comHeight={6.2}
+                    compLeft={0}
+                    compRight={14}
+                    compType="Image"
+                    alt="Vector"
+                  />
+                }
+              ></SelectBox>
+              <SelectBox
+                className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
+                compId="4509:6687"
+                comWidth={0}
+                comHeight={40}
+                compLeft={0}
+                compRight={0}
+                compType="Dropdown"
+                placeholderClassName="bg-transparent text-bluegray_701"
+                name="Frame422"
+                placeholder="Edit coumns"
+                isSearchable={false}
+                isMulti={false}
+                indicator={
+                  <Image
+                    src={"images/img_vector_13.png"}
+                    className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
+                    compId="I4509:6690;120:3699"
+                    comWidth={10.4}
+                    comHeight={6.2}
+                    compLeft={0}
+                    compRight={14}
+                    compType="Image"
+                    alt="Vector"
+                  />
+                }
+              ></SelectBox>
+              <Row
+                className="bg-white_A700 border border-gray_201 border-solid items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[10px] xl:pr-[12px] pr-[14px] 3xl:pr-[16px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] rounded-radius4 w-[6%]"
+                compId="4509:6338"
+                comWidth={74}
+                comHeight={40}
+                compLeft={10}
+                compRight={0}
                 compType="Row"
               >
-                <SelectBox
-                  className="bg-bluegray_900 border border-gray_201 border-solid font-normal lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-white_A700 w-[19%]"
-                  compId="4509:6331"
-                  comWidth={123}
-                  comHeight={40}
+                <Image
+                  src={"images/img_vector_14.png"}
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] object-contain w-[37%]"
+                  compId="I4509:6339;120:1890"
+                  comWidth={19}
+                  comHeight={20}
                   compLeft={0}
                   compRight={0}
-                  compType="Dropdown"
-                  placeholderClassName="bg-transparent text-white_A700"
-                  name="Frame419"
-                  placeholder="Add product"
-                  isSearchable={false}
-                  isMulti={false}
-                  indicator={
-                    <Image
-                      src={"images/img_vector_10.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
-                      compId="I4509:6333;120:3699"
-                      comWidth={10.4}
-                      comHeight={6.2}
-                      compLeft={0}
-                      compRight={14}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                ></SelectBox>
-                <SelectBox
-                  className="bg-white_A700 border border-gray_201 border-solid font-normal ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:pl-[6px] xl:pl-[7px] pl-[8px] 3xl:pl-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[21%]"
-                  compId="4509:6334"
-                  comWidth={136}
-                  comHeight={40}
-                  compLeft={10}
+                  compType="Image"
+                  alt="Vector"
+                />
+                <Image
+                  src={"images/img_vector_15.png"}
+                  className="lg:h-[5px] h-[6px] 2xl:h-[7px] 3xl:h-[8px] lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:my-[4px] xl:my-[5px] my-[6px] 3xl:my-[7px] object-contain w-[20%]"
+                  compId="I4509:6520;120:3699"
+                  comWidth={10}
+                  comHeight={6}
+                  compLeft={19}
                   compRight={0}
-                  compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
-                  name="Frame418"
-                  placeholder="Add categories"
-                  isSearchable={false}
-                  isMulti={false}
-                  indicator={
-                    <Image
-                      src={"images/img_vector_11.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
-                      compId="I4509:6337;120:3699"
-                      comWidth={10.4}
-                      comHeight={6.2}
-                      compLeft={0}
-                      compRight={14}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                ></SelectBox>
-                <SelectBox
-                  className="bg-transparent font-normal p-[0] xl:pl-[10px] pl-[12px] 3xl:pl-[14px] lg:pl-[9px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[100%]"
-                  compId="4509:6687"
-                  comWidth={0}
-                  comHeight={40}
+                  compType="Image"
+                  alt="Vector"
+                />
+              </Row>
+              <Row
+                className="bg-white_A700 border border-gray_201 border-solid items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] pl-[10px] 3xl:pl-[12px] lg:pl-[7px] xl:pl-[8px] lg:pr-[6px] xl:pr-[7px] pr-[8px] 3xl:pr-[9px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[9%]"
+                compId="4509:6513"
+                comWidth={119}
+                comHeight={40}
+                compLeft={10}
+                compRight={0}
+                compType="Row"
+              >
+                <Image
+                  src={"images/img_vector_16.png"}
+                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                  compId="I4509:6514;120:1078"
+                  comWidth={20}
+                  comHeight={20}
                   compLeft={0}
                   compRight={0}
-                  compType="Dropdown"
-                  placeholderClassName="bg-transparent text-bluegray_701"
-                  name="Frame422"
-                  placeholder="Edit coumns"
-                  isSearchable={false}
-                  isMulti={false}
-                  indicator={
-                    <Image
-                      src={"images/img_vector_13.png"}
-                      className="w-[10.4px] h-[6.2px] mr-[14px] object-contain lg:w-[8px] lg:h-[5px] lg:mr-[10px] xl:w-[9px] xl:h-[6px] xl:mr-[12px] 2xl:w-[10px] 2xl:h-[7px] 3xl:w-[12px] 3xl:h-[8px] 3xl:mr-[16px]"
-                      compId="I4509:6690;120:3699"
-                      comWidth={10.4}
-                      comHeight={6.2}
-                      compLeft={0}
-                      compRight={14}
-                      compType="Image"
-                      alt="Vector"
-                    />
-                  }
-                ></SelectBox>
-                <Row
-                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-center ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[10px] xl:pr-[12px] pr-[14px] 3xl:pr-[16px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] rounded-radius4 w-[11%]"
-                  compId="4509:6338"
-                  comWidth={74}
-                  comHeight={40}
+                  compType="Image"
+                  alt="Vector"
+                />
+                <Text
+                  className="font-normal xl:ml-[10px] ml-[12px] 3xl:ml-[14px] lg:ml-[9px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4509:6515"
+                  comWidth={37}
+                  comHeight={23}
+                  compLeft={12}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Filters
+                </Text>
+                <Text
+                  className="bg-blue_800 font-bold ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] my-[1px] xl:pl-[3px] pl-[4px] xl:pr-[4px] pr-[5px] 3xl:pr-[6px] lg:px-[3px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-white_A700 w-[auto]"
+                  compId="4509:6516"
+                  comWidth={22}
+                  comHeight={20}
                   compLeft={10}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Image
-                    src={"images/img_vector_14.png"}
-                    className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] object-contain w-[37%]"
-                    compId="I4509:6339;120:1890"
-                    comWidth={19}
-                    comHeight={20}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="Vector"
-                  />
-                  <Image
-                    src={"images/img_vector_15.png"}
-                    className="lg:h-[5px] h-[6px] 2xl:h-[7px] 3xl:h-[8px] lg:ml-[14px] xl:ml-[16px] ml-[19px] 3xl:ml-[22px] lg:my-[4px] xl:my-[5px] my-[6px] 3xl:my-[7px] object-contain w-[20%]"
-                    compId="I4509:6520;120:3699"
-                    comWidth={10}
-                    comHeight={6}
-                    compLeft={19}
-                    compRight={0}
-                    compType="Image"
-                    alt="Vector"
-                  />
-                </Row>
-                <Row
-                  className="bg-white_A700 border border-gray_201 border-solid items-center justify-evenly ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius4 w-[18%]"
-                  compId="4509:6513"
-                  comWidth={119}
-                  comHeight={40}
-                  compLeft={10}
-                  compRight={0}
-                  compType="Row"
-                >
-                  <Image
-                    src={"images/img_vector_16.png"}
-                    className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] my-[1px] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
-                    compId="I4509:6514;120:1078"
-                    comWidth={20}
-                    comHeight={20}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Image"
-                    alt="Vector"
-                  />
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4509:6515"
-                    comWidth={37}
-                    comHeight={23}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Filters
-                  </Text>
-                  <Text
-                    className="bg-blue_800 font-bold my-[1px] xl:pl-[3px] pl-[4px] xl:pr-[4px] pr-[5px] 3xl:pr-[6px] lg:px-[3px] rounded-radius8 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-white_A700 w-[auto]"
-                    compId="4509:6516"
-                    comWidth={22}
-                    comHeight={20}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    01
-                  </Text>
-                </Row>
+                  01
+                </Text>
               </Row>
             </Row>
             <Row
@@ -726,9 +724,9 @@ const ProductsPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:10857"
-                  comWidth={47}
+                  comWidth={198}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -758,11 +756,11 @@ const ProductsPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[123px] xl:ml-[141px] ml-[159px] 3xl:ml-[190px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:10864"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={159}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -779,49 +777,39 @@ const ProductsPage = () => {
                 >
                   --
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="38"
-                  comWidth={409}
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10860"
+                  comWidth={58}
                   comHeight={22}
                   compLeft={267}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10860"
-                    comWidth={58}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Hardware
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10861"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={90}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    A few seconds ago
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10862"
-                    comWidth={67}
-                    comHeight={22}
-                    compLeft={87}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Jemee Tala
-                  </Text>
-                </Row>
+                  Hardware
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10861"
+                  comWidth={107}
+                  comHeight={22}
+                  compLeft={90}
+                  compRight={0}
+                  compType="Text"
+                >
+                  A few seconds ago
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10862"
+                  comWidth={67}
+                  comHeight={22}
+                  compLeft={87}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Jemee Tala
+                </Text>
                 <Image
                   src={"images/img_morevertical.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[115px] xl:ml-[132px] ml-[149px] 3xl:ml-[178px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -840,7 +828,7 @@ const ProductsPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -873,9 +861,9 @@ const ProductsPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:10926"
-                  comWidth={47}
+                  comWidth={198}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -905,11 +893,11 @@ const ProductsPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[123px] xl:ml-[141px] ml-[159px] 3xl:ml-[190px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:10933"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={159}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -926,49 +914,39 @@ const ProductsPage = () => {
                 >
                   --
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="39"
-                  comWidth={409}
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10929"
+                  comWidth={58}
                   comHeight={22}
                   compLeft={267}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10929"
-                    comWidth={58}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Hardware
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10930"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={90}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    A few seconds ago
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10931"
-                    comWidth={67}
-                    comHeight={22}
-                    compLeft={87}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Jemee Tala
-                  </Text>
-                </Row>
+                  Hardware
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10930"
+                  comWidth={107}
+                  comHeight={22}
+                  compLeft={90}
+                  compRight={0}
+                  compType="Text"
+                >
+                  A few seconds ago
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10931"
+                  comWidth={67}
+                  comHeight={22}
+                  compLeft={87}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Jemee Tala
+                </Text>
                 <Image
                   src={"images/img_morevertical_1.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[115px] xl:ml-[132px] ml-[149px] 3xl:ml-[178px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -987,7 +965,7 @@ const ProductsPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1020,9 +998,9 @@ const ProductsPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:10944"
-                  comWidth={47}
+                  comWidth={198}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1052,11 +1030,11 @@ const ProductsPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[123px] xl:ml-[141px] ml-[159px] 3xl:ml-[190px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:10951"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={159}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1073,49 +1051,39 @@ const ProductsPage = () => {
                 >
                   --
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="40"
-                  comWidth={409}
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10947"
+                  comWidth={58}
                   comHeight={22}
                   compLeft={267}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10947"
-                    comWidth={58}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Hardware
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10948"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={90}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    A few seconds ago
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10949"
-                    comWidth={67}
-                    comHeight={22}
-                    compLeft={87}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Jemee Tala
-                  </Text>
-                </Row>
+                  Hardware
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10948"
+                  comWidth={107}
+                  comHeight={22}
+                  compLeft={90}
+                  compRight={0}
+                  compType="Text"
+                >
+                  A few seconds ago
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10949"
+                  comWidth={67}
+                  comHeight={22}
+                  compLeft={87}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Jemee Tala
+                </Text>
                 <Image
                   src={"images/img_morevertical_2.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[115px] xl:ml-[132px] ml-[149px] 3xl:ml-[178px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -1134,7 +1102,7 @@ const ProductsPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1167,9 +1135,9 @@ const ProductsPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:10962"
-                  comWidth={47}
+                  comWidth={198}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1199,11 +1167,11 @@ const ProductsPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[123px] xl:ml-[141px] ml-[159px] 3xl:ml-[190px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:10969"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={159}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1220,49 +1188,39 @@ const ProductsPage = () => {
                 >
                   --
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="41"
-                  comWidth={409}
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10965"
+                  comWidth={58}
                   comHeight={22}
                   compLeft={267}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10965"
-                    comWidth={58}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Hardware
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10966"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={90}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    A few seconds ago
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10967"
-                    comWidth={67}
-                    comHeight={22}
-                    compLeft={87}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Jemee Tala
-                  </Text>
-                </Row>
+                  Hardware
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10966"
+                  comWidth={107}
+                  comHeight={22}
+                  compLeft={90}
+                  compRight={0}
+                  compType="Text"
+                >
+                  A few seconds ago
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10967"
+                  comWidth={67}
+                  comHeight={22}
+                  compLeft={87}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Jemee Tala
+                </Text>
                 <Image
                   src={"images/img_morevertical_3.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[115px] xl:ml-[132px] ml-[149px] 3xl:ml-[178px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -1281,7 +1239,7 @@ const ProductsPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1314,9 +1272,9 @@ const ProductsPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:10980"
-                  comWidth={47}
+                  comWidth={198}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1346,11 +1304,11 @@ const ProductsPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[123px] xl:ml-[141px] ml-[159px] 3xl:ml-[190px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:10987"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={159}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1367,49 +1325,39 @@ const ProductsPage = () => {
                 >
                   --
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="42"
-                  comWidth={409}
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10983"
+                  comWidth={58}
                   comHeight={22}
                   compLeft={267}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10983"
-                    comWidth={58}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Hardware
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10984"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={90}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    A few seconds ago
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:10985"
-                    comWidth={67}
-                    comHeight={22}
-                    compLeft={87}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Jemee Tala
-                  </Text>
-                </Row>
+                  Hardware
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10984"
+                  comWidth={107}
+                  comHeight={22}
+                  compLeft={90}
+                  compRight={0}
+                  compType="Text"
+                >
+                  A few seconds ago
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:10985"
+                  comWidth={67}
+                  comHeight={22}
+                  compLeft={87}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Jemee Tala
+                </Text>
                 <Image
                   src={"images/img_morevertical_4.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[115px] xl:ml-[132px] ml-[149px] 3xl:ml-[178px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -1428,7 +1376,7 @@ const ProductsPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1461,9 +1409,9 @@ const ProductsPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:10998"
-                  comWidth={47}
+                  comWidth={198}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1493,11 +1441,11 @@ const ProductsPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[123px] xl:ml-[141px] ml-[159px] 3xl:ml-[190px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:11005"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={159}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1514,49 +1462,39 @@ const ProductsPage = () => {
                 >
                   --
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="43"
-                  comWidth={409}
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11001"
+                  comWidth={58}
                   comHeight={22}
                   compLeft={267}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11001"
-                    comWidth={58}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Hardware
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11002"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={90}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    A few seconds ago
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11003"
-                    comWidth={67}
-                    comHeight={22}
-                    compLeft={87}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Jemee Tala
-                  </Text>
-                </Row>
+                  Hardware
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11002"
+                  comWidth={107}
+                  comHeight={22}
+                  compLeft={90}
+                  compRight={0}
+                  compType="Text"
+                >
+                  A few seconds ago
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11003"
+                  comWidth={67}
+                  comHeight={22}
+                  compLeft={87}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Jemee Tala
+                </Text>
                 <Image
                   src={"images/img_morevertical_5.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[115px] xl:ml-[132px] ml-[149px] 3xl:ml-[178px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -1575,7 +1513,7 @@ const ProductsPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1608,9 +1546,9 @@ const ProductsPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:11016"
-                  comWidth={47}
+                  comWidth={198}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1640,11 +1578,11 @@ const ProductsPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[123px] xl:ml-[141px] ml-[159px] 3xl:ml-[190px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:11023"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={159}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1661,49 +1599,39 @@ const ProductsPage = () => {
                 >
                   --
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="44"
-                  comWidth={409}
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11019"
+                  comWidth={58}
                   comHeight={22}
                   compLeft={267}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11019"
-                    comWidth={58}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Hardware
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11020"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={90}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    A few seconds ago
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11021"
-                    comWidth={67}
-                    comHeight={22}
-                    compLeft={87}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Jemee Tala
-                  </Text>
-                </Row>
+                  Hardware
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11020"
+                  comWidth={107}
+                  comHeight={22}
+                  compLeft={90}
+                  compRight={0}
+                  compType="Text"
+                >
+                  A few seconds ago
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11021"
+                  comWidth={67}
+                  comHeight={22}
+                  compLeft={87}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Jemee Tala
+                </Text>
                 <Image
                   src={"images/img_morevertical_6.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[115px] xl:ml-[132px] ml-[149px] 3xl:ml-[178px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
@@ -1722,7 +1650,7 @@ const ProductsPage = () => {
                 comWidth={1341}
                 comHeight={72}
                 compLeft={0}
-                compRight={1}
+                compRight={0}
                 compType="Row"
               />
               <Row
@@ -1755,9 +1683,9 @@ const ProductsPage = () => {
                   R
                 </Text>
                 <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[4%]"
+                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
                   compId="4797:11034"
-                  comWidth={47}
+                  comWidth={198}
                   comHeight={48}
                   compLeft={8}
                   compRight={0}
@@ -1787,11 +1715,11 @@ const ProductsPage = () => {
                   </Text>
                 </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[123px] xl:ml-[141px] ml-[159px] 3xl:ml-[190px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:11041"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={159}
+                  compLeft={8}
                   compRight={0}
                   compType="Text"
                 >
@@ -1808,49 +1736,39 @@ const ProductsPage = () => {
                 >
                   --
                 </Text>
-                <Row
-                  className="font-sourcesanspro items-center justify-center lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] w-[31%]"
-                  compId="45"
-                  comWidth={409}
+                <Text
+                  className="font-normal font-sourcesanspro lg:ml-[207px] xl:ml-[237px] ml-[267px] 3xl:ml-[320px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11037"
+                  comWidth={58}
                   comHeight={22}
                   compLeft={267}
                   compRight={0}
-                  compType="Row"
+                  compType="Text"
                 >
-                  <Text
-                    className="font-normal not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11037"
-                    comWidth={58}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Hardware
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11038"
-                    comWidth={107}
-                    comHeight={22}
-                    compLeft={90}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    A few seconds ago
-                  </Text>
-                  <Text
-                    className="font-normal 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                    compId="4797:11039"
-                    comWidth={67}
-                    comHeight={22}
-                    compLeft={87}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Jemee Tala
-                  </Text>
-                </Row>
+                  Hardware
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11038"
+                  comWidth={107}
+                  comHeight={22}
+                  compLeft={90}
+                  compRight={0}
+                  compType="Text"
+                >
+                  A few seconds ago
+                </Text>
+                <Text
+                  className="font-normal font-sourcesanspro 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  compId="4797:11039"
+                  comWidth={67}
+                  comHeight={22}
+                  compLeft={87}
+                  compRight={0}
+                  compType="Text"
+                >
+                  Jemee Tala
+                </Text>
                 <Image
                   src={"images/img_morevertical_7.png"}
                   className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[115px] xl:ml-[132px] ml-[149px] 3xl:ml-[178px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
