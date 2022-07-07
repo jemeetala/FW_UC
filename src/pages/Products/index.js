@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
 const ProductsPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate8() {
+  function handleNavigate9() {
     navigate("/");
   }
 
@@ -68,7 +68,7 @@ const ProductsPage = () => {
                   compLeft={0}
                   compRight={0}
                   compType="Image"
-                  onClick={handleNavigate8}
+                  onClick={handleNavigate9}
                   alt="Group345"
                 />
                 <Image

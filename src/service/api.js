@@ -21,6 +21,24 @@ defaultAxios.interceptors.response.use(
   }
 );
 
+export const getTasks = ({
+  data = {},
+  headers = {},
+  params = {},
+  path = {},
+} = {}) => {
+  return defaultAxios({
+    url: `https://dhiwise-465019586991918096.myfreshworks.com/crm/sales/api/tasks`,
+    method: "get",
+    params: { filter: "open", ...params },
+    headers: {
+      Authorization: "Token token=kE5LRJOjD9lc246u11D0fA",
+      "Content-Type": "application/json",
+      ...headers,
+    },
+    data,
+  });
+};
 export const postContacts = ({
   data = {},
   headers = {},
@@ -50,24 +68,6 @@ export const postContacts = ({
       },
       ...data,
     },
-  });
-};
-export const getTasks = ({
-  data = {},
-  headers = {},
-  params = {},
-  path = {},
-} = {}) => {
-  return defaultAxios({
-    url: `https://dhiwise-459662296123098611.myfreshworks.com/crm/sales/api/tasks`,
-    method: "get",
-    params: { filter: "open", ...params },
-    headers: {
-      Authorization: "Token token=fg88hUkUczuzGL8gxyXJAA",
-      "Content-Type": "application/json",
-      ...headers,
-    },
-    data,
   });
 };
 export const getContacts = ({

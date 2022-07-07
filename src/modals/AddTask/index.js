@@ -22,7 +22,7 @@ const AddTaskModal = (props) => {
       >
         <div className="m-[auto] max-h-[97vh] overflow-y-auto">
           <Input
-            className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
+            className="common-pointer bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
             WrapClassName="3xl:pb-[20px] 3xl:pl-[38px] 3xl:pr-[42px] 3xl:pt-[19px] bg-gray_100 border border-indigo_50 border-solid flex lg:pb-[13px] lg:pl-[24px] lg:pr-[27px] lg:pt-[12px] pb-[17px] pl-[32px] pr-[35px] pt-[16px] w-[100%] xl:pb-[15px] xl:pl-[28px] xl:pr-[31px] xl:pt-[14px]"
             compId="4797:8624"
             comWidth={0}
@@ -30,6 +30,7 @@ const AddTaskModal = (props) => {
             compLeft={0}
             compRight={0}
             compType="EditText"
+            onClick={props.onRequestClose}
             name="Group368"
             placeholder="Add task"
             suffix={

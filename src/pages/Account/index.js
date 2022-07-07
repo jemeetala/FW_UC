@@ -16,7 +16,7 @@ import {
 const AccountPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate6() {
+  function handleNavigate7() {
     navigate("/");
   }
 
@@ -68,7 +68,7 @@ const AccountPage = () => {
                   compLeft={0}
                   compRight={0}
                   compType="Image"
-                  onClick={handleNavigate6}
+                  onClick={handleNavigate7}
                   alt="Group345"
                 />
                 <Image

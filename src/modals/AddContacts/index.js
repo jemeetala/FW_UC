@@ -4,29 +4,67 @@ import ModalProvider from "react-modal";
 import { postContacts } from "service/api";
 import "react-toastify/dist/ReactToastify.css";
 import useForm from "simple-react-hook-form";
+import * as yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
 import { Column, Input, Image, Row, Text, Grid, Button } from "components";
 
 const AddContactsModal = (props) => {
-  const [apiData, setapiData] = React.useState();
-  const form = useForm({
-    contact: {
-      first_name: "",
-      last_name: "",
-      emails: "",
-      mobile_number: "",
-      country: "",
-      city: "",
-      zipcode: "",
-      job_title: "",
+  const [apiData1, setapiData1] = React.useState();
+  const formValidationSchema = yup
+    .object()
+    .shape({
+      contact: yup
+        .object()
+        .shape({ first_name: yup.string().required("First_name is required") }),
+      contact: yup
+        .object()
+        .shape({ last_name: yup.string().required("Last_name is required") }),
+      contact: yup
+        .object()
+        .shape({ emails: yup.string().required("Emails is required") }),
+      contact: yup
+        .object()
+        .shape({
+          mobile_number: yup.string().required("Mobile_number is required"),
+        }),
+      contact: yup
+        .object()
+        .shape({ country: yup.string().required("Country is required") }),
+      contact: yup
+        .object()
+        .shape({ city: yup.string().required("City is required") }),
+      contact: yup
+        .object()
+        .shape({ zipcode: yup.string().required("Zipcode is required") }),
+      contact: yup
+        .object()
+        .shape({ job_title: yup.string().required("Job_title is required") }),
+    });
+  const form = useForm(
+    {
+      contact: {
+        first_name: "",
+        last_name: "",
+        emails: "",
+        mobile_number: "",
+        country: "",
+        city: "",
+        zipcode: "",
+        job_title: "",
+      },
     },
-  });
+    {
+      validate: true,
+      validateSchema: formValidationSchema,
+      validationOnChange: true,
+    }
+  );
 
-  function callApi(data) {
+  function callApi1(data) {
     const req = { data: { ...data } };
     postContacts(req)
       .then((res) => {
-        setapiData(res);
+        setapiData1(res);
 
         toast.success("Contact details inserted successfully");
       })
@@ -45,7 +83,7 @@ const AddContactsModal = (props) => {
       >
         <div className="m-[auto] max-h-[97vh] overflow-y-auto">
           <Input
-            className="bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
+            className="common-pointer bg-transparent border-0 font-normal not-italic p-[0] pl-[0] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_901 text-bluegray_901 w-[100%]"
             WrapClassName="3xl:pb-[20px] 3xl:pl-[19px] 3xl:pr-[24px] 3xl:pt-[19px] bg-gray_100 border border-indigo_50 border-solid flex lg:pb-[13px] lg:pl-[12px] lg:pr-[15px] lg:pt-[12px] pb-[17px] pl-[16px] pr-[20px] pt-[16px] w-[100%] xl:pb-[15px] xl:pl-[14px] xl:pr-[17px] xl:pt-[14px]"
             compId="4797:9733"
             comWidth={0}
@@ -53,6 +91,7 @@ const AddContactsModal = (props) => {
             compLeft={0}
             compRight={0}
             compType="EditText"
+            onClick={props.onRequestClose}
             name="Group398"
             placeholder="Add Contact"
             suffix={
@@ -122,6 +161,7 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.first_name", e.target.value);
                   }}
+                  errors={form?.errors?.contact?.first_name}
                   value={form?.values?.contact?.first_name}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -162,6 +202,7 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.last_name", e.target.value);
                   }}
+                  errors={form?.errors?.contact?.last_name}
                   value={form?.values?.contact?.last_name}
                   name="InputField"
                   placeholder="Enter Last Name"
@@ -212,6 +253,7 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.emails", e.target.value);
                   }}
+                  errors={form?.errors?.contact?.emails}
                   value={form?.values?.contact?.emails}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -252,6 +294,7 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.mobile_number", e.target.value);
                   }}
+                  errors={form?.errors?.contact?.mobile_number}
                   value={form?.values?.contact?.mobile_number}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -289,6 +332,7 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.country", e.target.value);
                   }}
+                  errors={form?.errors?.contact?.country}
                   value={form?.values?.contact?.country}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -326,6 +370,7 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.city", e.target.value);
                   }}
+                  errors={form?.errors?.contact?.city}
                   value={form?.values?.contact?.city}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -363,6 +408,7 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.zipcode", e.target.value);
                   }}
+                  errors={form?.errors?.contact?.zipcode}
                   value={form?.values?.contact?.zipcode}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -400,6 +446,7 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.job_title", e.target.value);
                   }}
+                  errors={form?.errors?.contact?.job_title}
                   value={form?.values?.contact?.job_title}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -436,7 +483,7 @@ const AddContactsModal = (props) => {
               compRight={0}
               compType="Button"
               onClick={() => {
-                form.handleSubmit(callApi);
+                form.handleSubmit(callApi1);
               }}
             >
               Save

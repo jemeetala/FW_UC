@@ -19,21 +19,19 @@ const DashboardPage = () => {
   const [isOpenAddTaskModal, setAddTaskModal] = React.useState(false);
 
   function handleNavigate1() {
-    navigate("/products");
-  }
-  function handleNavigate2() {
-    navigate("/account");
-  }
-  function handleNavigate3() {
-    navigate("/contacts");
-  }
-  function handleNavigate4() {
     navigate("/tasks");
   }
-  function handleNavigate9() {
-    //TODO: You had integrated navigation action, since you've not selected the target page,
-    // you will have to update navigation code manually.
-    navigate("");
+  function handleNavigate2() {
+    navigate("/products");
+  }
+  function handleNavigate3() {
+    navigate("/account");
+  }
+  function handleNavigate4() {
+    navigate("/contacts");
+  }
+  function handleNavigate5() {
+    navigate("/tasks");
   }
   function handleOpenAddTaskModal() {
     setAddTaskModal(true);
@@ -122,7 +120,7 @@ const DashboardPage = () => {
                   compLeft={15}
                   compRight={15}
                   compType="Image"
-                  onClick={handleNavigate3}
+                  onClick={handleNavigate4}
                   alt="Vector"
                 />
                 <Image
@@ -134,7 +132,7 @@ const DashboardPage = () => {
                   compLeft={15}
                   compRight={15}
                   compType="Image"
-                  onClick={handleNavigate2}
+                  onClick={handleNavigate3}
                   alt="Vector"
                 />
                 <Image
@@ -146,7 +144,7 @@ const DashboardPage = () => {
                   compLeft={16}
                   compRight={16}
                   compType="Image"
-                  onClick={handleNavigate1}
+                  onClick={handleNavigate2}
                   alt="Vector"
                 />
                 <Image
@@ -696,7 +694,7 @@ const DashboardPage = () => {
                       compLeft={381}
                       compRight={0}
                       compType="Text"
-                      onClick={handleNavigate9}
+                      onClick={handleNavigate5}
                     >
                       All tasks
                     </Text>

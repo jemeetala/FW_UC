@@ -15,7 +15,7 @@ import {
 const AddnotesPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate7() {
+  function handleNavigate8() {
     navigate("/");
   }
 
@@ -67,7 +67,7 @@ const AddnotesPage = () => {
                   compLeft={0}
                   compRight={0}
                   compType="Image"
-                  onClick={handleNavigate7}
+                  onClick={handleNavigate8}
                   alt="Group345"
                 />
                 <Image
