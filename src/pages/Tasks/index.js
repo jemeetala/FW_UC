@@ -15,16 +15,16 @@ import {
 } from "components";
 
 const TasksPage = () => {
-  const [apiData, setapiData] = React.useState();
+  const [apiData2, setapiData2] = React.useState();
   React.useEffect(() => {
-    callApi();
+    callApi2();
   }, []);
 
-  function callApi() {
+  function callApi2() {
     const req = {};
     getTasks(req)
       .then((res) => {
-        setapiData(res);
+        setapiData2(res);
       })
       .catch((err) => {
         console.error(err);
@@ -478,7 +478,7 @@ const TasksPage = () => {
                           compRight={0}
                           compType="Text"
                         >
-                          {apiData?.tasks?.title}
+                          {apiData2?.tasks?.title}
                         </Text>
                         <Text
                           className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
@@ -489,7 +489,7 @@ const TasksPage = () => {
                           compRight={0}
                           compType="Text"
                         >
-                          {apiData?.tasks?.description}
+                          {apiData2?.tasks?.description}
                         </Text>
                         <Text
                           className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-deep_orange_A700 w-[auto]"
@@ -500,7 +500,7 @@ const TasksPage = () => {
                           compRight={0}
                           compType="Text"
                         >
-                          {apiData?.tasks?.due_date}
+                          {apiData2?.tasks?.due_date}
                         </Text>
                       </Column>
                     </Row>

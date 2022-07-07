@@ -15,18 +15,18 @@ import {
 } from "components";
 
 const ContactsPage = () => {
-  const [apiData2, setapiData2] = React.useState();
+  const [apiData1, setapiData1] = React.useState();
   React.useEffect(() => {
-    callApi2();
+    callApi1();
   }, []);
   const navigate = useNavigate();
   const [isOpenAddContactsModal, setAddContactsModal] = React.useState(false);
 
-  function callApi2() {
+  function callApi1() {
     const req = {};
     getContacts(req)
       .then((res) => {
-        setapiData2(res);
+        setapiData1(res);
       })
       .catch((err) => {
         console.error(err);
@@ -531,7 +531,7 @@ const ContactsPage = () => {
               compType="List"
               orientation="vertical"
             >
-              {apiData2?.contacts?.map((apiData2Ele) => {
+              {apiData1?.contacts?.map((apiData1Ele) => {
                 return (
                   <Row
                     className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
@@ -551,7 +551,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.first_name}
+                      {apiData1Ele?.first_name}
                     </Text>
                     <Text
                       className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -562,7 +562,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.job_title}
+                      {apiData1Ele?.job_title}
                     </Text>
                     <Text
                       className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -573,7 +573,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.email}
+                      {apiData1Ele?.email}
                     </Text>
                     <Text
                       className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -584,7 +584,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.mobile_number}
+                      {apiData1Ele?.mobile_number}
                     </Text>
                     <Text
                       className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -595,7 +595,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.lead_score}
+                      {apiData1Ele?.lead_score}
                     </Text>
                     <Text
                       className="font-medium ml-[109px] 3xl:ml-[130px] lg:ml-[84px] xl:ml-[96px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -606,7 +606,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.country}
+                      {apiData1Ele?.country}
                     </Text>
                     <Button
                       className="bg-green_50 font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[11%]"
@@ -617,7 +617,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Button"
                     >
-                      {apiData2Ele?.display_name}
+                      {apiData1Ele?.display_name}
                     </Button>
                     <Image
                       src={"images/img_edit12.png"}

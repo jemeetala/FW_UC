@@ -31,7 +31,12 @@ export const postContacts = ({
     url: `https://dhiwise-465019586991918096.myfreshworks.com/crm/sales/api/contacts`,
     method: "post",
     params,
-    headers: { "Content-Type": "application/json", ...headers },
+    headers: {
+      Authorization: "Token token=kE5LRJOjD9lc246u11D0fA",
+      "Content-Type": "application/json",
+      "content-type": "application/json",
+      ...headers,
+    },
     data: {
       contact: {
         first_name: "jainil",
@@ -57,7 +62,11 @@ export const getTasks = ({
     url: `https://dhiwise-459662296123098611.myfreshworks.com/crm/sales/api/tasks`,
     method: "get",
     params: { filter: "open", ...params },
-    headers: { "Content-Type": "application/json", ...headers },
+    headers: {
+      Authorization: "Token token=fg88hUkUczuzGL8gxyXJAA",
+      "Content-Type": "application/json",
+      ...headers,
+    },
     data,
   });
 };
@@ -79,6 +88,8 @@ export const getContacts = ({
       "User-Agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
       "X-Requested-With": "XMLHttpRequest",
+      Authorization: "Token token=kE5LRJOjD9lc246u11D0fA",
+      "content-type": "application/json",
       ...headers,
     },
     data,

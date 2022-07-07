@@ -4,73 +4,35 @@ import ModalProvider from "react-modal";
 import { postContacts } from "service/api";
 import "react-toastify/dist/ReactToastify.css";
 import useForm from "simple-react-hook-form";
-import * as yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
 import { Column, Input, Image, Row, Text, Grid, Button } from "components";
 
 const AddContactsModal = (props) => {
-  const [apiData1, setapiData1] = React.useState();
-  const formValidationSchema = yup
-    .object()
-    .shape({
-      contact: yup
-        .object()
-        .shape({ first_name: yup.string().required("First_name is required") }),
-      contact: yup
-        .object()
-        .shape({ last_name: yup.string().required("Last_name is required") }),
-      contact: yup
-        .object()
-        .shape({
-          mobile_number: yup.string().required("Mobile_number is required"),
-        }),
-      contact: yup
-        .object()
-        .shape({ emails: yup.string().required("Emails is required") }),
-      contact: yup
-        .object()
-        .shape({ country: yup.string().required("Country is required") }),
-      contact: yup
-        .object()
-        .shape({ city: yup.string().required("City is required") }),
-      contact: yup
-        .object()
-        .shape({ job_title: yup.string().required("Job_title is required") }),
-      contact: yup
-        .object()
-        .shape({ zipcode: yup.string().required("Zipcode is required") }),
-    });
-  const form = useForm(
-    {
-      contact: {
-        first_name: "",
-        last_name: "",
-        mobile_number: "",
-        emails: "",
-        country: "",
-        city: "",
-        job_title: "",
-        zipcode: "",
-      },
+  const [apiData, setapiData] = React.useState();
+  const form = useForm({
+    contact: {
+      first_name: "",
+      last_name: "",
+      emails: "",
+      mobile_number: "",
+      country: "",
+      city: "",
+      zipcode: "",
+      job_title: "",
     },
-    {
-      validate: true,
-      validateSchema: formValidationSchema,
-      validationOnChange: true,
-    }
-  );
+  });
 
-  function callApi1(data) {
+  function callApi(data) {
     const req = { data: { ...data } };
     postContacts(req)
       .then((res) => {
-        setapiData1(res);
+        setapiData(res);
 
-        toast.success("Contact Details inserted successfully");
+        toast.success("Contact details inserted successfully");
       })
       .catch((err) => {
         console.error(err);
-        toast.error("Contact Details are not inserted..");
+        toast.error("COntact Details not inserted...");
       });
   }
 
@@ -160,7 +122,6 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.first_name", e.target.value);
                   }}
-                  errors={form?.errors?.contact?.first_name}
                   value={form?.values?.contact?.first_name}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -201,7 +162,6 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.last_name", e.target.value);
                   }}
-                  errors={form?.errors?.contact?.last_name}
                   value={form?.values?.contact?.last_name}
                   name="InputField"
                   placeholder="Enter Last Name"
@@ -252,7 +212,6 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.emails", e.target.value);
                   }}
-                  errors={form?.errors?.contact?.emails}
                   value={form?.values?.contact?.emails}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -293,7 +252,6 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.mobile_number", e.target.value);
                   }}
-                  errors={form?.errors?.contact?.mobile_number}
                   value={form?.values?.contact?.mobile_number}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -331,7 +289,6 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.country", e.target.value);
                   }}
-                  errors={form?.errors?.contact?.country}
                   value={form?.values?.contact?.country}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -369,7 +326,6 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.city", e.target.value);
                   }}
-                  errors={form?.errors?.contact?.city}
                   value={form?.values?.contact?.city}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -407,7 +363,6 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.zipcode", e.target.value);
                   }}
-                  errors={form?.errors?.contact?.zipcode}
                   value={form?.values?.contact?.zipcode}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -445,7 +400,6 @@ const AddContactsModal = (props) => {
                   onChange={(e) => {
                     form.handleChange("contact.job_title", e.target.value);
                   }}
-                  errors={form?.errors?.contact?.job_title}
                   value={form?.values?.contact?.job_title}
                   name="InputField"
                   placeholder="Enter First Name"
@@ -482,7 +436,7 @@ const AddContactsModal = (props) => {
               compRight={0}
               compType="Button"
               onClick={() => {
-                form.handleSubmit(callApi1);
+                form.handleSubmit(callApi);
               }}
             >
               Save
