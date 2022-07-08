@@ -578,315 +578,107 @@ const ProductsPage = () => {
               compType="List"
               orientation="vertical"
             >
-              <Row
-                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
-                compId="4797:10851"
-                comWidth={1342}
-                comHeight={98}
-                compLeft={0}
-                compRight={0}
-                compType="Row"
-              >
-                <Column
-                  className="items-start w-[25%]"
-                  compId="4797:10857"
-                  comWidth={332}
-                  comHeight={48}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Column"
-                >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:10858"
-                    comWidth={47}
-                    comHeight={22}
+              {apiData1?.products?.map((apiData1Ele) => {
+                return (
+                  <Row
+                    className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                    compId="4797:10851"
+                    comWidth={1342}
+                    comHeight={98}
                     compLeft={0}
                     compRight={0}
-                    compType="Text"
+                    compType="Row"
                   >
-                    {apiData1?.products?.name}
-                  </Text>
-                  <Text
-                    className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:10859"
-                    comWidth={29}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Lead
-                  </Text>
-                </Column>
-                <Text
-                  className="font-normal lg:leading-[17px] xl:leading-[19px] leading-[22.00px] 2xl:leading-[22px] 3xl:leading-[26px] mb-[1px] xl:mt-[2px] lg:mt-[2px] mt-[3px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 text-left w-[5%]"
-                  compId="4797:10865"
-                  comWidth={68}
-                  comHeight={44}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Text"
-                >
-                  {apiData1?.products?.description}
-                </Text>
-                <Text
-                  className="font-normal lg:ml-[205px] xl:ml-[234px] ml-[264px] 3xl:ml-[316px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="4797:10860"
-                  comWidth={58}
-                  comHeight={22}
-                  compLeft={264}
-                  compRight={0}
-                  compType="Text"
-                >
-                  {apiData1?.products?.category}
-                </Text>
-                <Text
-                  className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="4797:10861"
-                  comWidth={107}
-                  comHeight={22}
-                  compLeft={90}
-                  compRight={0}
-                  compType="Text"
-                >
-                  {apiData1?.products?.sku_number}
-                </Text>
-                <Text
-                  className="font-normal lg:mb-[10px] xl:mb-[11px] mb-[13px] 3xl:mb-[15px] 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="4797:10862"
-                  comWidth={147}
-                  comHeight={27}
-                  compLeft={87}
-                  compRight={0}
-                  compType="Text"
-                >
-                  {apiData1?.products?.valid_till}
-                </Text>
-                <Image
-                  src={"images/img_morevertical.png"}
-                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[53px] xl:ml-[61px] ml-[69px] 3xl:ml-[82px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                  compId="4797:10863"
-                  comWidth={24}
-                  comHeight={24}
-                  compLeft={69}
-                  compRight={0}
-                  compType="Image"
-                  alt="morevertical"
-                />
-              </Row>
-              <Line
-                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
-                compId="4797:10753"
-                comWidth={1341}
-                comHeight={72}
-                compLeft={0}
-                compRight={0}
-                compType="Row"
-              />
-              <Row
-                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
-                compId="5089:8875"
-                comWidth={1342}
-                comHeight={98}
-                compLeft={0}
-                compRight={0}
-                compType="Row"
-              >
-                <Column
-                  className="items-start w-[25%]"
-                  compId="5089:8877"
-                  comWidth={332}
-                  comHeight={48}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Column"
-                >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="5089:8878"
-                    comWidth={47}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Riya D
-                  </Text>
-                  <Text
-                    className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="5089:8879"
-                    comWidth={29}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Lead
-                  </Text>
-                </Column>
-                <Text
-                  className="font-normal lg:leading-[17px] xl:leading-[19px] leading-[22.00px] 2xl:leading-[22px] 3xl:leading-[26px] mb-[1px] xl:mt-[2px] lg:mt-[2px] mt-[3px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 text-left w-[5%]"
-                  compId="5089:8884"
-                  comWidth={68}
-                  comHeight={44}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Text"
-                >
-                  Description
-                </Text>
-                <Text
-                  className="font-normal lg:ml-[205px] xl:ml-[234px] ml-[264px] 3xl:ml-[316px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="5089:8880"
-                  comWidth={58}
-                  comHeight={22}
-                  compLeft={264}
-                  compRight={0}
-                  compType="Text"
-                >
-                  Hardware
-                </Text>
-                <Text
-                  className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="5089:8881"
-                  comWidth={107}
-                  comHeight={22}
-                  compLeft={90}
-                  compRight={0}
-                  compType="Text"
-                >
-                  A few seconds ago
-                </Text>
-                <Text
-                  className="font-normal lg:mb-[10px] xl:mb-[11px] mb-[13px] 3xl:mb-[15px] 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="5089:8882"
-                  comWidth={147}
-                  comHeight={27}
-                  compLeft={87}
-                  compRight={0}
-                  compType="Text"
-                >
-                  Jemee Tala
-                </Text>
-                <Image
-                  src={"images/img_morevertical_1.png"}
-                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[53px] xl:ml-[61px] ml-[69px] 3xl:ml-[82px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                  compId="5089:8883"
-                  comWidth={24}
-                  comHeight={24}
-                  compLeft={69}
-                  compRight={0}
-                  compType="Image"
-                  alt="morevertical"
-                />
-              </Row>
-              <Line
-                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
-                compId="4797:10753"
-                comWidth={1341}
-                comHeight={72}
-                compLeft={0}
-                compRight={0}
-                compType="Row"
-              />
-              <Row
-                className="bg-white_A700 border border-gray_200 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
-                compId="5089:8888"
-                comWidth={1342}
-                comHeight={98}
-                compLeft={0}
-                compRight={0}
-                compType="Row"
-              >
-                <Column
-                  className="items-start w-[25%]"
-                  compId="5089:8890"
-                  comWidth={332}
-                  comHeight={48}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Column"
-                >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="5089:8891"
-                    comWidth={47}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Riya D
-                  </Text>
-                  <Text
-                    className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="5089:8892"
-                    comWidth={29}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Lead
-                  </Text>
-                </Column>
-                <Text
-                  className="font-normal lg:leading-[17px] xl:leading-[19px] leading-[22.00px] 2xl:leading-[22px] 3xl:leading-[26px] mb-[1px] xl:mt-[2px] lg:mt-[2px] mt-[3px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 text-left w-[5%]"
-                  compId="5089:8897"
-                  comWidth={68}
-                  comHeight={44}
-                  compLeft={0}
-                  compRight={0}
-                  compType="Text"
-                >
-                  Description
-                </Text>
-                <Text
-                  className="font-normal lg:ml-[205px] xl:ml-[234px] ml-[264px] 3xl:ml-[316px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="5089:8893"
-                  comWidth={58}
-                  comHeight={22}
-                  compLeft={264}
-                  compRight={0}
-                  compType="Text"
-                >
-                  Hardware
-                </Text>
-                <Text
-                  className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="5089:8894"
-                  comWidth={107}
-                  comHeight={22}
-                  compLeft={90}
-                  compRight={0}
-                  compType="Text"
-                >
-                  A few seconds ago
-                </Text>
-                <Text
-                  className="font-normal lg:mb-[10px] xl:mb-[11px] mb-[13px] 3xl:mb-[15px] 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
-                  compId="5089:8895"
-                  comWidth={147}
-                  comHeight={27}
-                  compLeft={87}
-                  compRight={0}
-                  compType="Text"
-                >
-                  Jemee Tala
-                </Text>
-                <Image
-                  src={"images/img_morevertical_2.png"}
-                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[53px] xl:ml-[61px] ml-[69px] 3xl:ml-[82px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
-                  compId="5089:8896"
-                  comWidth={24}
-                  comHeight={24}
-                  compLeft={69}
-                  compRight={0}
-                  compType="Image"
-                  alt="morevertical"
-                />
-              </Row>
+                    <Column
+                      className="items-start w-[25%]"
+                      compId="4797:10857"
+                      comWidth={332}
+                      comHeight={48}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Column"
+                    >
+                      <Text
+                        className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                        compId="4797:10858"
+                        comWidth={47}
+                        comHeight={22}
+                        compLeft={0}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        {apiData1Ele?.name}
+                      </Text>
+                      <Text
+                        className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                        compId="4797:10859"
+                        comWidth={29}
+                        comHeight={22}
+                        compLeft={0}
+                        compRight={0}
+                        compType="Text"
+                      >
+                        Lead
+                      </Text>
+                    </Column>
+                    <Text
+                      className="font-normal lg:leading-[17px] xl:leading-[19px] leading-[22.00px] 2xl:leading-[22px] 3xl:leading-[26px] mb-[1px] xl:mt-[2px] lg:mt-[2px] mt-[3px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 text-left w-[5%]"
+                      compId="4797:10865"
+                      comWidth={68}
+                      comHeight={44}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      {apiData1Ele?.description}
+                    </Text>
+                    <Text
+                      className="font-normal lg:ml-[205px] xl:ml-[234px] ml-[264px] 3xl:ml-[316px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
+                      compId="4797:10860"
+                      comWidth={58}
+                      comHeight={22}
+                      compLeft={264}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      {apiData1Ele?.category}
+                    </Text>
+                    <Text
+                      className="font-normal 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] ml-[90px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
+                      compId="4797:10861"
+                      comWidth={107}
+                      comHeight={22}
+                      compLeft={90}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      {apiData1Ele?.sku_number}
+                    </Text>
+                    <Text
+                      className="font-normal lg:mb-[10px] xl:mb-[11px] mb-[13px] 3xl:mb-[15px] 3xl:ml-[104px] lg:ml-[67px] xl:ml-[77px] ml-[87px] lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_700 w-[auto]"
+                      compId="4797:10862"
+                      comWidth={147}
+                      comHeight={27}
+                      compLeft={87}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      {apiData1Ele?.valid_till}
+                    </Text>
+                    <Image
+                      src={"images/img_morevertical.png"}
+                      className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[53px] xl:ml-[61px] ml-[69px] 3xl:ml-[82px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                      compId="4797:10863"
+                      comWidth={24}
+                      comHeight={24}
+                      compLeft={69}
+                      compRight={0}
+                      compType="Image"
+                      alt="morevertical"
+                    />
+                  </Row>
+                );
+              })}
             </List>
           </Column>
         </Row>
