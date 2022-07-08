@@ -18,8 +18,8 @@
     "simple-react-hook-form": "^1.0.4",
     "yup": "^0.32.11",
     "react-toastify": "^9.0.1",
-    "react-select": "^5.2.1",
-    "react-modal": "^3.14.4"
+    "react-modal": "^3.14.4",
+    "react-select": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

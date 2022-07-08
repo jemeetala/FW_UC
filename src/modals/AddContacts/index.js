@@ -9,7 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { Column, Input, Image, Row, Text, Grid, Button } from "components";
 
 const AddContactsModal = (props) => {
-  const [apiData1, setapiData1] = React.useState();
+  const [apiData3, setapiData3] = React.useState();
   const formValidationSchema = yup
     .object()
     .shape({
@@ -60,11 +60,11 @@ const AddContactsModal = (props) => {
     }
   );
 
-  function callApi1(data) {
+  function callApi3(data) {
     const req = { data: { ...data } };
     postContacts(req)
       .then((res) => {
-        setapiData1(res);
+        setapiData3(res);
 
         toast.success("Contact details inserted successfully");
       })
@@ -96,7 +96,7 @@ const AddContactsModal = (props) => {
             placeholder="Add Contact"
             suffix={
               <Image
-                src={"images/img_vector_82.png"}
+                src={"images/img_vector_70.png"}
                 className="w-[16.01px] h-[16.01px] lg:w-[12px] lg:h-[13px] xl:w-[14px] xl:h-[15px] 2xl:w-[16px] 2xl:h-[17px] 3xl:w-[19px] 3xl:h-[20px] my-[auto]"
                 compId="I4542:7615;120:1608"
                 comWidth={16.01}
@@ -119,7 +119,7 @@ const AddContactsModal = (props) => {
           >
             <Row
               className="items-center justify-start ml-[1px] xl:mr-[2px] lg:mr-[2px] mr-[3px] w-[99%]"
-              compId="85"
+              compId="89"
               comWidth={477}
               comHeight={62}
               compLeft={1}
@@ -211,7 +211,7 @@ const AddContactsModal = (props) => {
             </Row>
             <Grid
               className="lg:gap-[28px] xl:gap-[32px] gap-[37px] 3xl:gap-[44px] grid grid-cols-2 lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[100%]"
-              compId="90"
+              compId="94"
               comWidth={481}
               comHeight={217}
               compLeft={0}
@@ -483,7 +483,7 @@ const AddContactsModal = (props) => {
               compRight={0}
               compType="Button"
               onClick={() => {
-                form.handleSubmit(callApi1);
+                form.handleSubmit(callApi3);
               }}
             >
               Save

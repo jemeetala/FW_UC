@@ -1,5 +1,4 @@
 import React from "react";
-import Addnotes from "pages/Addnotes";
 import Account from "pages/Account";
 import Contacts from "pages/Contacts";
 import Tasks from "pages/Tasks";
@@ -19,7 +18,6 @@ const ProjectRoutes = () => {
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/account" element={<Account />} />
-        <Route path="/addnotes" element={<Addnotes />} />
         <Route path="/dhiwise-dashboard" element={<Home />} />
       </Routes>
     </Router>

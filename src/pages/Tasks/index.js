@@ -1,5 +1,6 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
 import { getTasks } from "service/api";
 import AddTaskModal from "modals/AddTask";
 import {
@@ -16,21 +17,34 @@ import {
 } from "components";
 
 const TasksPage = () => {
-  const [apiData, setapiData] = React.useState();
+  const [apiData2, setapiData2] = React.useState();
   React.useEffect(() => {
-    callApi();
+    callApi2();
   }, []);
+  const navigate = useNavigate();
   const [isOpenAddTaskModal, setAddTaskModal] = React.useState(false);
 
-  function callApi() {
+  function callApi2() {
     const req = {};
     getTasks(req)
       .then((res) => {
-        setapiData(res);
+        setapiData2(res);
       })
       .catch((err) => {
         console.error(err);
       });
+  }
+  function handleNavigate9() {
+    navigate("/products");
+  }
+  function handleNavigate10() {
+    navigate("/account");
+  }
+  function handleNavigate11() {
+    navigate("/contacts");
+  }
+  function handleNavigate12() {
+    navigate("/");
   }
   function handleOpenAddTaskModal() {
     setAddTaskModal(true);
@@ -54,7 +68,7 @@ const TasksPage = () => {
       >
         <Row
           className="items-start justify-evenly w-[100%]"
-          compId="68"
+          compId="72"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -92,13 +106,14 @@ const TasksPage = () => {
                   alt="Group371"
                 />
                 <Button
-                  className="bg-blue_50 flex lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] lg:p-[13px] xl:p-[15px] p-[17px] 3xl:p-[20px] rounded-radius4 lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
+                  className="common-pointer bg-blue_50 flex lg:h-[39px] xl:h-[45px] h-[50px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] lg:p-[13px] xl:p-[15px] p-[17px] 3xl:p-[20px] rounded-radius4 lg:w-[38px] xl:w-[44px] w-[50px] 3xl:w-[60px]"
                   compId="5052:8688"
                   comWidth={50}
                   comHeight={50}
                   compLeft={0}
                   compRight={0}
                   compType="IconButton"
+                  onClick={handleNavigate12}
                 >
                   <Image
                     src={"images/img_group177_1.png"}
@@ -109,44 +124,48 @@ const TasksPage = () => {
                     compLeft={0}
                     compRight={0}
                     compType="IconButton"
+                    onClick={handleNavigate12}
                     alt="Group177"
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_57.png"}
-                  className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[20px] xl:mt-[23px] mt-[26px] 3xl:mt-[31px] mx-[auto] object-contain lg:w-[14px] xl:w-[16px] w-[19px] 3xl:w-[22px]"
+                  src={"images/img_vector_45.png"}
+                  className="common-pointer lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[20px] xl:mt-[23px] mt-[26px] 3xl:mt-[31px] mx-[auto] object-contain lg:w-[14px] xl:w-[16px] w-[19px] 3xl:w-[22px]"
                   compId="I5052:8691;120:2258"
                   comWidth={19}
                   comHeight={19}
                   compLeft={15}
                   compRight={15}
                   compType="Image"
+                  onClick={handleNavigate11}
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_58.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[38%]"
+                  src={"images/img_vector_46.png"}
+                  className="common-pointer lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[38%]"
                   compId="I5052:8692;120:2252"
                   comWidth={19}
                   comHeight={20}
                   compLeft={15}
                   compRight={15}
                   compType="Image"
+                  onClick={handleNavigate10}
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_59.png"}
-                  className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
+                  src={"images/img_vector_47.png"}
+                  className="common-pointer lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I5052:8693;120:328"
                   comWidth={16}
                   comHeight={19}
                   compLeft={16}
                   compRight={16}
                   compType="Image"
+                  onClick={handleNavigate9}
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_60.png"}
+                  src={"images/img_vector_48.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I5052:8694;120:1630"
                   comWidth={18}
@@ -157,7 +176,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_61.png"}
+                  src={"images/img_vector_49.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I5052:8695;120:434"
                   comWidth={20}
@@ -168,7 +187,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_62.png"}
+                  src={"images/img_vector_50.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I5052:8696;120:1750"
                   comWidth={20}
@@ -179,7 +198,7 @@ const TasksPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_63.png"}
+                  src={"images/img_vector_51.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I5052:8697;120:1890"
                   comWidth={19}
@@ -194,7 +213,7 @@ const TasksPage = () => {
           </aside>
           <Column
             className="items-start justify-start lg:mb-[322px] xl:mb-[368px] mb-[414px] 3xl:mb-[497px] w-[93%]"
-            compId="67"
+            compId="71"
             comWidth={1341}
             comHeight={610}
             compLeft={0}
@@ -225,7 +244,7 @@ const TasksPage = () => {
                 placeholder="All"
                 prefix={
                   <Image
-                    src={"images/img_vector_64.png"}
+                    src={"images/img_vector_52.png"}
                     className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
                     compId="I5052:8718;120:1866"
                     comWidth={20.01}
@@ -240,7 +259,7 @@ const TasksPage = () => {
                   inputvalue?.length > 0 ? (
                     <Image
                       onClick={() => setInputvalue("")}
-                      src={"images/close.svg"}
+                      src={"images/close1.svg"}
                       className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
                       compId="I2:3811;309:8624"
                       comWidth={20.01}
@@ -377,7 +396,7 @@ const TasksPage = () => {
             </Row>
             <Column
               className="items-center xl:pl-[3px] lg:pl-[3px] pl-[4px] w-[100%]"
-              compId="73"
+              compId="77"
               comWidth={1341}
               comHeight={538}
               compLeft={0}
@@ -386,7 +405,7 @@ const TasksPage = () => {
             >
               <Row
                 className="items-start justify-evenly w-[100%]"
-                compId="66"
+                compId="70"
                 comWidth={1337}
                 comHeight={538}
                 compLeft={0}
@@ -404,7 +423,7 @@ const TasksPage = () => {
                 >
                   <Column
                     className="items-center px-[1px] w-[100%]"
-                    compId="74"
+                    compId="78"
                     comWidth={885}
                     comHeight={58}
                     compLeft={0}
@@ -444,7 +463,7 @@ const TasksPage = () => {
                   </Column>
                   <List
                     className="gap-[0] min-h-[auto] w-[100%]"
-                    compId="72"
+                    compId="76"
                     comWidth={885}
                     comHeight={480}
                     compLeft={0}
@@ -452,7 +471,7 @@ const TasksPage = () => {
                     compType="List"
                     orientation="vertical"
                   >
-                    {apiData?.tasks?.map((apiDataEle) => {
+                    {apiData2?.tasks?.map((apiData2Ele) => {
                       return (
                         <Row
                           className="bg-white_A700 border border-gray_201 border-solid items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
@@ -490,7 +509,7 @@ const TasksPage = () => {
                               compRight={0}
                               compType="Text"
                             >
-                              {apiDataEle?.title}
+                              {apiData2Ele?.title}
                             </Text>
                             <Text
                               className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
@@ -501,7 +520,7 @@ const TasksPage = () => {
                               compRight={0}
                               compType="Text"
                             >
-                              {apiDataEle?.description}
+                              {apiData2Ele?.description}
                             </Text>
                             <Text
                               className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-deep_orange_A700 w-[auto]"
@@ -512,7 +531,7 @@ const TasksPage = () => {
                               compRight={0}
                               compType="Text"
                             >
-                              {apiDataEle?.due_date}
+                              {apiData2Ele?.due_date}
                             </Text>
                           </Column>
                         </Row>
@@ -542,7 +561,7 @@ const TasksPage = () => {
                   </Text>
                   <Column
                     className="items-start justify-start lg:ml-[4px] xl:ml-[5px] ml-[6px] 3xl:ml-[7px] w-[20%]"
-                    compId="69"
+                    compId="73"
                     comWidth={90}
                     comHeight={186}
                     compLeft={6}
@@ -551,13 +570,13 @@ const TasksPage = () => {
                   >
                     <RadioGroup
                       className="w-[96%]"
-                      compId="70"
+                      compId="74"
                       comWidth={86}
                       comHeight={85}
                       compLeft={0}
                       compRight={0}
                       compType="RadioGroup"
-                      name="Group70"
+                      name="Group74"
                     >
                       <Radio
                         value={false}
@@ -569,7 +588,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={11}
                         compType="Radio"
-                        name="Group70"
+                        name="Group74"
                         label="Overdue"
                       ></Radio>
                       <Radio
@@ -582,7 +601,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={25}
                         compType="Radio"
-                        name="Group70"
+                        name="Group74"
                         label="Today"
                       ></Radio>
                       <Radio
@@ -595,7 +614,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={0}
                         compType="Radio"
-                        name="Group70"
+                        name="Group74"
                         label="Tomorrow"
                       ></Radio>
                     </RadioGroup>
@@ -613,13 +632,13 @@ const TasksPage = () => {
                     <RadioGroup
                       selectedValue="Open"
                       className="lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                      compId="71"
+                      compId="75"
                       comWidth={90}
                       comHeight={54}
                       compLeft={0}
                       compRight={0}
                       compType="RadioGroup"
-                      name="Group71"
+                      name="Group75"
                     >
                       <Radio
                         value={true}
@@ -631,7 +650,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={33}
                         compType="Radio"
-                        name="Group71"
+                        name="Group75"
                         label="Open"
                       ></Radio>
                       <Radio
@@ -644,7 +663,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={0}
                         compType="Radio"
-                        name="Group71"
+                        name="Group75"
                         label="Completed"
                       ></Radio>
                     </RadioGroup>

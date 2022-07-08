@@ -15,24 +15,36 @@ import {
 } from "components";
 
 const ContactsPage = () => {
-  const [apiData2, setapiData2] = React.useState();
+  const [apiData4, setapiData4] = React.useState();
   React.useEffect(() => {
-    callApi2();
+    callApi4();
   }, []);
   const navigate = useNavigate();
   const [isOpenAddContactsModal, setAddContactsModal] = React.useState(false);
 
-  function callApi2() {
+  function callApi4() {
     const req = {};
     getContacts(req)
       .then((res) => {
-        setapiData2(res);
+        setapiData4(res);
       })
       .catch((err) => {
         console.error(err);
       });
   }
+  function handleNavigate5() {
+    navigate("/tasks");
+  }
   function handleNavigate6() {
+    navigate("/products");
+  }
+  function handleNavigate7() {
+    navigate("/account");
+  }
+  function handleNavigate8() {
+    navigate("/");
+  }
+  function handleNavigate23() {
     navigate("/");
   }
   function handleOpenAddContactsModal() {
@@ -57,7 +69,7 @@ const ContactsPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="83"
+          compId="87"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -92,18 +104,19 @@ const ContactsPage = () => {
                   compLeft={0}
                   compRight={0}
                   compType="Image"
-                  onClick={handleNavigate6}
+                  onClick={handleNavigate23}
                   alt="Group345"
                 />
                 <Image
-                  src={"images/img_vector_70.png"}
-                  className="lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mt-[25px] xl:mt-[29px] mt-[33px] 3xl:mt-[39px] mx-[auto] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
+                  src={"images/img_vector_58.png"}
+                  className="common-pointer lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mt-[25px] xl:mt-[29px] mt-[33px] 3xl:mt-[39px] mx-[auto] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                   compId="I4793:8298;275:1558"
                   comWidth={16}
                   comHeight={16}
                   compLeft={17}
                   compRight={17}
                   compType="Image"
+                  onClick={handleNavigate8}
                   alt="Vector"
                 />
                 <Button
@@ -128,40 +141,43 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_71.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[17px] xl:mt-[20px] mt-[23px] 3xl:mt-[27px] mx-[auto] object-contain w-[38%]"
+                  src={"images/img_vector_59.png"}
+                  className="common-pointer lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[17px] xl:mt-[20px] mt-[23px] 3xl:mt-[27px] mx-[auto] object-contain w-[38%]"
                   compId="I4793:8299;120:2252"
                   comWidth={19}
                   comHeight={20}
                   compLeft={15}
                   compRight={15}
                   compType="Image"
+                  onClick={handleNavigate7}
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_72.png"}
-                  className="lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
+                  src={"images/img_vector_60.png"}
+                  className="common-pointer lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I4793:8300;120:328"
                   comWidth={16}
                   comHeight={19}
                   compLeft={16}
                   compRight={16}
                   compType="Image"
+                  onClick={handleNavigate6}
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_73.png"}
-                  className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
+                  src={"images/img_vector_61.png"}
+                  className="common-pointer lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4793:8301;120:1630"
                   comWidth={18}
                   comHeight={20}
                   compLeft={16}
                   compRight={16}
                   compType="Image"
+                  onClick={handleNavigate5}
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_74.png"}
+                  src={"images/img_vector_62.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4793:8302;120:434"
                   comWidth={20}
@@ -172,7 +188,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_75.png"}
+                  src={"images/img_vector_63.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4793:8303;120:1750"
                   comWidth={20}
@@ -183,7 +199,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_76.png"}
+                  src={"images/img_vector_64.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4793:8304;120:1890"
                   comWidth={19}
@@ -229,7 +245,7 @@ const ContactsPage = () => {
                 placeholder="Contacts"
                 prefix={
                   <Image
-                    src={"images/img_vector_77.png"}
+                    src={"images/img_vector_65.png"}
                     className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
                     compId="I4793:8330;120:1866"
                     comWidth={20.01}
@@ -244,7 +260,7 @@ const ContactsPage = () => {
                   inputvalue?.length > 0 ? (
                     <Image
                       onClick={() => setInputvalue("")}
-                      src={"images/close1.svg"}
+                      src={"images/close2.svg"}
                       className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
                       compId="I2:3811;309:8624"
                       comWidth={20.01}
@@ -411,7 +427,7 @@ const ContactsPage = () => {
                 Job Title
               </Text>
               <Image
-                src={"images/img_vector_78.png"}
+                src={"images/img_vector_66.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] lg:ml-[5px] xl:ml-[6px] ml-[7px] 3xl:ml-[8px] xl:my-[1px] lg:my-[1px] my-[2px] object-contain w-[1%]"
                 compId="I5022:8457;5:15"
                 comWidth={9}
@@ -433,7 +449,7 @@ const ContactsPage = () => {
                 Emails
               </Text>
               <Image
-                src={"images/img_vector_79.png"}
+                src={"images/img_vector_67.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:mb-[1px] lg:mb-[1px] mb-[2px] ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] object-contain w-[1%]"
                 compId="I5022:8460;5:15"
                 comWidth={9}
@@ -455,7 +471,7 @@ const ContactsPage = () => {
                 Mobile No
               </Text>
               <Image
-                src={"images/img_vector_80.png"}
+                src={"images/img_vector_68.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] xl:my-[1px] lg:my-[1px] my-[2px] object-contain w-[1%]"
                 compId="I5022:8463;5:15"
                 comWidth={9}
@@ -499,7 +515,7 @@ const ContactsPage = () => {
                 display_name
               </Text>
               <Image
-                src={"images/img_vector_81.png"}
+                src={"images/img_vector_69.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:mb-[1px] lg:mb-[1px] mb-[2px] ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] object-contain w-[1%]"
                 compId="I5022:8470;5:15"
                 comWidth={9}
@@ -523,7 +539,7 @@ const ContactsPage = () => {
             </Row>
             <List
               className="font-montserrat gap-[0] min-h-[auto] w-[100%]"
-              compId="84"
+              compId="88"
               comWidth={1341}
               comHeight={882}
               compLeft={1}
@@ -531,7 +547,7 @@ const ContactsPage = () => {
               compType="List"
               orientation="vertical"
             >
-              {apiData2?.contacts?.map((apiData2Ele) => {
+              {apiData4?.contacts?.map((apiData4Ele) => {
                 return (
                   <Row
                     className="bg-gray_51 items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
@@ -551,7 +567,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.first_name}
+                      {apiData4Ele?.first_name}
                     </Text>
                     <Text
                       className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -562,7 +578,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.job_title}
+                      {apiData4Ele?.job_title}
                     </Text>
                     <Text
                       className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -573,7 +589,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.email}
+                      {apiData4Ele?.email}
                     </Text>
                     <Text
                       className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -584,7 +600,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.mobile_number}
+                      {apiData4Ele?.mobile_number}
                     </Text>
                     <Text
                       className="font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -595,7 +611,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.lead_score}
+                      {apiData4Ele?.lead_score}
                     </Text>
                     <Text
                       className="font-medium ml-[109px] 3xl:ml-[130px] lg:ml-[84px] xl:ml-[96px] lg:my-[5px] xl:my-[6px] my-[7px] 3xl:my-[8px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_901 w-[auto]"
@@ -606,7 +622,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Text"
                     >
-                      {apiData2Ele?.country}
+                      {apiData4Ele?.country}
                     </Text>
                     <Button
                       className="bg-green_50 font-medium lg:ml-[12px] xl:ml-[14px] ml-[16px] 3xl:ml-[19px] lg:py-[6px] xl:py-[7px] py-[8px] 3xl:py-[9px] rounded-radius155 xl:text-[10px] text-[12px] 3xl:text-[14px] lg:text-[9px] text-center text-green_700 w-[11%]"
@@ -617,7 +633,7 @@ const ContactsPage = () => {
                       compRight={0}
                       compType="Button"
                     >
-                      {apiData2Ele?.display_name}
+                      {apiData4Ele?.display_name}
                     </Button>
                     <Image
                       src={"images/img_edit12.png"}
