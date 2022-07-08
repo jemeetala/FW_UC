@@ -69,7 +69,7 @@ const AccountPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="100"
+          compId="97"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -214,7 +214,7 @@ const AccountPage = () => {
           </aside>
           <Column
             className="items-start lg:mb-[6px] xl:mb-[7px] mb-[8px] 3xl:mb-[9px] w-[93%]"
-            compId="99"
+            compId="96"
             comWidth={1342}
             comHeight={1016}
             compLeft={0}
@@ -223,7 +223,7 @@ const AccountPage = () => {
           >
             <Column
               className="items-center pr-[1px] w-[100%]"
-              compId="102"
+              compId="100"
               comWidth={1342}
               comHeight={72}
               compLeft={0}
@@ -647,43 +647,52 @@ const AccountPage = () => {
               </Text>
             </Row>
             <List
-              className="bg-white_A700 border border-gray_201 border-solid lg:gap-[20px] xl:gap-[23px] gap-[26px] 3xl:gap-[31px] grid grid-cols-7 min-h-[auto] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[20px] xl:py-[23px] py-[26px] 3xl:py-[31px] w-[100%]"
-              compId="4797:9889"
-              comWidth={1342}
-              comHeight={98}
-              compLeft={0}
-              compRight={0}
-              compType="List"
-              orientation="horizontal"
-            >
-              {apiData?.sales_accounts?.map((apiDataEle) => {
-                return (
-                  <Button
-                    className="bg-amber_100 font-bold font-inter 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius23 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 text-center tracking-ls1 w-[100%]"
-                    compId="4797:9871"
-                    comWidth={45}
-                    comHeight={46}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Button"
-                  >
-                    R
-                  </Button>
-                );
-              })}
-            </List>
-            <List
               className="gap-[0] min-h-[auto] w-[100%]"
-              compId="101"
+              compId="98"
               comWidth={1342}
-              comHeight={686}
+              comHeight={196}
               compLeft={0}
               compRight={0}
               compType="List"
               orientation="vertical"
             >
+              <List
+                className="bg-white_A700 border border-gray_201 border-solid lg:gap-[180px] xl:gap-[206px] gap-[232px] 3xl:gap-[278px] grid grid-cols-6 min-h-[auto] my-[0] lg:pb-[28px] xl:pb-[32px] pb-[36px] 3xl:pb-[43px] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:pt-[27px] xl:pt-[31px] pt-[35px] 3xl:pt-[42px] w-[100%]"
+                compId="4797:9889"
+                comWidth={1342}
+                comHeight={98}
+                compLeft={0}
+                compRight={0}
+                compType="List"
+                orientation="horizontal"
+              >
+                {apiData?.sales_accounts?.map((apiDataEle) => {
+                  return (
+                    <Text
+                      className="font-semibold lg:mb-[3px] xl:mb-[4px] mb-[5px] 3xl:mb-[6px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[100%]"
+                      compId="4797:9875"
+                      comWidth={47}
+                      comHeight={22}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Text"
+                    >
+                      {apiDataEle?.name}
+                    </Text>
+                  );
+                })}
+              </List>
+              <Line
+                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
+                compId="4797:9772"
+                comWidth={1341}
+                comHeight={72}
+                compLeft={0}
+                compRight={0}
+                compType="Row"
+              />
               <Row
-                className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
+                className="bg-white_A700 border border-gray_201 border-solid items-start justify-end my-[0] lg:pb-[26px] xl:pb-[30px] pb-[34px] 3xl:pb-[40px] lg:pr-[31px] xl:pr-[35px] pr-[40px] 3xl:pr-[48px] lg:pt-[19px] xl:pt-[22px] pt-[25px] 3xl:pt-[30px] w-[100%]"
                 compId="4797:9890"
                 comWidth={1342}
                 comHeight={98}
@@ -691,115 +700,52 @@ const AccountPage = () => {
                 compRight={0}
                 compType="Row"
               >
-                <div
-                  className="bg-white_A700 border-bluegray_300 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[10px] xl:my-[12px] my-[14px] 3xl:my-[16px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
-                  compId="4797:9892"
-                  comWidth={20}
-                  comHeight={20}
-                  compLeft={0}
-                  compRight={0}
-                  compType="View"
-                ></div>
                 <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] lg:ml-[27px] xl:ml-[31px] ml-[35px] 3xl:ml-[42px] my-[1px] lg:pl-[10px] xl:pl-[12px] pl-[14px] 3xl:pl-[16px] lg:pr-[11px] xl:pr-[13px] pr-[15px] 3xl:pr-[18px] 3xl:py-[10px] lg:py-[7px] xl:py-[8px] py-[9px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
-                  compId="4797:9894"
-                  comWidth={46}
-                  comHeight={46}
-                  compLeft={35}
+                  className="font-semibold lg:mb-[13px] xl:mb-[15px] mb-[17px] 3xl:mb-[20px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
+                  compId="4797:9898"
+                  comWidth={47}
+                  comHeight={22}
+                  compLeft={0}
                   compRight={0}
                   compType="Text"
                 >
-                  R
+                  Riya D
                 </Text>
-                <Column
-                  className="font-sourcesanspro items-start lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] w-[15%]"
-                  compId="4797:9897"
-                  comWidth={199}
-                  comHeight={48}
-                  compLeft={8}
-                  compRight={0}
-                  compType="Column"
-                >
-                  <Text
-                    className="font-semibold lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] text-blue_800 w-[auto]"
-                    compId="4797:9898"
-                    comWidth={47}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Riya D
-                  </Text>
-                  <Text
-                    className="font-normal xl:mt-[3px] lg:mt-[3px] mt-[4px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
-                    compId="4797:9899"
-                    comWidth={29}
-                    comHeight={22}
-                    compLeft={0}
-                    compRight={0}
-                    compType="Text"
-                  >
-                    Lead
-                  </Text>
-                </Column>
                 <Text
-                  className="font-semibold font-sourcesanspro lg:ml-[6px] xl:ml-[7px] ml-[8px] 3xl:ml-[9px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
+                  className="font-semibold xl:mb-[3px] lg:mb-[3px] mb-[4px] lg:ml-[124px] xl:ml-[142px] ml-[160px] 3xl:ml-[192px] lg:mt-[10px] xl:mt-[11px] mt-[13px] 3xl:mt-[15px] lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_901 w-[auto]"
                   compId="4797:9904"
                   comWidth={29}
                   comHeight={22}
-                  compLeft={8}
+                  compLeft={160}
                   compRight={0}
                   compType="Text"
                 >
                   $200
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro lg:ml-[106px] xl:ml-[121px] ml-[137px] 3xl:ml-[164px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
-                  compId="4797:9905"
-                  comWidth={70}
-                  comHeight={22}
-                  compLeft={137}
-                  compRight={0}
-                  compType="Text"
-                >
-                  13 days ago
-                </Text>
-                <Text
-                  className="bg-amber_100 font-bold font-inter lg:h-[36px] xl:h-[41px] h-[46px] 2xl:h-[47px] 3xl:h-[56px] 3xl:ml-[112px] lg:ml-[73px] xl:ml-[83px] ml-[94px] my-[1px] pb-[10px] 3xl:pb-[12px] 3xl:pt-[10px] pt-[9px] lg:px-[12px] xl:px-[14px] px-[16px] 3xl:px-[19px] lg:py-[7px] xl:py-[8px] rounded-radius50 lg:text-[17px] xl:text-[20px] text-[23px] 3xl:text-[27px] text-amber_500 tracking-ls1 w-[auto]"
-                  compId="4797:9906"
-                  comWidth={46}
-                  comHeight={46}
-                  compLeft={94}
-                  compRight={0}
-                  compType="Text"
-                >
-                  J
-                </Text>
-                <Text
-                  className="font-normal font-sourcesanspro xl:ml-[106px] ml-[120px] 3xl:ml-[144px] lg:ml-[93px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
+                  className="font-normal lg:ml-[247px] xl:ml-[282px] ml-[318px] 3xl:ml-[381px] lg:mt-[13px] xl:mt-[15px] mt-[17px] 3xl:mt-[20px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_701 w-[auto]"
                   compId="4797:9900"
                   comWidth={67}
                   comHeight={22}
-                  compLeft={120}
+                  compLeft={318}
                   compRight={0}
                   compType="Text"
                 >
                   Jemee Tala
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro 3xl:ml-[117px] lg:ml-[76px] xl:ml-[87px] ml-[98px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  className="font-normal xl:mb-[3px] lg:mb-[3px] mb-[4px] lg:ml-[192px] xl:ml-[220px] ml-[248px] 3xl:ml-[297px] lg:mt-[10px] xl:mt-[11px] mt-[13px] 3xl:mt-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                   compId="4797:9901"
                   comWidth={107}
                   comHeight={22}
-                  compLeft={98}
+                  compLeft={248}
                   compRight={0}
                   compType="Text"
                 >
                   www.dhiwise.com
                 </Text>
                 <Text
-                  className="font-normal font-sourcesanspro lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:my-[10px] xl:my-[11px] my-[13px] 3xl:my-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
+                  className="font-normal xl:mb-[3px] lg:mb-[3px] mb-[4px] lg:ml-[45px] xl:ml-[52px] ml-[59px] 3xl:ml-[70px] lg:mt-[10px] xl:mt-[11px] mt-[13px] 3xl:mt-[15px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-blue_800 w-[auto]"
                   compId="4797:9902"
                   comWidth={70}
                   comHeight={22}
@@ -811,7 +757,7 @@ const AccountPage = () => {
                 </Text>
                 <Image
                   src={"images/img_morevertical_9.png"}
-                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:my-[10px] my-[12px] 3xl:my-[14px] lg:my-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
+                  className="lg:h-[19px] xl:h-[22px] h-[24px] 2xl:h-[25px] 3xl:h-[29px] xl:mb-[2px] lg:mb-[2px] mb-[3px] lg:ml-[49px] xl:ml-[56px] ml-[63px] 3xl:ml-[75px] xl:mt-[10px] mt-[12px] 3xl:mt-[14px] lg:mt-[9px] object-contain lg:w-[18px] xl:w-[21px] w-[24px] 3xl:w-[28px]"
                   compId="4797:9903"
                   comWidth={24}
                   comHeight={24}
@@ -821,15 +767,17 @@ const AccountPage = () => {
                   alt="morevertical"
                 />
               </Row>
-              <Line
-                className="self-center w-[100%] pl-[16px] border-indigo_50 border border-solid bg-white_A700 justify-start items-center lg:pl-[12px] lg:py-[12px] xl:pl-[14px] xl:py-[14px] 3xl:pl-[19px] 3xl:py-[19px] py-[16px]"
-                compId="4797:9772"
-                comWidth={1341}
-                comHeight={72}
-                compLeft={0}
-                compRight={0}
-                compType="Row"
-              />
+            </List>
+            <List
+              className="gap-[0] min-h-[auto] w-[100%]"
+              compId="99"
+              comWidth={1342}
+              comHeight={588}
+              compLeft={0}
+              compRight={0}
+              compType="List"
+              orientation="vertical"
+            >
               <Row
                 className="bg-white_A700 border border-gray_201 border-solid items-center justify-end my-[0] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] lg:py-[19px] xl:py-[22px] py-[25px] 3xl:py-[30px] w-[100%]"
                 compId="4797:9912"

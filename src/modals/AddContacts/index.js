@@ -119,7 +119,7 @@ const AddContactsModal = (props) => {
           >
             <Row
               className="items-center justify-start ml-[1px] xl:mr-[2px] lg:mr-[2px] mr-[3px] w-[99%]"
-              compId="89"
+              compId="86"
               comWidth={477}
               comHeight={62}
               compLeft={1}
@@ -211,7 +211,7 @@ const AddContactsModal = (props) => {
             </Row>
             <Grid
               className="lg:gap-[28px] xl:gap-[32px] gap-[37px] 3xl:gap-[44px] grid grid-cols-2 lg:mt-[12px] xl:mt-[14px] mt-[16px] 3xl:mt-[19px] w-[100%]"
-              compId="94"
+              compId="91"
               comWidth={481}
               comHeight={217}
               compLeft={0}

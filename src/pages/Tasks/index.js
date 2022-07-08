@@ -68,7 +68,7 @@ const TasksPage = () => {
       >
         <Row
           className="items-start justify-evenly w-[100%]"
-          compId="72"
+          compId="70"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -213,7 +213,7 @@ const TasksPage = () => {
           </aside>
           <Column
             className="items-start justify-start lg:mb-[322px] xl:mb-[368px] mb-[414px] 3xl:mb-[497px] w-[93%]"
-            compId="71"
+            compId="69"
             comWidth={1341}
             comHeight={610}
             compLeft={0}
@@ -396,7 +396,7 @@ const TasksPage = () => {
             </Row>
             <Column
               className="items-center xl:pl-[3px] lg:pl-[3px] pl-[4px] w-[100%]"
-              compId="77"
+              compId="75"
               comWidth={1341}
               comHeight={538}
               compLeft={0}
@@ -405,7 +405,7 @@ const TasksPage = () => {
             >
               <Row
                 className="items-start justify-evenly w-[100%]"
-                compId="70"
+                compId="68"
                 comWidth={1337}
                 comHeight={538}
                 compLeft={0}
@@ -423,7 +423,7 @@ const TasksPage = () => {
                 >
                   <Column
                     className="items-center px-[1px] w-[100%]"
-                    compId="78"
+                    compId="76"
                     comWidth={885}
                     comHeight={58}
                     compLeft={0}
@@ -463,7 +463,7 @@ const TasksPage = () => {
                   </Column>
                   <List
                     className="gap-[0] min-h-[auto] w-[100%]"
-                    compId="76"
+                    compId="74"
                     comWidth={885}
                     comHeight={480}
                     compLeft={0}
@@ -471,72 +471,281 @@ const TasksPage = () => {
                     compType="List"
                     orientation="vertical"
                   >
-                    {apiData2?.tasks?.map((apiData2Ele) => {
-                      return (
-                        <Row
-                          className="bg-white_A700 border border-gray_201 border-solid items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
-                          compId="9"
-                          comWidth={885}
-                          comHeight={120}
+                    <Row
+                      className="bg-white_A700 border border-gray_201 border-solid items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                      compId="9"
+                      comWidth={885}
+                      comHeight={120}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Row"
+                    >
+                      <div
+                        className="bg-white_A700 border-bluegray_201 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[26px] xl:my-[30px] my-[34px] 3xl:my-[40px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                        compId="5052:8615"
+                        comWidth={20}
+                        comHeight={20}
+                        compLeft={0}
+                        compRight={0}
+                        compType="View"
+                      ></div>
+                      <Column
+                        className="items-start lg:ml-[24px] xl:ml-[28px] ml-[32px] 3xl:ml-[38px] w-[21%]"
+                        compId="5052:8616"
+                        comWidth={186}
+                        comHeight={88}
+                        compLeft={32}
+                        compRight={0}
+                        compType="Column"
+                      >
+                        <Text
+                          className="font-semibold lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-red_700 w-[auto]"
+                          compId="5052:8617"
+                          comWidth={87}
+                          comHeight={26}
                           compLeft={0}
                           compRight={0}
-                          compType="Row"
+                          compType="Text"
                         >
-                          <div
-                            className="bg-white_A700 border-bluegray_201 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[26px] xl:my-[30px] my-[34px] 3xl:my-[40px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
-                            compId="5052:8615"
-                            comWidth={20}
-                            comHeight={20}
-                            compLeft={0}
-                            compRight={0}
-                            compType="View"
-                          ></div>
-                          <Column
-                            className="items-start lg:ml-[24px] xl:ml-[28px] ml-[32px] 3xl:ml-[38px] w-[21%]"
-                            compId="5052:8616"
-                            comWidth={186}
-                            comHeight={88}
-                            compLeft={32}
-                            compRight={0}
-                            compType="Column"
-                          >
-                            <Text
-                              className="font-semibold lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-red_700 w-[auto]"
-                              compId="5052:8617"
-                              comWidth={87}
-                              comHeight={26}
-                              compLeft={0}
-                              compRight={0}
-                              compType="Text"
-                            >
-                              {apiData2Ele?.title}
-                            </Text>
-                            <Text
-                              className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
-                              compId="5052:8618"
-                              comWidth={144}
-                              comHeight={26}
-                              compLeft={0}
-                              compRight={0}
-                              compType="Text"
-                            >
-                              {apiData2Ele?.description}
-                            </Text>
-                            <Text
-                              className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-deep_orange_A700 w-[auto]"
-                              compId="5052:8619"
-                              comWidth={186}
-                              comHeight={26}
-                              compLeft={0}
-                              compRight={0}
-                              compType="Text"
-                            >
-                              {apiData2Ele?.due_date}
-                            </Text>
-                          </Column>
-                        </Row>
-                      );
-                    })}
+                          {apiData2?.tasks?.title}
+                        </Text>
+                        <Text
+                          className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                          compId="5052:8618"
+                          comWidth={144}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          {apiData2?.tasks?.description}
+                        </Text>
+                        <Text
+                          className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-deep_orange_A700 w-[auto]"
+                          compId="5052:8619"
+                          comWidth={186}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          {apiData2?.tasks?.due_date}
+                        </Text>
+                      </Column>
+                    </Row>
+                    <Line
+                      className="self-center w-[100%] h-[1px] bg-gray_201"
+                      compId="5052:8638"
+                      comWidth={884}
+                      comHeight={1}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Line"
+                    />
+                    <Row
+                      className="bg-white_A700 border border-gray_201 border-solid items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                      compId="10"
+                      comWidth={885}
+                      comHeight={120}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Row"
+                    >
+                      <div
+                        className="bg-white_A700 border-bluegray_201 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[26px] xl:my-[30px] my-[34px] 3xl:my-[40px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                        compId="5052:8623"
+                        comWidth={20}
+                        comHeight={20}
+                        compLeft={0}
+                        compRight={0}
+                        compType="View"
+                      ></div>
+                      <Column
+                        className="items-start lg:ml-[24px] xl:ml-[28px] ml-[32px] 3xl:ml-[38px] w-[17%]"
+                        compId="5052:8624"
+                        comWidth={144}
+                        comHeight={88}
+                        compLeft={32}
+                        compRight={0}
+                        compType="Column"
+                      >
+                        <Text
+                          className="font-semibold lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_901 w-[auto]"
+                          compId="5052:8625"
+                          comWidth={87}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          Sample Task
+                        </Text>
+                        <Text
+                          className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                          compId="5052:8626"
+                          comWidth={144}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          This is just a sample task
+                        </Text>
+                        <Text
+                          className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                          compId="5052:8627"
+                          comWidth={128}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          Due date: in 2 months
+                        </Text>
+                      </Column>
+                    </Row>
+                    <Line
+                      className="self-center w-[100%] h-[1px] bg-gray_201"
+                      compId="5052:8638"
+                      comWidth={884}
+                      comHeight={1}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Line"
+                    />
+                    <Row
+                      className="bg-white_A700 border border-gray_201 border-solid items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                      compId="11"
+                      comWidth={885}
+                      comHeight={120}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Row"
+                    >
+                      <div
+                        className="bg-white_A700 border-bluegray_201 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[26px] xl:my-[30px] my-[34px] 3xl:my-[40px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                        compId="5052:8631"
+                        comWidth={20}
+                        comHeight={20}
+                        compLeft={0}
+                        compRight={0}
+                        compType="View"
+                      ></div>
+                      <Column
+                        className="items-start lg:ml-[24px] xl:ml-[28px] ml-[32px] 3xl:ml-[38px] w-[17%]"
+                        compId="5052:8632"
+                        comWidth={144}
+                        comHeight={88}
+                        compLeft={32}
+                        compRight={0}
+                        compType="Column"
+                      >
+                        <Text
+                          className="font-semibold lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_901 w-[auto]"
+                          compId="5052:8633"
+                          comWidth={87}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          Sample Task
+                        </Text>
+                        <Text
+                          className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                          compId="5052:8634"
+                          comWidth={144}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          This is just a sample task
+                        </Text>
+                        <Text
+                          className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                          compId="5052:8635"
+                          comWidth={128}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          Due date: in 2 months
+                        </Text>
+                      </Column>
+                    </Row>
+                    <Line
+                      className="self-center w-[100%] h-[1px] bg-gray_201"
+                      compId="5052:8638"
+                      comWidth={884}
+                      comHeight={1}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Line"
+                    />
+                    <Row
+                      className="bg-white_A700 border border-gray_201 border-solid items-center justify-start my-[0] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:py-[12px] xl:py-[14px] py-[16px] 3xl:py-[19px] w-[100%]"
+                      compId="12"
+                      comWidth={885}
+                      comHeight={120}
+                      compLeft={0}
+                      compRight={0}
+                      compType="Row"
+                    >
+                      <div
+                        className="bg-white_A700 border-bluegray_201 border-bw083 border-solid lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:my-[26px] xl:my-[30px] my-[34px] 3xl:my-[40px] rounded-radius25 lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
+                        compId="5052:8639"
+                        comWidth={20}
+                        comHeight={20}
+                        compLeft={0}
+                        compRight={0}
+                        compType="View"
+                      ></div>
+                      <Column
+                        className="items-start lg:ml-[24px] xl:ml-[28px] ml-[32px] 3xl:ml-[38px] w-[17%]"
+                        compId="5052:8640"
+                        comWidth={144}
+                        comHeight={88}
+                        compLeft={32}
+                        compRight={0}
+                        compType="Column"
+                      >
+                        <Text
+                          className="font-semibold lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] text-bluegray_901 w-[auto]"
+                          compId="5052:8641"
+                          comWidth={87}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          Sample Task
+                        </Text>
+                        <Text
+                          className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                          compId="5052:8642"
+                          comWidth={144}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          This is just a sample task
+                        </Text>
+                        <Text
+                          className="font-normal lg:mt-[3px] xl:mt-[4px] mt-[5px] 3xl:mt-[6px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-bluegray_600 w-[auto]"
+                          compId="5052:8643"
+                          comWidth={128}
+                          comHeight={26}
+                          compLeft={0}
+                          compRight={0}
+                          compType="Text"
+                        >
+                          Due date: in 2 months
+                        </Text>
+                      </Column>
+                    </Row>
                   </List>
                 </Column>
                 <Column
@@ -561,7 +770,7 @@ const TasksPage = () => {
                   </Text>
                   <Column
                     className="items-start justify-start lg:ml-[4px] xl:ml-[5px] ml-[6px] 3xl:ml-[7px] w-[20%]"
-                    compId="73"
+                    compId="71"
                     comWidth={90}
                     comHeight={186}
                     compLeft={6}
@@ -570,13 +779,13 @@ const TasksPage = () => {
                   >
                     <RadioGroup
                       className="w-[96%]"
-                      compId="74"
+                      compId="72"
                       comWidth={86}
                       comHeight={85}
                       compLeft={0}
                       compRight={0}
                       compType="RadioGroup"
-                      name="Group74"
+                      name="Group72"
                     >
                       <Radio
                         value={false}
@@ -588,7 +797,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={11}
                         compType="Radio"
-                        name="Group74"
+                        name="Group72"
                         label="Overdue"
                       ></Radio>
                       <Radio
@@ -601,7 +810,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={25}
                         compType="Radio"
-                        name="Group74"
+                        name="Group72"
                         label="Today"
                       ></Radio>
                       <Radio
@@ -614,7 +823,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={0}
                         compType="Radio"
-                        name="Group74"
+                        name="Group72"
                         label="Tomorrow"
                       ></Radio>
                     </RadioGroup>
@@ -632,13 +841,13 @@ const TasksPage = () => {
                     <RadioGroup
                       selectedValue="Open"
                       className="lg:mt-[6px] xl:mt-[7px] mt-[8px] 3xl:mt-[9px] w-[100%]"
-                      compId="75"
+                      compId="73"
                       comWidth={90}
                       comHeight={54}
                       compLeft={0}
                       compRight={0}
                       compType="RadioGroup"
-                      name="Group75"
+                      name="Group73"
                     >
                       <Radio
                         value={true}
@@ -650,7 +859,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={33}
                         compType="Radio"
-                        name="Group75"
+                        name="Group73"
                         label="Open"
                       ></Radio>
                       <Radio
@@ -663,7 +872,7 @@ const TasksPage = () => {
                         compLeft={0}
                         compRight={0}
                         compType="Radio"
-                        name="Group75"
+                        name="Group73"
                         label="Completed"
                       ></Radio>
                     </RadioGroup>

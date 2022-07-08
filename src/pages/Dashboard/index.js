@@ -56,7 +56,7 @@ const DashboardPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="48"
+          compId="46"
           comWidth={1440}
           comHeight={1040}
           compLeft={0}
@@ -200,7 +200,7 @@ const DashboardPage = () => {
           </aside>
           <Column
             className="items-start w-[93%]"
-            compId="47"
+            compId="45"
             comWidth={1341}
             comHeight={1040}
             compLeft={0}
@@ -413,7 +413,7 @@ const DashboardPage = () => {
             </Row>
             <Column
               className="items-center mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] pl-[1px] w-[100%]"
-              compId="50"
+              compId="48"
               comWidth={1341}
               comHeight={968}
               compLeft={0}
@@ -505,7 +505,7 @@ const DashboardPage = () => {
               </Row>
               <Row
                 className="items-center justify-between lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[12px] xl:mr-[14px] mr-[16px] 3xl:mr-[19px] 3xl:mt-[10px] lg:mt-[7px] xl:mt-[8px] mt-[9px] w-[98%]"
-                compId="46"
+                compId="44"
                 comWidth={1310}
                 comHeight={903}
                 compLeft={14}
@@ -523,7 +523,7 @@ const DashboardPage = () => {
                 >
                   <Column
                     className="items-center lg:pl-[18px] xl:pl-[21px] pl-[24px] 3xl:pl-[28px] lg:pr-[39px] xl:pr-[45px] pr-[51px] 3xl:pr-[61px] w-[100%]"
-                    compId="51"
+                    compId="49"
                     comWidth={868}
                     comHeight={40}
                     compLeft={0}
@@ -705,7 +705,7 @@ const DashboardPage = () => {
                   </Row>
                   <Column
                     className="items-center lg:mt-[63px] xl:mt-[72px] mt-[82px] 3xl:mt-[98px] lg:px-[49px] xl:px-[56px] px-[64px] 3xl:px-[76px] w-[100%]"
-                    compId="52"
+                    compId="50"
                     comWidth={868}
                     comHeight={230}
                     compLeft={0}
@@ -818,7 +818,7 @@ const DashboardPage = () => {
                             >
                               <Stack
                                 className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                compId="37"
+                                compId="35"
                                 comWidth={15}
                                 comHeight={20}
                                 compLeft={0}
@@ -827,7 +827,7 @@ const DashboardPage = () => {
                               >
                                 <Stack
                                   className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                  compId="38"
+                                  compId="36"
                                   comWidth={15}
                                   comHeight={20}
                                   compLeft={0}
@@ -836,7 +836,7 @@ const DashboardPage = () => {
                                 >
                                   <Stack
                                     className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[100%]"
-                                    compId="39"
+                                    compId="37"
                                     comWidth={15}
                                     comHeight={20}
                                     compLeft={0}
@@ -845,7 +845,7 @@ const DashboardPage = () => {
                                   >
                                     <Stack
                                       className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[87%]"
-                                      compId="40"
+                                      compId="38"
                                       comWidth={13}
                                       comHeight={20}
                                       compLeft={0}
@@ -854,7 +854,7 @@ const DashboardPage = () => {
                                     >
                                       <Stack
                                         className="absolute lg:h-[4px] h-[5px] 2xl:h-[6px] 3xl:h-[7px] w-[100%]"
-                                        compId="41"
+                                        compId="39"
                                         comWidth={13}
                                         comHeight={5}
                                         compLeft={0}
@@ -1080,7 +1080,7 @@ const DashboardPage = () => {
                         </Text>
                         <Column
                           className="items-start lg:mt-[18px] xl:mt-[21px] mt-[24px] 3xl:mt-[28px] w-[100%]"
-                          compId="54"
+                          compId="52"
                           comWidth={251}
                           comHeight={37}
                           compLeft={0}
@@ -1142,7 +1142,7 @@ const DashboardPage = () => {
                               >
                                 <Stack
                                   className="absolute lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] w-[87%]"
-                                  compId="42"
+                                  compId="40"
                                   comWidth={13}
                                   comHeight={20}
                                   compLeft={0}
@@ -1151,7 +1151,7 @@ const DashboardPage = () => {
                                 >
                                   <Stack
                                     className="absolute lg:h-[4px] h-[5px] 2xl:h-[6px] 3xl:h-[7px] w-[100%]"
-                                    compId="43"
+                                    compId="41"
                                     comWidth={13}
                                     comHeight={5}
                                     compLeft={0}
@@ -1402,7 +1402,7 @@ const DashboardPage = () => {
                     />
                     <Column
                       className="items-center lg:mt-[31px] xl:mt-[35px] mt-[40px] 3xl:mt-[48px] lg:px-[37px] xl:px-[42px] px-[48px] 3xl:px-[57px] w-[100%]"
-                      compId="55"
+                      compId="53"
                       comWidth={426}
                       comHeight={23}
                       compLeft={0}
@@ -1434,7 +1434,7 @@ const DashboardPage = () => {
                   >
                     <Column
                       className="items-center lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] w-[100%]"
-                      compId="56"
+                      compId="54"
                       comWidth={426}
                       comHeight={23}
                       compLeft={0}
@@ -1485,7 +1485,7 @@ const DashboardPage = () => {
                     />
                     <Column
                       className="items-center lg:mt-[11px] xl:mt-[13px] mt-[15px] 3xl:mt-[18px] lg:pl-[12px] xl:pl-[14px] pl-[16px] 3xl:pl-[19px] lg:pr-[14px] xl:pr-[16px] pr-[18px] 3xl:pr-[21px] w-[100%]"
-                      compId="57"
+                      compId="55"
                       comWidth={426}
                       comHeight={548}
                       compLeft={0}
@@ -1494,7 +1494,7 @@ const DashboardPage = () => {
                     >
                       <Column
                         className="items-start justify-start w-[100%]"
-                        compId="49"
+                        compId="47"
                         comWidth={392}
                         comHeight={548}
                         compLeft={0}
@@ -1568,7 +1568,7 @@ const DashboardPage = () => {
                         </Row>
                         <Column
                           className="items-center lg:mt-[24px] xl:mt-[28px] mt-[32px] 3xl:mt-[38px] xl:pl-[1px] lg:pl-[1px] pl-[2px] w-[100%]"
-                          compId="58"
+                          compId="56"
                           comWidth={392}
                           comHeight={96}
                           compLeft={0}
@@ -1638,7 +1638,7 @@ const DashboardPage = () => {
                         </Column>
                         <Column
                           className="items-end lg:mt-[31px] xl:mt-[35px] mt-[40px] 3xl:mt-[48px] w-[100%]"
-                          compId="59"
+                          compId="57"
                           comWidth={392}
                           comHeight={1}
                           compLeft={0}
@@ -1657,7 +1657,7 @@ const DashboardPage = () => {
                         </Column>
                         <Column
                           className="items-center 3xl:mt-[10px] lg:mt-[7px] xl:mt-[8px] mt-[9px] xl:pl-[1px] lg:pl-[1px] pl-[2px] w-[100%]"
-                          compId="60"
+                          compId="58"
                           comWidth={392}
                           comHeight={315}
                           compLeft={0}
@@ -1666,7 +1666,7 @@ const DashboardPage = () => {
                         >
                           <Row
                             className="items-center justify-between w-[100%]"
-                            compId="44"
+                            compId="42"
                             comWidth={389}
                             comHeight={23}
                             compLeft={0}
