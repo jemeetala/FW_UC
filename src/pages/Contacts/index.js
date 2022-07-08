@@ -59,7 +59,7 @@ const ContactsPage = () => {
   return (
     <>
       <Column
-        className="bg-bluegray_50 font-sourcesanspro items-center justify-start mx-[auto] w-[100%]"
+        className="bg-bluegray_51 font-sourcesanspro items-center justify-start mx-[auto] w-[100%]"
         compId="4793:8287"
         comWidth={1440}
         comHeight={1024}
@@ -69,7 +69,7 @@ const ContactsPage = () => {
       >
         <Row
           className="items-center justify-evenly w-[100%]"
-          compId="84"
+          compId="88"
           comWidth={1440}
           comHeight={1024}
           compLeft={0}
@@ -87,7 +87,7 @@ const ContactsPage = () => {
               compType="Column"
             >
               <Column
-                className="bg-bluegray_900 items-center justify-start lg:pb-[390px] xl:pb-[446px] pb-[502px] 3xl:pb-[602px] lg:pt-[18px] xl:pt-[21px] pt-[24px] 3xl:pt-[28px] lg:px-[18px] xl:px-[21px] px-[24px] 3xl:px-[28px] w-[100%]"
+                className="bg-bluegray_901 items-center justify-start lg:pb-[390px] xl:pb-[446px] pb-[502px] 3xl:pb-[602px] lg:pt-[18px] xl:pt-[21px] pt-[24px] 3xl:pt-[28px] lg:px-[18px] xl:px-[21px] px-[24px] 3xl:px-[28px] w-[100%]"
                 compId="4797:9804"
                 comWidth={98}
                 comHeight={1024}
@@ -108,7 +108,7 @@ const ContactsPage = () => {
                   alt="Group345"
                 />
                 <Image
-                  src={"images/img_vector_58.png"}
+                  src={"images/img_vector_57.png"}
                   className="common-pointer lg:h-[13px] xl:h-[15px] h-[16px] 2xl:h-[17px] 3xl:h-[20px] lg:mt-[25px] xl:mt-[29px] mt-[33px] 3xl:mt-[39px] mx-[auto] object-contain lg:w-[12px] xl:w-[14px] w-[16px] 3xl:w-[19px]"
                   compId="I4793:8298;275:1558"
                   comWidth={16}
@@ -141,7 +141,7 @@ const ContactsPage = () => {
                   />
                 </Button>
                 <Image
-                  src={"images/img_vector_59.png"}
+                  src={"images/img_vector_58.png"}
                   className="common-pointer lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[17px] xl:mt-[20px] mt-[23px] 3xl:mt-[27px] mx-[auto] object-contain w-[38%]"
                   compId="I4793:8299;120:2252"
                   comWidth={19}
@@ -153,7 +153,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_60.png"}
+                  src={"images/img_vector_59.png"}
                   className="common-pointer lg:h-[15px] xl:h-[17px] h-[19px] 2xl:h-[20px] 3xl:h-[23px] lg:mt-[27px] xl:mt-[31px] mt-[35px] 3xl:mt-[42px] mx-[auto] object-contain w-[32%]"
                   compId="I4793:8300;120:328"
                   comWidth={16}
@@ -165,7 +165,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_61.png"}
+                  src={"images/img_vector_60.png"}
                   className="common-pointer lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain w-[36%]"
                   compId="I4793:8301;120:1630"
                   comWidth={18}
@@ -177,7 +177,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_62.png"}
+                  src={"images/img_vector_61.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4793:8302;120:434"
                   comWidth={20}
@@ -188,7 +188,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_63.png"}
+                  src={"images/img_vector_62.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] mx-[auto] object-contain lg:w-[15px] xl:w-[17px] w-[20px] 3xl:w-[24px]"
                   compId="I4793:8303;120:1750"
                   comWidth={20}
@@ -199,7 +199,7 @@ const ContactsPage = () => {
                   alt="Vector"
                 />
                 <Image
-                  src={"images/img_vector_64.png"}
+                  src={"images/img_vector_63.png"}
                   className="lg:h-[16px] xl:h-[18px] h-[20px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[10px] xl:ml-[12px] ml-[14px] 3xl:ml-[16px] lg:mr-[11px] xl:mr-[13px] mr-[15px] 3xl:mr-[18px] lg:mt-[28px] xl:mt-[32px] mt-[36px] 3xl:mt-[43px] object-contain w-[38%]"
                   compId="I4793:8304;120:1890"
                   comWidth={19}
@@ -233,8 +233,8 @@ const ContactsPage = () => {
               <Input
                 value={inputvalue}
                 onChange={(e) => setInputvalue(e?.target?.value)}
-                className="bg-transparent border-0 font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_700 text-bluegray_700 w-[100%]"
-                WrapClassName="3xl:pb-[9px] 3xl:pl-[7px] 3xl:pr-[26px] 3xl:pt-[10px] border border-bluegray_200 border-solid flex lg:pb-[6px] lg:pl-[4px] lg:pr-[17px] lg:pt-[7px] pb-[8px] pl-[6px] pr-[22px] pt-[9px] rounded-bl-[4px] rounded-br-[0] rounded-tl-[4px] rounded-tr-[0] w-[11%] xl:pb-[7px] xl:pl-[5px] xl:pr-[19px] xl:pt-[8px]"
+                className="bg-transparent border-0 font-semibold p-[0] lg:pl-[4px] xl:pl-[5px] pl-[6px] 3xl:pl-[7px] pr-[10px] 3xl:pr-[12px] lg:pr-[7px] xl:pr-[8px] lg:text-[14px] xl:text-[16px] text-[18px] 3xl:text-[21px] placeholder:text-bluegray_701 text-bluegray_701 w-[100%]"
+                WrapClassName="3xl:pb-[9px] 3xl:pl-[7px] 3xl:pr-[26px] 3xl:pt-[10px] border border-bluegray_201 border-solid flex lg:pb-[6px] lg:pl-[4px] lg:pr-[17px] lg:pt-[7px] pb-[8px] pl-[6px] pr-[22px] pt-[9px] rounded-bl-[4px] rounded-br-[0] rounded-tl-[4px] rounded-tr-[0] w-[11%] xl:pb-[7px] xl:pl-[5px] xl:pr-[19px] xl:pt-[8px]"
                 compId="4793:8328"
                 comWidth={0}
                 comHeight={40}
@@ -245,7 +245,7 @@ const ContactsPage = () => {
                 placeholder="Contacts"
                 prefix={
                   <Image
-                    src={"images/img_vector_65.png"}
+                    src={"images/img_vector_64.png"}
                     className="cursor-pointer w-[20.01px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px] my-[auto]"
                     compId="I4793:8330;120:1866"
                     comWidth={20.01}
@@ -277,7 +277,7 @@ const ContactsPage = () => {
               ></Input>
               <Input
                 className="bg-transparent border-0 font-normal not-italic 3xl:pl-[10px] lg:pl-[7px] xl:pl-[8px] pl-[9px] lg:pr-[27px] xl:pr-[31px] pr-[35px] 3xl:pr-[42px] py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] lg:text-[12px] xl:text-[14px] text-[16px] 3xl:text-[19px] placeholder:text-gray_400 text-gray_400 w-[100%]"
-                WrapClassName="border border-bluegray_200 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
+                WrapClassName="border border-bluegray_201 border-solid rounded-bl-[0] rounded-br-[4px] rounded-tl-[0] rounded-tr-[4px] w-[34%]"
                 compId="4793:8334"
                 comWidth={446}
                 comHeight={40}
@@ -288,7 +288,7 @@ const ContactsPage = () => {
                 placeholder="Search your CRM..."
               ></Input>
               <Button
-                className="common-pointer bg-bluegray_900 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                className="common-pointer bg-bluegray_901 flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[334px] xl:ml-[382px] ml-[430px] 3xl:ml-[516px] xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                 compId="4793:8312"
                 comWidth={40}
                 comHeight={40}
@@ -311,7 +311,7 @@ const ContactsPage = () => {
                 />
               </Button>
               <Button
-                className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] p-[10px] 3xl:p-[12px] lg:p-[7px] xl:p-[8px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                 compId="4793:8315"
                 comWidth={40}
                 comHeight={40}
@@ -320,7 +320,7 @@ const ContactsPage = () => {
                 compType="IconButton"
               >
                 <Image
-                  src={"images/img_group4_3.png"}
+                  src={"images/img_group4_2.png"}
                   className="w-[100%] flex items-center justify-center"
                   compId="4793:8315"
                   comWidth={40}
@@ -332,7 +332,7 @@ const ContactsPage = () => {
                 />
               </Button>
               <Button
-                className="bg-white_A700 border border-gray_200 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
+                className="bg-white_A700 border border-gray_201 border-solid flex lg:h-[32px] xl:h-[36px] h-[40px] 2xl:h-[41px] 3xl:h-[49px] items-center justify-center lg:ml-[18px] xl:ml-[21px] ml-[24px] 3xl:ml-[28px] xl:p-[1px] lg:p-[1px] p-[2px] rounded-radius50 lg:w-[31px] xl:w-[35px] w-[40px] 3xl:w-[48px]"
                 compId="4793:8318"
                 comWidth={40}
                 comHeight={40}
@@ -427,7 +427,7 @@ const ContactsPage = () => {
                 Job Title
               </Text>
               <Image
-                src={"images/img_vector_66.png"}
+                src={"images/img_vector_65.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] lg:ml-[5px] xl:ml-[6px] ml-[7px] 3xl:ml-[8px] xl:my-[1px] lg:my-[1px] my-[2px] object-contain w-[1%]"
                 compId="I5022:8457;5:15"
                 comWidth={9}
@@ -449,7 +449,7 @@ const ContactsPage = () => {
                 Emails
               </Text>
               <Image
-                src={"images/img_vector_67.png"}
+                src={"images/img_vector_66.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:mb-[1px] lg:mb-[1px] mb-[2px] ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] object-contain w-[1%]"
                 compId="I5022:8460;5:15"
                 comWidth={9}
@@ -471,7 +471,7 @@ const ContactsPage = () => {
                 Mobile No
               </Text>
               <Image
-                src={"images/img_vector_68.png"}
+                src={"images/img_vector_67.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] xl:my-[1px] lg:my-[1px] my-[2px] object-contain w-[1%]"
                 compId="I5022:8463;5:15"
                 comWidth={9}
@@ -515,7 +515,7 @@ const ContactsPage = () => {
                 display_name
               </Text>
               <Image
-                src={"images/img_vector_69.png"}
+                src={"images/img_vector_68.png"}
                 className="lg:h-[10px] xl:h-[11px] h-[12px] 2xl:h-[13px] 3xl:h-[15px] xl:mb-[1px] lg:mb-[1px] mb-[2px] ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] object-contain w-[1%]"
                 compId="I5022:8470;5:15"
                 comWidth={9}
@@ -539,7 +539,7 @@ const ContactsPage = () => {
             </Row>
             <List
               className="font-montserrat gap-[0] min-h-[auto] w-[100%]"
-              compId="85"
+              compId="89"
               comWidth={1341}
               comHeight={882}
               compLeft={1}

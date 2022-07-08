@@ -15,7 +15,6 @@ import { Row } from "./Row";
 import { Stack } from "./Stack";
 import { Text } from "./Text";
 import { TextArea } from "./TextArea";
-import { SelectBox } from "./SelectBox";
 export {
   Button,
   CheckBox,
@@ -34,5 +33,4 @@ export {
   Stack,
   Text,
   TextArea,
-  SelectBox,
 };
